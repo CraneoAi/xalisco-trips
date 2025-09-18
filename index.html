@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xalisco Trips | Tours Privados en Jalisco - Reserva Ahora</title>
+
+  <!-- SEO -->
+  <meta name="description" content="🌟 Tours privados desde Guadalajara a Chapala, Mazamitla, Tequila y más. Guías certificados, transporte incluido. ¡Reserva por WhatsApp! 5⭐ en Google.">
+  <meta name="keywords" content="tours privados, Guadalajara, Jalisco, Chapala, Tequila, Mazamitla, traslados aeropuerto, tours México">
+  <meta name="author" content="Xalisco Trips">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Xalisco Trips | Tours Privados en Jalisco - Reserva Ahora">
+  <meta property="og:description" content="Descubre los destinos más hermosos de Jalisco con tours privados desde Guadalajara. Transporte incluido, guías certificados.">
+  <meta property="og:image" content="img/hero/portada-jalisco.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xaliscotrips.com">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Xalisco Trips | Tours Privados en Jalisco">
+  <meta property="twitter:description" content="Tours privados desde Guadalajara. Reserva por WhatsApp.">
+  <meta property="twitter:image" content="img/hero/portada-jalisco.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --brand-primary: #ffc107;
+      --brand-whatsapp: #25d366;
+      --brand-dark: #212529;
+      --brand-blue: #4A90E2;
+      --brand-green: #2E8B57;
+      --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      --shadow-large: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    
+    * { 
+      box-sizing: border-box; 
+    }
+    
+    body {
+      font-family: 'Open Sans', 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+      scroll-behavior: smooth;
+      color: var(--brand-dark);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+    }
+    
+    a { 
+      text-decoration: none; 
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-image: url('img/hero/portada-jalisco.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+    }
+    
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 2rem;
+    }
+    
+    .hero h1 {
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      animation: fadeInUp 1s ease-out;
+    }
+    
+    .hero .lead {
+      font-size: clamp(1.1rem, 4vw, 1.5rem);
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+      animation: fadeInUp 1s ease-out 0.3s both;
+    }
+    
+    .hero .btn {
+      animation: fadeInUp 1s ease-out 0.6s both;
+      transform: scale(1);
+      transition: all 0.3s ease;
+    }
+    
+    .hero .btn:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: var(--shadow-large);
+    }
+
+    /* WhatsApp Button Floating */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background: var(--brand-whatsapp);
+      color: white;
+      border-radius: 50px;
+      padding: 15px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      box-shadow: var(--shadow-large);
+      transition: all 0.3s ease;
+      animation: pulse 2s infinite;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    
+    .whatsapp-float:hover {
+      background: #1db954;
+      color: white;
+      transform: scale(1.1) translateY(-2px);
+      box-shadow: 0 15px 30px rgba(37, 211, 102, 0.4);
+      text-decoration: none;
+    }
+
+    /* Cards Enhancement */
+    .destination-card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-soft);
+      height: 100%;
+    }
+    
+    .destination-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-large);
+    }
+    
+    .destination-card img {
+      height: 250px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .destination-card:hover img {
+      transform: scale(1.05);
+    }
+    
+    .destination-card .card-body {
+      padding: 1.5rem;
+    }
+    
+    .destination-card .card-title {
+      color: var(--brand-dark);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    .destination-card .badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: var(--brand-primary);
+      color: var(--brand-dark);
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+    }
+    
+    .price-badge {
+      background: var(--brand-whatsapp);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    /* Services Section */
+    .services-section {
+      background: linear-gradient(135deg, var(--brand-dark) 0%, #343a40 100%);
+    }
+    
+    .service-item {
+      text-align: center;
+      padding: 2rem 1rem;
+      transition: transform 0.3s ease;
+    }
+    
+    .service-item:hover {
+      transform: translateY(-5px);
+    }
+    
+    .service-item i {
+      color: var(--brand-primary);
+      margin-bottom: 1rem;
+      transition: color 0.3s ease;
+    }
+    
+    .service-item:hover i {
+      color: #fff;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      background: linear-gradient(135deg, var(--brand-primary) 0%, #f8c146 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-section::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: rotate 20s linear infinite;
+    }
+
+    /* Testimonials */
+    .testimonial-card {
+      background: white;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: var(--shadow-soft);
+      transition: all 0.3s ease;
+      border: none;
+    }
+    
+    .testimonial-card:hover {
+      box-shadow: var(--shadow-medium);
+      transform: translateY(-3px);
+    }
+    
+    .testimonial-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--brand-primary);
+    }
+
+    /* Trust Indicators */
+    .trust-indicator {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      margin: 0.25rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: var(--shadow-soft);
+    }
+    
+    .trust-indicator i {
+      margin-right: 0.5rem;
+      color: var(--brand-whatsapp);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Mobile Optimizations */
+    @media (max-width: 768px) {
+      .hero {
+        background-attachment: scroll;
+        min-height: 100vh;
+      }
+      
+      .hero-content {
+        padding: 1rem;
+      }
+      
+      .destination-card img {
+        height: 200px;
+      }
+      
+      .whatsapp-float {
+        bottom: 15px;
+        right: 15px;
+        padding: 12px 16px;
+        font-size: 1rem;
+      }
+      
+      .service-item {
+        padding: 1.5rem 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?" 
+     class="whatsapp-float" 
+     aria-label="Contactar por WhatsApp">
+    <i class="bi bi-whatsapp me-2"></i>
+    Reservar
+  </a>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-content container">
+      <h1 class="display-4 fw-bold">Xalisco Trips</h1>
+      <p class="lead mt-2">Experiencias privadas, seguras y personalizadas en los destinos más icónicos de Jalisco</p>
+      <a href="#destinos" class="btn btn-warning btn-lg mt-3">Explorar destinos</a>
+    </div>
+  </section>
+
+  <!-- Destinos -->
+  <section id="destinos" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Nuestros Destinos Favoritos</h2>
+        <p class="lead text-muted">Experiencias únicas en los lugares más hermosos de Jalisco</p>
+        <div class="trust-indicator">
+          <i class="bi bi-star-fill"></i>
+          5⭐ en Google Reviews
+        </div>
+        <div class="trust-indicator">
+          <i class="bi bi-people-fill"></i>
+          +500 viajeros felices
+        </div>
+        <div class="trust-indicator">
+          <i class="bi bi-shield-check"></i>
+          Guías certificados
+        </div>
+      </div>
+      
+      <div class="row g-4">
+
+        <!-- Chapala -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute">Más Popular</span>
+              <img src="img/destinos/chapala.webp" class="card-img-top" alt="Vista panorámica del lago de Chapala" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                Chapala
+              </h5>
+              <div class="price-badge mb-2">Desde $500 MXN</div>
+              <p class="card-text">Malecón histórico, gastronomía local, vistas espectaculares del lago más grande de México.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> 6-8 horas
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-people me-1"></i> 3-6 personas.
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20CHAPALA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Chapala
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mazamitla -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute" style="background: var(--brand-green);">Aventura</span>
+              <img src="img/destinos/mazamitla.webp" class="card-img-top" alt="Bosques de pinos en Mazamitla" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-tree-fill text-success me-2"></i>
+                Mazamitla
+              </h5>
+              <div class="price-badge mb-2">Desde $750 MXN</div>
+              <p class="card-text">Pueblo Mágico en la sierra, tirolesas, cascadas y el aire más puro de Jalisco.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> 8-10 horas
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-thermometer-snow me-1"></i> Clima fresco
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20MAZAMITLA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Mazamitla
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tequila -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute" style="background: #F4A261;">Premium</span>
+              <img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-cup-straw text-warning me-2"></i>
+                Tequila
+              </h5>
+              <div class="price-badge mb-2">Desde $600 MXN</div>
+              <p class="card-text">Patrimonio de la Humanidad. Campos de agave, destilerías artesanales y degustación.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> 7-9 horas
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-award me-1"></i> UNESCO
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TEQUILA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Tequila
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tlaquepaque -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute" style="background: #E07A5F;">Cultura</span>
+              <img src="img/destinos/tlaquepaque.webp" class="card-img-top" alt="Calles empedradas de Tlaquepaque" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-palette-fill text-danger me-2"></i>
+                Tlaquepaque
+              </h5>
+              <div class="price-badge mb-2">Desde $500 MXN</div>
+              <p class="card-text">Arte mexicano, mariachi en vivo y las mejores artesanías de Jalisco.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> 4-6 horas
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-music-note me-1"></i> Mariachi
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TLAQUEPAQUE%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Tlaquepaque
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aeropuerto -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute" style="background: var(--brand-blue);">Express</span>
+              <img src="img/destinos/aeropuerto.webp" class="card-img-top" alt="Servicio de traslado al aeropuerto" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-airplane-fill text-info me-2"></i>
+                Traslado Aeropuerto
+              </h5>
+              <div class="price-badge mb-2">Desde $500 MXN</div>
+              <p class="card-text">Transporte seguro y puntual desde cualquier punto de Guadalajara.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> 24/7
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-shield-check me-1"></i> Puntual
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Necesito%20TRASLADO%20AL%20AEROPUERTO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Traslado
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Personalizado -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+          <div class="card destination-card">
+            <div class="position-relative">
+              <span class="badge position-absolute" style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4);">Personalizado</span>
+              <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 250px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="text-center text-white">
+                  <i class="bi bi-stars display-3 mb-3"></i>
+                  <h4>¿Tu destino ideal?</h4>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="bi bi-lightning-fill text-primary me-2"></i>
+                Tour a tu Medida
+              </h5>
+              <div class="price-badge mb-2">Cotización Personalizada</div>
+              <p class="card-text">Combina destinos o crea tu itinerario perfecto. Diseñamos tu experiencia ideal.</p>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <small class="text-muted">
+                  <i class="bi bi-clock me-1"></i> Flexible
+                </small>
+                <small class="text-muted">
+                  <i class="bi bi-heart me-1"></i> Único
+                </small>
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20crear%20un%20TOUR%20PERSONALIZADO%20con%20Xalisco%20Trips.%20¿Podrían%20ayudarme?" 
+                 class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotizar Tour
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5 services-section">
+    <div class="container text-center">
+      <div class="mb-5" data-aos="fade-up">
+        <h2 class="text-white mb-3">¿Qué incluye tu experiencia?</h2>
+        <p class="lead text-light opacity-75">Todo lo que necesitas para un tour perfecto</p>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item">
+            <i class="bi bi-car-front fs-1 mb-3"></i>
+            <h5 class="text-white mb-2">Transporte Privado</h5>
+            <p class="text-light opacity-75 small">Vehículos cómodos y seguros</p>
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item">
+            <i class="bi bi-person-badge fs-1 mb-3"></i>
+            <h5 class="text-white mb-2">Guía Certificado</h5>
+            <p class="text-light opacity-75 small">Expertos locales certificados</p>
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item">
+            <i class="bi bi-shield-check fs-1 mb-3"></i>
+            <h5 class="text-white mb-2">Seguro Incluido</h5>
+            <p class="text-light opacity-75 small">Cobertura completa</p>
+          </div>
+        </div>
+        
+        <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item">
+            <i class="bi bi-headset fs-1 mb-3"></i>
+            <h5 class="text-white mb-2">Atención 24/7</h5>
+            <p class="text-light opacity-75 small">Soporte personalizado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Historias de Viajeros Felices</h2>
+        <p class="lead text-muted">Lo que dicen quienes ya vivieron la experiencia</p>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <div class="trust-indicator">
+            <i class="bi bi-star-fill"></i>
+            4.9/5 en Google
+          </div>
+          <div class="trust-indicator">
+            <i class="bi bi-people-fill"></i>
+            +500 reseñas
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Testimonio 1 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card h-100">
+            <div class="d-flex align-items-center mb-3">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23FFD700'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='24' fill='%23333'%3E👩%3C/text%3E%3C/svg%3E" 
+                   alt="Laura G." class="testimonial-avatar me-3">
+              <div>
+                <h6 class="mb-1 fw-bold">Laura García</h6>
+                <small class="text-muted">Ciudad de México</small>
+                <div class="text-warning">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
+            </div>
+            <blockquote class="mb-3">
+              <p class="fst-italic">"El tour a Chapala fue increíble. Nuestro guía conocía historias fascinantes y nos llevó a restaurantes únicos."</p>
+            </blockquote>
+            <small class="text-muted">Tour a Chapala - Marzo 2024</small>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card h-100">
+            <div class="d-flex align-items-center mb-3">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%2325D366'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='24' fill='white'%3E👨%3C/text%3E%3C/svg%3E" 
+                   alt="Carlos M." class="testimonial-avatar me-3">
+              <div>
+                <h6 class="mb-1 fw-bold">Carlos Mendoza</h6>
+                <small class="text-muted">Monterrey, NL</small>
+                <div class="text-warning">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
+            </div>
+            <blockquote class="mb-3">
+              <p class="fst-italic">"Mazamitla fue perfecto para desconectarnos. Las tirolesas y el aire puro hicieron una experiencia única para la familia."</p>
+            </blockquote>
+            <small class="text-muted">Tour a Mazamitla - Enero 2024</small>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card h-100">
+            <div class="d-flex align-items-center mb-3">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23E07A5F'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='20' fill='white'%3E👫%3C/text%3E%3C/svg%3E" 
+                   alt="Ana y Roberto" class="testimonial-avatar me-3">
+              <div>
+                <h6 class="mb-1 fw-bold">Ana & Roberto Silva</h6>
+                <small class="text-muted">Tijuana, BC</small>
+                <div class="text-warning">
+                  ⭐⭐⭐⭐⭐
+                </div>
+              </div>
+            </div>
+            <blockquote class="mb-3">
+              <p class="fst-italic">"El tour de Tequila superó expectativas. La degustación artesanal fue extraordinaria y aprendimos mucho."</p>
+            </blockquote>
+            <small class="text-muted">Tour a Tequila - Febrero 2024</small>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Estadísticas -->
+      <div class="row mt-5 text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-6 col-md-3">
+          <div class="p-3">
+            <div class="display-6 fw-bold text-primary">500+</div>
+            <small class="text-muted">Clientes Felices</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3">
+            <div class="display-6 fw-bold text-success">4.9</div>
+            <small class="text-muted">Rating Google</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3">
+            <div class="display-6 fw-bold text-warning">5</div>
+            <small class="text-muted">Años Experiencia</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="p-3">
+            <div class="display-6 fw-bold text-info">95%</div>
+            <small class="text-muted">Tours Repetidos</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="py-5 cta-section text-center">
+    <div class="container position-relative">
+      <div data-aos="zoom-in">
+        <h2 class="display-5 fw-bold text-dark mb-3">¿Listo para tu Próxima Aventura?</h2>
+        <p class="lead text-dark mb-4">Más de 500 viajeros han confiado en nosotros. ¡Únete a la familia Xalisco Trips!</p>
+        
+        <div class="row justify-content-center mb-4">
+          <div class="col-auto">
+            <div class="trust-indicator mx-2">
+              <i class="bi bi-shield-check"></i>
+              Pago seguro
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="trust-indicator mx-2">
+              <i class="bi bi-clock"></i>
+              Confirmación inmediata
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="trust-indicator mx-2">
+              <i class="bi bi-headset"></i>
+              Soporte 24/7
+            </div>
+          </div>
+        </div>
+        
+        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+          <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20reservar%20un%20tour.%20¿Podrían%20ayudarme%20con%20información?" 
+             class="btn btn-success btn-lg px-5 py-3 fw-bold">
+            <i class="bi bi-whatsapp me-2"></i>
+            Reservar Ahora por WhatsApp
+          </a>
+          <a href="tel:+5213351083318" class="btn btn-outline-dark btn-lg px-4 py-3">
+            <i class="bi bi-telephone me-2"></i>
+            Llamar Directamente
+          </a>
+        </div>
+        
+        <p class="small text-dark mt-3 mb-0">
+          <i class="bi bi-info-circle me-1"></i>
+          Respuesta garantizada en menos de 15 minutos
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h5 class="mb-3">
+            <i class="bi bi-geo-alt-fill text-warning me-2"></i>
+            Xalisco Trips
+          </h5>
+          <p class="mb-3">Tu compañía de confianza para explorar Jalisco. Experiencias auténticas y memorables desde 2019.</p>
+          <div class="d-flex gap-3">
+            <a href="https://wa.me/5213351083318" class="text-success" aria-label="WhatsApp">
+              <i class="bi bi-whatsapp fs-4"></i>
+            </a>
+            <a href="tel:+5213351083318" class="text-light" aria-label="Teléfono">
+              <i class="bi bi-telephone fs-4"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <h6 class="mb-3">Destinos Populares</h6>
+          <ul class="list-unstyled">
+            <li><a href="#destinos" class="text-light-emphasis text-decoration-none">Chapala</a></li>
+            <li><a href="#destinos" class="text-light-emphasis text-decoration-none">Mazamitla</a></li>
+            <li><a href="#destinos" class="text-light-emphasis text-decoration-none">Tequila</a></li>
+            <li><a href="#destinos" class="text-light-emphasis text-decoration-none">Tlaquepaque</a></li>
+            <li><a href="#destinos" class="text-light-emphasis text-decoration-none">Aeropuerto</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3">
+          <h6 class="mb-3">Información</h6>
+          <ul class="list-unstyled">
+            <li><small class="text-light-emphasis">📍 Guadalajara, Jalisco</small></li>
+            <li><small class="text-light-emphasis">📞 +52 33 5108 3318</small></li>
+            <li><small class="text-light-emphasis">🕒 Lun-Dom 7:00-22:00</small></li>
+            <li><small class="text-light-emphasis">✅ Licencia Sectur</small></li>
+          </ul>
+          
+          <div class="mt-3">
+            <small class="text-warning fw-bold">⭐ 4.9/5 en Google Reviews</small>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-4 border-secondary">
+      
+      <!-- Disclaimer -->
+      <div class="row mb-4">
+        <div class="col-12">
+          <div class="p-3 rounded" style="background-color: rgba(255, 193, 7, 0.1); border-left: 4px solid var(--brand-primary);">
+            <h6 class="text-warning mb-2">
+              <i class="bi bi-info-circle me-1"></i>
+              Términos Importantes
+            </h6>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <small class="text-light-emphasis d-block mb-1">
+                  <i class="bi bi-currency-dollar me-1 text-warning"></i>
+                  <strong>Precios:</strong> Los precios mostrados son únicamente por servicios de traslado y guía. Covers, entradas a atracciones, alimentos y bebidas corren por cuenta del contratante.
+                </small>
+                <small class="text-light-emphasis d-block">
+                  <i class="bi bi-exclamation-triangle me-1 text-warning"></i>
+                  <strong>Tarifas:</strong> Los precios pueden cambiar sin previo aviso según temporada y disponibilidad.
+                </small>
+              </div>
+              <div class="col-md-6">
+                <small class="text-light-emphasis d-block">
+                  <i class="bi bi-shield-check me-1 text-warning"></i>
+                  <strong>Reservas:</strong> Todas las reservas están sujetas a confirmación y disponibilidad del servicio.
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <small class="text-light-emphasis">
+            © 2025 Xalisco Trips. Todos los derechos reservados.
+          </small>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <small class="text-light-emphasis">
+            Operador Turístico Certificado
+          </small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <script>
+    // Inicializar AOS
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+      offset: 100
+    });
+
+    // Smooth scroll para enlaces de ancla
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Tracking de clics en WhatsApp
+    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+      link.addEventListener('click', function() {
+        console.log('WhatsApp clicked:', this.href);
+      });
+    });
+
+    // Detectar origen QR
+    if (document.referrer === '' || document.referrer.includes('qr')) {
+      document.body.classList.add('qr-source');
+      console.log('User came from QR code');
+    }
+  </script>
+
+</body>
+</html>
