@@ -815,7 +815,28 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: var(--brand-blue);">Express</span>
-              <img src="img/destinos/aeropuerto.webp" class="card-img-top" alt="Airport transfer service" loading="lazy">
+              <div id="carouselAeropuerto" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselAeropuerto" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselAeropuerto" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/destinos/aeropuerto.webp" class="card-img-top" alt="Airport transfer service">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/aeropuerto2.webp" class="card-img-top" alt="Reliable GDL airport transportation">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAeropuerto" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAeropuerto" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">
@@ -845,12 +866,7 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4);">Custom</span>
-              <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 250px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                <div class="text-center text-white">
-                  <i class="bi bi-stars display-3 mb-3"></i>
-                  <h4>Your dream destination?</h4>
-                </div>
-              </div>
+              <img src="img/destinos/atumedida.webp" class="card-img-top" alt="Custom tour tailored to you" loading="lazy">
             </div>
             <div class="card-body">
               <h5 class="card-title">
