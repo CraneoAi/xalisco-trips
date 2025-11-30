@@ -218,6 +218,48 @@
       transform: scale(1.05);
     }
     
+    /* Carousel Enhancements */
+    .destination-card .carousel {
+      border-radius: 15px 15px 0 0;
+      overflow: hidden;
+    }
+    
+    .destination-card .carousel-indicators {
+      bottom: 10px;
+      margin-bottom: 0;
+    }
+    
+    .destination-card .carousel-indicators [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.6);
+      border: none;
+    }
+    
+    .destination-card .carousel-indicators .active {
+      background-color: var(--brand-primary);
+    }
+    
+    .destination-card .carousel-control-prev,
+    .destination-card .carousel-control-next {
+      width: 40px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .destination-card:hover .carousel-control-prev,
+    .destination-card:hover .carousel-control-next {
+      opacity: 1;
+    }
+    
+    .destination-card .carousel-control-prev-icon,
+    .destination-card .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50%;
+      padding: 10px;
+    }
+    
     .destination-card .card-body {
       padding: 1.5rem;
     }
@@ -452,7 +494,28 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute">Más Popular</span>
-              <img src="img/destinos/chapala.webp" class="card-img-top" alt="Vista panorámica del lago de Chapala" loading="lazy">
+              <div id="carouselChapala" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselChapala" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselChapala" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/destinos/chapala.webp" class="card-img-top" alt="Vista panorámica del lago de Chapala">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/chapala2.webp" class="card-img-top" alt="Malecón de Chapala">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselChapala" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselChapala" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">
@@ -482,7 +545,28 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: var(--brand-green);">Aventura</span>
-              <img src="img/destinos/mazamitla.webp" class="card-img-top" alt="Bosques de pinos en Mazamitla" loading="lazy">
+              <div id="carouselMazamitla" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselMazamitla" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselMazamitla" data-bs-slide-to="1"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/destinos/mazamitla.webp" class="card-img-top" alt="Bosques de pinos en Mazamitla">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/mazamitla2.webp" class="card-img-top" alt="Pueblo Mágico de Mazamitla">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMazamitla" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMazamitla" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">
@@ -512,7 +596,36 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: #F4A261;">Premium</span>
-              <img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila" loading="lazy">
+              <div id="carouselTequila" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/tequila1.webp" class="card-img-top" alt="Destilería tradicional de tequila">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/tequila2.webp" class="card-img-top" alt="Pueblo Mágico de Tequila">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/tequila3.webp" class="card-img-top" alt="Barricas de tequila artesanal">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTequila" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTequila" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">
@@ -572,7 +685,32 @@
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: #D4AF37;">Arqueológico</span>
-              <img src="img/destinos/Guachimontones.webp" class="card-img-top" alt="Pirámides circulares de Guachimontones" loading="lazy">
+              <div id="carouselGuachimontones" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/destinos/Guachimontones.webp" class="card-img-top" alt="Pirámides circulares de Guachimontones">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/Guachimontones2.webp" class="card-img-top" alt="Zona arqueológica Guachimontones">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destinos/Guachimontones3.webp" class="card-img-top" alt="Vista panorámica Guachimontones">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGuachimontones" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGuachimontones" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
             </div>
             <div class="card-body">
               <h5 class="card-title">
