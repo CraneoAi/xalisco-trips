@@ -6,21 +6,21 @@
   <title>Xalisco Trips</title>
 
   <!-- SEO -->
-  <meta name="description" content="🌟 Tours privados desde Guadalajara a Chapala, Mazamitla, Tequila y más. Guías certificados, transporte incluido. ¡Reserva por WhatsApp! 5⭐ en Google.">
-  <meta name="keywords" content="tours privados, Guadalajara, Jalisco, Chapala, Tequila, Mazamitla, traslados aeropuerto, tours México">
+  <meta name="description" content="🌟 Tours privados desde Guadalajara - Sede del Mundial 2026. Chapala, Tequila, Mazamitla y más. Guías certificados, transporte incluido. ¡Ideal para aficionados! Reserva por WhatsApp. 5⭐ en Google.">
+  <meta name="keywords" content="tours privados, Guadalajara, Jalisco, mundial 2026, world cup guadalajara, sede mundialista, traslados aeropuerto guadalajara, tours México, chapala, tequila, mazamitla, estadio akron">
   <meta name="author" content="Xalisco Trips">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Xalisco Trips">
-  <meta property="og:description" content="Descubre los destinos más hermosos de Jalisco con tours privados desde Guadalajara. Transporte incluido, guías certificados.">
+  <meta property="og:title" content="Xalisco Trips | Tours en Guadalajara - Sede Mundial 2026">
+  <meta property="og:description" content="Descubre Jalisco durante el Mundial 2026. Tours privados desde Guadalajara a Tequila, Chapala y más. ¡Reserva tu experiencia mundialista!">
   <meta property="og:image" content="img/hero/portada-jalisco.webp">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://xaliscotrips.com">
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:title" content="Xalisco Trips">
-  <meta property="twitter:description" content="Tours privados desde Guadalajara. Reserva por WhatsApp.">
+  <meta property="twitter:title" content="Xalisco Trips | Guadalajara Sede Mundial 2026">
+  <meta property="twitter:description" content="Tours privados en Guadalajara - Sede del Mundial 2026. Tequila, Chapala, traslados. ¡Reserva por WhatsApp!">
   <meta property="twitter:image" content="img/hero/portada-jalisco.webp">
 
   <!-- Favicon -->
@@ -405,11 +405,124 @@
       }
     }
 
+    /* World Cup 2026 Banner */
+    .worldcup-banner {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 1001;
+      background: linear-gradient(135deg, #1a472a 0%, #2d5016 50%, #0c3823 100%);
+      padding: 12px 18px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 193, 7, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid rgba(255, 193, 7, 0.5);
+      text-decoration: none;
+      max-width: 280px;
+    }
+    
+    .worldcup-banner:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 193, 7, 0.5);
+      border-color: var(--brand-primary);
+    }
+    
+    .worldcup-banner .ball-icon {
+      font-size: 1.8rem;
+      animation: ballPulse 2s ease-in-out infinite;
+    }
+    
+    .worldcup-banner .banner-content {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+    
+    .worldcup-banner .banner-title {
+      color: #ffc107;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .worldcup-banner .banner-subtitle {
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    
+    .worldcup-banner .banner-cta {
+      color: #90EE90;
+      font-size: 0.7rem;
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    
+    @keyframes ballPulse {
+      0%, 100% { transform: scale(1) rotate(0deg); }
+      25% { transform: scale(1.1) rotate(5deg); }
+      50% { transform: scale(1) rotate(0deg); }
+      75% { transform: scale(1.1) rotate(-5deg); }
+    }
+
+    /* World Cup CTA Section */
+    .worldcup-cta {
+      background: linear-gradient(135deg, #1a472a 0%, #0d3320 100%);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border: 2px solid rgba(255, 193, 7, 0.4);
+      box-shadow: 0 0 20px rgba(255, 193, 7, 0.2);
+      animation: ctaGlow 3s ease-in-out infinite;
+    }
+    
+    @keyframes ctaGlow {
+      0%, 100% { box-shadow: 0 0 20px rgba(255, 193, 7, 0.2); }
+      50% { box-shadow: 0 0 30px rgba(255, 193, 7, 0.4); }
+    }
+    
+    .worldcup-cta h4 {
+      color: #ffc107;
+      margin-bottom: 0.5rem;
+    }
+    
+    .worldcup-cta p {
+      color: #ffffff;
+      margin-bottom: 0;
+      font-size: 0.95rem;
+    }
+
     /* Mobile Optimizations */
     @media (max-width: 768px) {
       .hero {
         background-attachment: scroll;
         min-height: 100vh;
+      }
+      
+      .worldcup-banner {
+        top: auto;
+        bottom: 80px;
+        left: 15px;
+        padding: 8px 12px;
+        max-width: 200px;
+      }
+      
+      .worldcup-banner .ball-icon {
+        font-size: 1.4rem;
+      }
+      
+      .worldcup-banner .banner-title {
+        font-size: 0.7rem;
+      }
+      
+      .worldcup-banner .banner-subtitle,
+      .worldcup-banner .banner-cta {
+        font-size: 0.65rem;
       }
       
       .hero-content {
@@ -449,6 +562,18 @@
     <span>|</span>
     <a href="index-en.html">EN</a>
   </div>
+
+  <!-- Banner Mundial 2026 -->
+  <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Vengo%20al%20Mundial%202026%20y%20quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?" 
+     class="worldcup-banner" 
+     aria-label="Tours para el Mundial 2026">
+    <span class="ball-icon">⚽</span>
+    <div class="banner-content">
+      <span class="banner-title">Mundial 2026</span>
+      <span class="banner-subtitle">📍 Guadalajara es Sede</span>
+      <span class="banner-cta">¡Reserva tu tour! →</span>
+    </div>
+  </a>
 
   <!-- WhatsApp Flotante -->
   <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?" 
@@ -1221,6 +1346,12 @@
       <div data-aos="zoom-in">
         <h2 class="display-5 fw-bold text-dark mb-3">¿Listo para tu Próxima Aventura?</h2>
         <p class="lead text-dark mb-4">Más de 500 viajeros han confiado en nosotros. ¡Únete a la familia Xalisco Trips!</p>
+        
+        <!-- World Cup 2026 CTA -->
+        <div class="worldcup-cta mx-auto" style="max-width: 600px;" data-aos="fade-up">
+          <h4><span style="font-size: 1.5rem;">⚽</span> ¿VIENES AL MUNDIAL 2026?</h4>
+          <p>Guadalajara te espera con los mejores tours entre partidos.<br><strong>¡Reserva ahora y asegura tu experiencia mundialista!</strong></p>
+        </div>
         
         <div class="row justify-content-center mb-4">
           <div class="col-auto">
