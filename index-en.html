@@ -376,6 +376,40 @@
     }
 
     /* Animations */
+    /* Spinning Soccer Balls */
+    .hero-title-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    
+    .spinning-ball {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      animation: spinBall 4s linear infinite;
+      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    }
+    
+    .spinning-ball.reverse {
+      animation: spinBallReverse 4s linear infinite;
+    }
+    
+    @keyframes spinBall {
+      0% { transform: rotate(0deg) scale(1); }
+      25% { transform: rotate(90deg) scale(1.1); }
+      50% { transform: rotate(180deg) scale(1); }
+      75% { transform: rotate(270deg) scale(1.1); }
+      100% { transform: rotate(360deg) scale(1); }
+    }
+    
+    @keyframes spinBallReverse {
+      0% { transform: rotate(360deg) scale(1); }
+      25% { transform: rotate(270deg) scale(1.1); }
+      50% { transform: rotate(180deg) scale(1); }
+      75% { transform: rotate(90deg) scale(1.1); }
+      100% { transform: rotate(0deg) scale(1); }
+    }
+
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -472,29 +506,31 @@
 
     /* World Cup CTA Section */
     .worldcup-cta {
-      background: linear-gradient(135deg, #1a472a 0%, #0d3320 100%);
+      background: linear-gradient(135deg, #8B0000 0%, #C41E3A 50%, #8B0000 100%);
       border-radius: 15px;
       padding: 1.5rem;
       margin-bottom: 1.5rem;
-      border: 2px solid rgba(255, 193, 7, 0.4);
-      box-shadow: 0 0 20px rgba(255, 193, 7, 0.2);
-      animation: ctaGlow 3s ease-in-out infinite;
+      border: 3px solid #ffc107;
+      box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3);
+      animation: ctaGlowRed 3s ease-in-out infinite;
     }
     
-    @keyframes ctaGlow {
-      0%, 100% { box-shadow: 0 0 20px rgba(255, 193, 7, 0.2); }
-      50% { box-shadow: 0 0 30px rgba(255, 193, 7, 0.4); }
+    @keyframes ctaGlowRed {
+      0%, 100% { box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3); }
+      50% { box-shadow: 0 0 35px rgba(196, 30, 58, 0.7), 0 0 70px rgba(255, 193, 7, 0.5); }
     }
     
     .worldcup-cta h4 {
       color: #ffc107;
       margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     }
     
     .worldcup-cta p {
       color: #ffffff;
       margin-bottom: 0;
       font-size: 0.95rem;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     }
 
     /* Mobile Optimizations */
@@ -523,6 +559,14 @@
       .worldcup-banner .banner-subtitle,
       .worldcup-banner .banner-cta {
         font-size: 0.65rem;
+      }
+      
+      .hero-title-container {
+        gap: 0.5rem;
+      }
+      
+      .spinning-ball {
+        font-size: 1.8rem;
       }
       
       .hero-content {
@@ -574,8 +618,12 @@
   <!-- Hero -->
   <section id="hero" class="hero">
     <div class="hero-content container">
-      <h1 class="display-4 fw-bold">Xalisco Trips</h1>
-      <p class="lead mt-2">Private, safe & personalized experiences to Jalisco's most iconic destinations</p>
+      <div class="hero-title-container">
+        <span class="spinning-ball">⚽</span>
+        <h1 class="display-4 fw-bold mb-0">Xalisco Trips</h1>
+        <span class="spinning-ball reverse">⚽</span>
+      </div>
+      <p class="lead mt-3">Private, safe & personalized experiences to Jalisco's most iconic destinations</p>
       <a href="#destinations" class="btn btn-warning btn-lg mt-3">Explore Destinations</a>
     </div>
   </section>
