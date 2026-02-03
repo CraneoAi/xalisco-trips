@@ -505,14 +505,28 @@
     }
 
     /* World Cup CTA Section */
+    .worldcup-cta-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .worldcup-cta-container .spinning-ball {
+      font-size: 2.5rem;
+      filter: drop-shadow(0 0 15px rgba(255, 193, 7, 0.8));
+    }
+    
     .worldcup-cta {
       background: linear-gradient(135deg, #8B0000 0%, #C41E3A 50%, #8B0000 100%);
       border-radius: 15px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      padding: 1.5rem 2rem;
       border: 3px solid #ffc107;
       box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3);
       animation: ctaGlowRed 3s ease-in-out infinite;
+      flex: 0 1 auto;
+      max-width: 500px;
     }
     
     @keyframes ctaGlowRed {
@@ -1441,9 +1455,13 @@
         <p class="lead text-dark mb-4">Más de 500 viajeros han confiado en nosotros. ¡Únete a la familia Xalisco Trips!</p>
         
         <!-- World Cup 2026 CTA -->
-        <div class="worldcup-cta mx-auto" style="max-width: 600px;" data-aos="fade-up">
-          <h4><span style="font-size: 1.5rem;">⚽</span> ¿VIENES AL MUNDIAL 2026?</h4>
-          <p>Guadalajara te espera con los mejores tours entre partidos.<br><strong>¡Reserva ahora y asegura tu experiencia mundialista!</strong></p>
+        <div class="worldcup-cta-container" data-aos="fade-up">
+          <span class="spinning-ball">⚽</span>
+          <div class="worldcup-cta">
+            <h4>¿VIENES AL MUNDIAL 2026?</h4>
+            <p>Guadalajara te espera con los mejores tours entre partidos.<br><strong>¡Reserva ahora y asegura tu experiencia mundialista!</strong></p>
+          </div>
+          <span class="spinning-ball reverse">⚽</span>
         </div>
         
         <div class="row justify-content-center mb-4">
