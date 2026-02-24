@@ -2166,6 +2166,16 @@
       let currentIndex = 0;
       
       // Agregar click a todas las imágenes de carruseles
+      document.querySelectorAll('.carousel-item').forEach(item => {
+        item.style.position = 'relative';
+        const badge = document.createElement('div');
+        badge.style.cssText = 'position:absolute;bottom:8px;right:8px;background:var(--brand-primary);border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;pointer-events:none;opacity:0.85;z-index:10;transition:opacity 0.2s;';
+        badge.innerHTML = '<i class="bi bi-zoom-in" style="font-size:0.65rem;color:#000;"></i>';
+        item.appendChild(badge);
+        item.addEventListener('mouseenter', () => badge.style.opacity = '1');
+        item.addEventListener('mouseleave', () => badge.style.opacity = '0.85');
+      });
+
       document.querySelectorAll('.carousel-item img').forEach(img => {
         img.addEventListener('click', function(e) {
           e.stopPropagation();
