@@ -762,6 +762,64 @@
       }
     }
   </style>
+
+  <!-- FAQ Schema — Rich Snippets en Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does the tour price include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The price includes private door-to-door transport and a certified guide throughout the tour. Entrance fees, food, drinks, and tips are not included — so you decide how much to spend at each stop."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many people are on the tour?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All our tours are 100% private. You won't share the vehicle with strangers — the tour is exclusively for your group. Perfect for couples, families, or groups of friends."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where does the tour depart from?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We pick you up anywhere in Guadalajara and the metropolitan area — your hotel, Airbnb, or any address you prefer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I cancel or reschedule?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. You can cancel or reschedule at no cost with at least 24 hours notice."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I pay?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We accept cash (MXN or USD), bank transfer, and Viator for international bookings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you speak English?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Octavio communicates in both Spanish and English, making him ideal for international tourists."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -789,7 +847,8 @@
         <h1 class="display-4 fw-bold mb-0">Xalisco Trips</h1>
         <span class="spinning-ball reverse">⚽</span>
       </div>
-      <p class="lead mt-3">Private, safe & personalized experiences to Jalisco's most iconic destinations</p>
+      <p class="lead mt-3">Jalisco through a local's eyes — private tours with Octavio, certified guide and proud tapatío</p>
+      <p class="text-white-50 mt-2" style="font-size:1rem;">Private transport · Certified guide · Insurance included · 24/7 support</p>
       <a href="#destinations" class="btn btn-warning btn-lg mt-3">Explore Destinations</a>
     </div>
   </section>
@@ -951,6 +1010,7 @@
                 Chapala + Tonalá Same Day
               </h5>
               <div class="price-badge mb-2">$700 MXN per Person</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">Discover two gems of Jalisco in one day: Mexico's largest lake and the artisan heart of the region. Nature and culture in a unique experience.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1010,6 +1070,7 @@
                 Mazamitla
               </h5>
               <div class="price-badge mb-2">From $950 MXN</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">Magical Town in the mountains, zip lines, waterfalls and Jalisco's purest air.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1097,6 +1158,7 @@
                 Tequila
               </h5>
               <div class="price-badge mb-2">From $700 MXN</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">UNESCO World Heritage Site. Agave fields, artisan distilleries and tasting.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1127,6 +1189,7 @@
                 Tlaquepaque
               </h5>
               <div class="price-badge mb-2">From $600 MXN</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">Mexican art, live mariachi and the finest handicrafts of Jalisco.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1199,6 +1262,7 @@
                 Guachimontones
               </h5>
               <div class="price-badge mb-2">From $700 MXN</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">Unique archaeological site with circular pyramids. Teuchitlán culture, interactive museum and valley views.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1250,6 +1314,7 @@
                 Airport Transfer
               </h5>
               <div class="price-badge mb-2">From $600 MXN</div>
+              <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Transport + guide included · Entrance fees &amp; meals not included</p>
               <p class="card-text">Safe and punctual transportation from anywhere in Guadalajara.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted">
@@ -1366,7 +1431,7 @@
               </div>
               <div class="alert alert-warning py-2 mb-3" style="font-size: 0.85rem;">
                 <i class="bi bi-exclamation-triangle-fill me-1"></i>
-                <strong>Note:</strong> Variable pricing based on selected dishes and venues
+                <strong>Note:</strong> Variable pricing based on selected dishes · Transport + guide included
               </div>
               <a href="https://wa.me/5213351083318?text=Hello!%20I'm%20interested%20in%20the%20TAPATIO%20FOODIE%20TOUR%20with%20Xalisco%20Trips.%20Can%20you%20provide%20more%20information?" 
                  class="btn btn-success w-100 fw-bold">
@@ -1509,90 +1574,157 @@
   </section>
 
   <!-- Testimonials -->
-  <section id="testimonials" class="py-5 bg-light">
+  <section id="testimonios" class="py-5 bg-light">
     <div class="container">
       <div class="text-center mb-5" data-aos="fade-up">
-        <h2 class="mb-3">Happy Travelers' Stories</h2>
-        <p class="lead text-muted">What our guests say about their experience</p>
-        <div class="d-flex justify-content-center gap-3 mt-3">
+        <h2 class="mb-3">Lo Que Dicen Nuestros Viajeros</h2>
+        <p class="lead text-muted">Real reviews verified on Viator and Tripadvisor</p>
+        <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
           <div class="trust-indicator">
             <i class="bi bi-star-fill"></i>
-            4.9/5 on Google
+            5.0/5 on Viator
           </div>
           <div class="trust-indicator">
-            <i class="bi bi-people-fill"></i>
-            +500 reviews
+            <i class="bi bi-patch-check-fill text-success"></i>
+            Verified reviews
           </div>
         </div>
       </div>
       
       <div class="row g-4">
-        <!-- Testimonial 1 -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Reseña 1: jSgalin -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
-              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23FFD700'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='24' fill='%23333'%3E👩%3C/text%3E%3C/svg%3E" 
-                   alt="Laura G." class="testimonial-avatar me-3">
+              <div class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                   style="width:56px;height:56px;background:#4A90E2;font-size:1.3rem;flex-shrink:0;">
+                J
+              </div>
               <div>
-                <h6 class="mb-1 fw-bold">Laura García</h6>
-                <small class="text-muted">Mexico City</small>
-                <div class="text-warning">
-                  ⭐⭐⭐⭐⭐
-                </div>
+                <h6 class="mb-1 fw-bold">jSgalin</h6>
+                <small class="text-muted">United States</small>
+                <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+              </div>
+              <div class="ms-auto">
+                <span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;">
+                  <i class="bi bi-patch-check-fill me-1"></i>Viator
+                </span>
               </div>
             </div>
+            <h6 class="fw-bold mb-2">"Great tour guide and private driver."</h6>
             <blockquote class="mb-3">
-              <p class="fst-italic">"The Chapala tour was incredible. Our guide knew fascinating stories and took us to unique restaurants."</p>
+              <p class="fst-italic text-muted" style="font-size:0.92rem;">
+                "I was looking for a driver for our trip on 12/15/25. I came across Octavio's post and contacted him. He provided his car insurance, INE, and his license to ensure we felt safe hiring him. Octavio was our driver for 4 days while visiting GDL, Arandas, Tequila and surrounding areas. He was reliable, on time, and very trustworthy. He also took us to places of interest that were not on our agenda. I would recommend Octavio."
+              </p>
             </blockquote>
-            <small class="text-muted">Chapala Tour - March 2024</small>
+            <small class="text-muted">
+              <i class="bi bi-calendar3 me-1"></i>
+              Premium Private Tour · December 2025
+            </small>
           </div>
         </div>
 
-        <!-- Testimonial 2 -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <!-- Reseña 2: Kris_O -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
-              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%2325D366'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='24' fill='white'%3E👨%3C/text%3E%3C/svg%3E" 
-                   alt="Carlos M." class="testimonial-avatar me-3">
+              <div class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                   style="width:56px;height:56px;background:#E07A5F;font-size:1.3rem;flex-shrink:0;">
+                K
+              </div>
               <div>
-                <h6 class="mb-1 fw-bold">Carlos Mendoza</h6>
-                <small class="text-muted">Monterrey, NL</small>
-                <div class="text-warning">
-                  ⭐⭐⭐⭐⭐
-                </div>
+                <h6 class="mb-1 fw-bold">Kris_O</h6>
+                <small class="text-muted">Canada</small>
+                <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+              </div>
+              <div class="ms-auto">
+                <span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;">
+                  <i class="bi bi-patch-check-fill me-1"></i>Viator
+                </span>
               </div>
             </div>
+            <h6 class="fw-bold mb-2">"A day of culture &amp; fun!"</h6>
             <blockquote class="mb-3">
-              <p class="fst-italic">"Mazamitla was perfect to disconnect. The zip lines and fresh air made a unique family experience."</p>
+              <p class="fst-italic text-muted" style="font-size:0.92rem;">
+                "The tour was exactly as described and more! Octavio was wonderful and very friendly, knowledgeable, personable, and a great driver. We loved the food places he took us to and even the little side attractions along the way. We traveled with 4 adults and a child and everyone had a great time — all inclusive service for the whole family! <strong>BOOK THIS TOUR! You won't regret it!</strong>"
+              </p>
             </blockquote>
-            <small class="text-muted">Mazamitla Tour - January 2024</small>
+            <small class="text-muted">
+              <i class="bi bi-calendar3 me-1"></i>
+              Premium Private Tour · January 2026
+            </small>
           </div>
         </div>
 
-        <!-- Testimonial 3 -->
-        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <!-- Reseña 3: connyt7 -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
-              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='30' fill='%23E07A5F'/%3E%3Ctext x='30' y='38' text-anchor='middle' font-size='20' fill='white'%3E👫%3C/text%3E%3C/svg%3E" 
-                   alt="Ana & Roberto" class="testimonial-avatar me-3">
+              <div class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                   style="width:56px;height:56px;background:#2E8B57;font-size:1.3rem;flex-shrink:0;">
+                C
+              </div>
               <div>
-                <h6 class="mb-1 fw-bold">Ana & Roberto Silva</h6>
-                <small class="text-muted">Tijuana, BC</small>
-                <div class="text-warning">
-                  ⭐⭐⭐⭐⭐
-                </div>
+                <h6 class="mb-1 fw-bold">connyt7</h6>
+                <small class="text-muted">Spain</small>
+                <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+              </div>
+              <div class="ms-auto">
+                <span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;">
+                  <i class="bi bi-patch-check-fill me-1"></i>Viator
+                </span>
               </div>
             </div>
+            <h6 class="fw-bold mb-2">"Exceptional experience — Attentive and genuinely hospitable guide"</h6>
             <blockquote class="mb-3">
-              <p class="fst-italic">"The Tequila tour exceeded expectations. The artisan tasting was extraordinary and we learned so much."</p>
+              <p class="fst-italic text-muted" style="font-size:0.92rem;">
+                "Después de vivir una experiencia tan maravillosa en el Tour de Chapala, no dudamos en contactar nuevamente a Octavio para explorar Tequila y Guachimontones. Octavio demostró ser un excelente conocedor de toda la región. Mi padre tenía problemas en su pierna, y Octavio no tuvo ningún inconveniente en acercarlo con su vehículo hasta la zona de las pirámides. Recomiendo al 100% este tour. ¡Si buscas un guía profesional, tapatío y genuinamente preocupado por tu experiencia, no busques más!"
+              </p>
             </blockquote>
-            <small class="text-muted">Tequila Tour - February 2024</small>
+            <small class="text-muted">
+              <i class="bi bi-calendar3 me-1"></i>
+              Private Tequila Tour · Guachimontones
+            </small>
           </div>
         </div>
+
+        <!-- Reseña 4: felixrD5 -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="testimonial-card h-100">
+            <div class="d-flex align-items-center mb-3">
+              <div class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                   style="width:56px;height:56px;background:#F4A261;font-size:1.3rem;flex-shrink:0;">
+                F
+              </div>
+              <div>
+                <h6 class="mb-1 fw-bold">felixrD5</h6>
+                <small class="text-muted">Mexico</small>
+                <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+              </div>
+              <div class="ms-auto">
+                <span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;">
+                  <i class="bi bi-patch-check-fill me-1"></i>Viator
+                </span>
+              </div>
+            </div>
+            <h6 class="fw-bold mb-2">"Managing our time based on our preferences at each place"</h6>
+            <blockquote class="mb-3">
+              <p class="fst-italic text-muted" style="font-size:0.92rem;">
+                "Octavio es un guía super experimentado y muy amable, verdaderamente hizo que cada minuto fuera extraordinario. Manejar servicios privados es una excelente forma de administrar los lugares en vase a nuestros gustos. Gracias Octavio, espero poder tomar otro tour contigo!!!!!"
+              </p>
+            </blockquote>
+            <small class="text-muted">
+              <i class="bi bi-calendar3 me-1"></i>
+              Premium Private Tour · February 2026
+            </small>
+          </div>
+        </div>
+
       </div>
-      
+
       <!-- Statistics -->
-      <div class="row mt-5 text-center" data-aos="fade-up" data-aos-delay="400">
+      <div class="row mt-5 text-center" data-aos="fade-up" data-aos-delay="500">
         <div class="col-6 col-md-3">
           <div class="p-3">
             <div class="display-6 fw-bold text-primary">500+</div>
@@ -1601,8 +1733,8 @@
         </div>
         <div class="col-6 col-md-3">
           <div class="p-3">
-            <div class="display-6 fw-bold text-success">4.9</div>
-            <small class="text-muted">Google Rating</small>
+            <div class="display-6 fw-bold text-success">5.0</div>
+            <small class="text-muted">Viator Rating</small>
           </div>
         </div>
         <div class="col-6 col-md-3">
@@ -1614,7 +1746,117 @@
         <div class="col-6 col-md-3">
           <div class="p-3">
             <div class="display-6 fw-bold text-info">95%</div>
-            <small class="text-muted">Repeat Tours</small>
+            <small class="text-muted">Returning Clients</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Frequently Asked Questions</h2>
+        <p class="lead text-muted">Everything you need to know before booking</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  <i class="bi bi-cash-coin me-2 text-warning"></i>
+                  What does the tour price include?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  The price includes <strong>private door-to-door transport</strong> and a <strong>certified guide</strong> throughout the tour. Entrance fees, food, drinks, and tips are not included — so you decide how much to spend at each stop.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  <i class="bi bi-people me-2 text-warning"></i>
+                  How many people are on the tour?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  All our tours are <strong>100% private</strong>. You won't share the vehicle with strangers — the tour is exclusively for your group. Perfect for couples, families, or friend groups who want to go at their own pace.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  <i class="bi bi-geo-alt me-2 text-warning"></i>
+                  Where does the tour depart from?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  We pick you up anywhere in Guadalajara and the metropolitan area — your hotel, Airbnb, or any address you prefer. Just share your location when booking via WhatsApp.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  <i class="bi bi-x-circle me-2 text-warning"></i>
+                  Can I cancel or reschedule?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Yes. You can cancel or reschedule at no cost with at least <strong>24 hours' notice</strong>. For last-minute changes, contact us via WhatsApp and we'll find the best solution.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  <i class="bi bi-credit-card me-2 text-warning"></i>
+                  How do I pay?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  We accept cash (MXN or USD), bank transfer, and Viator for international bookings. Payment can be made before the tour or at the start of the tour as agreed.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  <i class="bi bi-translate me-2 text-warning"></i>
+                  Do you speak English?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Yes. Octavio communicates in both Spanish and English, making him ideal for international tourists. Several of our clients from the US, Canada, and Europe have highlighted how easy communication was in their reviews.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="200">
+            <p class="text-muted">Have another question?</p>
+            <a href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips%2C%20I%20have%20a%20question%20before%20booking."
+               class="btn btn-success btn-lg fw-bold">
+              <i class="bi bi-whatsapp me-2"></i>
+              Ask Us on WhatsApp
+            </a>
           </div>
         </div>
       </div>
@@ -1723,6 +1965,7 @@
             <li><a href="#destinations" class="text-light-emphasis text-decoration-none">Guachimontones</a></li>
             <li><a href="#destinations" class="text-light-emphasis text-decoration-none">Tonalá</a></li>
             <li><a href="#destinations" class="text-light-emphasis text-decoration-none">Airport</a></li>
+            <li><a href="#faq" class="text-light-emphasis text-decoration-none">FAQ</a></li>
           </ul>
         </div>
         
