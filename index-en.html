@@ -321,6 +321,48 @@
       border-radius: 25px;
       z-index: 10;
     }
+
+    .rotating-badge {
+      min-width: 180px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      overflow: hidden;
+    }
+
+    .rotating-badge .badge-item {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      animation: comboBadgeSwap 4s infinite;
+      white-space: nowrap;
+    }
+
+    .rotating-badge .badge-item:first-child {
+      opacity: 1;
+      animation-delay: 0s;
+    }
+
+    .rotating-badge .badge-item:last-child {
+      animation-delay: 2s;
+    }
+
+    @keyframes comboBadgeSwap {
+      0%, 45% {
+        opacity: 1;
+      }
+      50%, 95% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
     
     .price-badge {
       background: var(--brand-whatsapp);
@@ -886,7 +928,10 @@
         <div class="col-md-6 col-lg-6">
           <div class="card destination-card">
             <div class="position-relative">
-              <span class="badge position-absolute" style="background: #FF6B35; color: white;">🎯 Combo 2x1</span>
+              <span class="badge position-absolute rotating-badge" style="background: #FF6B35; color: white;">
+                <span class="badge-item">🔥 Most Requested</span>
+                <span class="badge-item">🎯 Combo 2x1</span>
+              </span>
               <div id="carouselChapalaTonalaCombo" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide-to="0" class="active"></button>
