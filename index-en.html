@@ -417,6 +417,28 @@
       animation: rotate 20s linear infinite;
     }
 
+    /* Stripe Button */
+    .btn-stripe {
+      background: transparent;
+      border: 2px solid rgba(33, 37, 41, 0.4);
+      color: var(--brand-dark);
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-stripe:hover {
+      background: rgba(33, 37, 41, 0.08);
+      border-color: var(--brand-dark);
+      color: var(--brand-dark);
+      transform: translateY(-1px);
+    }
+
+    .stripe-trust {
+      font-size: 0.72rem;
+      color: rgba(33, 37, 41, 0.55);
+      letter-spacing: 0.3px;
+    }
+
     /* Testimonials */
     .testimonial-card {
       background: white;
@@ -856,7 +878,7 @@
         "name": "How do I pay?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We accept cash (MXN or USD), bank transfer, and Viator for international bookings."
+          "text": "We accept cash (MXN or USD), bank transfer, Viator for international bookings, and secure card payment via Stripe (Visa, Mastercard, Apple Pay, Google Pay)."
         }
       },
       {
@@ -1664,7 +1686,6 @@
       </div>
       
       <div class="row g-4 justify-content-center">
-        <!-- Video 1: Tequila Swing -->
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="card h-100 border-0 shadow-sm">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7576711660682071304" data-video-id="7576711660682071304" style="max-width: 605px;min-width: 325px;" >
@@ -1677,7 +1698,6 @@
           </div>
         </div>
 
-        <!-- Video 2 -->
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <div class="card h-100 border-0 shadow-sm">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7557067994610912519" data-video-id="7557067994610912519" style="max-width: 605px;min-width: 325px;" >
@@ -1689,7 +1709,6 @@
           </div>
         </div>
 
-        <!-- Video 3 -->
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
           <div class="card h-100 border-0 shadow-sm">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7552682154874916114" data-video-id="7552682154874916114" style="max-width: 605px;min-width: 325px;" >
@@ -1701,7 +1720,6 @@
           </div>
         </div>
 
-        <!-- Video 4 -->
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
           <div class="card h-100 border-0 shadow-sm">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7555211675981384967" data-video-id="7555211675981384967" style="max-width: 605px;min-width: 325px;" >
@@ -1713,7 +1731,6 @@
           </div>
         </div>
 
-        <!-- Video 5 -->
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
           <div class="card h-100 border-0 shadow-sm">
             <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7553325760229018898" data-video-id="7553325760229018898" style="max-width: 605px;min-width: 325px;" >
@@ -1755,7 +1772,6 @@
       
       <div class="row g-4">
 
-        <!-- Reseña 1: jSgalin -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
@@ -1787,7 +1803,6 @@
           </div>
         </div>
 
-        <!-- Reseña 2: Kris_O -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
@@ -1819,7 +1834,6 @@
           </div>
         </div>
 
-        <!-- Reseña 3: connyt7 -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
@@ -1851,7 +1865,6 @@
           </div>
         </div>
 
-        <!-- Reseña 4: felixrD5 -->
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="testimonial-card h-100">
             <div class="d-flex align-items-center mb-3">
@@ -1885,7 +1898,6 @@
 
       </div>
 
-      <!-- Statistics -->
       <div class="row mt-5 text-center" data-aos="fade-up" data-aos-delay="500">
         <div class="col-6 col-md-3">
           <div class="p-3">
@@ -1982,6 +1994,7 @@
               </div>
             </div>
 
+            <!-- FAQ Payment — updated with Stripe -->
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
@@ -1991,7 +2004,13 @@
               </h2>
               <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                 <div class="accordion-body text-muted">
-                  We accept cash (MXN or USD), bank transfer, and Viator for international bookings. Payment can be made before the tour or at the start of the tour as agreed.
+                  We accept multiple payment options for your convenience:
+                  <ul class="mt-2 mb-0">
+                    <li><strong>Cash</strong> — MXN or USD, paid at the start of the tour</li>
+                    <li><strong>Bank transfer</strong> — for international clients</li>
+                    <li><strong>Viator</strong> — for bookings through our Viator profile</li>
+                    <li><strong>Card payment</strong> — Visa, Mastercard, Apple Pay and Google Pay via our secure Stripe link</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -2063,7 +2082,8 @@
           </div>
         </div>
         
-        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+        <!-- CTA Buttons -->
+        <div class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center">
           <a href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20want%20to%20book%20a%20tour.%20Can%20you%20help%20me%20with%20information?" 
              class="btn btn-success btn-lg px-5 py-3 fw-bold">
             <i class="bi bi-whatsapp me-2"></i>
@@ -2073,6 +2093,20 @@
             <i class="bi bi-telephone me-2"></i>
             Call Directly
           </a>
+        </div>
+
+        <!-- Stripe Payment Button — strategic placement, non-aggressive -->
+        <div class="mt-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="https://buy.stripe.com/cNi14ne2p7IR7oC6OAcwg00"
+             target="_blank"
+             rel="noopener"
+             class="btn btn-stripe btn-lg px-4 py-2">
+            <i class="bi bi-credit-card me-2"></i>
+            Pay Securely with Card
+          </a>
+          <div class="stripe-trust mt-2">
+            Visa · Mastercard · Apple Pay · Google Pay &nbsp;·&nbsp; 🔒 Secured by Stripe
+          </div>
         </div>
         
         <p class="small text-dark mt-3 mb-0">
@@ -2106,7 +2140,6 @@
             </a>
           </div>
           
-          <!-- Guide Photo -->
           <div class="d-flex align-items-center gap-3 mb-4 p-3 rounded" style="background:rgba(255,255,255,0.07);">
             <div class="position-relative" style="flex-shrink:0;cursor:pointer;" onclick="openProfileLightbox()" title="View photo">
               <img id="octavioProfilePhoto"
@@ -2124,7 +2157,6 @@
             </div>
           </div>
 
-          <!-- TripAdvisor Widget -->
           <div id="TA_cdswritereviewlgvi457" class="TA_cdswritereviewlgvi">
             <ul id="xiVartOq23t" class="TA_links a7OUi0HnDRRD">
               <li id="f4pZah5Z" class="j1HAB6">
@@ -2162,7 +2194,6 @@
             <small class="text-warning fw-bold">⭐ 4.9/5 on Google Reviews</small>
           </div>
           
-          <!-- Viator Reviews CTA -->
           <div class="mt-4" style="background: white; border: 3px solid var(--brand-whatsapp); border-radius: 12px; padding: 1.5rem; box-shadow: 0 6px 20px rgba(37, 211, 102, 0.25);">
             <div class="text-center">
               <div class="mb-2">
@@ -2194,7 +2225,6 @@
       
       <hr class="my-4 border-secondary">
       
-      <!-- Disclaimer -->
       <div class="row mb-4">
         <div class="col-12">
           <div class="p-3 rounded" style="background-color: rgba(255, 193, 7, 0.1); border-left: 4px solid var(--brand-primary);">
@@ -2269,7 +2299,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   
   <script>
-    // Initialize AOS
     AOS.init({
       duration: 800,
       easing: 'ease-in-out',
@@ -2277,56 +2306,38 @@
       offset: 100
     });
 
-    // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       });
     });
 
-    // Track WhatsApp clicks
-    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
-      link.addEventListener('click', function() {
-        // Analytics tracking here if needed
-      });
-    });
-
-    // Detect QR source
     if (document.referrer === '' || document.referrer.includes('qr')) {
       document.body.classList.add('qr-source');
     }
 
-    // Sort photos by file name and sync combo indicators
     ['carouselChapalaTonalaCombo', 'carouselTequilaGuachimontones'].forEach(carouselId => {
       const carousel = document.getElementById(carouselId);
       if (!carousel) return;
-
       const inner = carousel.querySelector('.carousel-inner');
       const indicators = carousel.querySelector('.carousel-indicators');
       const items = Array.from(carousel.querySelectorAll('.carousel-inner .carousel-item'));
       if (!inner || !indicators || !items.length) return;
-
       const getFileName = item => {
         const img = item.querySelector('img');
         const src = img?.getAttribute('src') || '';
         return src.split('/').pop() || src;
       };
-
       items.sort((a, b) => getFileName(a).localeCompare(getFileName(b), 'en', { numeric: true, sensitivity: 'base' }));
-
       inner.innerHTML = '';
       items.forEach((item, index) => {
         item.classList.toggle('active', index === 0);
         inner.appendChild(item);
       });
-
       indicators.innerHTML = '';
       items.forEach((_, index) => {
         const button = document.createElement('button');
@@ -2341,7 +2352,6 @@
       });
     });
 
-    // Lightbox Functionality
     (function() {
       const lightboxModal = document.getElementById('lightboxModal');
       const lightboxImage = document.getElementById('lightboxImage');
@@ -2353,7 +2363,6 @@
       let currentImages = [];
       let currentIndex = 0;
       
-      // Add click to all carousel images
       document.querySelectorAll('.carousel-item').forEach(item => {
         item.style.position = 'relative';
         const badge = document.createElement('div');
@@ -2369,14 +2378,8 @@
           e.stopPropagation();
           const carousel = this.closest('.carousel');
           const images = carousel.querySelectorAll('.carousel-item img');
-          
-          currentImages = Array.from(images).map(img => ({
-            src: img.src,
-            alt: img.alt
-          }));
-          
+          currentImages = Array.from(images).map(img => ({ src: img.src, alt: img.alt }));
           currentIndex = Array.from(images).indexOf(this);
-          
           updateLightbox();
           const modal = new bootstrap.Modal(lightboxModal);
           modal.show();
@@ -2388,7 +2391,6 @@
         lightboxImage.alt = currentImages[currentIndex].alt;
         lightboxCurrent.textContent = currentIndex + 1;
         lightboxTotal.textContent = currentImages.length;
-        
         prevBtn.style.display = currentImages.length > 1 ? 'flex' : 'none';
         nextBtn.style.display = currentImages.length > 1 ? 'flex' : 'none';
       }
@@ -2403,10 +2405,8 @@
         updateLightbox();
       });
       
-      // Keyboard navigation
       document.addEventListener('keydown', function(e) {
         if (!lightboxModal.classList.contains('show')) return;
-        
         if (e.key === 'ArrowLeft') {
           currentIndex = (currentIndex - 1 + currentImages.length) % currentImages.length;
           updateLightbox();
@@ -2419,7 +2419,6 @@
       });
     })();
 
-    // Lightbox for guide profile photo
     function openProfileLightbox() {
       const lightboxModal = document.getElementById('lightboxModal');
       const lightboxImage = document.getElementById('lightboxImage');
