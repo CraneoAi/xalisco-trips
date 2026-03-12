@@ -1,11 +1,11 @@
 # Robots.txt for Xalisco Trips
-# https://xaliscotrips.com
+# https://craneoai.github.io/xalisco-trips
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://xaliscotrips.com/sitemap.xml
+Sitemap: https://craneoai.github.io/xalisco-trips/sitemap.xml
 
 # Crawl-delay (optional, respetado por algunos bots)
 Crawl-delay: 1
