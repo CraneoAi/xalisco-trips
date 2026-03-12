@@ -265,12 +265,11 @@
   }
 
   // ==========================================================================
-  // LAZY LOAD TERCEROS: TikTok + TripAdvisor via IntersectionObserver
-  // Solo se cargan cuando el usuario hace scroll hasta la sección
+  // LAZY LOAD TERCEROS: TikTok via IntersectionObserver
+  // Solo se carga cuando el usuario hace scroll hasta la sección #videos
   // ==========================================================================
   function initLazyThirdParty() {
     let tiktokLoaded = false;
-    let tripadvisorLoaded = false;
 
     // TikTok: observar sección #videos
     const videosSection = document.getElementById('videos');
@@ -286,24 +285,6 @@
         }
       }, { rootMargin: '200px' });
       tiktokObserver.observe(videosSection);
-    }
-
-    // TripAdvisor: observar el widget por su ID
-    const taWidget = document.querySelector('[data-ta-src]');
-    if (taWidget) {
-      const taObserver = new IntersectionObserver(function(entries) {
-        if (entries[0].isIntersecting && !tripadvisorLoaded) {
-          tripadvisorLoaded = true;
-          const script = document.createElement('script');
-          script.async = true;
-          script.src = taWidget.getAttribute('data-ta-src');
-          script.setAttribute('data-loadtrk', '');
-          script.onload = function() { this.loadtrk = true; };
-          taWidget.replaceWith(script);
-          taObserver.disconnect();
-        }
-      }, { rootMargin: '300px' });
-      taObserver.observe(taWidget);
     }
   }
 
