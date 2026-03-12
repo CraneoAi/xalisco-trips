@@ -85,7 +85,7 @@
       };
 
       items.sort((a, b) => 
-        getFileName(a).localeCompare(getFileName(b), 'es', { numeric: true, sensitivity: 'base' })
+        getFileName(a).localeCompare(getFileName(b), undefined, { numeric: true, sensitivity: 'base' })
       );
 
       // Rebuild carousel
