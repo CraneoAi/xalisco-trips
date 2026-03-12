@@ -1,0 +1,20 @@
+{
+  "name": "Xalisco Trips",
+  "short_name": "Xalisco Trips",
+  "description": "Tours privados en Guadalajara y Jalisco - Sede del Mundial 2026",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#212529",
+  "theme_color": "#ffc107",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/logo xalisco trips.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["travel", "tourism"],
+  "lang": "es",
+  "dir": "ltr"
+}

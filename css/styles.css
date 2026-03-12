@@ -1,0 +1,822 @@
+/**
+ * Xalisco Trips - Stylesheet Principal
+ * Extraído para optimización de cache y mantenibilidad
+ * Última actualización: 2026
+ */
+
+/* ==========================================================================
+   1. CUSTOM PROPERTIES (Design Tokens)
+   ========================================================================== */
+:root {
+  /* Brand Colors */
+  --brand-primary: #ffc107;
+  --brand-whatsapp: #25d366;
+  --brand-dark: #212529;
+  --brand-blue: #4A90E2;
+  --brand-green: #2E8B57;
+  
+  /* Shadows */
+  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-large: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+}
+
+/* ==========================================================================
+   2. BASE STYLES
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--brand-dark);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==========================================================================
+   3. COMPONENTS - Language Switcher
+   ========================================================================== */
+.language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px 16px;
+  border-radius: 25px;
+  box-shadow: var(--shadow-medium);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.language-switcher a {
+  color: var(--brand-dark);
+  font-weight: 600;
+  transition: color var(--transition-base);
+  font-size: 0.9rem;
+}
+
+.language-switcher a:hover {
+  color: var(--brand-primary);
+}
+
+.language-switcher .active {
+  color: var(--brand-primary);
+}
+
+/* ==========================================================================
+   4. HERO SECTION
+   ========================================================================== */
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('../img/hero/portada-jalisco.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  animation: fadeInUp 1s ease-out;
+}
+
+.hero .lead {
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+.hero .btn {
+  animation: fadeInUp 1s ease-out 0.6s both;
+  transition: all var(--transition-base);
+}
+
+.hero .btn:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: var(--shadow-large);
+}
+
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* ==========================================================================
+   5. SPINNING BALL ANIMATION
+   ========================================================================== */
+.spinning-ball {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  animation: spinBall 4s linear infinite;
+  /* Optimizado: removido filter para mejor performance */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.spinning-ball.reverse {
+  animation: spinBallReverse 4s linear infinite;
+}
+
+@keyframes spinBall {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(90deg) scale(1.1); }
+  50% { transform: rotate(180deg) scale(1); }
+  75% { transform: rotate(270deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes spinBallReverse {
+  0% { transform: rotate(360deg) scale(1); }
+  25% { transform: rotate(270deg) scale(1.1); }
+  50% { transform: rotate(180deg) scale(1); }
+  75% { transform: rotate(90deg) scale(1.1); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+/* ==========================================================================
+   6. WHATSAPP FLOATING BUTTON
+   ========================================================================== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--brand-whatsapp);
+  color: white;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-large);
+  transition: all var(--transition-base);
+  animation: pulse 2s infinite;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-float:hover {
+  background: #1db954;
+  color: white;
+  transform: scale(1.1) translateY(-2px);
+  box-shadow: 0 15px 30px rgba(37, 211, 102, 0.4);
+}
+
+/* ==========================================================================
+   7. DESTINATION CARDS
+   ========================================================================== */
+.destination-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all var(--transition-base);
+  box-shadow: var(--shadow-soft);
+  height: 100%;
+}
+
+.destination-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-large);
+}
+
+.destination-card img {
+  height: 250px;
+  object-fit: cover;
+  transition: transform var(--transition-base);
+}
+
+.destination-card:hover img {
+  transform: scale(1.05);
+}
+
+.destination-card .card-body {
+  padding: 1.5rem;
+}
+
+.destination-card .card-title {
+  color: var(--brand-dark);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.destination-card .badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--brand-primary);
+  color: var(--brand-dark);
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  z-index: 10;
+}
+
+/* ==========================================================================
+   8. CAROUSEL ENHANCEMENTS
+   ========================================================================== */
+.destination-card .carousel {
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+.destination-card .carousel-indicators {
+  bottom: 10px;
+  margin-bottom: 0;
+}
+
+.destination-card .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+}
+
+.destination-card .carousel-indicators .active {
+  background-color: var(--brand-primary);
+}
+
+.destination-card .carousel-control-prev,
+.destination-card .carousel-control-next {
+  width: 40px;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.destination-card:hover .carousel-control-prev,
+.destination-card:hover .carousel-control-next {
+  opacity: 1;
+}
+
+.destination-card .carousel-control-prev-icon,
+.destination-card .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Destination labels */
+.destination-label {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 5;
+  backdrop-filter: blur(5px);
+}
+
+.destination-label.chapala { background: rgba(74, 144, 226, 0.9); }
+.destination-label.tonala { background: rgba(255, 107, 53, 0.9); }
+.destination-label.tequila { background: rgba(244, 162, 97, 0.95); }
+.destination-label.guachimontones { background: rgba(42, 157, 143, 0.95); }
+
+/* ==========================================================================
+   9. ROTATING BADGE
+   ========================================================================== */
+.rotating-badge {
+  min-width: 180px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+}
+
+.rotating-badge .badge-item {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: comboBadgeSwap 4s infinite;
+  white-space: nowrap;
+}
+
+.rotating-badge .badge-item:first-child {
+  opacity: 1;
+  animation-delay: 0s;
+}
+
+.rotating-badge .badge-item:last-child {
+  animation-delay: 2s;
+}
+
+@keyframes comboBadgeSwap {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.price-badge {
+  background: var(--brand-whatsapp);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+/* ==========================================================================
+   10. SERVICES SECTION
+   ========================================================================== */
+.services-section {
+  background: linear-gradient(135deg, var(--brand-dark) 0%, #343a40 100%);
+}
+
+.service-item {
+  text-align: center;
+  padding: 2rem 1rem;
+  transition: transform var(--transition-base);
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+}
+
+.service-item i {
+  color: var(--brand-primary);
+  margin-bottom: 1rem;
+  transition: color var(--transition-base);
+}
+
+.service-item:hover i {
+  color: #fff;
+}
+
+/* ==========================================================================
+   11. CTA SECTION
+   ========================================================================== */
+.cta-section {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, #f8c146 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+}
+
+/* ==========================================================================
+   12. WORLD CUP BANNER
+   ========================================================================== */
+.worldcup-banner {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+  background: linear-gradient(135deg, #1a472a 0%, #2d5016 50%, #0c3823 100%);
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 193, 7, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  border: 2px solid rgba(255, 193, 7, 0.5);
+  max-width: 280px;
+}
+
+.worldcup-banner:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 193, 7, 0.5);
+  border-color: var(--brand-primary);
+}
+
+.worldcup-banner .ball-icon {
+  font-size: 1.8rem;
+  animation: ballPulse 2s ease-in-out infinite;
+}
+
+.worldcup-banner .banner-content {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.worldcup-banner .banner-title {
+  color: #ffc107;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.worldcup-banner .banner-subtitle {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.worldcup-banner .banner-cta {
+  color: #90EE90;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+@keyframes ballPulse {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.1) rotate(5deg); }
+  50% { transform: scale(1) rotate(0deg); }
+  75% { transform: scale(1.1) rotate(-5deg); }
+}
+
+/* ==========================================================================
+   13. WORLD CUP CTA SECTION
+   ========================================================================== */
+.worldcup-cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.worldcup-cta-container .spinning-ball {
+  font-size: 2.5rem;
+  text-shadow: 0 0 15px rgba(255, 193, 7, 0.8);
+}
+
+.worldcup-cta {
+  background: linear-gradient(135deg, #8B0000 0%, #C41E3A 50%, #8B0000 100%);
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  border: 3px solid #ffc107;
+  box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3);
+  animation: ctaGlowRed 3s ease-in-out infinite;
+  flex: 0 1 auto;
+  max-width: 500px;
+}
+
+@keyframes ctaGlowRed {
+  0%, 100% { box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3); }
+  50% { box-shadow: 0 0 35px rgba(196, 30, 58, 0.7), 0 0 70px rgba(255, 193, 7, 0.5); }
+}
+
+.worldcup-cta h4 {
+  color: #ffc107;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.worldcup-cta p {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* ==========================================================================
+   14. TESTIMONIALS
+   ========================================================================== */
+.testimonial-card {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: var(--shadow-soft);
+  transition: all var(--transition-base);
+  border: none;
+}
+
+.testimonial-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-3px);
+}
+
+.testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--brand-primary);
+}
+
+/* ==========================================================================
+   15. TRUST INDICATORS
+   ========================================================================== */
+.trust-indicator {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  margin: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  box-shadow: var(--shadow-soft);
+}
+
+.trust-indicator i {
+  margin-right: 0.5rem;
+  color: var(--brand-whatsapp);
+}
+
+/* ==========================================================================
+   16. STRIPE BUTTON
+   ========================================================================== */
+.btn-stripe {
+  background: #635BFF;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all var(--transition-base);
+}
+
+.btn-stripe:hover {
+  background: #5851DB;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.stripe-trust {
+  font-size: 0.72rem;
+  color: rgba(33, 37, 41, 0.55);
+  letter-spacing: 0.3px;
+}
+
+/* ==========================================================================
+   17. LIGHTBOX MODAL
+   ========================================================================== */
+.lightbox-modal .modal-dialog {
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.lightbox-modal .modal-content {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.lightbox-modal .modal-body {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.lightbox-modal .lightbox-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-modal .btn-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  padding: 10px;
+  opacity: 1;
+  z-index: 1060;
+}
+
+.lightbox-modal .btn-close:hover {
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  z-index: 1060;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.lightbox-nav:hover {
+  background: #fff;
+  transform: translateY(-50%) scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lightbox-nav.prev { left: 15px; }
+.lightbox-nav.next { right: 15px; }
+
+.lightbox-counter {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.9rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.carousel-item img {
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+}
+
+.carousel-item img:hover {
+  opacity: 0.9;
+}
+
+/* ==========================================================================
+   18. ANIMATIONS
+   ========================================================================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   19. RESPONSIVE - MOBILE OPTIMIZATIONS
+   ========================================================================== */
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+    min-height: 100vh;
+  }
+  
+  .worldcup-banner {
+    top: auto;
+    bottom: 80px;
+    left: 15px;
+    padding: 8px 12px;
+    max-width: 200px;
+  }
+  
+  .worldcup-banner .ball-icon {
+    font-size: 1.4rem;
+  }
+  
+  .worldcup-banner .banner-title {
+    font-size: 0.7rem;
+  }
+  
+  .worldcup-banner .banner-subtitle,
+  .worldcup-banner .banner-cta {
+    font-size: 0.65rem;
+  }
+  
+  .hero-title-container {
+    gap: 0.5rem;
+  }
+  
+  .spinning-ball {
+    font-size: 1.8rem;
+  }
+  
+  .hero-content {
+    padding: 1rem;
+  }
+  
+  .destination-card img {
+    height: 200px;
+  }
+  
+  .whatsapp-float {
+    bottom: 15px;
+    right: 15px;
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+  
+  .service-item {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+  
+  .lightbox-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .lightbox-nav.prev { left: 5px; }
+  .lightbox-nav.next { right: 5px; }
+}
+
+/* ==========================================================================
+   20. PRINT STYLES
+   ========================================================================== */
+@media print {
+  .whatsapp-float,
+  .worldcup-banner,
+  .language-switcher {
+    display: none !important;
+  }
+  
+  .hero {
+    height: auto;
+    min-height: auto;
+    page-break-after: always;
+  }
+}

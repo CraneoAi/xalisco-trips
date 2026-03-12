@@ -1,0 +1,17 @@
+# Robots.txt for Xalisco Trips
+# https://xaliscotrips.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://xaliscotrips.com/sitemap.xml
+
+# Crawl-delay (optional, respetado por algunos bots)
+Crawl-delay: 1
+
+# Disallow admin/private directories if any exist
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.idea/
+Disallow: /scripts/
