@@ -61,7 +61,7 @@
   <!-- AOS Animation Library -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-  <!-- Custom Styles (Optimized External CSS) -->
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Google tag (gtag.js) -->
@@ -91,7 +91,7 @@
       {"@type":"Question","name":"¿Cuántas personas van en el tour?","acceptedAnswer":{"@type":"Answer","text":"Todos nuestros tours son 100% privados. No compartirás el vehículo con extraños."}},
       {"@type":"Question","name":"¿Dónde es el punto de salida?","acceptedAnswer":{"@type":"Answer","text":"Recogemos en cualquier punto de Guadalajara y zona metropolitana."}},
       {"@type":"Question","name":"¿Puedo cancelar o cambiar la fecha?","acceptedAnswer":{"@type":"Answer","text":"Sí. Puedes cancelar o reprogramar sin costo con al menos 24 horas de anticipación."}},
-      {"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Aceptamos efectivo (MXN o USD), transferencia bancaria, Viator y pago seguro con tarjeta mediante Stripe."}},
+      {"@type":"Question","name":"¿Cómo se paga?","acceptedAnswer":{"@type":"Answer","text":"Aceptamos efectivo (MXN o USD), transferencia bancaria, Viator y pago seguro con tarjeta."}},
       {"@type":"Question","name":"¿Hablan inglés?","acceptedAnswer":{"@type":"Answer","text":"Sí. Octavio se comunica en español e inglés."}}
     ]
   }
@@ -109,8 +109,7 @@
 
   <!-- Banner Mundial 2026 -->
   <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Vengo%20al%20Mundial%202026%20y%20quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?" 
-     class="worldcup-banner" 
-     aria-label="Tours para el Mundial 2026">
+     class="worldcup-banner" aria-label="Tours para el Mundial 2026">
     <span class="ball-icon">⚽</span>
     <div class="banner-content">
       <span class="banner-title">Mundial 2026</span>
@@ -119,23 +118,12 @@
     </div>
   </a>
 
-  <!-- WhatsApp Widget Flotante -->
-  <div class="wa-widget" id="waWidget">
-    <div class="wa-bubble" id="waBubble">
-      <strong>¡Hola! 👋 Xalisco Trips</strong>
-      ¿En qué podemos ayudarte hoy? Respuesta en menos de 15 minutos.
-      <div class="wa-time">ahora</div>
-    </div>
-    <div class="position-relative">
-      <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?"
-         class="wa-btn"
-         aria-label="Contactar por WhatsApp">
-        <i class="bi bi-whatsapp"></i>
-        Reservar ahora
-      </a>
-      <span class="wa-badge">1</span>
-    </div>
-  </div>
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20información%20sobre%20tours.%20¿Podrían%20ayudarme?" 
+     class="whatsapp-float" aria-label="Contactar por WhatsApp">
+    <i class="bi bi-whatsapp me-2"></i>
+    Reservar
+  </a>
 
   <!-- Hero -->
   <section id="hero" class="hero">
@@ -157,21 +145,14 @@
       <div class="text-center mb-5" data-aos="fade-up">
         <h2 class="mb-3">Nuestros Destinos Favoritos</h2>
         <p class="lead text-muted">Experiencias únicas en los lugares más hermosos de Jalisco</p>
-        <a class="trust-indicator google-review-cta" href="https://g.page/r/CUHWaT2IjNkqEBM/review" target="_blank" rel="noopener noreferrer" aria-label="Dejar una reseña en Google Reviews">
-          <i class="bi bi-star-fill"></i>
-          5⭐ en Google Reviews · Deja tu reseña
+        <a class="trust-indicator google-review-cta" href="https://g.page/r/CUHWaT2IjNkqEBM/review" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-star-fill"></i> 5⭐ en Google Reviews · Deja tu reseña
         </a>
-        <div class="trust-indicator">
-          <i class="bi bi-people-fill"></i>
-          +500 viajeros felices
-        </div>
-        <div class="trust-indicator">
-          <i class="bi bi-shield-check"></i>
-          Guías certificados
-        </div>
+        <div class="trust-indicator"><i class="bi bi-people-fill"></i> +500 viajeros felices</div>
+        <div class="trust-indicator"><i class="bi bi-shield-check"></i> Guías certificados</div>
       </div>
       
-      <!-- Combo Destacado -->
+      <!-- Combos -->
       <div class="row g-4 mb-5" data-aos="fade-up" data-aos-delay="100">
         <div class="col-md-6 col-lg-6">
           <div class="card destination-card">
@@ -190,103 +171,31 @@
                   <button type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide-to="5"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/destinos/chapala1.webp" class="card-img-top" alt="Vista panorámica del Lago de Chapala">
-                    <span class="destination-label chapala">Chapala</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/chapala2.webp" class="card-img-top" alt="Malecón de Chapala frente al lago" loading="lazy">
-                    <span class="destination-label chapala">Chapala</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/chapala3.webp" class="card-img-top" alt="Pueblo de Chapala" loading="lazy">
-                    <span class="destination-label chapala">Chapala</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/chapala4.webp" class="card-img-top" alt="Vistas naturales en Chapala" loading="lazy">
-                    <span class="destination-label chapala">Chapala</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/chapala5.webp" class="card-img-top" alt="Paseo por Chapala" loading="lazy">
-                    <span class="destination-label chapala">Chapala</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala.webp" class="card-img-top" alt="Artesanías y alfarería tradicional de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala1.webp" class="card-img-top" alt="Mercado artesanal de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala1.1.webp" class="card-img-top" alt="Detalles de artesanía en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala1.1.1.webp" class="card-img-top" alt="Piezas únicas del tianguis de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala1.2.webp" class="card-img-top" alt="Colorido artesanal de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala1.3.webp" class="card-img-top" alt="Obras de barro y cerámica en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala2.webp" class="card-img-top" alt="Recorrido por calles artesanales de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala3.webp" class="card-img-top" alt="Arte popular de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala4.webp" class="card-img-top" alt="Talleres tradicionales en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala5.webp" class="card-img-top" alt="Experiencia cultural en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala6.webp" class="card-img-top" alt="Artesanía jalisciense en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala7.webp" class="card-img-top" alt="Tradición y color en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala8.webp" class="card-img-top" alt="Arte local en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala9.webp" class="card-img-top" alt="Colecciones artesanales de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala10.webp" class="card-img-top" alt="Colores de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala11.webp" class="card-img-top" alt="Arte contemporáneo y tradición en Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tonala12.webp" class="card-img-top" alt="Rincón artesanal de Tonalá" loading="lazy">
-                    <span class="destination-label tonala">Tonalá</span>
-                  </div>
+                  <div class="carousel-item active"><img src="img/destinos/chapala1.webp" class="card-img-top" alt="Vista panorámica del Lago de Chapala"><span class="destination-label chapala">Chapala</span></div>
+                  <div class="carousel-item"><img src="img/destinos/chapala2.webp" class="card-img-top" alt="Malecón de Chapala frente al lago" loading="lazy"><span class="destination-label chapala">Chapala</span></div>
+                  <div class="carousel-item"><img src="img/destinos/chapala3.webp" class="card-img-top" alt="Pueblo de Chapala" loading="lazy"><span class="destination-label chapala">Chapala</span></div>
+                  <div class="carousel-item"><img src="img/destinos/chapala4.webp" class="card-img-top" alt="Vistas naturales en Chapala" loading="lazy"><span class="destination-label chapala">Chapala</span></div>
+                  <div class="carousel-item"><img src="img/destinos/chapala5.webp" class="card-img-top" alt="Paseo por Chapala" loading="lazy"><span class="destination-label chapala">Chapala</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala.webp" class="card-img-top" alt="Artesanías de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala1.webp" class="card-img-top" alt="Mercado artesanal de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala1.1.webp" class="card-img-top" alt="Detalles de artesanía en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala1.1.1.webp" class="card-img-top" alt="Piezas únicas del tianguis de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala1.2.webp" class="card-img-top" alt="Colorido artesanal de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala1.3.webp" class="card-img-top" alt="Obras de barro y cerámica en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala2.webp" class="card-img-top" alt="Recorrido por Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala3.webp" class="card-img-top" alt="Arte popular de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala4.webp" class="card-img-top" alt="Talleres en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala5.webp" class="card-img-top" alt="Cultura en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala6.webp" class="card-img-top" alt="Artesanía jalisciense" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala7.webp" class="card-img-top" alt="Tradición en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala8.webp" class="card-img-top" alt="Arte local en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala9.webp" class="card-img-top" alt="Colecciones artesanales" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala10.webp" class="card-img-top" alt="Colores de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala11.webp" class="card-img-top" alt="Arte contemporáneo en Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tonala12.webp" class="card-img-top" alt="Rincón artesanal de Tonalá" loading="lazy"><span class="destination-label tonala">Tonalá</span></div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Siguiente</span>
-                </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselChapalaTonalaCombo" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
               </div>
             </div>
             <div class="card-body">
@@ -323,87 +232,27 @@
                   <button type="button" data-bs-target="#carouselTequilaGuachimontones" data-bs-slide-to="5"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila1.webp" class="card-img-top" alt="Destilería tradicional de tequila" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila1.1.webp" class="card-img-top" alt="Experiencia en destilería de tequila" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila2.webp" class="card-img-top" alt="Pueblo Mágico de Tequila" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila3.webp" class="card-img-top" alt="Barricas de tequila artesanal" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila4.webp" class="card-img-top" alt="Recorrido por fábrica de tequila" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila5.webp" class="card-img-top" alt="Tour de tequila en Jalisco" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila6.webp" class="card-img-top" alt="Degustación de tequila premium" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila7.webp" class="card-img-top" alt="Paisajes agaveros de Tequila" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila8.webp" class="card-img-top" alt="Atardecer en campos de agave" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/tequila9.webp" class="card-img-top" alt="Aventura en Tequila Jalisco" loading="lazy">
-                    <span class="destination-label tequila">Tequila</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones.webp" class="card-img-top" alt="Pirámides circulares de Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones2.webp" class="card-img-top" alt="Zona arqueológica Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones3.webp" class="card-img-top" alt="Vista panorámica Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones5.webp" class="card-img-top" alt="Estructuras circulares prehispánicas" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones6.webp" class="card-img-top" alt="Cultura Teuchitlán en Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones7.webp" class="card-img-top" alt="Recorrido arqueológico Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/destinos/Guachimontones8.webp" class="card-img-top" alt="Historia antigua en Guachimontones" loading="lazy">
-                    <span class="destination-label guachimontones">Guachimontones</span>
-                  </div>
+                  <div class="carousel-item active"><img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila1.webp" class="card-img-top" alt="Destilería de tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila1.1.webp" class="card-img-top" alt="Experiencia en destilería" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila2.webp" class="card-img-top" alt="Pueblo Mágico de Tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila3.webp" class="card-img-top" alt="Barricas de tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila4.webp" class="card-img-top" alt="Fábrica de tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila5.webp" class="card-img-top" alt="Tour de tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila6.webp" class="card-img-top" alt="Degustación de tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila7.webp" class="card-img-top" alt="Paisajes agaveros" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila8.webp" class="card-img-top" alt="Atardecer en agaves" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila9.webp" class="card-img-top" alt="Aventura en Tequila" loading="lazy"><span class="destination-label tequila">Tequila</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones.webp" class="card-img-top" alt="Pirámides circulares de Guachimontones" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones2.webp" class="card-img-top" alt="Zona arqueológica Guachimontones" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones3.webp" class="card-img-top" alt="Vista panorámica Guachimontones" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones5.webp" class="card-img-top" alt="Estructuras circulares prehispánicas" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones6.webp" class="card-img-top" alt="Cultura Teuchitlán" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones7.webp" class="card-img-top" alt="Recorrido arqueológico" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones8.webp" class="card-img-top" alt="Historia en Guachimontones" loading="lazy"><span class="destination-label guachimontones">Guachimontones</span></div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTequilaGuachimontones" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselTequilaGuachimontones" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Siguiente</span>
-                </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTequilaGuachimontones" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTequilaGuachimontones" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
               </div>
             </div>
             <div class="card-body">
@@ -429,11 +278,16 @@
 
       <!-- Demás Destinos -->
       <div class="row g-4">
+
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <div class="card destination-card">
             <div class="position-relative">
               <span class="badge position-absolute" style="background: var(--brand-green); color: white;">Aventura</span>
               <div id="carouselMazamitla" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselMazamitla" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselMazamitla" data-bs-slide-to="1"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active"><img src="img/destinos/mazamitla.webp" class="card-img-top" alt="Bosques de pinos en Mazamitla"></div>
                   <div class="carousel-item"><img src="img/destinos/mazamitla2.webp" class="card-img-top" alt="Pueblo Mágico de Mazamitla" loading="lazy"></div>
@@ -451,7 +305,9 @@
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 8-10 horas</small>
                 <small class="text-muted"><i class="bi bi-thermometer-snow me-1"></i> Clima fresco</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20MAZAMITLA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Mazamitla</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20MAZAMITLA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Mazamitla
+              </a>
             </div>
           </div>
         </div>
@@ -461,11 +317,30 @@
             <div class="position-relative">
               <span class="badge position-absolute" style="background: #F4A261;">Premium</span>
               <div id="carouselTequila" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="6"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="7"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="8"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="9"></button>
+                  <button type="button" data-bs-target="#carouselTequila" data-bs-slide-to="10"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active"><img src="img/destinos/tequila.webp" class="card-img-top" alt="Campos de agave azul en Tequila"></div>
                   <div class="carousel-item"><img src="img/destinos/tequila1.webp" class="card-img-top" alt="Destilería tradicional de tequila" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila1.1.webp" class="card-img-top" alt="Experiencia en destilería" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/tequila2.webp" class="card-img-top" alt="Pueblo Mágico de Tequila" loading="lazy"></div>
-                  <div class="carousel-item"><img src="img/destinos/tequila5.webp" class="card-img-top" alt="Tour de tequila en Jalisco" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila3.webp" class="card-img-top" alt="Barricas de tequila artesanal" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila4.webp" class="card-img-top" alt="Recorrido por fábrica de tequila" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila5.webp" class="card-img-top" alt="Tour por fábrica de tequila" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila6.webp" class="card-img-top" alt="Degustación de tequila premium" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila7.webp" class="card-img-top" alt="Paisajes agaveros de Tequila" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/tequila8.webp" class="card-img-top" alt="Atardecer en campos de agave" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/tequila9.webp" class="card-img-top" alt="Aventura en Tequila Jalisco" loading="lazy"></div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselTequila" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
@@ -481,7 +356,9 @@
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 7-9 horas</small>
                 <small class="text-muted"><i class="bi bi-award me-1"></i> UNESCO</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TEQUILA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Tequila</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TEQUILA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Tequila
+              </a>
             </div>
           </div>
         </div>
@@ -501,7 +378,9 @@
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 4-6 horas</small>
                 <small class="text-muted"><i class="bi bi-music-note me-1"></i> Mariachi</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TLAQUEPAQUE%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Tlaquepaque</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TLAQUEPAQUE%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Tlaquepaque
+              </a>
             </div>
           </div>
         </div>
@@ -511,11 +390,23 @@
             <div class="position-relative">
               <span class="badge position-absolute" style="background: #D4AF37;">Arqueológico</span>
               <div id="carouselGuachimontones" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#carouselGuachimontones" data-bs-slide-to="6"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active"><img src="img/destinos/Guachimontones.webp" class="card-img-top" alt="Pirámides circulares de Guachimontones"></div>
                   <div class="carousel-item"><img src="img/destinos/Guachimontones2.webp" class="card-img-top" alt="Zona arqueológica Guachimontones" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/Guachimontones3.webp" class="card-img-top" alt="Vista panorámica Guachimontones" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones5.webp" class="card-img-top" alt="Estructuras circulares prehispánicas" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones6.webp" class="card-img-top" alt="Cultura Teuchitlán en Guachimontones" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/Guachimontones7.webp" class="card-img-top" alt="Recorrido arqueológico Guachimontones" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/Guachimontones8.webp" class="card-img-top" alt="Historia antigua en Guachimontones" loading="lazy"></div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselGuachimontones" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselGuachimontones" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span></button>
@@ -530,7 +421,9 @@
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 5-6 horas</small>
                 <small class="text-muted"><i class="bi bi-calendar3 me-1"></i> Historia</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20GUACHIMONTONES%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Guachimontones</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20GUACHIMONTONES%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Guachimontones
+              </a>
             </div>
           </div>
         </div>
@@ -540,6 +433,10 @@
             <div class="position-relative">
               <span class="badge position-absolute" style="background: var(--brand-blue); color: white;">Express</span>
               <div id="carouselAeropuerto" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselAeropuerto" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselAeropuerto" data-bs-slide-to="1"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active"><img src="img/destinos/aeropuerto.webp" class="card-img-top" alt="Servicio de traslado al aeropuerto"></div>
                   <div class="carousel-item"><img src="img/destinos/aeropuerto2.webp" class="card-img-top" alt="Transporte confiable al aeropuerto GDL" loading="lazy"></div>
@@ -552,12 +449,14 @@
               <h5 class="card-title"><i class="bi bi-airplane-fill text-info me-2"></i>Traslado Aeropuerto</h5>
               <div class="price-badge mb-2">Desde $600 MXN</div>
               <p class="text-muted mb-2" style="font-size:0.78rem;"><i class="bi bi-info-circle me-1"></i>Precio por vehículo, no por persona &middot; Fuera del periférico se cotiza por separado</p>
-              <p class="card-text">Traslado seguro y puntual desde tu hotel al aeropuerto. Precio base aplica dentro de la ZMG.</p>
+              <p class="card-text">Traslado seguro y puntual desde tu hotel al aeropuerto. Precio base aplica dentro de la ZMG. Destinos fuera del periférico se cotizan por separado.</p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 24/7</small>
                 <small class="text-muted"><i class="bi bi-shield-check me-1"></i> Puntual</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Necesito%20TRASLADO%20AL%20AEROPUERTO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Traslado</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Necesito%20TRASLADO%20AL%20AEROPUERTO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Traslado
+              </a>
             </div>
           </div>
         </div>
@@ -576,7 +475,9 @@
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> Flexible</small>
                 <small class="text-muted"><i class="bi bi-heart me-1"></i> Único</small>
               </div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20crear%20un%20TOUR%20PERSONALIZADO%20con%20Xalisco%20Trips.%20¿Podrían%20ayudarme?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Cotizar Tour</a>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20crear%20un%20TOUR%20PERSONALIZADO%20con%20Xalisco%20Trips.%20¿Podrían%20ayudarme?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Cotizar Tour
+              </a>
             </div>
           </div>
         </div>
@@ -586,11 +487,24 @@
             <div class="position-relative">
               <span class="badge position-absolute" style="background: #FF6B35;">🍴 Gastronomía</span>
               <div id="carouselFoodie" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="4"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="5"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="6"></button>
+                  <button type="button" data-bs-target="#carouselFoodie" data-bs-slide-to="7"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active"><img src="img/destinos/foodie.webp" class="card-img-top" alt="Tour gastronómico tapatio street food"></div>
                   <div class="carousel-item"><img src="img/destinos/foodie1.webp" class="card-img-top" alt="Comida tradicional de Guadalajara" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/foodie2.webp" class="card-img-top" alt="Street food tapatio auténtico" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/foodie3.webp" class="card-img-top" alt="Tacos y antojitos tapatios" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/foodie4.webp" class="card-img-top" alt="Gastronomía local de Jalisco" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/foodie5.webp" class="card-img-top" alt="Experiencia culinaria tapatía" loading="lazy"></div>
+                  <div class="carousel-item"><img src="img/destinos/foodie6.webp" class="card-img-top" alt="Los mejores lugares de comida GDL" loading="lazy"></div>
                   <div class="carousel-item"><img src="img/destinos/foodie7.webp" class="card-img-top" alt="Tour de sabores tapatios" loading="lazy"></div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselFoodie" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span></button>
@@ -600,16 +514,22 @@
             <div class="card-body">
               <h5 class="card-title"><i class="bi bi-cup-hot-fill text-danger me-2"></i>Foodie Tour Tapatio</h5>
               <div class="price-badge mb-2">Desde $800 MXN x Persona</div>
-              <p class="card-text">Comida 100% tapatía, <strong>street food</strong> con las mejores calificaciones. <strong>No apto para veganos o vegetarianos.</strong></p>
+              <p class="card-text">Comida 100% tapatía, <strong>street food</strong> con las mejores calificaciones. Descubre los sabores auténticos de Guadalajara en locales legendarios. <strong>No apto para veganos o vegetarianos.</strong></p>
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <small class="text-muted"><i class="bi bi-clock me-1"></i> 4-5 horas</small>
                 <small class="text-muted"><i class="bi bi-star-fill me-1"></i> Top Rated</small>
               </div>
-              <div class="alert alert-warning py-2 mb-3" style="font-size: 0.85rem;"><i class="bi bi-exclamation-triangle-fill me-1"></i><strong>Nota:</strong> Precio variable según platillos elegidos · Transporte + guía incluidos</div>
-              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20FOODIE%20TOUR%20TAPATIO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Foodie Tour</a>
+              <div class="alert alert-warning py-2 mb-3" style="font-size: 0.85rem;">
+                <i class="bi bi-exclamation-triangle-fill me-1"></i>
+                <strong>Nota:</strong> Precio variable según platillos elegidos · Transporte + guía incluidos
+              </div>
+              <a href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20FOODIE%20TOUR%20TAPATIO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?" class="btn btn-success w-100 fw-bold">
+                <i class="bi bi-whatsapp me-2"></i>Reservar Foodie Tour
+              </a>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -639,7 +559,7 @@
         <div class="trust-indicator"><i class="bi bi-tiktok"></i> Síguenos en TikTok @xalisco.trips</div>
       </div>
       <div class="row g-4 justify-content-center">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 border-0 shadow-sm"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7576711660682071304" data-video-id="7576711660682071304" style="max-width:605px;min-width:325px;"><section><a target="_blank" title="@xalisco.trips" href="https://www.tiktok.com/@xalisco.trips?refer=embed">@xalisco.trips</a><p>Tequila te sorprenderá 🔥 <a title="tequila" target="_blank" href="https://www.tiktok.com/tag/tequila?refer=embed">#tequila</a> <a title="xaliscotrips" target="_blank" href="https://www.tiktok.com/tag/xaliscotrips?refer=embed">#xaliscotrips</a> <a title="columpioextremo" target="_blank" href="https://www.tiktok.com/tag/columpioextremo?refer=embed">#columpioextremo</a></p><a target="_blank" title="♬ Free Bird - Lynyrd Skynyrd" href="https://www.tiktok.com/music/Free-Bird-6754028512069289985?refer=embed">♬ Free Bird - Lynyrd Skynyrd</a></section></blockquote></div></div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100"><div class="card h-100 border-0 shadow-sm"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7576711660682071304" data-video-id="7576711660682071304" style="max-width:605px;min-width:325px;"><section><a target="_blank" title="@xalisco.trips" href="https://www.tiktok.com/@xalisco.trips?refer=embed">@xalisco.trips</a><p>Tequila te sorprenderá 🔥 <a title="tequila" target="_blank" href="https://www.tiktok.com/tag/tequila?refer=embed">#tequila</a> <a title="xaliscotrips" target="_blank" href="https://www.tiktok.com/tag/xaliscotrips?refer=embed">#xaliscotrips</a></p><a target="_blank" title="♬ Free Bird - Lynyrd Skynyrd" href="https://www.tiktok.com/music/Free-Bird-6754028512069289985?refer=embed">♬ Free Bird - Lynyrd Skynyrd</a></section></blockquote></div></div>
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200"><div class="card h-100 border-0 shadow-sm"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7557067994610912519" data-video-id="7557067994610912519" style="max-width:605px;min-width:325px;"><section><a target="_blank" title="@xalisco.trips" href="https://www.tiktok.com/@xalisco.trips?refer=embed">@xalisco.trips</a><a target="_blank" title="♬ sonido original - Xalisco Trips" href="https://www.tiktok.com/music/sonido-original-7557067994610912519?refer=embed">♬ sonido original - Xalisco Trips</a></section></blockquote></div></div>
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300"><div class="card h-100 border-0 shadow-sm"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7552682154874916114" data-video-id="7552682154874916114" style="max-width:605px;min-width:325px;"><section><a target="_blank" title="@xalisco.trips" href="https://www.tiktok.com/@xalisco.trips?refer=embed">@xalisco.trips</a><a target="_blank" title="♬ sonido original - Xalisco Trips" href="https://www.tiktok.com/music/sonido-original-7552682154874916114?refer=embed">♬ sonido original - Xalisco Trips</a></section></blockquote></div></div>
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400"><div class="card h-100 border-0 shadow-sm"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xalisco.trips/video/7555211675981384967" data-video-id="7555211675981384967" style="max-width:605px;min-width:325px;"><section><a target="_blank" title="@xalisco.trips" href="https://www.tiktok.com/@xalisco.trips?refer=embed">@xalisco.trips</a><a target="_blank" title="♬ sonido original - Xalisco Trips" href="https://www.tiktok.com/music/sonido-original-7555211675981384967?refer=embed">♬ sonido original - Xalisco Trips</a></section></blockquote></div></div>
@@ -695,7 +615,7 @@
               <div class="ms-auto"><span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;"><i class="bi bi-patch-check-fill me-1"></i>Viator</span></div>
             </div>
             <h6 class="fw-bold mb-2">"Experiencia excepcional — Guía atento y genuinamente hospitalario"</h6>
-            <blockquote class="mb-3"><p class="fst-italic text-muted" style="font-size:0.92rem;">"Después de vivir una experiencia tan maravillosa en el Tour de Chapala, no dudamos en contactar nuevamente a Octavio para explorar Tequila y Guachimontones. Mi padre tenía problemas en su pierna, y Octavio no tuvo ningún inconveniente en acercarlo con su vehículo hasta la zona de las pirámides. ¡Recomiendo al 100%!"</p></blockquote>
+            <blockquote class="mb-3"><p class="fst-italic text-muted" style="font-size:0.92rem;">"Después de vivir una experiencia tan maravillosa en el Tour de Chapala, no dudamos en contactar nuevamente a Octavio para explorar Tequila y Guachimontones. Octavio demostró ser un excelente conocedor de toda la región. Mi padre tenía problemas en su pierna, y Octavio no tuvo ningún inconveniente en acercarlo con su vehículo hasta la zona de las pirámides. Recomiendo al 100% este tour."</p></blockquote>
             <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Private Tequila Tour · Guachimontones</small>
           </div>
         </div>
@@ -707,7 +627,7 @@
               <div class="ms-auto"><span class="badge" style="background:#00af87;font-size:0.7rem;padding:0.4rem 0.7rem;"><i class="bi bi-patch-check-fill me-1"></i>Viator</span></div>
             </div>
             <h6 class="fw-bold mb-2">"¡Administrar nuestro tiempo según los gustos de cada lugar!"</h6>
-            <blockquote class="mb-3"><p class="fst-italic text-muted" style="font-size:0.92rem;">"Octavio es un guía super experimentado y muy amable, verdaderamente hizo que cada minuto fuera extraordinario. Gracias Octavio, espero poder tomar otro tour contigo!!!!!"</p></blockquote>
+            <blockquote class="mb-3"><p class="fst-italic text-muted" style="font-size:0.92rem;">"Octavio es un guía super experimentado y muy amable, verdaderamente hizo que cada minuto fuera extraordinario. Manejar servicios privados es una excelente forma de administrar los lugares en base a nuestros gustos. Gracias Octavio, espero poder tomar otro tour contigo!!!!!"</p></blockquote>
             <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Premium Private Tour · Febrero 2026</small>
           </div>
         </div>
@@ -733,19 +653,19 @@
           <div class="accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"><i class="bi bi-cash-coin me-2 text-warning"></i>¿Qué incluye el precio del tour?</button></h2>
-              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">El precio incluye <strong>transporte privado puerta a puerta</strong> y <strong>guía certificado</strong> durante todo el recorrido. Las entradas a atracciones, alimentos, bebidas y propinas no están incluidas.</div></div>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">El precio incluye <strong>transporte privado puerta a puerta</strong> y <strong>guía certificado</strong> durante todo el recorrido. Las entradas a atracciones, alimentos, bebidas y propinas no están incluidas — así tú decides cuánto gastar en cada parada.</div></div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"><i class="bi bi-people me-2 text-warning"></i>¿Cuántas personas van en el tour?</button></h2>
-              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Todos nuestros tours son <strong>100% privados</strong>. No compartirás el vehículo con extraños — el tour es exclusivamente para tu grupo.</div></div>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Todos nuestros tours son <strong>100% privados</strong>. No compartirás el vehículo con extraños — el tour es exclusivamente para tu grupo. Ideal para parejas, familias o grupos de amigos que quieren ir a su ritmo.</div></div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"><i class="bi bi-geo-alt me-2 text-warning"></i>¿Dónde es el punto de salida?</button></h2>
-              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Recogemos en cualquier punto de Guadalajara y zona metropolitana — tu hotel, Airbnb, o la dirección que prefieras.</div></div>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Recogemos en cualquier punto de Guadalajara y zona metropolitana — tu hotel, Airbnb, o la dirección que prefieras. Solo compártenos tu ubicación al reservar por WhatsApp.</div></div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4"><i class="bi bi-x-circle me-2 text-warning"></i>¿Puedo cancelar o cambiar la fecha?</button></h2>
-              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Sí. Puedes cancelar o reprogramar sin costo con al menos <strong>24 horas de anticipación</strong>.</div></div>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Sí. Puedes cancelar o reprogramar sin costo con al menos <strong>24 horas de anticipación</strong>. Para cambios de último momento, contáctanos por WhatsApp y buscamos la mejor solución.</div></div>
             </div>
             <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5"><i class="bi bi-credit-card me-2 text-warning"></i>¿Cómo se paga?</button></h2>
@@ -753,7 +673,7 @@
             </div>
             <div class="accordion-item border-0 rounded shadow-sm overflow-hidden">
               <h2 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq6"><i class="bi bi-translate me-2 text-warning"></i>¿Hablan inglés?</button></h2>
-              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Sí. Octavio se comunica en español e inglés, lo que lo hace ideal para turistas internacionales.</div></div>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body text-muted">Sí. Octavio se comunica en español e inglés, lo que lo hace ideal para turistas internacionales. Varios de nuestros clientes de EUA, Canadá y Europa han destacado la facilidad de comunicación en sus reseñas.</div></div>
             </div>
           </div>
           <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="200">
@@ -785,10 +705,21 @@
           <a href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20reservar%20un%20tour.%20¿Podrían%20ayudarme%20con%20información?" class="btn btn-success btn-lg px-5 py-3 fw-bold"><i class="bi bi-whatsapp me-2"></i>Reservar Ahora por WhatsApp</a>
           <a href="tel:+5213351083318" class="btn btn-outline-dark btn-lg px-4 py-3"><i class="bi bi-telephone me-2"></i>Llamar Directamente</a>
         </div>
+
+        <!-- Clip Payment Button — Clientes México MXN -->
         <div class="mt-4" data-aos="fade-up" data-aos-delay="200">
-          <a href="https://buy.stripe.com/5kQdR98I54wFdN0c8Ucwg01" target="_blank" rel="noopener" class="btn btn-stripe btn-lg px-4 py-2"><i class="bi bi-credit-card me-2"></i>Pagar con Tarjeta en Pesos MXN (Stripe)</a>
-          <div class="stripe-trust mt-2">Visa · Mastercard · Apple Pay · Google Pay &nbsp;·&nbsp; 🔒 Pago seguro con Stripe · MXN</div>
+          <a href="https://pago.clip.mx/v3/fdd8690a-6cee-4387-b3b7-21e5395b6e60"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="btn btn-warning btn-lg px-4 py-2 fw-bold">
+            <i class="bi bi-credit-card me-2"></i>
+            Apartar mi lugar — Pago seguro con Clip 🔒
+          </a>
+          <div class="stripe-trust mt-2">
+            Visa · Mastercard · Tarjetas de débito &nbsp;·&nbsp; 🔒 Pago seguro con Clip · MXN
+          </div>
         </div>
+        
         <p class="small text-dark mt-3 mb-0"><i class="bi bi-info-circle me-1"></i>Respuesta garantizada en menos de 15 minutos</p>
       </div>
     </div>
@@ -900,16 +831,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    // Auto-ocultar burbuja después de 6 segundos
-    setTimeout(function() {
-      var bubble = document.getElementById('waBubble');
-      if (bubble) {
-        bubble.style.transition = 'opacity 0.5s ease';
-        bubble.style.opacity = '0';
-        setTimeout(function() { bubble.style.display = 'none'; }, 500);
-      }
-    }, 6000);
-  </script>
+
 </body>
 </html>
