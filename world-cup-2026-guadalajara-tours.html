@@ -498,58 +498,61 @@
     </div>
   </footer>
 
-  <!-- TouristTrip Schemas for World Cup -->
+  <!-- TouristTrip Schemas for World Cup (Individual Scripts) -->
   <script type="application/ld+json">
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "TouristTrip",
-      "name": "Tequila World Cup Tour",
-      "description": "Explore birthplace of tequila during FIFA World Cup 2026. Private tour from Guadalajara to agave fields and artisan distilleries.",
-      "keywords": "World Cup 2026, Tequila, Guadalajara tours, private tours",
-      "provider": {
-        "@type": "TourOperator",
-        "name": "Xalisco Trips",
-        "url": "https://xaliscotrips.lat"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "42",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "50",
-        "bestRating": "5"
-      },
-      "duration": "PT7H"
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Tequila World Cup Tour",
+    "description": "Explore birthplace of tequila during FIFA World Cup 2026. Private tour from Guadalajara to agave fields and artisan distilleries.",
+    "provider": {
+      "@type": "TourOperator",
+      "name": "Xalisco Trips",
+      "url": "https://xaliscotrips.lat"
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "TouristTrip",
-      "name": "Chapala + Tonalá World Cup Tour",
-      "description": "Day trip from Guadalajara during World Cup 2026. Explore Mexico's largest lake and artisan town of Tonalá.",
-      "keywords": "World Cup 2026, Chapala, Tonalá, Guadalajara tours",
-      "provider": {
-        "@type": "TourOperator",
-        "name": "Xalisco Trips",
-        "url": "https://xaliscotrips.lat"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "50",
-        "priceCurrency": "USD"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "50",
-        "bestRating": "5"
-      },
-      "duration": "PT8H"
-    }
-  ]
+    "offers": {
+      "@type": "Offer",
+      "price": "42",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "duration": "PT7H"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Chapala + Tonalá World Cup Tour",
+    "description": "Day trip from Guadalajara during World Cup 2026. Explore Mexico's largest lake and artisan town of Tonalá.",
+    "provider": {
+      "@type": "TourOperator",
+      "name": "Xalisco Trips",
+      "url": "https://xaliscotrips.lat"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "50",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "50",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "duration": "PT8H"
+  }
   </script>
 
   <!-- Scripts -->
