@@ -107,6 +107,46 @@
     }
   }
   </script>
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Xalisco Trips",
+    "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+    "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "MX",
+      "addressRegion": "Jalisco",
+      "addressLocality": "Guadalajara"
+    },
+    "telephone": "+5213351083318",
+    "url": "https://xaliscotrips.lat",
+    "priceRange": "$$$",
+    "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "ratingCount": "45"
+    }
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://xaliscotrips.lat/index-en.html"},
+      {"@type": "ListItem", "position": 2, "name": "Tours", "item": "https://xaliscotrips.lat/index-en.html#tours"},
+      {"@type": "ListItem", "position": 3, "name": "Guachimontones Tour", "item": "https://xaliscotrips.lat/guachimontones-en.html"}
+    ]
+  }
+  </script>
 </head>
 <body>
 
