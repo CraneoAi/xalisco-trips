@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://xaliscotrips.lat/sitemap.xml
+Sitemap: https://xaliscotrips.lat/sitemap-images.xml
