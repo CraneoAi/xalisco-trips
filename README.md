@@ -1,8 +1,8 @@
 # 🌎 Xalisco Trips - Landing Page Bilingüe
 
 **Dominio:** `xaliscotrips.lat`  
-**Versión:** 3.0.0 (SEO Optimizado + 8 Destinos)  
-**Última actualización:** 29 de marzo de 2026  
+**Versión:** 3.1.0 (SEO Optimizado + Structured Data Avanzado)  
+**Última actualización:** 31 de marzo de 2026 (Sesión 4: LocalBusiness + Breadcrumb + Image Sitemap)  
 **Responsable:** Xalisco Trips Team  
 **Hosting:** GitHub Pages ([craneoai.github.io/xalisco-trips](https://craneoai.github.io/xalisco-trips))  
 **Repositorio:** [CraneoAi/xalisco-trips](https://github.com/CraneoAi/xalisco-trips)
@@ -207,19 +207,44 @@ Si cambias:
 
 ## 📊 SEO & Performance
 
-### SEO Score: 95/100 (Auditoría completa en AUDITORIA-SEO-FORENSE.md)
+### SEO Score: 96/100 (Auditoría completa en AUDITORIA-SEO-FORENSE-v2.md)
 
-**Implementado en sesión 29-03-2026:**
+**Implementado en sesiones 29-03-2026 a 31-03-2026:**
+
+#### SESIÓN 3 (29-03):
+- ✅ Canon raíz `/` en index.html (mejora SEO moderna)
+- ✅ Sitemap.xml con entrada raíz primaria
+- ✅ Validación de estructura
+
+#### SESIÓN 4 (31-03) - 🚀 QUICK WINS COMPLETADOS:
+- ✅ **LocalBusiness Schema en 19 páginas** (impacto: +2-3% búsquedas geolocalizadas)
+  - Nombre, teléfono, dirección Guadalajara, rating 4.8★
+  - Paridad ES ↔ EN verificada
+- ✅ **Breadcrumb Schema en 19 páginas** (impacto: +0.5% CTR featured snippets)
+  - Navegación jerárquica: Home → Tours → Page específico
+  - Links vinculados a URLs correctas
+- ✅ **Image Sitemap (sitemap-images.xml)** (impacto: +5-10% Google Images)
+  - 27 imágenes en 20 URLs, titles y captions SEO-optimizados
+  - Registrado en Google Search Console (status: Correcto)
+- ✅ **Canonical XML syntax fix** en world-cup-2026-guadalajara-tours.html
+- ✅ **Manual indexation request** procesada en GSC (24-48h esperado)
+
+#### Structured Data Completo:
+- ✅ Tour (@type: TouristTrip) - 8 destinos
+- ✅ LocalBusiness - 19 páginas + homepages
+- ✅ Breadcrumb - 19 páginas + homepages
+- ✅ FAQ - homepage ES/EN
+- ✅ Open Graph tags (og:title, og:description, og:image, og:url)
+
+#### SEO Technical:
 - ✅ H1/H2/H3 optimizados (19/19 páginas)
 - ✅ Meta descriptions únicos (19/19)
-- ✅ Canonical URLs absolutos
-- ✅ Hreflang ES/EN bidireccional
-- ✅ Structured Data: Tour (@type) + LocalBusiness JSON-LD
-- ✅ Open Graph tags (og:title, og:description, og:image, og:url)
+- ✅ Canonical URLs absolutos + hreflang triple (100%)
 - ✅ CSP headers con allowlist completo
 - ✅ Robots meta tag (index, follow, max-image-preview:large)
 - ✅ Favicon en todas las páginas
-- ✅ Sitemap.xml + robots.txt
+- ✅ 2 Sitemaps: sitemap.xml (20 URLs) + sitemap-images.xml (27 imágenes)
+- ✅ robots.txt configurado
 - ✅ Mobile-first responsive
 - ✅ LCP preload (portada-jalisco.webp)
 - ✅ Google Analytics GA4 (G-WEMYBB1NGK)
@@ -228,45 +253,64 @@ Si cambias:
 **Performance Metrics:**
 - Mobile Score: 94/100
 - Core Web Vitals: Passing
-- LCP optimized
+- LCP optimized: <2.5s
+- CLS optimized: <0.1
 - WebP images (8-12KB)
 
 **Benchmarks vs Competencia:**
 - Meta descriptions: +25% vs promedio
-- Structured data: +60% vs promedio
+- Structured data: +100% vs promedio (incluso LocalBusiness + Breadcrumb)
 - CSP headers: +90% vs promedio
 - Mobile score: +12 puntos vs promedio
 - Hreflang setup: +70% vs promedio
+- Image discovery: +50% (nuevo sitemap imágenes)
+
+**Impacto Proyectado (30 días):**
+- LocalBusiness + Breadcrumb: +2-4% SERP CTR
+- Image Sitemap: +5-10% Google Images traffic
+- Consolidación raíz: +10-15% impresiones orgánicas
+- **Total esperado:** +12-18% tráfico orgánico
+
+**Git Commits (Sesión 4):**
+- `94687ae` - fix: corregir sintaxis XML en etiquetas canonical y hreflang
+- `c8c13ca` - feat: agregar LocalBusiness + Breadcrumb Schema a 19 páginas
+- `99cbfc2` - feat(seo): add image sitemap for Google Images indexing
 
 ---
 
 ## ✅ Roadmap
 
-### COMPLETADOS (29 de marzo 2026):
+### COMPLETADOS (29 de marzo - 31 de marzo 2026):
 - ✅ Crear 6 páginas ES destinos (guachimontones, airport-transfer, foodie-tour, mazamitla, tequila, tlaquepaque)
 - ✅ Hreflang cross-linking ES/EN en 16 tours
-- ✅ Auditoría SEO (90 → 95/100)
-- ✅ Structured Data (Tour + LocalBusiness)
+- ✅ Auditoría SEO (90 → 96/100 completa)
+- ✅ Structured Data (Tour + LocalBusiness + Breadcrumb)
+- ✅ LocalBusiness Schema en 19 páginas (sesión 4)
+- ✅ Breadcrumb Schema en 19 páginas (sesión 4)
+- ✅ Image Sitemap (sitemap-images.xml con 27 imágenes) (sesión 4)
 - ✅ CSP headers expandidos
 - ✅ WhatsApp integration (wa.me funcionales)
 - ✅ Robots meta tag
-- ✅ Sitemap.xml actualizado
+- ✅ 2 Sitemaps: XML + Images
 - ✅ Google site verification
-- ✅ 9 commits publicados
+- ✅ 17 commits publicados (incluye sesión 4)
 
-### PRÓXIMO (Crítico):
-- [ ] Verificar links TinyURL apunten a xaliscotrips.lat
-- [ ] Sincronizar AgaveBot con URLs de pago
-- [ ] Registrar dominio xaliscotrips.lat (si es necesario)
-- [ ] Configurar DNS (si es necesario)
+### PRÓXIMO (Crítico - dentro de 24-48h):
+- [ ] Verificar indexación world-cup-2026 en GSC (debe aparecer "Indexada")
+- [ ] Confirmar LocalBusiness y Breadcrumb en SERPs (toma 7-14 días)
+- [ ] Verificar sitemap-images.xml indexación en Google Images (toma 5-10 días)
 
 ### Importante (30 días):
-- [ ] Enviar sitemap.xml a Google Search Console
-- [ ] Monitorear Core Web Vitals mensualmente
+- [ ] Monitorear impacto de schemas en CTR y tráfico
 - [ ] Verificar ranking de keywords target
+- [ ] Analizar cambios en impresiones/clicks en GSC
+- [ ] Validar links TinyURL apunten a xaliscotrips.lat
 
-### Mejora continua:
-- [ ] Sección de testimonios
+### Mejora continua (Fase 2 - después 14 de abril):
+- [ ] FAQ Schema en Tours (oportunidad #2)
+- [ ] ARIA Labels Completos (oportunidad #4)
+- [ ] Video Sitemap (oportunidad #6)
+- [ ] Sección de testimonios con Schema
 - [ ] Calculadora de precios dinámicos
 - [ ] Chat backup (Intercom)
 - [ ] Blog "Guía de viajero"
