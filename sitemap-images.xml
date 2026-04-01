@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/hero/portada-jalisco.webp</image:loc>
+      <image:title>Tours Privados en Guadalajara - Xalisco Trips</image:title>
+      <image:caption>Guía certificado Sectur para tours privados desde Guadalajara</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/index-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/hero/portada-jalisco.webp</image:loc>
+      <image:title>Private Tours Guadalajara - Xalisco Trips</image:title>
+      <image:caption>Certified guide for private tours from Guadalajara, Mexico</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Chapala + Tonalá ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/chapala-tonala.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
+      <image:title>Tour Chapala Guadalajara - Riviera del Lago</image:title>
+      <image:caption>Disfruta la ribera del lago Chapala en tour privado desde Guadalajara</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tonala.webp</image:loc>
+      <image:title>Tonalá Mercado Artesanal - Tour Privado desde Guadalajara</image:title>
+      <image:caption>Artesanías y cerámica tradicional en el famoso mercado de Tonalá</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Chapala + Tonalá EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/chapala-tonala-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
+      <image:title>Chapala Lake Tour Guadalajara - Private Day Tour</image:title>
+      <image:caption>Explore the shores of Lake Chapala on a private tour from Guadalajara</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tonala.webp</image:loc>
+      <image:title>Tonalá Handicraft Market - Guadalajara Private Tour</image:title>
+      <image:caption>Traditional pottery and artisan crafts at the famous Tonalá market</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tequila + Guachimontones ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
+      <image:title>Tour Tequila Pueblo Mágico - UNESCO Patrimonio</image:title>
+      <image:caption>Destilería artesanal y campos de agave azul en tour privado</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
+      <image:title>Guachimontones Pirámides Circulares - Tour Arqueológico</image:title>
+      <image:caption>Zona arqueológica Teuchitlán con pirámides circulares únicas</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tequila + Guachimontones EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
+      <image:title>Tequila Pueblo Mágico Tour - UNESCO World Heritage</image:title>
+      <image:caption>Artisanal distillery and blue agave fields on a private tour</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
+      <image:title>Guachimontones Circular Pyramids - Archaeological Tour</image:title>
+      <image:caption>Teuchitlán archaeological zone with unique circular pyramids</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tequila ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/tequila.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
+      <image:title>Tour Tequila desde Guadalajara - Sitio Patrimonio UNESCO</image:title>
+      <image:caption>Destilería Tres Mujeres y campos de agave azul en tour privado</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tequila EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
+      <image:title>Tequila Tour from Guadalajara - UNESCO World Heritage Site</image:title>
+      <image:caption>Tres Mujeres Distillery and blue agave fields private tour</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tlaquepaque ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/tlaquepaque.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tlaquepaque.webp</image:loc>
+      <image:title>Tour Tlaquepaque Guadalajara - Centro de Artes Popular</image:title>
+      <image:caption>Cerámica tradicional, galerías de arte y tiendas de artesanías</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Tlaquepaque EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/tlaquepaque-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tlaquepaque.webp</image:loc>
+      <image:title>Tlaquepaque Tour from Guadalajara - Arts and Crafts Center</image:title>
+      <image:caption>Traditional pottery, art galleries and artisan shops</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mazamitla ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/mazamitla.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/mazamitla.webp</image:loc>
+      <image:title>Tour Mazamitla desde Guadalajara - Pueblo Mágico Montaña</image:title>
+      <image:caption>Tirolesa, cascadas y aire puro en pueblo mágico de Jalisco</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mazamitla EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/mazamitla-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/mazamitla.webp</image:loc>
+      <image:title>Mazamitla Mountain Tour from Guadalajara - Magical Town</image:title>
+      <image:caption>Zip lines, waterfalls and mountain town adventure tour</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Guachimontones ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/guachimontones.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
+      <image:title>Tour Guachimontones desde Guadalajara - Zona Arqueológica</image:title>
+      <image:caption>Pirámides circulares únicas de la cultura Teuchitlán prehispánica</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Guachimontones EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/guachimontones-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
+      <image:title>Guachimontones Tour from Guadalajara - Archaeological Site</image:title>
+      <image:caption>Unique circular pyramids of the ancient Teuchitlán culture</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Foodie Tour ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/foodie-tour.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/foodie.webp</image:loc>
+      <image:title>Tour Comida Callejera Guadalajara - Birria y Tortas Ahogadas</image:title>
+      <image:caption>Gastronomía tapatía auténtica en los mejores lugares locales</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Foodie Tour EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/foodie-tour-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/foodie.webp</image:loc>
+      <image:title>Guadalajara Street Food Tour - Birria and Authentic Cuisine</image:title>
+      <image:caption>Tapatío street food at legendary local spots and restaurants</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Airport Transfer ES -->
+  <url>
+    <loc>https://xaliscotrips.lat/airport-transfer.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Traslado Aeropuerto Guadalajara - Servicio Privado</image:title>
+      <image:caption>Transporte seguro y confiable desde aeropuerto internacional</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Airport Transfer EN -->
+  <url>
+    <loc>https://xaliscotrips.lat/airport-transfer-en.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Guadalajara Airport Transfer - Private Transport Service</image:title>
+      <image:caption>Safe and reliable transportation from international airport</image:caption>
+    </image:image>
+  </url>
+
+  <!-- World Cup 2026 ES/EN (página única en inglés) -->
+  <url>
+    <loc>https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html</loc>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/hero/portada-jalisco.webp</image:loc>
+      <image:title>World Cup 2026 Tours Guadalajara - Private Experiences</image:title>
+      <image:caption>Explore Jalisco between FIFA World Cup 2026 matches</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
+      <image:title>Tequila Tour World Cup 2026 - Between Match Activities</image:title>
+      <image:caption>UNESCO World Heritage distillery tour during World Cup break</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
+      <image:title>Chapala Lake Tour World Cup 2026 - Relax Between Matches</image:title>
+      <image:caption>Lake Chapala tour during FIFA World Cup 2026 in Guadalajara</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
+      <image:title>Guachimontones Pyramids - World Cup 2026 Tour</image:title>
+      <image:caption>Archaeological site tour between World Cup matches</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
