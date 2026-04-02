@@ -817,7 +817,51 @@ img {
 }
 
 /* ==========================================================================
-   18. ANIMATIONS
+   18. TABLE STYLES - WORLD CUP SCHEDULE (Emoji Visibility Fix)
+   ========================================================================== */
+.table {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.table td {
+  vertical-align: middle;
+  padding: 0.95rem 0.75rem;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.table thead {
+  background-color: #ffc107;
+}
+
+.table thead th {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem 0.75rem;
+  border-bottom: 2px solid #e0a800;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(255, 193, 7, 0.08);
+}
+
+/* Emoji flag visibility: increase font size for Teams column */
+.table tbody td:nth-child(2) {
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* Ensure proper emoji rendering */
+.table td, .table th {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   19. ANIMATIONS
    ========================================================================== */
 @keyframes fadeInUp {
   from {
@@ -841,7 +885,7 @@ img {
 }
 
 /* ==========================================================================
-   19. RESPONSIVE - MOBILE OPTIMIZATIONS
+   20. RESPONSIVE - MOBILE OPTIMIZATIONS
    ========================================================================== */
 @media (max-width: 768px) {
   .hero {
@@ -920,10 +964,28 @@ img {
   
   .lightbox-nav.prev { left: 5px; }
   .lightbox-nav.next { right: 5px; }
+
+  /* Mobile: Optimize table for small screens */
+  .table {
+    font-size: 0.95rem;
+  }
+
+  .table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  .table thead th {
+    font-size: 0.95rem;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .table tbody td:nth-child(2) {
+    font-size: 1rem;
+  }
 }
 
 /* ==========================================================================
-   20. PRINT STYLES
+   21. PRINT STYLES
    ========================================================================== */
 @media print {
   .wa-widget,
