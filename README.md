@@ -1,8 +1,8 @@
 # 🌎 Xalisco Trips - Landing Page Bilingüe
 
 **Dominio:** `xaliscotrips.lat`  
-**Versión:** 3.1.0 (SEO Optimizado + Structured Data Avanzado)  
-**Última actualización:** 31 de marzo de 2026 (Sesión 4: LocalBusiness + Breadcrumb + Image Sitemap)  
+**Versión:** 3.2.0 (SEO Optimizado + World Cup 2026 Actualizado)  
+**Última actualización:** 1 de abril de 2026 (Sesión 5: World Cup 2026 + Sitemap Refinado)  
 **Responsable:** Xalisco Trips Team  
 **Hosting:** GitHub Pages ([craneoai.github.io/xalisco-trips](https://craneoai.github.io/xalisco-trips))  
 **Repositorio:** [CraneoAi/xalisco-trips](https://github.com/CraneoAi/xalisco-trips)
