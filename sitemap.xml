@@ -14,9 +14,9 @@
 
   <url>
     <loc>https://xaliscotrips.lat/index-en.html</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/index-en.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/"/>
     <changefreq>weekly</changefreq>
     <lastmod>2026-04-01</lastmod>
     <priority>1.0</priority>
