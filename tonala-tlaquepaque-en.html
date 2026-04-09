@@ -1,253 +1,549 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Tonalá + Tlaquepaque Tour from Guadalajara | Art, Crafts & Mariachi |
-      Xalisco Trips
-    </title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tonalá + Tlaquepaque Tour | Private Guadalajara Tours</title>
 
-    <!-- Security: CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://cdn.jsdelivr.net https://www.googletagmanager.com;"
-    />
+  <!-- Security: CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://cdn.jsdelivr.net https://www.googletagmanager.com;">
 
-    <!-- SEO -->
-    <meta
-      name="description"
-      content="Private Tonalá and Tlaquepaque combo tour from Guadalajara. Artisan market, ceramic and blown glass workshops, live mariachi at El Parián. Certified bilingual guide, door-to-door pickup. $35 USD per person."
-    />
-    <meta
-      name="keywords"
-      content="Tonalá tour, Tlaquepaque tour, artisan market, ceramic workshops, live mariachi, private tours Guadalajara"
-    />
-    <meta name="author" content="Xalisco Trips" />
-    <link
-      rel="canonical"
-      href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
-    />
+  <!-- SEO -->
+  <meta name="description" content="Private Tonalá + Tlaquepaque combo tour from Guadalajara. Artisan market, ceramic workshops & live mariachi. Transport + guide included. 8-10 hour flexible itinerary.">
+  <meta name="keywords" content="tonalá tour, tlaquepaque tour, artisan market, ceramic workshops, live mariachi, private tours guadalajara">
+  <meta name="author" content="Xalisco Trips">
+  <link rel="canonical" href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html">
+  
+  <!-- PWA & Theme -->
+  <meta name="theme-color" content="#ffc107">
+  <link rel="manifest" href="manifest.json">
 
-    <!-- PWA & Theme -->
-    <meta name="theme-color" content="#ffc107" />
-    <link rel="manifest" href="manifest.json" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tonalá + Tlaquepaque Tour | Xalisco Trips">
+  <meta property="og:description" content="Visit Tonalá artisan market + Tlaquepaque galleries + live mariachi at El Parián.">
+  <meta property="og:image" content="https://xaliscotrips.lat/img/destinos/tonala.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://xaliscotrips.lat/tonala-tlaquepaque-en.html">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo-xalisco-trips.ico" type="image/x-icon">
+  
+  <!-- Alternate Language -->
+  <link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque.html">
+  <link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html">
+  <link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque.html">
 
-    <!-- Open Graph -->
-    <meta
-      property="og:title"
-      content="Tonalá + Tlaquepaque Tour | Xalisco Trips"
-    />
-    <meta
-      property="og:description"
-      content="Explore Jalisco's two most important artisan towns: Tonalá market in the morning, Tlaquepaque galleries and live mariachi in the afternoon."
-    />
-    <meta
-      property="og:image"
-      content="https://xaliscotrips.lat/img/destinos/tonala.webp"
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
-    />
-    <meta property="og:locale" content="en_US" />
+  <!-- Performance -->
+  <link rel="preload" as="image" href="img/destinos/tonala.webp" fetchpriority="high">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 
-    <!-- Favicon -->
-    <link rel="icon" href="img/logo-xalisco-trips.ico" type="image/x-icon" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Alternate Language -->
-    <link
-      rel="alternate"
-      hreflang="es"
-      href="https://xaliscotrips.lat/tonala-tlaquepaque.html"
-    />
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
-    />
+  <!-- Bootstrap & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Performance -->
-    <link
-      rel="preload"
-      as="image"
-      href="img/destinos/tonala.webp"
-      fetchpriority="high"
-    />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WEMYBB1NGK');
+  </script>
 
-    <!-- Bootstrap & Icons -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+  <style>
+    :root {
+      --brand-primary: #ffc107;
+      --brand-whatsapp: #25d366;
+      --brand-dark: #212529;
+    }
+  </style>
 
-    <!-- AOS Animation Library -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
-      rel="stylesheet"
-    />
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+  <!-- Tonalá + Tlaquepaque Tour Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    "name": "Tonalá + Tlaquepaque Combo Tour from Guadalajara",
+    "description": "Private Tonalá + Tlaquepaque combo tour from Guadalajara. Artisan market, ceramic workshops & live mariachi. Transport + guide included. 8-10 hour flexible itinerary.",
+    "url": "https://xaliscotrips.lat/tonala-tlaquepaque-en.html",
+    "touristType": "Art lovers, craft enthusiasts, culture seekers, families",
+    "availableLanguage": ["English", "Spanish"],
+    "provider": {
+      "@type": "TouristInformationCenter",
+      "name": "Xalisco Trips",
+      "url": "https://xaliscotrips.lat",
+      "telephone": "+52-33-5108-3318",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Guadalajara",
+        "addressRegion": "Jalisco",
+        "addressCountry": "MX"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "47",
+        "bestRating": "5"
       }
-      gtag("js", new Date());
-      gtag("config", "G-WEMYBB1NGK");
-    </script>
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "35",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
 
-    <style>
-      :root {
-        --brand-primary: #ffc107;
-        --brand-whatsapp: #25d366;
-        --brand-dark: #212529;
-        --brand-success: #28a745;
-        --brand-success-dark: #1e7e34;
-        --brand-success-light: #d4edda;
-        --brand-purple: #9663c4;
-        --brand-green: #27ae60;
-      }
-      body {
-        font-family: "Open Sans", sans-serif;
-        color: #333;
-      }
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-      }
-    </style>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Tonalá + Tlaquepaque Private Combo Tour",
-        "description": "Private full-day combo tour visiting Jalisco's two most important artisan towns. Tonalá artisan market in the morning, Tlaquepaque galleries and live mariachi in the afternoon.",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
-        "image": "https://xaliscotrips.lat/img/destinos/tonala.webp",
-        "offers": {
-          "@type": "Offer",
-          "price": "35",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "47",
-          "bestRating": "5"
-        },
-        "hasMerchantReturnPolicy": {
-          "@type": "MerchantReturnPolicy",
-          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-        },
-        "shippingDetails": {
-          "@type": "OfferShippingDetails",
-          "shippingDestination": {
-            "@type": "DefinedRegion",
-            "addressCountry": "MX"
-          },
-          "doesNotShip": true
-        }
-      }
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What time does the Tonalá + Tlaquepaque tour start?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We depart at 8:30 AM to arrive in Tonalá before 9:15 AM, when the artisan market is most active and artisans are working in their workshops."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why do you visit Tonalá first?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Tonalá's artisan market and workshops are most active in the morning. You get better access to artisans, fresher inventory and cooler temperatures for walking before midday."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is included in the tour price?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The price includes private door-to-door transport and a Sectur-certified guide throughout the tour. Entrance fees, meals and personal purchases are not included."
-            }
-          }
-        ]
-      }
-    </script>
-  </head>
-  <body>
-    <!-- Language Switcher -->
-    <div class="language-switcher">
-      <span>🌐</span>
-      <a href="tonala-tlaquepaque-en.html" class="active">EN</a>
-      <span>|</span>
-      <a href="tonala-tlaquepaque.html">ES</a>
-    </div>
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://xaliscotrips.lat/",
+    "name": "Xalisco Trips",
+    "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+    "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "MX",
+      "addressRegion": "Jalisco",
+      "addressLocality": "Guadalajara"
+    },
+    "telephone": "+5213351083318",
+    "url": "https://xaliscotrips.lat",
+    "priceRange": "$$$",
+    "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "ratingCount": "45"
+    }
+  }
+  </script>
 
-    <!-- WhatsApp Floating Widget -->
-    <div class="wa-widget" id="waWidget">
-      <div class="wa-bubble" id="waBubble">
-        <strong>Hi there! 👋 Xalisco Trips</strong>
-        How can we help you today? We reply in under 15 minutes.
-        <div class="wa-time">now</div>
-      </div>
-      <div class="position-relative">
-        <a href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20need%20information%20about%20tours.%20Can%20you%20help%20me?" class="wa-btn" aria-label="Contact via WhatsApp">
-          <i class="bi bi-whatsapp"></i> Book Now
-        </a>
-        <span class="wa-badge">1</span>
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://xaliscotrips.lat/index-en.html"},
+      {"@type": "ListItem", "position": 2, "name": "Tours", "item": "https://xaliscotrips.lat/index-en.html#tours"},
+      {"@type": "ListItem", "position": 3, "name": "Tonalá + Tlaquepaque Tour", "item": "https://xaliscotrips.lat/tonala-tlaquepaque-en.html"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index-en.html"><i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index-en.html#destinations">Tours</a></li>
+          <li class="nav-item"><a class="nav-link" href="index-en.html#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="tonala-tlaquepaque.html">ES</a></li>
+        </ul>
       </div>
     </div>
+  </header>
 
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand fw-bold" href="https://xaliscotrips.lat/index-en.html">Xalisco Trips</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- Hero Section -->
+  <section class="hero-section position-relative overflow-hidden py-5" style="background: linear-gradient(135deg, #8b4513 0%, #ffc107 100%); min-height: 400px;">
+    <div class="container position-relative z-2">
+      <div class="row align-items-center" style="min-height: 350px;">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h1 class="display-4 fw-bold text-white mb-3">Tonalá + Tlaquepaque</h1>
+          <p class="lead text-white mb-4">Artisan market + Ceramic workshops + Live Mariachi + Magical cobblestone streets. We visit Tonalá in the morning when artisans are working, then Tlaquepaque's galleries in the afternoon.</p>
+          <div class="alert alert-light mb-4" style="background: rgba(255,255,255,0.95);">
+            <i class="bi bi-info-circle text-warning me-2"></i>
+            <strong>What makes this tour special:</strong> These two towns are the artisan heart of Jalisco. Tonalá is the workshop — where 80% of Mexico's exported decorative crafts are made. Tlaquepaque is the showroom — 300+ galleries and authentic mariachi at El Parián.
+          </div>
+          <a href="https://wa.me/5213351083318?text=Hello!%20I'm%20interested%20in%20the%20TONALA%20%2B%20TLAQUEPAQUE%20tour%20with%20Xalisco%20Trips.%20Can%20you%20provide%20more%20information?" class="btn btn-success btn-lg fw-bold">
+            <i class="bi bi-whatsapp me-2"></i>Book Now
+          </a>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <img src="img/destinos/tonala.webp" alt="Tonalá artisan market with ceramics" class="img-fluid rounded-3 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Itinerary -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Your Itinerary</h2>
+        <p class="lead text-muted">8 - 10 hours (flexible based on your preferences)</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-calendar-event text-warning fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">8:30 AM — Pickup from Your Hotel</h5>
+                <p class="text-muted mb-0">We collect you from your hotel in Guadalajara or metropolitan area.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-shop text-danger fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">9:15 AM — Arrival in Tonalá · Market and Workshops</h5>
+                <p class="text-muted mb-0"><strong>Best time to explore:</strong> Artisans are working, market is full, prices are best before midday. Tour through Talavera ceramics, blown glass, carved wood furniture, textiles. Visit family workshops using techniques passed down through generations. Flexible time based on your interest (typically 2-2.5 hours).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-fork-knife text-success fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">12:00 PM — Lunch in Tonalá</h5>
+                <p class="text-muted mb-0">Guide recommends the best local restaurants. Lunch is on you (typically $12-20 USD).</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-arrow-right text-info fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">1:00 PM — Drive to Tlaquepaque</h5>
+                <p class="text-muted mb-0">10-minute drive to San Pedro Tlaquepaque.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-building text-primary fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">1:15 PM – 2:30 PM — Tlaquepaque Historic Center Walking Tour</h5>
+                <p class="text-muted mb-0">Cobblestone streets of Independencia Avenue, Mexican fine art galleries, 16th-century colonial architecture. Over 300 galleries and shops featuring blown glass, clay, and fine art.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-music text-warning fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">2:30 PM - 3:30 PM — El Parián · Live Mariachi Experience</h5>
+                <p class="text-muted mb-0">Tlaquepaque's 19th-century covered market. The most authentic setting in Jalisco to experience live mariachi outside formal performance. Thursday & Sunday afternoons have highest musician concentration.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item mb-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-bag-check text-secondary fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">3:30 PM - 5:00 PM — Free Time for Shopping & Exploring</h5>
+                <p class="text-muted mb-0">Galleries, artisan workshops, local stores at your own pace. Guide recommends best spots based on your interests.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up" data-aos-delay="800">
+            <div class="d-flex gap-4">
+              <div class="timeline-marker">
+                <i class="bi bi-house-door text-success fs-5"></i>
+              </div>
+              <div class="timeline-content">
+                <h5 class="fw-bold mb-2">5:00 PM - 5:30 PM — Return to Guadalajara</h5>
+                <p class="text-muted mb-0">Drive back and drop-off at your hotel or agreed address.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personalization Note -->
+      <div class="alert alert-info mt-5" data-aos="fade-up">
+        <i class="bi bi-lightbulb me-2"></i>
+        <strong>Customizable Tours:</strong> These times are guidelines. As private tours, you decide how long to spend at each destination within an 8-10 hour total range. Want more time in Tonalá workshops? More time exploring Tlaquepaque galleries? We adapt completely to your schedule!
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Frequently Asked Questions — Tonalá + Tlaquepaque</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion" data-aos="fade-up">
+            
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq0">
+                  <i class="bi bi-credit-card me-2 text-warning"></i>How does payment work?
+                </button>
+              </h2>
+              <div id="faq0" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  We require a deposit to confirm your reservation — no booking is confirmed with a verbal agreement only. Three payment options available:
+                  <ul class="mt-3 mb-3">
+                    <li><strong>Option 1 — Full payment via Clip (MXN):</strong><br>Pay 100% via secure Clip link before your tour.<br>Due: 24 hours before tour date.</li>
+                    <li><strong>Option 2 — ACH deposit + Cash balance (USD):</strong><br>30% deposit via ACH bank transfer to Lead Bank (USD).<br>Remaining 70% in USD cash on tour day.<br>Due: ACH deposit 72 hours before tour / Cash at tour start.</li>
+                    <li><strong>Option 3 — Full cash payment (USD):</strong><br>100% in USD cash, paid at the start of the tour.<br>Due: Tour start day.<br>Note: Reservation is held pending deposit confirmation.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  <i class="bi bi-clock me-2 text-warning"></i>What time does the tour start?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  We depart early — around <strong>8:30 AM</strong> — to arrive at Tonalá before 9:15 AM. This is the best time to explore the market when artisans are actively working and prices are optimal.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  <i class="bi bi-question-circle me-2 text-warning"></i>Why do you visit Tonalá first?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Tonalá's artisan market and workshops are most active in the morning. You get better access to artisans, fresher inventory, cooler temperatures for walking, and better prices before midday. Tlaquepaque, with its established galleries, works perfectly as an afternoon destination.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  <i class="bi bi-cup-straw me-2 text-warning"></i>What makes Tonalá special?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Tonalá is not a souvenir market — it is Mexico's most important craft production center. An estimated <strong>80% of Mexico's exported decorative crafts</strong> come from Tonalá workshops. You can watch artisans working with techniques passed down through generations: Talavera ceramics, blown glass, carved wood, quarry stone, wrought iron, and textiles. Thursday and Sunday bring huge open-air markets.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  <i class="bi bi-hourglass me-2 text-warning"></i>What makes Tlaquepaque special?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  San Pedro Tlaquepaque was founded in 1530. Today it is Jalisco's most visited art and culture destination with cobblestone streets concentrating <strong>over 300 galleries and fine Mexican art studios</strong>. El Parián, a 19th-century covered market, is the most authentic setting for live mariachi outside formal performance. Unlike Guadalajara's Centro Histórico, Tlaquepaque maintains a walkable, tranquil pedestrian scale. Ideal stop between FIFA World Cup 2026 matches at Estadio Akron.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  <i class="bi bi-cash-coin me-2 text-warning"></i>What's included and what's not?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  <strong>INCLUDED:</strong>
+                  <ul class="mt-2 mb-2">
+                    <li>✅ Private door-to-door transport</li>
+                    <li>✅ Certified bilingual guide throughout the tour</li>
+                  </ul>
+                  <strong>NOT INCLUDED:</strong>
+                  <ul class="mb-0">
+                    <li>❌ Lunch (~$12-20 USD)</li>
+                    <li>❌ Market and gallery purchases</li>
+                    <li>❌ Souvenirs and personal items</li>
+                    <li>❌ Tips</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 rounded shadow-sm overflow-hidden">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  <i class="bi bi-calendar3 me-2 text-warning"></i>Best days for this tour?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  <strong>Thursday and Sunday</strong> are optimal — most active tianguis (market) in Tonalá and highest mariachi presence in Tlaquepaque. Weekdays are quieter and better for gallery browsing without crowds.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Methods -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="mb-3">Payment Methods</h2>
+        <p class="lead text-muted">We accept flexible payment options for your convenience. A 30% non-refundable deposit is required to secure your reservation.</p>
+      </div>
+
+      <div class="row justify-content-center g-4">
+        
+        <!-- Clip MXN -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-wallet2 text-warning" style="font-size: 2.5rem;"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-2">Clip Payment Link</h5>
+              <p class="card-text text-muted mb-3">Pay in Mexican Pesos (MXN) instantly via Clip.</p>
+<a href="https://pago.clip.mx/v3/42cffb8a-6a88-4f19-9074-ecf2b7f27f52"><img src="https://cdn.prod.website-files.com/62588b32d8d6105ab7aa9721/63bf568610f3fdf437235192_Preview.svg" alt="Pay with Clip" /></a>
+              <p class="small text-muted mt-2">✓ Instant confirmation<br>✓ Secure payment</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cash USD -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-cash-coin text-success" style="font-size: 2.5rem;"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-2">Cash USD</h5>
+              <p class="card-text text-muted mb-3">Pay the full amount or deposit in US dollars cash on the tour day.</p>
+              <p class="small text-muted mb-0">
+                <strong>When:</strong> Hotel pickup or start of tour<br>
+                <strong>What we accept:</strong> USD cash bills<br>
+                <strong>Note:</strong> 30% deposit required in advance
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACH Transfer -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-bank text-info" style="font-size: 2.5rem;"></i>
+              </div>
+              <h5 class="card-title fw-bold mb-2">ACH Bank Transfer</h5>
+              <p class="card-text text-muted mb-3">Send funds directly from your US bank account.</p>
+              
+              <div class="bg-light p-3 rounded mb-3 text-start" style="font-size: 0.9rem;">
+                <p class="mb-2"><strong>Recipient Name:</strong><br>Octavio Orozco González</p>
+                <p class="mb-2"><strong>Bank:</strong><br>Lead Bank</p>
+                <p class="mb-2"><strong>Account #:</strong><br>213254242547</p>
+                <p class="mb-2"><strong>Routing #:</strong><br>101019644</p>
+                <p class="mb-0"><strong>Account Type:</strong><br>Checking</p>
+              </div>
+              
+              <p class="small text-muted mb-0">
+                <i class="bi bi-info-circle me-1"></i>Include your tour date in memo. Allow 2-3 business days for processing.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="alert alert-warning mt-4">
+        <p><strong>⚠️ Important Payment & Cancellation Policy:</strong></p>
+        <ul>
+          <li><strong>Option 1 — Clip (MXN):</strong> Pay 100% via secure Clip link. Due 24 hours before tour date.</li>
+          <li><strong>Option 2 — ACH + Cash (USD):</strong> 30% deposit via ACH to Lead Bank, due 72 hours before tour (ACH takes 2-3 business days to clear). Remaining 70% in USD cash at tour start.</li>
+          <li><strong>Option 3 — Full Cash (USD):</strong> 100% in USD cash, paid at tour start. Subject to availability — no deposit holds the date.</li>
+          <li><strong>No-Show Policy:</strong> Cancellation within 24 hours of tour start = loss of full deposit. Cancellations with 48+ hours notice receive a credit for future tours.</li>
+          <li><strong>Important:</strong> No booking is confirmed by verbal agreement only. Your spot is secured only upon deposit confirmation.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="py-5 cta-section text-center">
+    <div class="container">
+      <h2 class="display-5 fw-bold text-dark mb-3">Ready for Your Adventure?</h2>
+      <p class="lead text-dark mb-4">Private customizable tour. You set the pace.</p>
+      <a href="https://wa.me/5213351083318?text=Hello!%20I'm%20interested%20in%20the%20TONALA%20%2B%20TLAQUEPAQUE%20tour%20with%20Xalisco%20Trips.%20Can%20you%20provide%20more%20information?" class="btn btn-success btn-lg px-5 py-3 fw-bold">
+        <i class="bi bi-whatsapp me-2"></i>Book Now via WhatsApp
+      </a>
+      <p class="small text-dark mt-3"><i class="bi bi-info-circle me-1"></i>Guaranteed response in less than 15 minutes</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
+      <p class="mb-0">
+        <a href="tonala-tlaquepaque.html" class="text-warning me-3">Es</a>
+        <a href="tonala-tlaquepaque-en.html" class="text-warning">En</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
