@@ -1,1 +1,8 @@
 .idea/
+*.md
+!README.md
+psi_report.json
+*_report*.json
+AUDITORIA-*.md
+REPORTE-*.md
+seo-fix-*.md
