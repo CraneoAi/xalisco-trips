@@ -75,7 +75,8 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TouristTrip",
+    "@type": "Product",
+    "brand": { "@type": "Brand", "name": "Xalisco Trips" },
     "name": "Tour Gastronómico Tapatío — Comida Callejera Guadalajara",
     "description": "Tour privado de comida callejera en Guadalajara con guía certificado local. Birria, tortas ahogadas, tejuino y auténtica gastronomía jaliscience en lugares legendarios. NO apto para vegetarianos.",
     "url": "https://xaliscotrips.lat/foodie-tour.html",
@@ -96,14 +97,16 @@
         "@type": "AggregateRating",
         "ratingValue": "5.0",
         "reviewCount": "24",
-        "bestRating": "5"
+        "bestRating": "5",
+        "worstRating": "1"
       }
     },
     "offers": {
       "@type": "Offer",
       "priceCurrency": "USD",
       "price": "50",
-      "availability": "https://schema.org/InStock"
+      "availability": "https://schema.org/InStock",
+      "seller": { "@type": "Organization", "name": "Xalisco Trips" }
     }
   }
   </script>
@@ -130,6 +133,7 @@
       "@type": "AggregateRating",
       "ratingValue": "4.8",
       "bestRating": "5",
+      "worstRating": "1",
       "ratingCount": "45"
     }
   }
