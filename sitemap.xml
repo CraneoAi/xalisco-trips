@@ -198,6 +198,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque.html"/>
   </url>
 
   <url>
@@ -207,6 +208,7 @@
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque.html"/>
   </url>
 
 </urlset>
