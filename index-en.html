@@ -111,7 +111,7 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap&font-display=swap"
       rel="stylesheet"
     />
 
@@ -120,10 +120,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">`r`n    <noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">`r`n    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></noscript></noscript>
 
     <!-- AOS Animation Library -->
     <link
@@ -309,7 +306,8 @@
     </div>
 
     <!-- Hero -->
-    <section id="hero" class="hero">
+        <main>
+<section id="hero" class="hero">
       <div class="hero-content container">
         <div class="hero-title-container">
           <span class="spinning-ball">⚽</span>
@@ -587,7 +585,7 @@
                     type="button"
                     data-bs-target="#carouselChapalaTonalaCombo"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -599,7 +597,7 @@
                     type="button"
                     data-bs-target="#carouselChapalaTonalaCombo"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -860,7 +858,7 @@
                     type="button"
                     data-bs-target="#carouselTequilaGuachimontones"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -872,7 +870,7 @@
                     type="button"
                     data-bs-target="#carouselTequilaGuachimontones"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -942,38 +940,112 @@
                   data-bs-ride="carousel"
                 >
                   <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="4"></button>
-                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="5"></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide-to="5"
+                    ></button>
                   </div>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="img/destinos/tonala1.1.1.webp" class="card-img-top" alt="Unique pieces from Tonala artisan market" /><span class="destination-label tonala">Tonala</span>
+                      <img
+                        src="img/destinos/tonala1.1.1.webp"
+                        class="card-img-top"
+                        alt="Unique pieces from Tonala artisan market"
+                      /><span class="destination-label tonala">Tonala</span>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/destinos/tonala.webp" class="card-img-top" alt="Tonala handicrafts" loading="lazy" /><span class="destination-label tonala">Tonala</span>
+                      <img
+                        src="img/destinos/tonala.webp"
+                        class="card-img-top"
+                        alt="Tonala handicrafts"
+                        loading="lazy"
+                      /><span class="destination-label tonala">Tonala</span>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/destinos/tonala1.webp" class="card-img-top" alt="Tonala artisan market" loading="lazy" /><span class="destination-label tonala">Tonala</span>
+                      <img
+                        src="img/destinos/tonala1.webp"
+                        class="card-img-top"
+                        alt="Tonala artisan market"
+                        loading="lazy"
+                      /><span class="destination-label tonala">Tonala</span>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/destinos/tonala1.1.webp" class="card-img-top" alt="Tonala artisan details" loading="lazy" /><span class="destination-label tonala">Tonala</span>
+                      <img
+                        src="img/destinos/tonala1.1.webp"
+                        class="card-img-top"
+                        alt="Tonala artisan details"
+                        loading="lazy"
+                      /><span class="destination-label tonala">Tonala</span>
                     </div>
                     <div class="carousel-item">
-                      <img src="img/destinos/tlaquepaque.webp" class="card-img-top" alt="Cobblestone streets of Tlaquepaque" loading="lazy" /><span class="destination-label tlaquepaque">Tlaquepaque</span>
+                      <img
+                        src="img/destinos/tlaquepaque.webp"
+                        class="card-img-top"
+                        alt="Cobblestone streets of Tlaquepaque"
+                        loading="lazy"
+                      /><span class="destination-label tlaquepaque"
+                        >Tlaquepaque</span
+                      >
                     </div>
                     <div class="carousel-item">
-                      <img src="img/destinos/tonala1.2.webp" class="card-img-top" alt="Colorful Tonala crafts" loading="lazy" /><span class="destination-label tonala">Tonala</span>
+                      <img
+                        src="img/destinos/tonala1.2.webp"
+                        class="card-img-top"
+                        alt="Colorful Tonala crafts"
+                        loading="lazy"
+                      /><span class="destination-label tonala">Tonala</span>
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselTonalaTlaquepaque"
+                    data-bs-slide="prev"
+                   aria-label="Imagen anterior">
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span
+                    ><span class="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselTonalaTlaquepaque"
+                    data-bs-slide="next"
+                   aria-label="Imagen siguiente">
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span
+                    ><span class="visually-hidden">Next</span>
                   </button>
                 </div>
               </div>
@@ -1075,7 +1147,7 @@
                     type="button"
                     data-bs-target="#carouselMazamitla"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -1087,7 +1159,7 @@
                     type="button"
                     data-bs-target="#carouselMazamitla"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -1304,7 +1376,7 @@
                     type="button"
                     data-bs-target="#carouselTequila"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -1316,7 +1388,7 @@
                     type="button"
                     data-bs-target="#carouselTequila"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -1537,7 +1609,7 @@
                     type="button"
                     data-bs-target="#carouselGuachimontones"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -1549,7 +1621,7 @@
                     type="button"
                     data-bs-target="#carouselGuachimontones"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -1648,7 +1720,7 @@
                     type="button"
                     data-bs-target="#carouselAirport"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -1660,7 +1732,7 @@
                     type="button"
                     data-bs-target="#carouselAirport"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -1890,7 +1962,7 @@
                     type="button"
                     data-bs-target="#carouselFoodie"
                     data-bs-slide="prev"
-                  >
+                   aria-label="Imagen anterior">
                     <span
                       class="carousel-control-prev-icon"
                       aria-hidden="true"
@@ -1902,7 +1974,7 @@
                     type="button"
                     data-bs-target="#carouselFoodie"
                     data-bs-slide="next"
-                  >
+                   aria-label="Imagen siguiente">
                     <span
                       class="carousel-control-next-icon"
                       aria-hidden="true"
@@ -2625,7 +2697,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-light py-5">
+        </main>
+<footer class="bg-dark text-light py-5">
       <div class="container">
         <div class="row g-4">
           <div class="col-md-6">
@@ -3240,8 +3313,8 @@
     </script>
 
     <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js" defer></script>
     <script src="js/main.js"></script>
     <script>
       // Auto-ocultar burbuja después de 6 segundos
@@ -3258,3 +3331,6 @@
     </script>
   </body>
 </html>
+
+
+
