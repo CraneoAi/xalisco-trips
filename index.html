@@ -936,12 +936,46 @@
                   style="background: #9663c4; color: white"
                   >🎨 Combo Artesanal</span
                 >
-                <img
-                  src="https://xaliscotrips.lat/img/destinos/tonala.webp"
-                  class="card-img-top"
-                  alt="Tianguis artesanal de Tonalá Jalisco"
-                  loading="lazy"
-                />
+                <div
+                  id="carouselTonalaTlaquepaque"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide-to="5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/destinos/tonala1.1.1.webp" class="card-img-top" alt="Piezas únicas del tianguis de Tonalá" /><span class="destination-label tonala">Tonalá</span>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/destinos/tonala.webp" class="card-img-top" alt="Artesanías de Tonalá" loading="lazy" /><span class="destination-label tonala">Tonalá</span>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/destinos/tonala1.webp" class="card-img-top" alt="Mercado artesanal de Tonalá" loading="lazy" /><span class="destination-label tonala">Tonalá</span>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/destinos/tonala1.1.webp" class="card-img-top" alt="Detalles de artesanía en Tonalá" loading="lazy" /><span class="destination-label tonala">Tonalá</span>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/destinos/tlaquepaque.webp" class="card-img-top" alt="Calles empedradas de Tlaquepaque" loading="lazy" /><span class="destination-label tlaquepaque">Tlaquepaque</span>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/destinos/tonala1.2.webp" class="card-img-top" alt="Colorido artesanal de Tonalá" loading="lazy" /><span class="destination-label tonala">Tonalá</span>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselTonalaTlaquepaque" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div>
               </div>
               <div class="card-body">
                 <h5 class="card-title">
@@ -2980,7 +3014,12 @@
             >
               <i class="bi bi-chevron-left"></i>
             </button>
-            <img src="" alt="Vista ampliada del tour seleccionado" class="lightbox-img" id="lightboxImage" />
+            <img
+              src=""
+              alt="Vista ampliada del tour seleccionado"
+              class="lightbox-img"
+              id="lightboxImage"
+            />
             <button
               type="button"
               class="lightbox-nav next"
