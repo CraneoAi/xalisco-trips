@@ -132,7 +132,7 @@
     </style>
 
     <!-- Tonalá + Tlaquepaque Tour Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -152,6 +152,38 @@
           "seller": {
             "@type": "Organization",
             "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
           }
         },
         "aggregateRating": {

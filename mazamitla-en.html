@@ -132,17 +132,23 @@
     </style>
 
     <!-- Mazamitla Tour Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
         "name": "Private Mazamitla Tour from Guadalajara",
         "description": "Private day tour to Mazamitla Magical Town from Guadalajara. Pine forests, waterfalls, zip lines and mountain air at 2,200 meters elevation with a certified bilingual guide.",
         "url": "https://xaliscotrips.lat/mazamitla-en.html",
         "image": "https://xaliscotrips.lat/img/destinos/mazamitla.webp",
         "touristType": "Nature lovers, adventure travelers, families, couples",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
@@ -202,7 +208,42 @@
           "priceCurrency": "USD",
           "price": "55",
           "availability": "https://schema.org/InStock",
-          "seller": { "@type": "Organization", "name": "Xalisco Trips" }
+          "seller": {
+            "@type": "Organization",
+            "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       }
     </script>

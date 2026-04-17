@@ -132,17 +132,23 @@
     </style>
 
     <!-- Tequila Tour Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
         "name": "Private Tequila Tour from Guadalajara",
         "description": "Private day tour to Tequila, Jalisco from Guadalajara. Visit blue agave fields, Destilería Tres Mujeres, and the UNESCO World Heritage Pueblo Mágico. Bilingual certified guide, door-to-door pickup.",
         "url": "https://xaliscotrips.lat/tequila-en.html",
         "image": "https://xaliscotrips.lat/img/destinos/tequila.webp",
         "touristType": "Cultural travelers, food & drink enthusiasts, UNESCO site visitors",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
@@ -202,7 +208,42 @@
           "priceCurrency": "USD",
           "price": "42",
           "availability": "https://schema.org/InStock",
-          "seller": { "@type": "Organization", "name": "Xalisco Trips" }
+          "seller": {
+            "@type": "Organization",
+            "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       }
     </script>

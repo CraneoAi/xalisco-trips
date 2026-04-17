@@ -132,16 +132,22 @@
     </style>
 
     <!-- Tlaquepaque Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
         "name": "Tour Tlaquepaque — Arte Mexicano y Mariachis desde Guadalajara",
         "description": "Tour privado medio día a Tlaquepaque: galerías de arte mexicano, mariachis en vivo, artesanías, vidrio soplado, cerámica Talavera, piezas de cuero. 4-6 horas, guía local certificado. Perfecto para compras de recuerdos únicos.",
         "url": "https://xaliscotrips.lat/tlaquepaque.html",
         "touristType": "Amantes del arte, compradores, familias, viajeros con tiempo limitado",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
@@ -166,7 +172,42 @@
           "priceCurrency": "USD",
           "price": "35",
           "availability": "https://schema.org/InStock",
-          "seller": { "@type": "Organization", "name": "Xalisco Trips" }
+          "seller": {
+            "@type": "Organization",
+            "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       }
     </script>

@@ -134,16 +134,22 @@
     </style>
 
     <!-- Guachimontones Tour Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
         "name": "Private Guachimontones Tour from Guadalajara",
         "description": "Private day tour to the Guachimontones archaeological site from Guadalajara. Explore unique circular pyramids of the Teuchitlán culture with a certified bilingual guide.",
         "url": "https://xaliscotrips.lat/guachimontones-en.html",
         "touristType": "History enthusiasts, archaeology fans, cultural travelers",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
@@ -168,7 +174,42 @@
           "priceCurrency": "USD",
           "price": "42",
           "availability": "https://schema.org/InStock",
-          "seller": { "@type": "Organization", "name": "Xalisco Trips" }
+          "seller": {
+            "@type": "Organization",
+            "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       }
     </script>

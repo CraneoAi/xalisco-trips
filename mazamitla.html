@@ -128,16 +128,22 @@
     </style>
 
     <!-- Mazamitla Schema -->
-    <script type="application/ld+json">
+        <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "brand": { "@type": "Brand", "name": "Xalisco Trips" },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
         "name": "Tour Mazamitla — Pueblo Mágico de Montaña desde Guadalajara",
         "description": "Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, todo incluido excepto lunch. Guía local certificado.",
         "url": "https://xaliscotrips.lat/mazamitla.html",
         "touristType": "Familias, amantes de naturaleza, aventureros, senderistas",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
@@ -162,7 +168,42 @@
           "priceCurrency": "USD",
           "price": "55",
           "availability": "https://schema.org/InStock",
-          "seller": { "@type": "Organization", "name": "Xalisco Trips" }
+          "seller": {
+            "@type": "Organization",
+            "name": "Xalisco Trips"
+          },
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
         }
       }
     </script>
