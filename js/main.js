@@ -289,3 +289,24 @@
   }
 
 })();
+
+// GA4 — WhatsApp click tracking
+document.querySelectorAll('a[href*="wa.me"]').forEach(function(link) {
+  link.addEventListener('click', function() {
+    var url = this.getAttribute('href');
+    var tour = 'general';
+    if (url.includes('Chapala')) tour = 'chapala-tonala';
+    else if (url.includes('Tequila')) tour = 'tequila-guachimontones';
+    else if (url.includes('Mazamitla')) tour = 'mazamitla';
+    else if (url.includes('Tlaquepaque')) tour = 'tlaquepaque';
+    else if (url.includes('Foodie')) tour = 'foodie-tour';
+    else if (url.includes('traslado') || url.includes('aeropuerto')) tour = 'airport-transfer';
+    else if (url.includes('Guachimontones')) tour = 'guachimontones';
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'whatsapp_click', {
+        'tour_name': tour,
+        'page_location': window.location.pathname
+      });
+    }
+  });
+});
