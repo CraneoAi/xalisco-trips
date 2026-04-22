@@ -1,0 +1,15 @@
+{
+  "name": "xalisco-trips",
+  "version": "1.0.0",
+  "description": "**Dominio:** `xaliscotrips.lat`   **Versión:** 3.3.0 (SEO Optimizado + Tonalá+Tlaquepaque Forense Fix + Paridad 1:1)   **Última actualización:** 8 de abril de 2026 (Sesión 6: Tonalá+Tlaquepaque Forense Fix)   **Responsable:** Xalisco Trips Team + GitHub Copilot Auditoría Forense   **Hosting:** GitHub Pages ([craneoai.github.io/xalisco-trips](https://craneoai.github.io/xalisco-trips))   **Repositorio:** [CraneoAi/xalisco-trips](https://github.com/CraneoAi/xalisco-trips)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

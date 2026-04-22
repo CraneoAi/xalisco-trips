@@ -122,8 +122,21 @@
     /></noscript>
 
     <!-- Bootstrap & Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-<link
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    /></noscript>
+    <link
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       as="style"
@@ -139,11 +152,24 @@
     /></noscript>
 
     <!-- AOS Animation Library -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
-<!-- Custom Styles -->
-    <link rel="stylesheet" href="/css/styles.css">
-<!-- Google tag (gtag.js) -->
-<style>
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    /></noscript>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <style>
       :root {
         --brand-primary: #ffc107;
         --brand-whatsapp: #25d366;
@@ -338,7 +364,120 @@
       fetchpriority="high"
     />
     <style>
-    /* Critical CSS inline — above the fold only */
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        background: #fff;
+        color: #212529;
+      }
+      .hero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background: #1a1a2e;
+      }
+      .hero img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        color: #fff;
+        padding: 2rem 1rem;
+      }
+      .hero-title-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+      h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: clamp(2rem, 6vw, 3.5rem);
+        font-weight: 700;
+        margin: 0;
+      }
+      .lead {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+      }
+      .btn {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.375rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid transparent;
+      }
+      .btn-warning {
+        background: #ffc107;
+        color: #212529;
+      }
+      .btn-outline-light {
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+      }
+      .language-switcher {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 0.3rem 0.75rem;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 0.85rem;
+      }
+      .language-switcher a {
+        color: #ffc107;
+        text-decoration: none;
+      }
+      .worldcup-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.75rem;
+        background: linear-gradient(135deg, #1a472a, #2d6a4f);
+        color: #fff;
+        padding: 0.6rem 1rem;
+        text-decoration: none;
+        position: relative;
+        z-index: 100;
+      }
+      .wa-widget {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 9998;
+      }
+      .wa-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #25d366;
+        color: #fff;
+        padding: 0.75rem 1.25rem;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      }
     </style>
   </head>
   <body>
@@ -368,7 +507,8 @@
     <div class="wa-widget" id="waWidget">
       <div class="wa-bubble" id="waBubble">
         <strong>¡Hola! 👋 Xalisco Trips</strong>
-        ¿Cómo podemos ayudarte? Respondemos en menos de 15 minutos.
+        ¿A dónde quieres ir? Cotiza tu tour privado ahora — respuesta en 15 min
+        ⚡
         <div class="wa-time">ahora</div>
       </div>
       <div class="position-relative">
@@ -426,9 +566,21 @@
             Transporte privado · Guía certificado · Seguro incluido · Atención
             24/7
           </p>
-          <a href="#destinos" class="btn btn-warning btn-lg mt-3"
-            >Explorar destinos</a
+          <div
+            class="d-flex flex-column flex-sm-row gap-3 mt-3 justify-content-center"
           >
+            <a
+              href="https://wa.me/5213351083318?text=¡Hola%20Xalisco%20Trips!%20Quiero%20reservar%20un%20tour%20privado%20desde%20Guadalajara."
+              class="btn btn-warning btn-lg px-4 fw-bold"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bi bi-whatsapp me-2"></i>Reservar Ahora
+            </a>
+            <a href="#destinos" class="btn btn-outline-light btn-lg px-4">
+              Ver destinos
+            </a>
+          </div>
         </div>
       </section>
 
@@ -793,7 +945,7 @@
                     Tonalá (tianguis artesanal, museo de las máscaras)
                   </div>
                   <a
-                    href="https://xaliscotrips.lat/chapala-tonala.html"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Quiero%20reservar%20el%20tour%20Chapala%20%2B%20Ton%C3%A1"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Combo
@@ -1109,7 +1261,7 @@
                     mágico) y Guachimontones (zona arqueológica y museo)
                   </div>
                   <a
-                    href="https://xaliscotrips.lat/tequila-guachimontones.html"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Quiero%20reservar%20el%20tour%20Tequila%20%2B%20Guachimontones"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Combo
@@ -1420,7 +1572,7 @@
                     tour</a
                   >
                   <a
-                    href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20MAZAMITLA%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Quiero%20reservar%20el%20tour%20a%20Mazamitla"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Mazamitla
@@ -1743,7 +1895,7 @@
                     tour</a
                   >
                   <a
-                    href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20tour%20a%20TLAQUEPAQUE%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Quiero%20reservar%20el%20tour%20a%20Tlaquepaque"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Tlaquepaque
@@ -2064,7 +2216,7 @@
                     tour</a
                   >
                   <a
-                    href="https://wa.me/5213351083318?text=¡Hola!%20Necesito%20TRASLADO%20AL%20AEROPUERTO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Necesito%20un%20traslado%20al%20aeropuerto"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Traslado
@@ -2339,7 +2491,7 @@
                     tour</a
                   >
                   <a
-                    href="https://wa.me/5213351083318?text=¡Hola!%20Me%20interesa%20el%20FOODIE%20TOUR%20TAPATIO%20con%20Xalisco%20Trips.%20¿Podrían%20darme%20más%20información?"
+                    href="https://wa.me/5213351083318?text=Hola%20Xalisco%20Trips!%20Quiero%20reservar%20el%20Foodie%20Tour"
                     class="btn btn-success w-100 fw-bold"
                   >
                     <i class="bi bi-whatsapp me-2"></i>Reservar Foodie Tour
@@ -4102,7 +4254,10 @@
     </script>
 
     <!-- Google tag (gtag.js) -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"></script>
+    <script
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
