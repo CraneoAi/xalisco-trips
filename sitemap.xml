@@ -23,6 +23,46 @@
   </url>
 
   <url>
+    <loc>https://xaliscotrips.lat/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-22</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
     <loc>https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"/>
