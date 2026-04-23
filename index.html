@@ -405,7 +405,7 @@
         text-align: center;
         color: #fff;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        background-image: url('/img/hero/portada-jalisco.webp');
+        background-image: url("/img/hero/portada-jalisco.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -414,7 +414,11 @@
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+        background: linear-gradient(
+          45deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.3)
+        );
       }
       .hero-content {
         position: relative;
@@ -426,13 +430,13 @@
         font-size: clamp(2.5rem, 8vw, 4rem);
         font-weight: 700;
         margin-bottom: 1.5rem;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         animation: fadeInUp 1s ease-out;
       }
       .hero .lead {
         font-size: clamp(1.1rem, 4vw, 1.5rem);
         margin-bottom: 2rem;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         animation: fadeInUp 1s ease-out 0.3s both;
       }
       .hero .btn {
@@ -4323,4 +4327,3 @@
     </script>
   </body>
 </html>
-

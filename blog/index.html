@@ -17,13 +17,14 @@
       hreflang="en"
       href="https://xaliscotrips.lat/en/blog/"
     />
-    <link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://xaliscotrips.lat/blog/"
+    />
     <meta name="theme-color" content="#ffc107" />
     <link rel="manifest" href="/manifest.json" />
-    <meta
-      property="og:title"
-      content="Blog de Viajes — Xalisco Trips"
-    />
+    <meta property="og:title" content="Blog de Viajes — Xalisco Trips" />
     <meta
       property="og:description"
       content="Guías y recomendaciones para explorar Jalisco desde Guadalajara con Xalisco Trips."
@@ -37,10 +38,7 @@
     <meta property="og:locale" content="es_MX" />
     <meta property="og:site_name" content="Xalisco Trips" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Blog de Viajes — Xalisco Trips"
-    />
+    <meta name="twitter:title" content="Blog de Viajes — Xalisco Trips" />
     <meta
       name="twitter:description"
       content="Guías y recomendaciones para explorar Jalisco desde Guadalajara con Xalisco Trips."
@@ -59,7 +57,10 @@
       rel="preload"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
       as="style"
-      onload="this.onload=null;this.rel='stylesheet';"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
     <noscript>
       <link
@@ -71,7 +72,10 @@
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       as="style"
-      onload="this.onload=null;this.rel='stylesheet';"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
     <noscript>
       <link
@@ -83,7 +87,10 @@
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       as="style"
-      onload="this.onload=null;this.rel='stylesheet';"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
     <noscript>
       <link
@@ -96,7 +103,10 @@
       rel="preload"
       href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
       as="style"
-      onload="this.onload=null;this.rel='stylesheet';"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
     />
     <noscript>
       <link
@@ -108,14 +118,17 @@
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com;"
     />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
-      gtag('config', 'G-WEMYBB1NGK');
+      gtag("js", new Date());
+      gtag("config", "G-WEMYBB1NGK");
     </script>
     <style>
       :root {
@@ -131,19 +144,24 @@
         background: #1a1a2e !important;
       }
       body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: "Open Sans", sans-serif;
         background: #1a1a2e;
         color: #18212f;
       }
       .blog-hero {
         position: relative;
         overflow: hidden;
-        background: linear-gradient(135deg, #183a2a 0%, #2d6a4f 55%, #ffc107 150%);
+        background: linear-gradient(
+          135deg,
+          #183a2a 0%,
+          #2d6a4f 55%,
+          #ffc107 150%
+        );
         color: #fff;
       }
       .blog-hero::before,
       .blog-hero::after {
-        content: '';
+        content: "";
         position: absolute;
         border-radius: 999px;
         filter: blur(10px);
@@ -172,7 +190,9 @@
         border-radius: 1.5rem;
         overflow: hidden;
         box-shadow: 0 1.25rem 2.5rem rgba(15, 23, 42, 0.12);
-        transition: transform 160ms ease, box-shadow 160ms ease;
+        transition:
+          transform 160ms ease,
+          box-shadow 160ms ease;
       }
       .blog-card:hover {
         transform: translateY(-4px);
@@ -210,7 +230,9 @@
     </style>
   </head>
   <body>
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <header
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
+    >
       <div class="container">
         <a class="navbar-brand fw-bold" href="/">
           <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips
@@ -232,7 +254,9 @@
               <a class="nav-link" href="/#faq">FAQ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/blog/">Blog</a>
+              <a class="nav-link active" aria-current="page" href="/blog/"
+                >Blog</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/en/blog/">EN</a>
@@ -247,15 +271,23 @@
         <div class="container hero-shell py-4 py-lg-5">
           <div class="row align-items-center g-4">
             <div class="col-lg-8">
-              <div class="section-label mb-3">Guías, rutas y consejos locales</div>
-              <h1 class="display-4 fw-bold mb-3">Blog de Viajes — Xalisco Trips</h1>
-              <p class="lead mb-4" style="max-width: 42rem;">
+              <div class="section-label mb-3">
+                Guías, rutas y consejos locales
+              </div>
+              <h1 class="display-4 fw-bold mb-3">
+                Blog de Viajes — Xalisco Trips
+              </h1>
+              <p class="lead mb-4" style="max-width: 42rem">
                 Ideas prácticas para salir de Guadalajara, descubrir Jalisco y
-                regresar con el día bien aprovechado. Cada guía está pensada para
-                viajeros que quieren moverse con un guía privado certificado.
+                regresar con el día bien aprovechado. Cada guía está pensada
+                para viajeros que quieren moverse con un guía privado
+                certificado.
               </p>
               <div class="d-flex flex-wrap gap-3">
-                <a class="btn btn-warning btn-lg fw-bold px-4" href="/blog/excursiones-desde-guadalajara/">
+                <a
+                  class="btn btn-warning btn-lg fw-bold px-4"
+                  href="/blog/excursiones-desde-guadalajara/"
+                >
                   <i class="bi bi-journal-text me-2"></i>Explorar artículo
                 </a>
                 <a class="btn btn-outline-light btn-lg fw-bold px-4" href="/">
@@ -264,11 +296,17 @@
               </div>
             </div>
             <div class="col-lg-4 text-lg-end">
-              <div class="d-inline-flex align-items-center gap-3 p-3 rounded-4 bg-white bg-opacity-10 border border-white border-opacity-10 shadow-sm">
-                <span class="icon-pill"><i class="bi bi-compass fs-4 text-warning"></i></span>
+              <div
+                class="d-inline-flex align-items-center gap-3 p-3 rounded-4 bg-white bg-opacity-10 border border-white border-opacity-10 shadow-sm"
+              >
+                <span class="icon-pill"
+                  ><i class="bi bi-compass fs-4 text-warning"></i
+                ></span>
                 <div class="text-start">
                   <div class="fw-semibold">Una guía a la vez</div>
-                  <div class="small text-white-50">Contenido pensado para planear tu ruta con claridad.</div>
+                  <div class="small text-white-50">
+                    Contenido pensado para planear tu ruta con claridad.
+                  </div>
                 </div>
               </div>
             </div>
@@ -278,23 +316,38 @@
 
       <section class="py-5 py-lg-6">
         <div class="container">
-          <div class="d-flex align-items-end justify-content-between gap-3 mb-4">
+          <div
+            class="d-flex align-items-end justify-content-between gap-3 mb-4"
+          >
             <div>
-              <p class="text-uppercase text-warning fw-semibold mb-1">Publicaciones recientes</p>
+              <p class="text-uppercase text-warning fw-semibold mb-1">
+                Publicaciones recientes
+              </p>
               <h2 class="h3 mb-0">Empieza por la primera guía</h2>
             </div>
-            <span class="badge rounded-pill text-bg-dark px-3 py-2">1 artículo disponible</span>
+            <span class="badge rounded-pill text-bg-dark px-3 py-2"
+              >1 artículo disponible</span
+            >
           </div>
 
           <div class="row g-4">
             <div class="col-12 col-md-10 col-lg-8">
               <article class="card blog-card h-100">
                 <div class="card-body d-flex flex-column">
-                  <div class="d-flex align-items-center justify-content-between mb-3">
-                    <span class="badge text-bg-warning text-dark rounded-pill px-3 py-2">Guía 2026</span>
-                    <time class="text-muted small" datetime="2026-04-22">22 abr 2026</time>
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-3"
+                  >
+                    <span
+                      class="badge text-bg-warning text-dark rounded-pill px-3 py-2"
+                      >Guía 2026</span
+                    >
+                    <time class="text-muted small" datetime="2026-04-22"
+                      >22 abr 2026</time
+                    >
                   </div>
-                  <h3 class="h4 fw-bold mb-3">Las 6 Mejores Excursiones desde Guadalajara (2026)</h3>
+                  <h3 class="h4 fw-bold mb-3">
+                    Las 6 Mejores Excursiones desde Guadalajara (2026)
+                  </h3>
                   <p class="text-muted excerpt-clamp mb-4">
                     Guadalajara es una base ideal para salir temprano y volver
                     el mismo día. Esta guía resume seis excursiones esenciales:
@@ -302,10 +355,16 @@
                     Mazamitla.
                   </p>
                   <div class="mt-auto d-flex flex-wrap gap-3">
-                    <a class="btn btn-warning fw-bold px-4" href="/blog/excursiones-desde-guadalajara/">
+                    <a
+                      class="btn btn-warning fw-bold px-4"
+                      href="/blog/excursiones-desde-guadalajara/"
+                    >
                       Leer más
                     </a>
-                    <a class="btn btn-outline-dark fw-semibold px-4" href="/en/blog/">
+                    <a
+                      class="btn btn-outline-dark fw-semibold px-4"
+                      href="/en/blog/"
+                    >
                       English version
                     </a>
                   </div>
@@ -320,13 +379,28 @@
     <footer class="bg-dark text-light py-4">
       <div class="container text-center">
         <div class="d-flex justify-content-center gap-3 mb-3">
-          <a href="https://www.instagram.com/xaliscotrips?igsh=cWUzejhoNWhrcGFq" target="_blank" rel="noopener" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/xaliscotrips?igsh=cWUzejhoNWhrcGFq"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
             <i class="bi bi-instagram fs-5 text-warning"></i>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61583422030849" target="_blank" rel="noopener" aria-label="Facebook">
+          <a
+            href="https://www.facebook.com/profile.php?id=61583422030849"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+          >
             <i class="bi bi-facebook fs-5 text-warning"></i>
           </a>
-          <a href="https://www.tiktok.com/@xalisco.trips" target="_blank" rel="noopener" aria-label="TikTok">
+          <a
+            href="https://www.tiktok.com/@xalisco.trips"
+            target="_blank"
+            rel="noopener"
+            aria-label="TikTok"
+          >
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
@@ -338,10 +412,16 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"
+      defer
+    ></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener("DOMContentLoaded", function () {
         if (window.AOS) {
           AOS.init({ once: true, duration: 600, offset: 80 });
         }
