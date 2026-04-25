@@ -16,6 +16,13 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      // Emergency fallback: normalize explicit /index.html to root canonical URL.
+      if (window.location.pathname.endsWith("/index.html")) {
+        const target = `https://xaliscotrips.lat/${window.location.search}${window.location.hash}`;
+        window.location.replace(target);
+      }
+    </script>
     <title>
       Xalisco Trips | Tours Privados en Guadalajara - Sede Mundial 2026
     </title>
