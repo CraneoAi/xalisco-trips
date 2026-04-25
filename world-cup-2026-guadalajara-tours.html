@@ -418,11 +418,13 @@
         ]
       }
     </script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/polyfill.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/polyfill.js"></script>
+    <script>
+      (function() {
+        var s = document.createElement('style');
+        s.textContent = '@font-face{font-family:"Twemoji Country Flags";src:url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");unicode-range:U+1F1E0-1F1FF,U+1F3F4,U+E0062-E0063,U+E0065,U+E0067,U+E006C,U+E006E,U+E0073-E0074,U+E0077,U+E007F;}body{font-family:"Twemoji Country Flags",sans-serif;}';
+        document.head.appendChild(s);
+      })();
+    </script>
   </head>
   <body>
     <!-- Language Switcher -->
