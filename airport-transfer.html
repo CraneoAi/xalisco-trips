@@ -17,8 +17,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
-      Transferencia Aeropuerto Guadalajara | Hotel a Aeropuerto GDL | Xalisco
-      Trips
+      Transferencia Aeropuerto Guadalajara 24/7 | Taxi Privado GDL — Sin Surge Pricing | Xalisco Trips
     </title>
 
     <!-- Security: CSP -->
@@ -30,11 +29,11 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Transferencia privada aeropuerto Guadalajara. Servicio seguro y puntual puerta a puerta entre tu hotel y Aeropuerto Internacional GDL. Desde $35 USD por vehículo · Disponible 24/7 · Conductor certificado."
+      content="Transferencia privada aeropuerto Guadalajara disponible 24/7 — incluyendo llegadas de madrugada. Desde $35 USD por vehículo. Conductor certificado, precio fijo, sin surge pricing. Reserva por WhatsApp en 15 min."
     />
     <meta
       name="keywords"
-      content="transferencia aeropuerto guadalajara, taxi privado gdl, hotel a aeropuerto, transporte privado gdl, servicio aeropuerto guadalajara, shuttle privado"
+      content="transferencia aeropuerto guadalajara, taxi privado gdl, hotel a aeropuerto, transporte privado gdl 24/7, servicio aeropuerto guadalajara, shuttle privado"
     />
     <meta name="author" content="Xalisco Trips" />
     <meta
@@ -53,11 +52,11 @@
     <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Transferencia Privada Aeropuerto Guadalajara | Xalisco Trips"
+      content="Transferencia Privada Aeropuerto Guadalajara 24/7 | Xalisco Trips"
     />
     <meta
       property="og:description"
-      content="Servicio seguro y puntual entre tu hotel y Aeropuerto GDL. Desde $35 USD por vehículo · Disponibilidad 24/7 · Conductor certificado."
+      content="Servicio seguro y puntual entre tu hotel y Aeropuerto GDL. Disponible 24/7 incluyendo madrugadas. Desde $35 USD por vehículo · Sin surge pricing · Conductor certificado."
     />
     <meta
       property="og:image"
@@ -136,7 +135,6 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Google tag (gtag.js) -->
     <style>
       :root {
         --brand-primary: #ffc107;
@@ -145,14 +143,21 @@
       }
     </style>
 
-    <!-- Airport Transfer Schema -->
+    <!-- Airport Transfer Schema — FIXED: url corrected, @id added, openingHoursSpecification added -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "TaxiService",
-        "name": "Transferencia Privada Aeropuerto — Guadalajara GDL",
-        "description": "Servicio privado de transferencia aeropuerto en Guadalajara. Puerta a puerta entre cualquier hotel y Aeropuerto Internacional GDL. Precio por vehículo, disponible 24/7, conductor certificado.",
-        "url": "https://xaliscotrips.lat/aeropuerto.html",
+        "@id": "https://xaliscotrips.lat/airport-transfer.html#taxiservice",
+        "name": "Transferencia Privada Aeropuerto — Guadalajara GDL 24/7",
+        "description": "Servicio privado de transferencia aeropuerto en Guadalajara. Puerta a puerta entre cualquier hotel y Aeropuerto Internacional GDL. Precio por vehículo, disponible 24/7, conductor certificado, sin surge pricing.",
+        "url": "https://xaliscotrips.lat/airport-transfer.html",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
         "areaServed": {
           "@type": "City",
           "name": "Guadalajara",
@@ -180,8 +185,44 @@
           "@type": "Offer",
           "priceCurrency": "USD",
           "price": "35",
+          "priceValidUntil": "2026-12-31",
+          "url": "https://xaliscotrips.lat/airport-transfer.html",
           "availability": "https://schema.org/InStock"
         }
+      }
+    </script>
+
+    <!-- FAQPage Schema ES -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Hay taxis disponibles 24/7 en el aeropuerto de Guadalajara incluyendo llegadas de madrugada?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí — nuestro servicio de transferencia privada opera las 24 horas del día, los 7 días de la semana, incluyendo llegadas de madrugada y salidas muy temprano. Precio fijo desde $35 USD por vehículo. Sin surge pricing. Tu conductor te espera cuando aterrizas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta una transferencia privada al aeropuerto de Guadalajara?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Desde $35 USD por vehículo (no por persona) para cualquier destino dentro de la Zona Metropolitana de Guadalajara (ZMG). Hasta 4 pasajeros al mismo precio."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo reservo una transferencia al aeropuerto de Guadalajara?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Envía un mensaje de WhatsApp al +52 33 5108 3318 con al menos 12 horas de anticipación. Incluye tu número de vuelo, hora de llegada y hotel. Confirmación en menos de 15 minutos."
+            }
+          }
+        ]
       }
     </script>
 
@@ -207,6 +248,7 @@
           "@type": "AggregateRating",
           "ratingValue": "4.8",
           "bestRating": "5",
+          "worstRating": "1",
           "ratingCount": "45"
         }
       }
@@ -289,12 +331,14 @@
           <div class="row align-items-center" style="min-height: 350px">
             <div class="col-lg-6" data-aos="fade-right">
               <h1 class="display-4 fw-bold text-white mb-3">
-                Transferencia Privada — Guadalajara
+                Transferencia Aeropuerto Guadalajara — Taxi Privado 24/7, Madrugadas Sin Problema
               </h1>
-              <p class="lead text-white mb-4">
-                Hotel a Aeropuerto GDL · Seguro y Puntual · Available 24/7 ·
-                Precio por Vehículo
+              <p class="lead text-white mb-3">
+                Hotel ↔ Aeropuerto GDL · Desde $35 USD por vehículo · 24/7 · Precio fijo · Sin surge pricing
               </p>
+              <h2 class="h5 fw-semibold text-white mb-4" style="opacity:0.92">
+                ¿Hay taxis disponibles 24/7 en el aeropuerto de Guadalajara incluyendo madrugadas? Sí — nuestro conductor certificado te espera cuando aterrizas, a cualquier hora, sin cargo extra.
+              </h2>
               <div
                 class="alert alert-light mb-4"
                 style="background: rgba(255, 255, 255, 0.95)"
@@ -308,8 +352,7 @@
                 booking un conductor certificado que conoce tu horario,
                 monitorea tu vuelo y te espera — sin surge pricing, sin
                 cancelaciones a las 4 AM, sin barrera del idioma. El precio es
-                por vehículo, no por persona — cuanto más gente en tu grupo,
-                mejor el valor por persona.
+                por vehículo, no por persona.
               </div>
               <a
                 href="https://wa.me/5213351083318?text=¡Hola!%20Necesito%20TRANSFERENCIA%20AEROPUERTO%20con%20Xalisco%20Trips.%20¿Información?"
@@ -392,10 +435,10 @@
                   </div>
                   <div class="timeline-content">
                     <h5 class="fw-bold mb-2">
-                      ✅ Available 24/7 incluyendo mañana temprana y noche tarde
+                      ✅ Disponible 24/7 incluyendo madrugadas y noche tardía
                     </h5>
                     <p class="text-muted mb-0">
-                      ¿Recogida a las 4 AM? ¿Llegada a las 11 PM? Sin problema.
+                      ¿Recogida a las 4 AM? ¿Llegada a las 11 PM? Sin problema. Sin cargo adicional nocturno.
                     </p>
                   </div>
                 </div>
@@ -855,17 +898,17 @@
             <ul>
               <li>
                 <strong>Opción 1 — Clip (MXN):</strong> Paga el 100% vía link
-                seguro de Clip. Vence 24 horas antes de la fecha del tour.
+                seguro de Clip. Vence 24 horas antes de la fecha del servicio.
               </li>
               <li>
                 <strong>Opción 2 — Higlobe + Efectivo (USD):</strong> Depósito
                 del 30% vía Higlobe a Cross River Bank, 885 Teaneck Road,
                 Teaneck NJ 07666, vence 72 horas antes (Higlobe tarda 2-3 días
-                hábiles). Saldo del 70% en efectivo USD al inicio del tour.
+                hábiles). Saldo del 70% en efectivo USD al inicio del servicio.
               </li>
               <li>
                 <strong>Opción 3 — Efectivo Completo (USD):</strong> 100% en
-                efectivo USD, pagado al inicio del tour. Sujeto a disponibilidad
+                efectivo USD, pagado al inicio del servicio. Sujeto a disponibilidad
                 — ningún depósito retiene la fecha.
               </li>
               <li>
@@ -906,8 +949,6 @@
           </p>
         </div>
       </section>
-
-      <!-- Footer -->
     </main>
 
     <footer class="bg-dark text-light py-4">
@@ -964,4 +1005,3 @@
     </script>
   </body>
 </html>
-
