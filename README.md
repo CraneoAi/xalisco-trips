@@ -87,7 +87,7 @@ xalisco-trips/
 | **World Cup 2026** | `world-cup-2026-guadalajara-tours.html` | Inglés | `https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html` | ✅ Activa |
 
 ### Canonical URLs (SEO):
-- ES Homepage: `https://xaliscotrips.lat/index.html`
+- ES Homepage: `https://xaliscotrips.lat/`
 - EN Homepage: `https://xaliscotrips.lat/index-en.html`
 
 ### hreflang (alternancia de idioma):
