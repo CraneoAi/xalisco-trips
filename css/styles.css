@@ -12,18 +12,22 @@
   --brand-primary: #ffc107;
   --brand-whatsapp: #25d366;
   --brand-dark: #212529;
-  --brand-blue: #4A90E2;
-  --brand-green: #2E8B57;
-  
+  --brand-blue: #4a90e2;
+  --brand-green: #2e8b57;
+
   /* Shadows */
-  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-large: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  
+  --shadow-soft:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-medium:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-large:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
   /* Typography */
-  --font-heading: 'Montserrat', sans-serif;
-  --font-body: 'Open Sans', 'Segoe UI', system-ui, -apple-system, Arial, sans-serif;
-  
+  --font-heading: "Montserrat", sans-serif;
+  --font-body:
+    "Open Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+
   /* Transitions */
   --transition-fast: 0.2s ease;
   --transition-base: 0.3s ease;
@@ -32,7 +36,9 @@
 /* ==========================================================================
    2. BASE STYLES
    ========================================================================== */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -48,7 +54,12 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 600;
 }
@@ -107,7 +118,7 @@ img {
   text-align: center;
   color: #fff;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-image: url('../img/hero/portada-jalisco.webp');
+  background-image: url("../img/hero/portada-jalisco.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -117,7 +128,7 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
 }
 
 .hero-content {
@@ -131,14 +142,14 @@ img {
   font-size: clamp(2.5rem, 8vw, 4rem);
   font-weight: 700;
   margin-bottom: 1.5rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   animation: fadeInUp 1s ease-out;
 }
 
 .hero .lead {
   font-size: clamp(1.1rem, 4vw, 1.5rem);
   margin-bottom: 2rem;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   animation: fadeInUp 1s ease-out 0.3s both;
 }
 
@@ -173,19 +184,39 @@ img {
 }
 
 @keyframes spinBall {
-  0% { transform: rotate(0deg) scale(1); }
-  25% { transform: rotate(90deg) scale(1.1); }
-  50% { transform: rotate(180deg) scale(1); }
-  75% { transform: rotate(270deg) scale(1.1); }
-  100% { transform: rotate(360deg) scale(1); }
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(270deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
 }
 
 @keyframes spinBallReverse {
-  0% { transform: rotate(360deg) scale(1); }
-  25% { transform: rotate(270deg) scale(1.1); }
-  50% { transform: rotate(180deg) scale(1); }
-  75% { transform: rotate(90deg) scale(1.1); }
-  100% { transform: rotate(0deg) scale(1); }
+  0% {
+    transform: rotate(360deg) scale(1);
+  }
+  25% {
+    transform: rotate(270deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(90deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
 }
 
 /* ==========================================================================
@@ -209,7 +240,7 @@ img {
   background: #fff;
   border-radius: 16px 16px 4px 16px;
   padding: 12px 16px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   max-width: 230px;
   font-size: 0.85rem;
   color: #333;
@@ -229,7 +260,7 @@ img {
   border-left: 8px solid transparent;
   border-right: 0px solid transparent;
   border-top: 8px solid #fff;
-  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.08));
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.08));
 }
 
 .wa-bubble strong {
@@ -281,7 +312,7 @@ img {
   position: absolute;
   top: -6px;
   right: -6px;
-  background: #FF4444;
+  background: #ff4444;
   color: white;
   border-radius: 50%;
   width: 22px;
@@ -313,13 +344,24 @@ img {
 }
 
 @keyframes waPulse {
-  0%, 100% { box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5); }
-  50% { box-shadow: 0 6px 35px rgba(37, 211, 102, 0.8); transform: scale(1.03); }
+  0%,
+  100% {
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+  }
+  50% {
+    box-shadow: 0 6px 35px rgba(37, 211, 102, 0.8);
+    transform: scale(1.03);
+  }
 }
 
 @keyframes badgePulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 /* ==========================================================================
@@ -430,10 +472,18 @@ img {
   backdrop-filter: blur(5px);
 }
 
-.destination-label.chapala { background: rgba(74, 144, 226, 0.9); }
-.destination-label.tonala { background: rgba(255, 107, 53, 0.9); }
-.destination-label.tequila { background: rgba(244, 162, 97, 0.95); }
-.destination-label.guachimontones { background: rgba(42, 157, 143, 0.95); }
+.destination-label.chapala {
+  background: rgba(74, 144, 226, 0.9);
+}
+.destination-label.tonala {
+  background: rgba(255, 107, 53, 0.9);
+}
+.destination-label.tequila {
+  background: rgba(244, 162, 97, 0.95);
+}
+.destination-label.guachimontones {
+  background: rgba(42, 157, 143, 0.95);
+}
 
 /* ==========================================================================
    9. ROTATING BADGE
@@ -469,9 +519,17 @@ img {
 }
 
 @keyframes comboBadgeSwap {
-  0%, 45% { opacity: 1; }
-  50%, 95% { opacity: 0; }
-  100% { opacity: 1; }
+  0%,
+  45% {
+    opacity: 1;
+  }
+  50%,
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .price-badge {
@@ -527,7 +585,11 @@ img {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
   animation: rotate 20s linear infinite;
   pointer-events: none;
 }
@@ -543,7 +605,9 @@ img {
   background: linear-gradient(135deg, #1a472a 0%, #2d5016 50%, #0c3823 100%);
   padding: 12px 18px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 193, 7, 0.3);
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(255, 193, 7, 0.3);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -555,7 +619,9 @@ img {
 
 .worldcup-banner:hover {
   transform: scale(1.05) translateY(-2px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 193, 7, 0.5);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.4),
+    0 0 30px rgba(255, 193, 7, 0.5);
   border-color: var(--brand-primary);
 }
 
@@ -585,17 +651,26 @@ img {
 }
 
 .worldcup-banner .banner-cta {
-  color: #90EE90;
+  color: #90ee90;
   font-size: 0.7rem;
   font-weight: 600;
   margin-top: 2px;
 }
 
 @keyframes ballPulse {
-  0%, 100% { transform: scale(1) rotate(0deg); }
-  25% { transform: scale(1.1) rotate(5deg); }
-  50% { transform: scale(1) rotate(0deg); }
-  75% { transform: scale(1.1) rotate(-5deg); }
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  50% {
+    transform: scale(1) rotate(0deg);
+  }
+  75% {
+    transform: scale(1.1) rotate(-5deg);
+  }
 }
 
 /* ==========================================================================
@@ -615,32 +690,43 @@ img {
 }
 
 .worldcup-cta {
-  background: linear-gradient(135deg, #8B0000 0%, #C41E3A 50%, #8B0000 100%);
+  background: linear-gradient(135deg, #8b0000 0%, #c41e3a 50%, #8b0000 100%);
   border-radius: 15px;
   padding: 1.5rem 2rem;
   border: 3px solid #ffc107;
-  box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3);
+  box-shadow:
+    0 0 25px rgba(196, 30, 58, 0.5),
+    0 0 50px rgba(255, 193, 7, 0.3);
   animation: ctaGlowRed 3s ease-in-out infinite;
   flex: 0 1 auto;
   max-width: 500px;
 }
 
 @keyframes ctaGlowRed {
-  0%, 100% { box-shadow: 0 0 25px rgba(196, 30, 58, 0.5), 0 0 50px rgba(255, 193, 7, 0.3); }
-  50% { box-shadow: 0 0 35px rgba(196, 30, 58, 0.7), 0 0 70px rgba(255, 193, 7, 0.5); }
+  0%,
+  100% {
+    box-shadow:
+      0 0 25px rgba(196, 30, 58, 0.5),
+      0 0 50px rgba(255, 193, 7, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 35px rgba(196, 30, 58, 0.7),
+      0 0 70px rgba(255, 193, 7, 0.5);
+  }
 }
 
 .worldcup-cta h4 {
   color: #ffc107;
   margin-bottom: 0.5rem;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .worldcup-cta p {
   color: #ffffff;
   margin-bottom: 0;
   font-size: 0.95rem;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* ==========================================================================
@@ -692,7 +778,7 @@ img {
    16. STRIPE BUTTON
    ========================================================================== */
 .btn-stripe {
-  background: #635BFF;
+  background: #635bff;
   border: none;
   color: #ffffff;
   font-weight: 600;
@@ -701,7 +787,7 @@ img {
 }
 
 .btn-stripe:hover {
-  background: #5851DB;
+  background: #5851db;
   color: #ffffff;
   transform: translateY(-1px);
 }
@@ -792,8 +878,12 @@ img {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.lightbox-nav.prev { left: 15px; }
-.lightbox-nav.next { right: 15px; }
+.lightbox-nav.prev {
+  left: 15px;
+}
+.lightbox-nav.next {
+  right: 15px;
+}
 
 .lightbox-counter {
   position: absolute;
@@ -854,10 +944,73 @@ img {
 }
 
 /* Ensure proper emoji rendering */
-.table td, .table th {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+.table td,
+.table th {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   18.1 WORLD CUP INFO + FAQ SECTIONS
+   ========================================================================== */
+.worldcup-info-section {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  background: #fff3cd;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.worldcup-info-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--brand-dark);
+}
+
+.worldcup-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.worldcup-faq-section {
+  padding: 2rem 0;
+  background: #fff3cd;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.worldcup-faq-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--brand-dark);
+}
+
+.worldcup-faq-item {
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+}
+
+.worldcup-faq-item.is-last {
+  border-bottom: none;
+}
+
+.worldcup-faq-question {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: var(--brand-dark);
+}
+
+.worldcup-faq-answer {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -875,13 +1028,22 @@ img {
 }
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* ==========================================================================
@@ -892,7 +1054,7 @@ img {
     background-attachment: scroll;
     min-height: 100vh;
   }
-  
+
   .worldcup-banner {
     top: auto;
     bottom: 80px;
@@ -900,32 +1062,32 @@ img {
     padding: 8px 12px;
     max-width: 200px;
   }
-  
+
   .worldcup-banner .ball-icon {
     font-size: 1.4rem;
   }
-  
+
   .worldcup-banner .banner-title {
     font-size: 0.7rem;
   }
-  
+
   .worldcup-banner .banner-subtitle,
   .worldcup-banner .banner-cta {
     font-size: 0.65rem;
   }
-  
+
   .hero-title-container {
     gap: 0.5rem;
   }
-  
+
   .spinning-ball {
     font-size: 1.8rem;
   }
-  
+
   .hero-content {
     padding: 1rem;
   }
-  
+
   .destination-card img {
     height: 200px;
   }
@@ -944,26 +1106,30 @@ img {
     max-width: 190px;
     font-size: 0.8rem;
   }
-  
+
   .service-item {
     padding: 1.5rem 0.5rem;
   }
-  
+
   .language-switcher {
     top: 10px;
     right: 10px;
     padding: 6px 12px;
     font-size: 0.85rem;
   }
-  
+
   .lightbox-nav {
     width: 40px;
     height: 40px;
     font-size: 1.2rem;
   }
-  
-  .lightbox-nav.prev { left: 5px; }
-  .lightbox-nav.next { right: 5px; }
+
+  .lightbox-nav.prev {
+    left: 5px;
+  }
+  .lightbox-nav.next {
+    right: 5px;
+  }
 
   /* Mobile: Optimize table for small screens */
   .table {
@@ -994,7 +1160,7 @@ img {
   .language-switcher {
     display: none !important;
   }
-  
+
   .hero {
     height: auto;
     min-height: auto;
