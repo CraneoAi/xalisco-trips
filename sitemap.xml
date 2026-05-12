@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
     <loc>https://xaliscotrips.lat/</loc>
@@ -72,13 +73,32 @@
   </url>
 
   <url>
+    <loc>https://xaliscotrips.lat/world-cup-2026-guadalajara-tours-es.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
     <loc>https://xaliscotrips.lat/tequila-guachimontones.html</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila-guachimontones.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
+      <image:title>Pirámides Guachimontones Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
+      <image:title>Zona arqueológica Guachimontones Teuchitlán</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Destilería Tres Mujeres tour Tequila</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -87,8 +107,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
+      <image:title>Guachimontones pyramids Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
+      <image:title>Guachimontones archaeological site Teuchitlan</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Tres Mujeres distillery private tour Tequila</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -97,8 +129,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Destilería Tres Mujeres Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
+      <image:title>Agave azul campos Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
+      <image:title>Tour privado Tequila desde Guadalajara</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -107,8 +151,20 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Tres Mujeres distillery Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
+      <image:title>Blue agave fields Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
+      <image:title>Private Tequila tour from Guadalajara</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -137,8 +193,32 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA.webp</image:loc>
+      <image:title>Mercado artesanal Tonalá Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA1.webp</image:loc>
+      <image:title>Lago Chapala Jalisco México</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA2.webp</image:loc>
+      <image:title>Riviera Chapala tour privado</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/MUTA 1.webp</image:loc>
+      <image:title>MUTA Museo Tastoanes Tonalá</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/MUTA2.webp</image:loc>
+      <image:title>Máscaras Tastoanes Tonalá Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-MUTA.webp</image:loc>
+      <image:title>Tour Tonalá Chapala artesanías</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -147,8 +227,32 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA.webp</image:loc>
+      <image:title>Tonala artisan market Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA1.webp</image:loc>
+      <image:title>Lake Chapala Jalisco Mexico</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA2.webp</image:loc>
+      <image:title>Lake Chapala waterfront private tour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/MUTA 1.webp</image:loc>
+      <image:title>MUTA Tastoanes Museum Tonala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/MUTA2.webp</image:loc>
+      <image:title>Tastoanes masks Tonala Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-MUTA.webp</image:loc>
+      <image:title>Tonala Chapala artisan tour</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -177,7 +281,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -187,7 +291,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.7</priority>
   </url>
 
@@ -217,8 +321,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-01</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
+      <image:title>Traslado privado aeropuerto Guadalajara GDL</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -227,8 +335,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer.html"/>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
+      <image:title>Private transfer Guadalajara airport GDL 24/7</image:title>
+    </image:image>
   </url>
 
   <url>
@@ -251,12 +363,5 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque.html"/>
   </url>
 
-
-  <url>
-    <loc>https://xaliscotrips.lat/world-cup-2026-guadalajara-tours-es.html</loc>
-    <lastmod>2026-04-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
 </urlset>
 
