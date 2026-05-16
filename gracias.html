@@ -1,0 +1,1448 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="noindex, nofollow, noarchive, max-image-preview:none"
+    />
+    <meta name="theme-color" content="#ffc107" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="img/logo-xalisco-trips.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    /></noscript>
+    <title>Xalisco Trips | Confirmación de pago</title>
+    <meta
+      name="description"
+      content="Confirmación de pago de Xalisco Trips. Revisa los siguientes pasos, completa tu registro o contacta por WhatsApp para coordinar tu tour."
+    />
+    <meta property="og:title" content="Xalisco Trips | Confirmación de pago" />
+    <meta
+      property="og:description"
+      content="Confirmación de pago de Xalisco Trips. Revisa los siguientes pasos, completa tu registro o contacta por WhatsApp para coordinar tu tour."
+    />
+    <meta
+      property="og:image"
+      content="https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xaliscotrips.lat/gracias.html" />
+    <style>
+      :root {
+        --brand-primary: #ffc107;
+        --brand-whatsapp: #25d366;
+        --brand-dark: #212529;
+        --brand-surface: rgba(255, 255, 255, 0.88);
+        --brand-border: rgba(33, 37, 41, 0.08);
+        --brand-shadow: 0 28px 80px rgba(16, 24, 40, 0.16);
+        --hero-accent: #ff9f1c;
+        --hero-accent-2: #6f42c1;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body {
+        font-family:
+          "Open Sans",
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        color: var(--brand-dark);
+        background:
+          radial-gradient(
+            circle at top left,
+            rgba(255, 193, 7, 0.2),
+            transparent 28%
+          ),
+          radial-gradient(
+            circle at top right,
+            rgba(37, 211, 102, 0.15),
+            transparent 24%
+          ),
+          linear-gradient(180deg, #fbfcfe 0%, #f5f7fb 45%, #eef2f7 100%);
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.45) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
+        background-size: 54px 54px;
+        mask-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.45),
+          transparent 70%
+        );
+        opacity: 0.35;
+      }
+      .page-shell {
+        position: relative;
+        z-index: 1;
+      }
+
+      .topbar {
+        backdrop-filter: blur(18px);
+        background: rgba(255, 255, 255, 0.88);
+        border-bottom: 1px solid var(--brand-border);
+      }
+
+      .brand-link {
+        color: var(--brand-dark);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.85rem;
+      }
+
+      .brand-mark {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+        object-fit: cover;
+        box-shadow: 0 10px 24px rgba(33, 37, 41, 0.12);
+      }
+
+      .status-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        padding: 0.62rem 1rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.7);
+        border: 1px solid var(--brand-border);
+        box-shadow: 0 10px 28px rgba(33, 37, 41, 0.06);
+        font-weight: 700;
+        color: var(--brand-dark);
+        font-size: 0.92rem;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.42rem 0.8rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(255, 255, 255, 0.75);
+        font-size: 0.82rem;
+        font-weight: 700;
+      }
+
+      .status-pill.ok {
+        color: #1e7e34;
+        background: rgba(37, 211, 102, 0.12);
+      }
+
+      .status-pill.warn {
+        color: #b42318;
+        background: rgba(220, 53, 69, 0.12);
+      }
+
+      .hero-card,
+      .panel-card {
+        border: 1px solid var(--brand-border);
+        border-radius: 28px;
+        box-shadow: var(--brand-shadow);
+      }
+
+      .hero-card {
+        background: var(--brand-surface);
+      }
+
+      .panel-card {
+        background: #f8f9fa;
+      }
+
+      .hero-card {
+        overflow: hidden;
+      }
+
+      .hero-image-wrap {
+        position: relative;
+        min-height: 100%;
+        isolation: isolate;
+        background-color: #f8f9fa;
+      }
+
+      .hero-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        max-height: 420px;
+        object-fit: contain;
+        object-position: center;
+        background-color: #f8f9fa;
+      }
+
+      .hero-fallback {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: end;
+        padding: 1.5rem;
+        background:
+          radial-gradient(
+            circle at 20% 20%,
+            rgba(255, 255, 255, 0.2),
+            transparent 30%
+          ),
+          linear-gradient(135deg, var(--hero-accent), var(--hero-accent-2));
+        color: #fff;
+      }
+
+      .hero-fallback .mini-card {
+        max-width: 17rem;
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 20px;
+        padding: 1rem;
+        backdrop-filter: blur(10px);
+      }
+
+      .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.48rem 0.84rem;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.82rem;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+
+      .section-title {
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        line-height: 1.05;
+      }
+
+      .lead-copy {
+        font-size: 1.06rem;
+        color: rgba(33, 37, 41, 0.78);
+      }
+
+      .step-list {
+        display: grid;
+        gap: 0.9rem;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+
+      .step-item {
+        display: flex;
+        gap: 0.9rem;
+        align-items: flex-start;
+        padding: 0.92rem 1rem;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(33, 37, 41, 0.08);
+      }
+
+      .step-icon {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 999px;
+        flex: 0 0 auto;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        box-shadow: 0 10px 22px rgba(16, 24, 40, 0.12);
+      }
+
+      .step-icon.ok {
+        background: linear-gradient(135deg, #ffc107, #ffd75d);
+        color: #1a1a2e;
+      }
+
+      .step-icon.info {
+        background: linear-gradient(135deg, #ffc107, #ffd75d);
+        color: #1a1a2e;
+      }
+
+      .step-icon.warn {
+        background: linear-gradient(135deg, #ffc107, #ffd75d);
+        color: #1a1a2e;
+      }
+
+      .step-icon.neutral {
+        background: linear-gradient(135deg, #ffc107, #ffd75d);
+        color: #1a1a2e;
+      }
+
+      .panel-card h2,
+      .panel-card h3,
+      .panel-card .h3,
+      .panel-card .h5 {
+        color: var(--brand-dark);
+      }
+
+      .panel-card p,
+      .panel-card .text-secondary,
+      .panel-card .text-secondary-emphasis {
+        color: #444 !important;
+      }
+
+      .panel-card .brand-label {
+        color: #444;
+      }
+
+      .action-row .btn {
+        min-height: 3.35rem;
+        border-radius: 999px;
+        font-weight: 800;
+        padding-inline: 1.2rem;
+      }
+
+      .btn-brand {
+        background: linear-gradient(135deg, var(--brand-primary), #ffd75d);
+        color: #212529;
+        border: 0;
+        box-shadow: 0 16px 32px rgba(255, 193, 7, 0.28);
+      }
+
+      .btn-brand:hover,
+      .btn-brand:focus-visible {
+        color: #212529;
+        background: linear-gradient(135deg, #ffd24a, #ffe17a);
+      }
+
+      .btn-whatsapp {
+        background: linear-gradient(135deg, #25d366, #1fb35c);
+        color: #fff;
+        border: 0;
+        box-shadow: 0 16px 32px rgba(37, 211, 102, 0.26);
+      }
+
+      .btn-whatsapp:hover,
+      .btn-whatsapp:focus-visible {
+        color: #fff;
+        background: linear-gradient(135deg, #1fb35c, #1aa85a);
+      }
+
+      .btn-soft {
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid rgba(33, 37, 41, 0.08);
+        color: var(--brand-dark);
+      }
+
+      .btn-soft:hover,
+      .btn-soft:focus-visible {
+        background: #fff;
+        color: var(--brand-dark);
+        border-color: rgba(33, 37, 41, 0.14);
+      }
+
+      .review-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .review-card {
+        height: 100%;
+        border-radius: 22px;
+        border: 1px solid rgba(33, 37, 41, 0.08);
+        background: rgba(255, 255, 255, 0.95);
+        padding: 1.15rem;
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease;
+      }
+
+      .review-card:hover,
+      .review-card:focus-visible {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 36px rgba(16, 24, 40, 0.11);
+      }
+
+      .review-card .brand-label {
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(33, 37, 41, 0.56);
+      }
+
+      .form-shell {
+        border-radius: 26px;
+        border: 1px solid rgba(33, 37, 41, 0.08);
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 20px 50px rgba(16, 24, 40, 0.08);
+      }
+
+      .form-shell .form-control,
+      .form-shell .form-select {
+        border-radius: 14px;
+        min-height: 3.05rem;
+      }
+
+      .form-shell .form-control:focus,
+      .form-shell .form-select:focus {
+        border-color: rgba(255, 193, 7, 0.95);
+        box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.18);
+      }
+
+      .help-note {
+        color: rgba(33, 37, 41, 0.66);
+        font-size: 0.95rem;
+      }
+
+      .status-mark {
+        width: 88px;
+        height: 88px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.92);
+        box-shadow: 0 18px 50px rgba(16, 24, 40, 0.16);
+      }
+
+      .status-mark svg {
+        width: 62px;
+        height: 62px;
+      }
+
+      .check-ring circle {
+        stroke: rgba(37, 211, 102, 0.24);
+        stroke-width: 4;
+        fill: rgba(37, 211, 102, 0.08);
+        stroke-dasharray: 290;
+        stroke-dashoffset: 290;
+        animation: draw-ring 0.9s ease forwards;
+      }
+
+      .check-mark path {
+        stroke: #25d366;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        stroke-dasharray: 80;
+        stroke-dashoffset: 80;
+        animation: draw-mark 0.6s 0.45s ease forwards;
+      }
+
+      .x-ring circle {
+        stroke: rgba(220, 53, 69, 0.24);
+        stroke-width: 4;
+        fill: rgba(220, 53, 69, 0.08);
+        stroke-dasharray: 290;
+        stroke-dashoffset: 290;
+        animation: draw-ring 0.9s ease forwards;
+      }
+
+      .x-mark path {
+        stroke: #dc3545;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        stroke-dasharray: 90;
+        stroke-dashoffset: 90;
+        animation: draw-mark 0.55s 0.45s ease forwards;
+      }
+
+      .star-mark path {
+        stroke: #ff9f1c;
+        stroke-width: 4;
+        stroke-linejoin: round;
+        fill: rgba(255, 159, 28, 0.14);
+        stroke-dasharray: 120;
+        stroke-dashoffset: 120;
+        animation: draw-mark 0.8s 0.25s ease forwards;
+      }
+
+      @keyframes draw-ring {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes draw-mark {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      @keyframes float-soft {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      .float-soft {
+        animation: float-soft 4s ease-in-out infinite;
+      }
+
+      .fade-in-up {
+        animation: fade-in-up 0.7s ease both;
+      }
+
+      .delay-1 {
+        animation-delay: 0.08s;
+      }
+
+      .delay-2 {
+        animation-delay: 0.16s;
+      }
+
+      .delay-3 {
+        animation-delay: 0.24s;
+      }
+
+      @keyframes fade-in-up {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      footer {
+        color: rgba(33, 37, 41, 0.7);
+      }
+
+      @media (max-width: 991.98px) {
+        .review-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 767.98px) {
+        .section-title {
+          font-size: clamp(1.7rem, 7vw, 2.35rem);
+        }
+
+        .hero-image-wrap {
+          min-height: 240px;
+          aspect-ratio: 4 / 3;
+        }
+
+        .status-chip {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header
+        class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="/">
+            <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/#destinos">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index-en.html">EN</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="d-flex align-items-center ms-3"
+            id="headerChip"
+            style="gap: 0.5rem"
+          >
+            <span id="headerChipIcon" aria-hidden="true">✓</span>
+            <span id="headerChipText" class="text-white small"
+              >Procesando confirmación</span
+            >
+          </div>
+        </div>
+      </header>
+
+      <main class="container py-4 py-lg-5">
+        <div id="app"></div>
+      </main>
+
+      <footer class="bg-dark text-light py-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <h5 class="mb-3">
+                <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco
+                Trips
+              </h5>
+              <p class="mb-3">
+                Tu compañía de confianza para explorar Jalisco. Experiencias
+                auténticas y memorables desde 2019.
+              </p>
+              <div class="d-flex gap-3 mb-4">
+                <a
+                  href="https://wa.me/5213351083318"
+                  class="text-success"
+                  aria-label="WhatsApp"
+                  ><i class="bi bi-whatsapp fs-4"></i
+                ></a>
+                <a
+                  href="tel:+5213351083318"
+                  class="text-light"
+                  aria-label="Teléfono"
+                  ><i class="bi bi-telephone fs-4"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@xalisco.trips?_t=ZS-8zxVFG89jvD&_r=1"
+                  class="text-danger"
+                  aria-label="TikTok"
+                  target="_blank"
+                  ><i class="bi bi-tiktok fs-4"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="d-flex align-items-center gap-3 mb-4 p-3 rounded"
+                style="background: rgba(255, 255, 255, 0.03)"
+              >
+                <img
+                  id="octavioProfilePhoto"
+                  src="img/Octavio Foto Perfil.webp"
+                  alt="Octavio, guía certificado de Xalisco Trips"
+                  loading="lazy"
+                  style="
+                    width: 64px;
+                    height: 64px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    border: 3px solid var(--brand-primary);
+                    display: block;
+                  "
+                  width="200"
+                  height="200"
+                />
+                <div>
+                  <div class="fw-bold text-white" style="font-size: 0.95rem">
+                    Octavio — Tu Guía
+                  </div>
+                  <small class="text-white"
+                    >Guía certificado · Tapatío · 5 años</small
+                  >
+                  <div class="text-warning" style="font-size: 0.8rem">
+                    ⭐⭐⭐⭐⭐ Viator
+                  </div>
+                </div>
+              </div>
+              <a
+                href="https://g.page/r/CUHWaT2IjNkqEBM/review"
+                target="_blank"
+                rel="noopener"
+                class="d-flex align-items-center gap-2 text-decoration-none mt-2 google-review-cta"
+                style="
+                  background: rgba(255, 255, 255, 0.08);
+                  border-radius: 10px;
+                  padding: 0.75rem 1rem;
+                "
+              >
+                Dejanos una reseña en Google
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container mt-4 pt-3 border-top border-secondary border-opacity-25"
+        >
+          <p class="mb-0 text-center text-white-50 small">
+            © <span id="year"></span> Xalisco Trips. Todos los derechos
+            reservados.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const TOUR_DATA = {
+        tequila: {
+          nombre: "Tour Tequila + Guachimontones",
+          proximosPasos: [
+            "Confirma tu hora de salida por WhatsApp",
+            "Lleva ropa cómoda y zapatos cerrados",
+            "Protector solar y agua",
+            "ID oficial vigente",
+            "Efectivo para extras y recuerdos",
+          ],
+          paginaRetorno: "/tequila.html",
+          textoPrellenado:
+            "Hola Octavio, acabo de confirmar mi pago para el Tour Tequila + Guachimontones",
+          heroImage: "img/sub-destinos/GUACHIMONTONES-TEQUILA.webp",
+        },
+        chapala: {
+          nombre: "Tour Chapala + Tonalá",
+          proximosPasos: [
+            "Confirma tu punto de encuentro por WhatsApp",
+            "Lleva ropa cómoda",
+            "Efectivo para compras en mercado artesanal",
+            "Cámara o celular cargado",
+          ],
+          paginaRetorno: "/chapala-tonala.html",
+          textoPrellenado:
+            "Hola Octavio, acabo de confirmar mi pago para el Tour Chapala + Tonalá",
+          heroImage: "img/destinos/chapala1.webp",
+        },
+        aeropuerto: {
+          nombre: "Traslado Aeropuerto",
+          proximosPasos: [
+            "Envía tu número de vuelo por WhatsApp",
+            "Confirma hora exacta de llegada o salida",
+            "Indica número de pasajeros y maletas",
+            "Te contactamos 24hrs antes para confirmar",
+          ],
+          paginaRetorno: "/index.html",
+          textoPrellenado:
+            "Hola Octavio, acabo de confirmar mi pago para el Traslado Aeropuerto",
+          heroImage: "img/destinos/aeropuerto.webp",
+        },
+        servicio: {
+          nombre: "Servicio Xalisco Trips",
+          proximosPasos: [],
+          paginaRetorno: "/index.html",
+          textoPrellenado:
+            "Hola Octavio, acabo de realizar mi pago. Quedo en espera de coordinación",
+          heroImage: "img/sub-destinos/MUTA1.webp",
+        },
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const requestedTour = (params.get("tour") || "").toLowerCase().trim();
+      const status = (params.get("status") || "aceptado").toLowerCase().trim();
+      const registro = params.get("registro") === "1";
+      const postTrip = params.get("post") === "1";
+      const tourData = TOUR_DATA[requestedTour] || TOUR_DATA["servicio"];
+      const formExtraType =
+        requestedTour === "aeropuerto"
+          ? "flight"
+          : requestedTour === "servicio"
+            ? "service"
+            : "health";
+      let mode;
+      if (status === "declinado") {
+        mode = "declined";
+      } else if (postTrip) {
+        mode = "post";
+      } else if (registro) {
+        mode = "register";
+      } else {
+        mode = "confirm";
+      }
+      const pageUrl = "https://xaliscotrips.lat/gracias.html";
+      const genericImage =
+        "https://xaliscotrips.lat/img/hero/portada-jalisco.webp";
+      const validTour = tourData ? tourData.nombre : null;
+      const pageTitleByMode = {
+        confirm: `Pago Confirmado | ${validTour} | Xalisco Trips`,
+        register: `Pago Confirmado | ${validTour} | Xalisco Trips`,
+        post: `Gracias | ${validTour} | Xalisco Trips`,
+        declined: `Pago no completado | ${validTour} | Xalisco Trips`,
+      };
+      const metaDescriptionByMode = {
+        confirm: `Pago confirmado para ${validTour}. Revisa los siguientes pasos y escríbenos por WhatsApp para coordinar tu viaje.`,
+        register: `Pago confirmado para ${validTour}. Completa tus datos para finalizar la coordinación por WhatsApp.`,
+        post: `Gracias por viajar con Xalisco Trips en ${validTour}. Déjanos tu reseña y continúa en contacto por WhatsApp.`,
+        declined: `Tu pago para ${validTour} presentó un problema. No se realizó ningún cargo y puedes contactarnos por WhatsApp.`,
+      };
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function setMeta(selector, value, attribute = "content") {
+        const tag = document.querySelector(selector);
+        if (tag) {
+          tag.setAttribute(attribute, value);
+        }
+      }
+
+      function waLink(message) {
+        return `https://wa.me/5213351083318?text=${encodeURIComponent(message)}`;
+      }
+
+      function renderIcon(type) {
+        if (type === "check") {
+          return `
+            <svg viewBox="0 0 80 80" class="check-ring" aria-hidden="true" focusable="false">
+              <circle cx="40" cy="40" r="30"></circle>
+            </svg>
+            <svg viewBox="0 0 80 80" class="check-mark position-absolute" style="width:62px;height:62px" aria-hidden="true" focusable="false">
+              <path d="M23 40.5L35 52.5L58 28.5"></path>
+            </svg>`;
+        }
+
+        if (type === "declined") {
+          return `
+            <svg viewBox="0 0 80 80" class="x-ring" aria-hidden="true" focusable="false">
+              <circle cx="40" cy="40" r="30"></circle>
+            </svg>
+            <svg viewBox="0 0 80 80" class="x-mark position-absolute" style="width:62px;height:62px" aria-hidden="true" focusable="false">
+              <path d="M26 26L54 54"></path>
+              <path d="M54 26L26 54"></path>
+            </svg>`;
+        }
+
+        return `
+          <svg viewBox="0 0 80 80" class="star-mark" aria-hidden="true" focusable="false">
+            <path d="M40 13l7.5 15.2 16.8 2.4-12.1 11.8 2.9 16.7L40 51.9 25 59.1l2.9-16.7L15.8 30.6l16.7-2.4L40 13z"></path>
+          </svg>`;
+      }
+
+      function chipHtml(modeKey) {
+        if (modeKey === "declined") {
+          return `
+            <span class="status-pill warn">
+              <span aria-hidden="true">✕</span>
+              Pago declinado
+            </span>`;
+        }
+
+        if (modeKey === "post") {
+          return `
+            <span class="status-pill ok">
+              <span aria-hidden="true">★</span>
+              Cierre post-viaje
+            </span>`;
+        }
+
+        if (modeKey === "register") {
+          return `
+            <span class="status-pill ok">
+              <span aria-hidden="true">✓</span>
+              Confirmación + registro
+            </span>`;
+        }
+
+        if (modeKey === "generic") {
+          return `
+            <span class="status-pill ok">
+              <span aria-hidden="true">✓</span>
+              Confirmación general
+            </span>`;
+        }
+
+        return `
+          <span class="status-pill ok">
+            <span aria-hidden="true">✓</span>
+            Pago confirmado
+          </span>`;
+      }
+
+      function renderSteps(items) {
+        return items
+          .map((item, index) => {
+            const iconClass =
+              index === 0 ? "ok" : index === items.length - 1 ? "warn" : "info";
+            return `
+              <li class="step-item fade-in-up delay-${Math.min(index + 1, 3)}">
+                <span class="step-icon ${iconClass}" aria-hidden="true">✓</span>
+                <span>${escapeHtml(item)}</span>
+              </li>`;
+          })
+          .join("");
+      }
+
+      function renderHeroVisual(modeKey, tour) {
+        const imageUrl = tour ? tour.heroImage : null;
+        const altText = tour ? tour.heroAlt : "Xalisco Trips";
+        const title = tour ? tour.nombre : "Coordinamos tu experiencia";
+        const subtitle = tour
+          ? modeKey === "post"
+            ? "Gracias por viajar con nosotros"
+            : modeKey === "declined"
+              ? "Vamos a resolverlo contigo"
+              : "Confirmación lista"
+          : "Seguimos por WhatsApp";
+
+        return `
+          <div class="hero-image-wrap position-relative h-100 rounded-4 overflow-hidden">
+            ${imageUrl ? `<img src="${imageUrl}" alt="${escapeHtml(altText)}" class="hero-image" data-hero-image />` : ""}
+            <div class="hero-fallback${imageUrl ? " d-none" : ""}" data-hero-fallback>
+              <div class="mini-card">
+                <div class="hero-badge mb-3">${escapeHtml(subtitle)}</div>
+                <h3 class="h4 mb-2 text-white">${escapeHtml(title)}</h3>
+                <p class="mb-0 text-white-50">Xalisco Trips coordina cada detalle directamente por WhatsApp.</p>
+              </div>
+            </div>
+          </div>`;
+      }
+
+      function renderBaseLayout({
+        modeKey,
+        tour,
+        title,
+        subtitle,
+        bodyText,
+        primaryButton,
+        secondaryButton,
+        extraContent,
+        topHint,
+      }) {
+        const heroVisual = renderHeroVisual(modeKey, tour);
+        const nameBlock = tour
+          ? `
+          <div class="d-flex flex-wrap gap-2 align-items-center mb-3">
+              <span class="badge rounded-pill text-bg-warning text-dark fw-bold px-3 py-2">${escapeHtml(tour.nombre)}</span>
+            ${topHint ? `<span class="badge rounded-pill text-bg-light text-dark border border-1 border-opacity-10 px-3 py-2">${escapeHtml(topHint)}</span>` : ""}
+          </div>`
+          : "";
+
+        return `
+          <section class="hero-card mb-4 mb-lg-5 fade-in-up">
+            <div class="row g-0">
+              <div class="col-lg-7 p-4 p-lg-5 d-flex align-items-center">
+                <div>
+                  ${nameBlock}
+                  <div class="status-mark float-soft position-relative mb-4">
+                    ${renderIcon(modeKey === "declined" ? "declined" : modeKey === "post" ? "star" : "check")}
+                  </div>
+                  <h1 class="section-title mb-3">${escapeHtml(title)}</h1>
+                  <p class="lead-copy mb-4">${escapeHtml(subtitle)}</p>
+                  ${bodyText ? `<p class="mb-4 text-secondary-emphasis">${escapeHtml(bodyText)}</p>` : ""}
+                  ${primaryButton}
+                  ${secondaryButton}
+                </div>
+              </div>
+              <div class="col-lg-5 bg-light">${heroVisual}</div>
+            </div>
+          </section>
+          ${extraContent}`;
+      }
+
+      function confirmSimpleView(tour) {
+        const message = tour
+          ? `${tour.textoPrellenado}`
+          : "Hola Octavio, acabo de confirmar mi pago. Contáctame para coordinar los detalles.";
+        const title = "¡Pago confirmado!";
+        const subtitle = tour
+          ? tour.nombre
+          : "Contáctanos por WhatsApp para coordinar los detalles.";
+        const bodyText = tour
+          ? "Revisa los siguientes pasos para dejar todo listo antes de tu viaje."
+          : "Si tu tour no quedó identificado, escríbenos por WhatsApp y te ayudamos a ordenar la reserva.";
+        const primaryButton = `
+          <div class="action-row d-flex flex-column flex-sm-row gap-3 mb-3">
+            <a class="btn btn-whatsapp btn-lg" href="https://wa.me/message/XKMPMDIT6NRNE1" data-whatsapp-message="${escapeHtml(message)}">
+              <span aria-hidden="true">✉</span>
+              Abrir WhatsApp
+            </a>
+            <a class="btn btn-soft btn-lg" href="index.html">Explorar otros tours</a>
+          </div>`;
+        const secondaryButton = "";
+        const extraContent = tour
+          ? `
+            <section class="panel-card p-4 p-lg-5 mb-4 mb-lg-5 fade-in-up delay-1">
+              <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+                <div>
+                  <h2 class="h3 mb-2">Próximos pasos</h2>
+                  <p class="mb-0 text-secondary">Checklist rápido para tenerlo todo listo.</p>
+                </div>
+                <span class="badge rounded-pill text-bg-warning text-dark border border-warning-subtle px-3 py-2">Confirmado</span>
+              </div>
+              <ul class="step-list">${renderSteps(tour.proximosPasos)}</ul>
+            </section>`
+          : `
+            <section class="panel-card p-4 p-lg-5 fade-in-up delay-1">
+              <div class="alert alert-warning mb-0 rounded-4 border-0" role="alert">
+                <strong>Tour no identificado.</strong> Usamos este mensaje genérico para que puedas seguir la conversación por WhatsApp y coordinar los detalles.
+              </div>
+            </section>`;
+
+        return renderBaseLayout({
+          modeKey: tour ? "confirm" : "generic",
+          tour,
+          title,
+          subtitle,
+          bodyText,
+          primaryButton,
+          secondaryButton,
+          extraContent,
+          topHint: tour
+            ? "Pago recibido correctamente"
+            : "Confirmación general",
+        });
+      }
+
+      function registerView(tour) {
+        const title = "¡Pago confirmado!";
+        const subtitle = tour.nombre;
+        const bodyText =
+          "Completa tus datos para que podamos dejar todo listo y enviarte la coordinación final por WhatsApp.";
+        const primaryButton = `
+          <div class="action-row d-flex flex-column flex-sm-row gap-3 mb-3">
+            <a class="btn btn-whatsapp btn-lg" href="https://wa.me/message/XKMPMDIT6NRNE1" data-whatsapp-message="${escapeHtml(tour.textoPrellenado)} y quiero registrar mis datos">
+              <span aria-hidden="true">✉</span>
+              Abrir WhatsApp
+            </a>
+            <a class="btn btn-soft btn-lg" href="index.html">Explorar otros tours</a>
+          </div>`;
+
+        const formFields = `
+          <form data-registro-form class="form-shell p-4 p-lg-5 fade-in-up delay-1" novalidate>
+            <div class="d-flex align-items-start justify-content-between gap-3 flex-wrap mb-4">
+              <div>
+                <h2 class="h3 mb-2">Registro de datos</h2>
+                <p class="mb-0 text-secondary">Enviaremos todo en un solo mensaje a WhatsApp. Sin backend, sin pasos extra.</p>
+              </div>
+              <span class="badge rounded-pill text-bg-warning text-dark px-3 py-2">${escapeHtml(tour.nombre)}</span>
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label fw-semibold" for="nombreCompleto">Nombre completo</label>
+                <input class="form-control form-control-lg" id="nombreCompleto" name="nombreCompleto" type="text" required autocomplete="name" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold" for="email">Email</label>
+                <input class="form-control form-control-lg" id="email" name="email" type="email" required autocomplete="email" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold" for="whatsapp">Teléfono WhatsApp</label>
+                <input class="form-control form-control-lg" id="whatsapp" name="whatsapp" type="tel" required autocomplete="tel" placeholder="33 5108 3318" />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold" for="personas">Número de personas</label>
+                <select class="form-select form-select-lg" id="personas" name="personas" required>
+                  ${Array.from({ length: 8 }, (_, index) => `<option value="${index + 1}">${index + 1}</option>`).join("")}
+                </select>
+              </div>
+              ${
+                requestedTour === "aeropuerto"
+                  ? `
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold" for="vuelo">Número de vuelo</label>
+                  <input class="form-control form-control-lg" id="vuelo" name="vuelo" type="text" placeholder="Ej. AM 1234" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold" for="aerolinea">Aerolínea</label>
+                  <input class="form-control form-control-lg" id="aerolinea" name="aerolinea" type="text" placeholder="Ej. Aeroméxico" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold" for="horaVuelo">Hora de llegada / salida</label>
+                  <input class="form-control form-control-lg" id="horaVuelo" name="horaVuelo" type="time" required />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold d-block mb-2">¿Llegada o salida?</label>
+                  <div class="d-flex flex-wrap gap-3">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="tipoVuelo" id="llegada" value="Llegada" checked />
+                      <label class="form-check-label" for="llegada">Llegada</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="tipoVuelo" id="salida" value="Salida" />
+                      <label class="form-check-label" for="salida">Salida</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label fw-semibold" for="maletas">Número de maletas</label>
+                  <select class="form-select form-select-lg" id="maletas" name="maletas" required>
+                    ${Array.from({ length: 6 }, (_, index) => `<option value="${index}">${index}</option>`).join("")}
+                  </select>
+                </div>`
+                  : requestedTour === "servicio"
+                    ? `
+                <div class="col-12">
+                  <label class="form-label fw-semibold" for="descripcionServicio">Descripción del servicio</label>
+                  <textarea class="form-control" id="descripcionServicio" name="descripcionServicio" rows="3" placeholder="Cuéntanos lo que necesitas" required></textarea>
+                </div>`
+                    : `
+                <div class="col-12">
+                  <label class="form-label fw-semibold" for="salud">¿Alguna restricción física o de salud que debamos saber?</label>
+                  <textarea class="form-control" id="salud" name="salud" rows="3" placeholder="Ej. movilidad reducida, alergias, necesidades especiales"></textarea>
+                </div>`
+              }
+              <div class="col-12">
+                <label class="form-label fw-semibold" for="comentarios">Comentarios adicionales</label>
+                <textarea class="form-control" id="comentarios" name="comentarios" rows="4" placeholder="Opcional"></textarea>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row gap-3 align-items-sm-center justify-content-between mt-4">
+              <p class="help-note mb-0">Al enviar, WhatsApp se abrirá con tu mensaje listo para revisar.</p>
+              <button class="btn btn-brand btn-lg" type="submit">
+                <span aria-hidden="true">✉</span>
+                Enviar por WhatsApp
+              </button>
+            </div>
+          </form>`;
+
+        const extraContent = `
+          <section class="panel-card p-4 p-lg-5 mb-4 mb-lg-5 fade-in-up delay-1">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+              <div>
+                <h2 class="h3 mb-2">Próximos pasos</h2>
+                <p class="mb-0 text-secondary">Tu reserva ya quedó confirmada. Ahora solo dejamos tus datos listos.</p>
+              </div>
+              <span class="badge rounded-pill text-bg-warning text-dark border border-warning-subtle px-3 py-2">Confirmado</span>
+            </div>
+            <ul class="step-list mb-0">${renderSteps(tour.proximosPasos)}</ul>
+          </section>
+          ${formFields}`;
+
+        return renderBaseLayout({
+          modeKey: "register",
+          tour,
+          title,
+          subtitle,
+          bodyText,
+          primaryButton,
+          secondaryButton: "",
+          extraContent,
+          topHint: "Requiere datos adicionales",
+        });
+      }
+
+      function postTripView(tour) {
+        const title = "¡Gracias por viajar con nosotros!";
+        const subtitle = `Fue un placer acompañarte en tu ${tour.nombre}. Tu opinión nos ayuda a seguir mejorando y a que más viajeros descubran Jalisco.`;
+        const bodyText =
+          "Elige dónde dejar tu reseña o escríbenos si aún tienes alguna duda.";
+        const primaryButton = `
+          <div class="action-row d-flex flex-column flex-sm-row gap-3 mb-3">
+            <a class="btn btn-whatsapp btn-lg" href="${waLink(`Hola Octavio, gracias por el ${tour.nombre}. Tengo un comentario o una duda adicional.`)}" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">✉</span>
+              WhatsApp
+            </a>
+            <a class="btn btn-soft btn-lg" href="index.html">Explorar otros tours</a>
+          </div>`;
+        const extraContent = `
+          <section class="panel-card p-4 p-lg-5 mb-4 mb-lg-5 fade-in-up delay-1">
+            <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+              <div>
+                <h2 class="h3 mb-2">Déjanos una reseña</h2>
+                <p class="mb-0 text-secondary">Nos ayuda muchísimo a seguir creciendo.</p>
+              </div>
+              <span class="badge rounded-pill text-bg-warning text-dark px-3 py-2">Opiniones verificadas</span>
+            </div>
+            <div class="review-grid">
+              <a class="review-card text-dark" href="https://www.tripadvisor.com/Attraction_Review-g150792-d17342580" target="_blank" rel="noopener noreferrer">
+                <div class="brand-label mb-2">TripAdvisor</div>
+                <h3 class="h5 mb-2">Comparte tu experiencia</h3>
+                <p class="mb-0 text-secondary">Ayuda a otros viajeros a descubrir Guadalajara y Jalisco.</p>
+              </a>
+              <a class="review-card text-dark" href="https://g.page/r/CUHWaT2IjNkqEBM/review" target="_blank" rel="noopener noreferrer">
+                <div class="brand-label mb-2">Google</div>
+                <h3 class="h5 mb-2">Déjanos tu valoración</h3>
+                <p class="mb-0 text-secondary">Tu reseña en Google Maps impulsa nuevas reservas y confianza.</p>
+              </a>
+              <a class="review-card text-dark" href="https://www.viator.com/tours/Guadalajara" target="_blank" rel="noopener noreferrer">
+                <div class="brand-label mb-2">Viator</div>
+                <h3 class="h5 mb-2">Valora tu tour</h3>
+                <p class="mb-0 text-secondary">Si reservaste por esta vía, comparte tu opinión aquí.</p>
+              </a>
+            </div>
+          </section>`;
+
+        return renderBaseLayout({
+          modeKey: "post",
+          tour,
+          title,
+          subtitle,
+          bodyText,
+          primaryButton,
+          secondaryButton: "",
+          extraContent,
+          topHint: "Post-viaje",
+        });
+      }
+
+      function declinedView(tour) {
+        const title = "Hubo un problema con tu pago";
+        const subtitle = tour
+          ? "No te preocupes, no se realizó ningún cargo. Puedes intentarlo de nuevo o contactarnos directamente."
+          : "No te preocupes, no se realizó ningún cargo. Puedes intentarlo de nuevo o contactarnos directamente.";
+        const bodyText = tour
+          ? `Si quieres, te ayudamos a resolverlo para ${tour.nombre} de inmediato.`
+          : "Si tu tour no quedó identificado, escríbenos y te ayudamos a resolverlo.";
+        const retryLink = tour ? tour.paginaRetorno : "index.html";
+        const contactMessage = tour
+          ? `Hola, tuve un problema con mi pago para el ${tour.nombre}, ¿me puedes ayudar?`
+          : "Hola, tuve un problema con mi pago, ¿me puedes ayudar?";
+        const primaryButton = `
+          <div class="action-row d-flex flex-column flex-sm-row gap-3 mb-3">
+            <a class="btn btn-whatsapp btn-lg" href="${waLink(contactMessage)}" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">✉</span>
+              Contactar por WhatsApp
+            </a>
+            ${requestedTour !== "servicio" ? `<a class="btn btn-soft btn-lg" href="${retryLink}">Intentar de nuevo</a>` : ""}
+          </div>`;
+        const extraContent = `
+          <section class="panel-card p-4 p-lg-5 fade-in-up delay-1">
+            <p class="mb-0 text-secondary">Puedes volver a intentarlo cuando quieras o escribirnos para revisar el estado de la transacción.</p>
+          </section>`;
+
+        return renderBaseLayout({
+          modeKey: "declined",
+          tour,
+          title,
+          subtitle,
+          bodyText,
+          primaryButton,
+          secondaryButton: "",
+          extraContent,
+          topHint: "Pago no completado",
+        });
+      }
+
+      function genericView() {
+        const title = "¡Pago confirmado!";
+        const subtitle =
+          "Contáctanos por WhatsApp para coordinar los detalles.";
+        const bodyText =
+          "No pudimos identificar el tour desde la URL, así que te dejamos un mensaje directo para resolverlo rápido.";
+        const primaryButton = `
+          <div class="action-row d-flex flex-column flex-sm-row gap-3 mb-3">
+            <a class="btn btn-whatsapp btn-lg" href="${waLink("Hola Octavio, acabo de confirmar mi pago. Contáctame para coordinar los detalles.")}" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">✉</span>
+              Contactar por WhatsApp
+            </a>
+            <a class="btn btn-soft btn-lg" href="index.html">Explorar otros tours</a>
+          </div>`;
+        const extraContent = `
+          <section class="panel-card p-4 p-lg-5 fade-in-up delay-1">
+            <div class="alert alert-info mb-0 rounded-4 border-0" role="alert">
+              <strong>Tour no identificado.</strong> Si llegaste aquí desde un enlace incompleto, escríbenos y te ayudamos a coordinarlo.
+            </div>
+          </section>`;
+
+        return renderBaseLayout({
+          modeKey: "generic",
+          tour: null,
+          title,
+          subtitle,
+          bodyText,
+          primaryButton,
+          secondaryButton: "",
+          extraContent,
+          topHint: "Confirmación general",
+        });
+      }
+
+      function updateDynamicHead() {
+        const currentTitle =
+          mode === "confirm"
+            ? pageTitleByMode.confirm
+            : mode === "register"
+              ? pageTitleByMode.register
+              : mode === "post"
+                ? pageTitleByMode.post
+                : pageTitleByMode.declined;
+        const description =
+          mode === "confirm"
+            ? metaDescriptionByMode.confirm
+            : mode === "register"
+              ? metaDescriptionByMode.register
+              : mode === "post"
+                ? metaDescriptionByMode.post
+                : metaDescriptionByMode.declined;
+
+        document.title = currentTitle;
+        setMeta('meta[name="description"]', description);
+        setMeta('meta[property="og:title"]', currentTitle);
+        setMeta('meta[property="og:description"]', description);
+        setMeta(
+          'meta[property="og:url"]',
+          `${pageUrl}${window.location.search}`,
+        );
+        setMeta(
+          'meta[property="og:image"]',
+          tourData && tourData.heroImage
+            ? `https://xaliscotrips.lat/${tourData.heroImage}`
+            : genericImage,
+        );
+        setMeta('meta[name="theme-color"]', "#ffc107");
+      }
+
+      function renderMode() {
+        const app = document.getElementById("app");
+        const chipText = document.getElementById("headerChipText");
+        const chipIcon = document.getElementById("headerChipIcon");
+
+        if (mode === "declined") {
+          chipText.textContent = "Pago declinado";
+          chipIcon.innerHTML = "✕";
+        } else if (mode === "post") {
+          chipText.textContent = "Cierre post-viaje";
+          chipIcon.innerHTML = "★";
+        } else if (mode === "register") {
+          chipText.textContent = "Confirmación + registro";
+          chipIcon.innerHTML = "✓";
+        } else if (mode === "generic") {
+          chipText.textContent = "Confirmación general";
+          chipIcon.innerHTML = "✓";
+        } else {
+          chipText.textContent = "Pago confirmado";
+          chipIcon.innerHTML = "✓";
+        }
+
+        const view =
+          mode === "declined"
+            ? declinedView(tourData)
+            : mode === "post"
+              ? postTripView(tourData)
+              : mode === "register"
+                ? registerView(tourData)
+                : mode === "confirm"
+                  ? confirmSimpleView(tourData)
+                  : genericView();
+
+        app.innerHTML = view;
+
+        const image = document.querySelector("[data-hero-image]");
+        const fallback = document.querySelector("[data-hero-fallback]");
+        if (image && fallback) {
+          image.addEventListener("error", () => {
+            image.remove();
+            fallback.classList.remove("d-none");
+          });
+        }
+
+        const form = app.querySelector("[data-registro-form]");
+        if (form) {
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            if (!form.checkValidity()) {
+              form.reportValidity();
+              return;
+            }
+
+            const nombreCompleto = form.nombreCompleto.value.trim();
+            const email = form.email.value.trim();
+            const whatsapp = form.whatsapp.value.trim();
+            const personas = form.personas.value;
+            const comentarios = form.comentarios.value.trim();
+            const lines = [
+              "Hola Octavio, acabo de confirmar mi pago y quiero registrar mis datos:",
+              "",
+              `Tour: ${tourData.nombre}`,
+              `Nombre completo: ${nombreCompleto}`,
+              `Email: ${email}`,
+              `Teléfono WhatsApp: ${whatsapp}`,
+              `Número de personas: ${personas}`,
+            ];
+
+            if (formExtraType === "health") {
+              const salud = form.salud.value.trim();
+              if (salud) lines.push(`Restricción física o de salud: ${salud}`);
+            } else if (formExtraType === "flight") {
+              const vuelo = form.vuelo.value.trim();
+              const aerolinea = form.aerolinea.value.trim();
+              const horaVuelo = form.horaVuelo.value;
+              const tipoVuelo = form.querySelector(
+                'input[name="tipoVuelo"]:checked',
+              )?.value;
+              if (vuelo) lines.push(`Vuelo: ${vuelo}`);
+              if (aerolinea) lines.push(`Aerolínea: ${aerolinea}`);
+              if (horaVuelo) lines.push(`Hora de vuelo: ${horaVuelo}`);
+              if (tipoVuelo) lines.push(`Tipo de vuelo: ${tipoVuelo}`);
+              const maletas = form.maletas ? form.maletas.value : null;
+              if (maletas) lines.push(`Maletas: ${maletas}`);
+            } else if (formExtraType === "service") {
+              const descripcion = form.descripcionServicio
+                ? form.descripcionServicio.value.trim()
+                : "";
+              if (descripcion)
+                lines.push(`Descripción del servicio: ${descripcion}`);
+            }
+
+            if (comentarios)
+              lines.push(`Comentarios adicionales: ${comentarios}`);
+
+            const finalMessage = lines.join("\n");
+            window.open(waLink(finalMessage), "_blank", "noopener,noreferrer");
+          });
+        }
+
+        document
+          .querySelectorAll("[data-whatsapp-message]")
+          .forEach((anchor) => {
+            anchor.addEventListener("click", (event) => {
+              const message = anchor.getAttribute("data-whatsapp-message");
+              if (!message) {
+                return;
+              }
+              event.preventDefault();
+              window.open(waLink(message), "_blank", "noopener,noreferrer");
+            });
+          });
+      }
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+      updateDynamicHead();
+      renderMode();
+    </script>
+  </body>
+</html>
