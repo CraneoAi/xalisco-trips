@@ -7,3 +7,14 @@ AUDITORIA-*.md
 REPORTE-*.md
 seo-fix-*.md
 img/**/*-original.webp
+
+# Dev & Audit Files
+index-en
+SEO-AUDIT-REPORT.md
+REPORTE-OG-TWITTER.md
+reports/
+scripts/*.json
+scripts/*.ps1
+check-index-status.ps1
+validate-index.ps1
+validate-json-ld.ps1
