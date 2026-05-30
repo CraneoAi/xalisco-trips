@@ -1,0 +1,1794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-WEMYBB1NGK");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guadalajara World Cup 2026 Private Tours | Xalisco Trips</title>
+
+    <!-- Security: CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com https://www.tiktok.com https://www.jscache.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://cdn.jsdelivr.net https://www.googletagmanager.com; frame-src https://www.tiktok.com;"
+    />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Explore Guadalajara and Jalisco during the 2026 World Cup. Private day trips to Tequila, Chapala, Guachimontones and Tlaquepaque. Bilingual guide."
+    />
+    <meta
+      name="keywords"
+      content="world cup 2026 guadalajara tours, mexico vs south korea guadalajara, things to do guadalajara world cup, private tours estadio akron, tequila tour world cup 2026, guadalajara day trips fifa 2026"
+    />
+    <meta name="author" content="Xalisco Trips" />
+    <link rel="canonical" href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours" />
+
+    <!-- PWA & Theme -->
+    <meta name="theme-color" content="#ffc107" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Guadalajara World Cup 2026 Private Tours | Xalisco Trips"
+    />
+    <meta
+      property="og:description"
+      content="Explore Guadalajara and Jalisco during the 2026 World Cup. Private day trips to Tequila, Chapala, Guachimontones and Tlaquepaque. Bilingual guide."
+    />
+    <meta
+      property="og:image"
+      content="https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Xalisco Trips" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Guadalajara World Cup 2026 Private Tours | Xalisco Trips"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore Guadalajara and Jalisco during the 2026 World Cup. Private day trips to Tequila, Chapala, Guachimontones and Tlaquepaque. Bilingual guide."
+    />
+    <meta
+      name="twitter:image"
+      content="https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+    />
+
+    <!-- SEO: Robots -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo-xalisco-trips.ico" type="image/x-icon" />
+
+    <!-- Alternate Language -->
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours"
+    />
+    <link
+      rel="alternate"
+      hreflang="es"
+      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours-es"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours"
+    />
+
+    <!-- Performance: Preload LCP Image -->
+    <link
+      rel="preload"
+      as="image"
+      href="img/hero/portada-jalisco.webp"
+      fetchpriority="high"
+    />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.tiktok.com" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap&font-display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap & Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    /></noscript>
+
+    <!-- AOS Animation Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css?v=20260505" />
+
+    <!-- Google Tag Manager -->
+    <style>
+      :root {
+        --brand-primary: #ffc107;
+        --brand-whatsapp: #25d366;
+        --brand-dark: #212529;
+      }
+
+      html,
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #1a1a2e !important;
+      }
+
+      main {
+        background: #1a1a2e;
+      }
+
+      .language-switcher {
+        top: 1rem;
+        right: 1rem;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 0.3rem 0.75rem;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 0.85rem;
+      }
+
+      .language-switcher a {
+        color: #ffc107;
+        text-decoration: none;
+      }
+    </style>
+
+    <!-- World Cup Specific Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TouristTrip",
+        "startDate": "2026-06-11",
+        "name": "Private Tours Guadalajara — FIFA World Cup 2026",
+        "description": "Private day tours in Guadalajara during FIFA World Cup 2026. Explore Tequila, Chapala, Tonalá and Guachimontones between matches at Estadio Akron. Certified bilingual guide, door-to-door pickup.",
+        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "endDate": "2026-07-19",
+        "image": ["https://xaliscotrips.lat/img/hero/portada-jalisco.webp"],
+        "touristType": "Sports fans, international travelers, FIFA World Cup 2026 visitors",
+        "availableLanguage": ["English", "Spanish"],
+        "provider": {
+          "@type": "TouristInformationCenter",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "telephone": "+52-33-5108-3318",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Guadalajara",
+            "addressRegion": "Jalisco",
+            "addressCountry": "MX"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "24",
+            "bestRating": "5"
+          }
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "35",
+          "availability": "https://schema.org/InStock"
+        },
+        "event": [
+          {
+            "@type": "SportsEvent",
+            "name": "South Korea vs Czechia — FIFA World Cup 2026",
+            "description": "FIFA World Cup 2026 Group A match featuring South Korea against Czechia at Estadio Akron in Guadalajara. Experience this historic match with private tour packages, bilingual guide, and door-to-door pickup.",
+            "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+            "startDate": "2026-06-11T21:00:00-06:00",
+            "endDate": "2026-06-11T23:00:00-06:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "StadiumOrArena",
+              "name": "Estadio Akron",
+              "address": "Guadalajara, Jalisco, México"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "35",
+              "availability": "https://schema.org/InStock",
+              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "validFrom": "2026-01-01"
+            },
+            "performer": [
+              { "@type": "SportsTeam", "name": "South Korea" },
+              { "@type": "SportsTeam", "name": "Czechia" }
+            ],
+            "organizer": {
+              "@type": "Organization",
+              "name": "FIFA",
+              "url": "https://www.fifa.com"
+            }
+          },
+          {
+            "@type": "SportsEvent",
+            "name": "Mexico vs South Korea — FIFA World Cup 2026",
+            "description": "FIFA World Cup 2026 match with Mexico hosting South Korea at Estadio Akron in Guadalajara. Experience this historic match with our private tour including hotel pickup, bilingual guide, and local insights.",
+            "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+            "startDate": "2026-06-18T19:00:00-06:00",
+            "endDate": "2026-06-18T22:00:00-06:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "StadiumOrArena",
+              "name": "Estadio Akron",
+              "address": "Guadalajara, Jalisco, México"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "35",
+              "availability": "https://schema.org/InStock",
+              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "validFrom": "2026-01-01"
+            },
+            "performer": [
+              {
+                "@type": "SportsTeam",
+                "name": "Mexico"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "South Korea"
+              }
+            ],
+            "organizer": {
+              "@type": "Organization",
+              "name": "FIFA",
+              "url": "https://www.fifa.com"
+            }
+          },
+          {
+            "@type": "SportsEvent",
+            "name": "Colombia vs DR Congo — FIFA World Cup 2026",
+            "description": "FIFA World Cup 2026 Group K match featuring Colombia against DR Congo at Estadio Akron in Guadalajara. Join our private tour to experience this exciting World Cup match in Mexico.",
+            "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+            "startDate": "2026-06-23T21:00:00-06:00",
+            "endDate": "2026-06-23T23:00:00-06:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "StadiumOrArena",
+              "name": "Estadio Akron",
+              "address": "Guadalajara, Jalisco, México"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "35",
+              "availability": "https://schema.org/InStock",
+              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "validFrom": "2026-01-01"
+            },
+            "performer": [
+              { "@type": "SportsTeam", "name": "Colombia" },
+              { "@type": "SportsTeam", "name": "DR Congo" }
+            ],
+            "organizer": {
+              "@type": "Organization",
+              "name": "FIFA",
+              "url": "https://www.fifa.com"
+            }
+          },
+          {
+            "@type": "SportsEvent",
+            "name": "Uruguay vs Spain — FIFA World Cup 2026",
+            "description": "FIFA World Cup 2026 showdown between Uruguay and Spain at Estadio Akron in Guadalajara. Experience this World Cup match with private transportation, certified bilingual guide, and authentic local hospitality.",
+            "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+            "startDate": "2026-06-26T18:00:00-06:00",
+            "endDate": "2026-06-26T21:00:00-06:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "location": {
+              "@type": "StadiumOrArena",
+              "name": "Estadio Akron",
+              "address": "Guadalajara, Jalisco, México"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "35",
+              "availability": "https://schema.org/InStock",
+              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "validFrom": "2026-01-01"
+            },
+            "performer": [
+              {
+                "@type": "SportsTeam",
+                "name": "Uruguay"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "Spain"
+              }
+            ],
+            "organizer": {
+              "@type": "Organization",
+              "name": "FIFA",
+              "url": "https://www.fifa.com"
+            }
+          }
+        ]
+      }
+    </script>
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Xalisco Trips",
+        "image": ["https://xaliscotrips.lat/img/hero/portada-jalisco.webp"],
+        "description": "Private World Cup 2026 tours in Guadalajara. Explore Jalisco between matches.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "MX",
+          "addressRegion": "Jalisco",
+          "addressLocality": "Guadalajara"
+        },
+        "telephone": "+5213351083318",
+        "url": "https://xaliscotrips.lat",
+        "priceRange": "$$$",
+        "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "bestRating": "5",
+          "ratingCount": "45"
+        }
+      }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://xaliscotrips.lat/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "World Cup 2026",
+            "item": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"
+          }
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        var s = document.createElement("style");
+        s.textContent =
+          '@font-face{font-family:"Twemoji Country Flags";src:url("https://cdn.jsdelivr.net/npm/country-flag-emoji-polyfill@0.1/dist/TwemojiCountryFlags.woff2") format("woff2");unicode-range:U+1F1E0-1F1FF,U+1F3F4,U+E0062-E0063,U+E0065,U+E0067,U+E006C,U+E006E,U+E0073-E0074,U+E0077,U+E007F;}body{font-family:"Twemoji Country Flags",sans-serif;}';
+        document.head.appendChild(s);
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <span>🌐</span>
+      <a href="world-cup-2026-guadalajara-tours.html" class="active">EN</a>
+      <span>|</span>
+      <a href="/">ES</a>
+    </div>
+
+    <!-- World Cup Banner -->
+    <a
+      href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I'm%20visiting%20Guadalajara%20for%20the%20World%20Cup%202026%20and%20want%20to%20book%20a%20tour.%20Can%20you%20help%20me?"
+      class="worldcup-banner"
+      aria-label="Book your World Cup tours"
+    >
+      <span class="ball-icon">⚽</span>
+      <div class="banner-content">
+        <span class="banner-title">World Cup 2026</span>
+        <span class="banner-subtitle">📍 Guadalajara Host City</span>
+        <span class="banner-cta">Book your tour! →</span>
+      </div>
+    </a>
+
+    <!-- WhatsApp Floating Widget -->
+    <div class="wa-widget" id="waWidget">
+      <div class="wa-bubble" id="waBubble">
+        <strong>Hi there! 👋 Xalisco Trips</strong>
+        Planning your World Cup visit? We reply in under 15 minutes.
+        <div class="wa-time">now</div>
+      </div>
+      <div class="position-relative">
+        <a
+          href="https://wa.me/5213351083318?text=Hello!%20I'm%20visiting%20Guadalajara%20for%20the%20World%20Cup%202026%20and%20want%20to%20book%20a%20tour.%20Can%20you%20help%20me?"
+          class="wa-btn"
+          aria-label="Contact via WhatsApp"
+        >
+          <i class="bi bi-whatsapp"></i>
+          Book Now
+        </a>
+        <span class="wa-badge">1</span>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content container">
+          <div class="hero-title-container">
+            <span class="spinning-ball">⚽</span>
+            <h1 class="display-4 fw-bold mb-0">
+              Explore Guadalajara While the World Visits
+            </h1>
+            <span class="spinning-ball reverse">⚽</span>
+          </div>
+          <p class="lead mt-3 text-white mb-3">
+            Match days in Guadalajara:
+            <strong>June 11 · June 18 · June 23 · June 26</strong> at Estadio
+            Akron
+          </p>
+          <p class="lead text-white mb-4">
+            Make the most of your days between matches — private day trips to
+            Tequila, Guachimontones Pyramids, Lake Chapala and more. Certified
+            bilingual guide · Door-to-door pickup · Book via WhatsApp.
+          </p>
+          <a href="#tours" class="btn btn-warning btn-lg mt-3"
+            >⚽ Explore Tours</a
+          >
+        </div>
+      </section>
+
+      <!-- Intro Section -->
+      <section id="intro" class="py-5 bg-light">
+        <div class="container" data-aos="fade-up">
+          <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="mb-4">Experience Jalisco During the World Cup</h2>
+              <p class="lead text-muted mb-4">
+                Guadalajara is hosting four FIFA World Cup 2026 matches at
+                Estadio Akron (officially "Estadio Guadalajara" during the
+                tournament) — June 11, 18, 23 and 26. Between matches, you have
+                2–3 days to explore one of Mexico's most culturally rich cities.
+                Jalisco is where tequila was born, mariachi originated, and
+                where the country's most celebrated artisan traditions still
+                thrive. These are the best private day trips from Guadalajara to
+                make the most of your time between World Cup games — with a
+                certified, bilingual local guide who knows every stop.
+              </p>
+              <div class="row g-4 mt-4">
+                <div class="col-md-4">
+                  <div
+                    class="p-3 rounded"
+                    style="background: rgba(255, 193, 7, 0.1)"
+                  >
+                    <i
+                      class="bi bi-shield-check text-warning display-5 mb-2"
+                    ></i>
+                    <h6>Certified Guide</h6>
+                    <small class="text-muted"
+                      >Sectur-licensed & bilingual</small
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="p-3 rounded"
+                    style="background: rgba(255, 193, 7, 0.1)"
+                  >
+                    <i class="bi bi-people text-warning display-5 mb-2"></i>
+                    <h6>100% Private</h6>
+                    <small class="text-muted"
+                      >No group tours, just your group</small
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="p-3 rounded"
+                    style="background: rgba(255, 193, 7, 0.1)"
+                  >
+                    <i class="bi bi-clock text-warning display-5 mb-2"></i>
+                    <h6>Your Schedule</h6>
+                    <small class="text-muted">Fit around match times</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- World Cup Match Schedule Section -->
+      <section id="schedule" class="py-5 bg-white">
+        <div class="container" data-aos="fade-up">
+          <div class="text-center mb-5">
+            <h2 class="mb-3">World Cup 2026 — Guadalajara Match Dates</h2>
+            <p class="lead text-muted">
+              Matches at Estadio Akron — Plan your tours accordingly
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="alert alert-info mb-4">
+                <i class="bi bi-info-circle me-2"></i>
+                <strong>Note:</strong> All match times are local Guadalajara
+                time (CST). Dates confirmed by FIFA — subject to broadcasting
+                adjustments.
+              </div>
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead class="table-warning">
+                    <tr>
+                      <th><i class="bi bi-calendar3 me-2"></i>Date</th>
+                      <th><i class="bi bi-shield me-2"></i>Teams</th>
+                      <th><i class="bi bi-geo-alt me-2"></i>Venue</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>June 11</strong> · 9:00 PM</td>
+                      <td>🇰🇷 South Korea vs 🇨🇿 Czechia</td>
+                      <td>Estadio Akron · Guadalajara</td>
+                    </tr>
+                    <tr>
+                      <td><strong>June 18</strong> · 8:00 PM</td>
+                      <td>🇲🇽 Mexico vs 🇰🇷 South Korea</td>
+                      <td>Estadio Akron · Guadalajara</td>
+                    </tr>
+                    <tr>
+                      <td><strong>June 23</strong> · 9:00 PM</td>
+                      <td>🇨🇴 Colombia vs 🇨🇩 DR Congo</td>
+                      <td>Estadio Akron · Guadalajara</td>
+                    </tr>
+                    <tr>
+                      <td><strong>June 26</strong> · 7:00 PM</td>
+                      <td>🇺🇾 Uruguay vs 🇪🇸 Spain</td>
+                      <td>Estadio Akron · Guadalajara</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="text-center mt-4">
+                <p class="text-muted mb-3">
+                  Don't see your match?
+                  <strong>Message us on WhatsApp</strong> and we'll create a
+                  custom tour itinerary.
+                </p>
+                <a
+                  href="https://wa.me/5213351083318?text=Hello!%20I'm%20coming%20to%20World%20Cup%202026%20and%20want%20to%20plan%20tours%20for%20these%20dates:%20[YOUR%20DATES]"
+                  class="btn btn-success btn-lg"
+                  ><i class="bi bi-whatsapp me-2"></i>Plan Your Tour</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="worldcup-info-section">
+        <div class="container">
+          <h2 class="worldcup-info-title">
+            Practical Info for World Cup Fans in Guadalajara
+          </h2>
+          <div class="worldcup-info-grid">
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              🏟️ Getting to Estadio Akron
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              The stadium is in Zapopan, ~20–30 min from the historic center.
+              Best options: Uber (100–200 MXN), FIFA shuttle buses, or TrenTren
+              suburban rail from Central Camionera. Avoid driving — parking is
+              scarce and traffic severe on match days.
+            </p>
+          </div>
+
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              🌡️ June Weather in Guadalajara
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              Expect warm mornings (~29°C / 84°F) with brief afternoon
+              thunderstorms. Evening matches can be cool — bring a light jacket.
+              Mornings are best for day trips before the rain rolls in.
+            </p>
+          </div>
+
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              🎉 FIFA Fan Festival
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              The official FIFA Fan Festival will be held at Plaza Liberación in
+              the historic center — between Guadalajara Cathedral and Teatro
+              Degollado. Free admission, giant screens showing all matches, food
+              vendors and live entertainment.
+            </p>
+          </div>
+
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              ✈️ Airport Transfers
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              GDL International Airport is ~16 km south of the city center. We
+              offer private transfers 24/7 — fixed price, no surge pricing.
+              <a
+                href="https://xaliscotrips.lat/airport-transfer-en.html"
+                style="color: #2d7a4f"
+                >Book your airport transfer →</a
+              >
+            </p>
+          </div>
+
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              📅 Best Days for Day Trips
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              Match days: June 11, 18, 23, 26. Best days for day trips: June
+              12–17 (7 days between matches 1 and 2), June 19–22 (3 days), and
+              June 24–25. Book in advance — spots fill quickly during tournament
+              weeks.
+            </p>
+          </div>
+
+          <div
+            style="background: #f8f9fa; border-radius: 8px; padding: 1.25rem"
+          >
+            <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem">
+              🗣️ Language & Communication
+            </h3>
+            <p style="font-size: 0.88rem; margin: 0; color: #555">
+              Octavio, your guide, is fully bilingual in Spanish and English.
+              All tours are conducted in English for international fans.
+              WhatsApp is the fastest way to reach us — response guaranteed in
+              under 15 minutes.
+            </p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Best Day Trips Section -->
+      <section id="tours" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">Best Day Trips Between Matches</h2>
+            <p class="lead text-muted">
+              Choose from these 4 most popular options — all departing from
+              Guadalajara
+            </p>
+          </div>
+
+          <!-- Tour Cards -->
+          <div class="row g-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Tequila Tour -->
+            <div class="col-md-6 col-lg-6">
+              <div class="card destination-card h-100">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #f4a261; color: white"
+                    >UNESCO Site</span
+                  >
+                  <img
+                    src="img/destinos/tequila.webp"
+                    class="card-img-top"
+                    alt="Tequila agave fields"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-cup-straw text-warning me-2"></i>Tequila
+                    Tour
+                  </h5>
+                  <div class="price-badge mb-2">
+                    7-9 hours • $42 USD per person
+                  </div>
+                  <p class="card-text">
+                    Explore the legendary birthplace of tequila. Visit artisan
+                    distilleries, walk through blue agave fields, and taste
+                    premium tequila in a UNESCO World Heritage Site.
+                  </p>
+                  <ul class="small text-muted mb-3">
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Private transport included
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i>Expert
+                      bilingual guide
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Distillery entrance not included
+                    </li>
+                  </ul>
+                  <a
+                    href="https://xaliscotrips.lat/tequila-en.html"
+                    class="btn btn-success w-100 fw-bold"
+                    ><i class="bi bi-whatsapp me-2"></i>Book Tequila Tour</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Chapala Combo -->
+            <div class="col-md-6 col-lg-6">
+              <div class="card destination-card h-100">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #2e8b57; color: white"
+                    >Nature</span
+                  >
+                  <img
+                    src="img/destinos/chapala1.webp"
+                    class="card-img-top"
+                    alt="Lake Chapala"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-water text-info me-2"></i>Chapala + Tonalá
+                    Combo
+                  </h5>
+                  <div class="price-badge mb-2">
+                    8-10 hours • $50 USD per person
+                  </div>
+                  <p class="card-text">
+                    Experience Mexico's largest lake at Chapala, then explore
+                    the artisan heart at Tonalá. Visit local markets, museums,
+                    and enjoy authentic regional gastronomy.
+                  </p>
+                  <ul class="small text-muted mb-3">
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i>Two
+                      destinations in one day
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Waterfront dining available
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Artisan shopping in Tonalá
+                    </li>
+                  </ul>
+                  <a
+                    href="https://xaliscotrips.lat/chapala-tonala-en.html"
+                    class="btn btn-success w-100 fw-bold"
+                    ><i class="bi bi-whatsapp me-2"></i>Book Chapala Combo</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Tequila + Guachimontones Combo -->
+            <div class="col-md-6 col-lg-6">
+              <div class="card destination-card h-100">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #d4af37"
+                    >Archaeological</span
+                  >
+                  <img
+                    src="img/destinos/Guachimontones.webp"
+                    class="card-img-top"
+                    alt="Guachimontones pyramids"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-building text-danger me-2"></i>Tequila +
+                    Guachimontones
+                  </h5>
+                  <div class="price-badge mb-2">
+                    8-10 hours • $55 USD per person
+                  </div>
+                  <p class="card-text">
+                    Combine tequila and pre-Hispanic history. Visit agave
+                    distilleries, then explore unique circular pyramids of the
+                    Teuchitlán culture at an interactive archaeological site.
+                  </p>
+                  <ul class="small text-muted mb-3">
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i>UNESCO
+                      + Archaeological combo
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i>Museum
+                      with artifacts included
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Panoramic valley views
+                    </li>
+                  </ul>
+                  <a
+                    href="https://xaliscotrips.lat/tequila-en.html"
+                    class="btn btn-success w-100 fw-bold"
+                    ><i class="bi bi-whatsapp me-2"></i>Book Archaeological
+                    Combo</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Tlaquepaque Quick Tour -->
+            <div class="col-md-6 col-lg-6">
+              <div class="card destination-card h-100">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #e07a5f; color: white"
+                    >Culture</span
+                  >
+                  <img
+                    src="img/destinos/tlaquepaque.webp"
+                    class="card-img-top"
+                    alt="Tlaquepaque artisan streets"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-palette me-2"></i>Tlaquepaque (Express)
+                  </h5>
+                  <div class="price-badge mb-2">
+                    4-6 hours • $35 USD per person
+                  </div>
+                  <p class="card-text">
+                    Perfect for a quick cultural escape. Browse world-class
+                    Mexican art, watch live mariachi performances, and shop
+                    authentic Jalisco handicrafts on cobblestone streets.
+                  </p>
+                  <ul class="small text-muted mb-3">
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Shortest option (4-6 hrs)
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i>Live
+                      mariachi available
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle me-1 text-success"></i
+                      >Shopping time included
+                    </li>
+                  </ul>
+                  <a
+                    href="https://xaliscotrips.lat/tlaquepaque-en.html"
+                    class="btn btn-success w-100 fw-bold"
+                    ><i class="bi bi-whatsapp me-2"></i>Book Tlaquepaque</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Custom Tours CTA -->
+          <div class="row mt-5">
+            <div class="col-lg-8 mx-auto">
+              <div class="alert alert-warning border-2" role="alert">
+                <h5 class="alert-heading">
+                  <i class="bi bi-lightbulb me-2"></i>Custom World Cup
+                  Experience?
+                </h5>
+                <p class="mb-2">
+                  Combine destinations, create your own itinerary, or schedule
+                  tours around your specific match schedule.
+                </p>
+                <a
+                  href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I'm%20coming%20to%20the%20World%20Cup%202026%20in%20Guadalajara%20and%20want%20to%20create%20a%20CUSTOM%20TOUR."
+                  class="btn btn-warning btn-sm fw-bold"
+                  ><i class="bi bi-chat-dots me-1"></i>Chat with us on
+                  WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Private Tours Section -->
+      <section id="why" class="py-5 bg-white">
+        <div class="container" data-aos="fade-up">
+          <div class="text-center mb-5">
+            <h2 class="mb-4">Why Choose a Private Tour for the World Cup?</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="text-center p-4">
+                <div class="display-4 text-warning mb-3">⏰</div>
+                <h5 class="fw-bold mb-3">Flexible Schedule</h5>
+                <p class="text-muted">
+                  Arrange tours before or after World Cup matches. Stay as long
+                  as you want at each stop.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center p-4">
+                <div class="display-4 text-warning mb-3">👥</div>
+                <h5 class="fw-bold mb-3">No Strangers</h5>
+                <p class="text-muted">
+                  100% private tours. Travel only with your friends and family.
+                  All conversations in English.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="text-center p-4">
+                <div class="display-4 text-warning mb-3">🚗</div>
+                <h5 class="fw-bold mb-3">Door-to-Door Pickup</h5>
+                <p class="text-muted">
+                  We meet you at your hotel or any location. Relaxed travel from
+                  start to finish.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews Section -->
+      <section id="reviews" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">What Travelers Say</h2>
+            <p class="lead text-muted">
+              5⭐ on Viator — Verified reviews from real clients
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #4a90e2;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    J
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">jSgalin</h6>
+                    <small class="text-muted">United States</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">
+                  "Great tour guide and private driver."
+                </h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "I was looking for a driver for our trip on 12/15/25. He
+                    provided his car insurance, INE, and his license to ensure
+                    we felt safe hiring him. Octavio was our driver for 4 days
+                    while visiting GDL, Arandas, Tequila and surrounding areas.
+                    He was reliable, on time, and very trustworthy. I would
+                    recommend Octavio."
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Premium Private Tour ·
+                  March 2026</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #e07a5f;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    K
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">Kris_O</h6>
+                    <small class="text-muted">Canada</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">"A day of culture & fun!"</h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "The tour was exactly as described and more! Octavio was
+                    wonderful and very friendly, knowledgeable, personable, and
+                    a great driver. We traveled with 4 adults and a child and
+                    everyone had a great time. BOOK THIS TOUR! You won't regret
+                    it!"
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Premium Private Tour ·
+                  January 2026</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #2e8b57;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    C
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">connyt7</h6>
+                    <small class="text-muted">Spain</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">"Exceptional experience"</h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "After an amazing experience on the Chapala Tour, we didn't
+                    hesitate to contact Octavio again. My father had a leg
+                    problem, and Octavio had no trouble driving him right up to
+                    the pyramid area. I 100% recommend this tour!"
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Private Tequila +
+                  Guachimontones · February 2026</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #f4a261;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    F
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">felixrD5</h6>
+                    <small class="text-muted">Mexico</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">"Managing our time perfectly"</h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "Octavio is a super experienced and very kind guide — he
+                    truly made every single minute extraordinary. Thank you
+                    Octavio, I hope I can take another tour with you!!!!!"
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Private Tour · December
+                  2025</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="worldcup-faq-section">
+        <div class="container">
+          <h2 class="worldcup-faq-title">
+            Frequently Asked Questions — World Cup 2026 Guadalajara
+          </h2>
+
+          <div class="worldcup-faq-item">
+            <h3 class="worldcup-faq-question">
+            What are the best things to do in Guadalajara between World Cup
+            matches?
+            </h3>
+            <p class="worldcup-faq-answer">
+            The best day trips from Guadalajara during World Cup 2026 are: the
+            Tequila Tour (UNESCO site, 7–9 hrs), the Chapala + Tonalá combo
+            (Mexico's largest lake + artisan market, 8–10 hrs), Tequila +
+            Guachimontones (archaeology + distillery, 8–10 hrs), and the
+            Tlaquepaque express (Mexican art and mariachi, 4–6 hrs — ideal on
+            match days). All depart from your hotel.
+            </p>
+          </div>
+
+          <div class="worldcup-faq-item">
+            <h3 class="worldcup-faq-question">
+            How far is Tequila from Guadalajara?
+            </h3>
+            <p class="worldcup-faq-answer">
+            Tequila is approximately 60–65 km northwest of Guadalajara — about 1
+            hour by car. It's the most popular day trip for World Cup fans and
+            can comfortably be done the morning after a match or on any free day
+            between games.
+            </p>
+          </div>
+
+          <div class="worldcup-faq-item">
+            <h3 class="worldcup-faq-question">
+            Can I book a tour on match day?
+            </h3>
+            <p class="worldcup-faq-answer">
+            Yes — our shorter tours (Tlaquepaque, 4–6 hrs) are designed to fit
+            around match schedules. For evening matches (7:00–8:00 PM kickoff),
+            a morning Tlaquepaque or Tonalá tour works perfectly. We'll
+            coordinate pickup times around your match schedule.
+            </p>
+          </div>
+
+          <div class="worldcup-faq-item">
+            <h3 class="worldcup-faq-question">
+            How do I get from Guadalajara airport to my hotel during the World
+            Cup?
+            </h3>
+            <p class="worldcup-faq-answer">
+            We offer private airport transfers 24/7 — fixed price from $35 USD
+            per vehicle, no surge pricing even during World Cup week. Book at
+            least 12 hours in advance.
+            <a
+              href="https://xaliscotrips.lat/airport-transfer-en.html"
+              style="color: #2d7a4f"
+              >See airport transfer details →</a
+            </a>
+            </p>
+          </div>
+
+          <div class="worldcup-faq-item">
+            <h3 class="worldcup-faq-question">
+            Is Guadalajara safe for tourists during the World Cup?
+            </h3>
+            <p class="worldcup-faq-answer">
+            Guadalajara's tourist areas — historic center, Tlaquepaque, Zapopan,
+            Colonia Americana — are safe for visitors. As with any major city
+            during a large event, stay aware, use Uber rather than street taxis,
+            and travel with a local guide for day trips outside the city. Our
+            tours provide door-to-door private transport throughout.
+            </p>
+          </div>
+
+          <div class="worldcup-faq-item is-last">
+            <h3 class="worldcup-faq-question">
+            How far in advance should I book World Cup tours?
+            </h3>
+            <p class="worldcup-faq-answer">
+            We strongly recommend booking at least 2–3 weeks before your travel
+            dates. June 11, 18, 23 and 26 will see extreme demand for all
+            services in Guadalajara. Secure your tour dates now — we confirm via
+            WhatsApp within 15 minutes.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 cta-section text-center">
+        <div class="container position-relative">
+          <div data-aos="zoom-in">
+            <h2 class="display-5 fw-bold text-dark mb-3">
+              Ready to Explore Jalisco During World Cup 2026?
+            </h2>
+            <p class="lead text-dark mb-4">
+              Thousands of fans coming to Guadalajara. Be one of the smart ones
+              who explores beyond the stadium.
+            </p>
+
+            <div class="worldcup-cta-container" data-aos="fade-up">
+              <span class="spinning-ball">⚽</span>
+              <div class="worldcup-cta">
+                <h4>WORLD CUP 2026 IN GUADALAJARA</h4>
+                <p>
+                  Between matches, discover the soul of Jalisco with a certified
+                  local guide.<br /><strong
+                    >Book your tour now — spots fill up fast during
+                    tournaments!</strong
+                  >
+                </p>
+              </div>
+              <span class="spinning-ball reverse">⚽</span>
+            </div>
+
+            <div class="row justify-content-center mb-4 mt-4">
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-shield-check"></i> Secure booking
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-headset"></i> 24/7 support
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-star-fill text-warning"></i> 5.0/5 Viator
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center"
+            >
+              <a
+                href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I'm%20visiting%20Guadalajara%20for%20the%20World%20Cup%202026%20and%20want%20to%20book%20a%20tour.%20Can%20you%20help%20me?"
+                class="btn btn-success btn-lg px-5 py-3 fw-bold"
+                ><i class="bi bi-whatsapp me-2"></i>Book Your Tour via
+                WhatsApp</a
+              >
+              <a
+                href="tel:+5213351083318"
+                class="btn btn-outline-dark btn-lg px-4 py-3"
+                ><i class="bi bi-telephone me-2"></i>Call Directly</a
+              >
+            </div>
+
+            <p class="small text-dark mt-4 mb-0">
+              <i class="bi bi-info-circle me-1"></i>Response guaranteed in less
+              than 15 minutes
+            </p>
+            <p class="small text-dark mt-3 mb-0">
+              <i class="bi bi-envelope me-1"></i>
+              <a href="mailto:octavio@xaliscotrips.lat"
+                 class="text-dark text-decoration-none fw-semibold">
+                octavio@xaliscotrips.lat
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+    </main>
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="d-flex justify-content-center gap-3 mb-3">
+          <a
+            href="https://www.instagram.com/xaliscotrips?igsh=cWUzejhoNWhrcGFq"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram fs-5 text-warning"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61583422030849"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+          >
+            <i class="bi bi-facebook fs-5 text-warning"></i>
+          </a>
+          <a
+            href="https://www.tiktok.com/@xalisco.trips"
+            target="_blank"
+            rel="noopener"
+            aria-label="TikTok"
+          >
+            <i class="bi bi-tiktok fs-5 text-warning"></i>
+          </a>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h5 class="mb-3">
+              <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips
+            </h5>
+            <p class="mb-3">
+              Your World Cup connection to Jalisco. Private tours, certified
+              guide, authentic experiences since 2019.
+            </p>
+            <div class="d-flex gap-3 mb-4">
+              <a
+                href="https://wa.me/5213351083318"
+                class="text-success"
+                aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp fs-4"></i
+              ></a>
+              <a href="tel:+5213351083318" class="text-light" aria-label="Phone"
+                ><i class="bi bi-telephone fs-4"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@xalisco.trips"
+                class="text-danger"
+                aria-label="TikTok"
+                target="_blank"
+                ><i class="bi bi-tiktok fs-4"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-3">Popular Tours</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <a
+                  href="#tours"
+                  class="text-light-emphasis text-decoration-none"
+                  >Tequila</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#tours"
+                  class="text-light-emphasis text-decoration-none"
+                  >Chapala + Tonalá</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#tours"
+                  class="text-light-emphasis text-decoration-none"
+                  >Guachimontones</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#tours"
+                  class="text-light-emphasis text-decoration-none"
+                  >Tlaquepaque</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/en/blog/"
+                  class="text-light-emphasis text-decoration-none"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-3">Information</h6>
+            <ul class="list-unstyled small">
+              <li>
+                <small class="text-light-emphasis"
+                  >📍 Guadalajara, Jalisco</small
+                >
+              </li>
+              <li>
+                <small class="text-light-emphasis">📞 +52 33 5108 3318</small>
+              </li>
+              <li>
+                <small class="text-light-emphasis">🕒 Mon-Sun 7:00-22:00</small>
+              </li>
+              <li>
+                <small class="text-light-emphasis">✅ Sectur License</small>
+              </li>
+              <li>
+                <small class="text-light-emphasis">
+                  ✉️ <a href="mailto:octavio@xaliscotrips.lat"
+                     class="text-light-emphasis text-decoration-none">
+                    octavio@xaliscotrips.lat
+                  </a>
+                </small>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4 border-secondary" />
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <small class="text-light-emphasis"
+              >© 2026 Xalisco Trips. All rights reserved.</small
+            >
+          </div>
+          <div class="col-md-6 text-md-end">
+            <small class="text-light-emphasis"
+              >Private Tours • Certified Guide • World Cup Ready</small
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- TouristTrip Schemas for World Cup (Individual Scripts) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Tequila World Cup Tour - 7 Hours Private Guided",
+        "description": "Experience the birthplace of tequila during FIFA World Cup 2026. Private guided tour from Guadalajara to agave fields and award-winning artisan distilleries. Includes tastings, lunch, and hotel pickup.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        },
+        "image": ["https://xaliscotrips.lat/img/destinos/tequila.webp"],
+        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "provider": {
+          "@type": "TourOperator",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat"
+        },
+        "itinerary": [
+          {
+            "@type": "Place",
+            "name": "Tequila agave fields"
+          },
+          {
+            "@type": "Place",
+            "name": "Historic distillery"
+          },
+          {
+            "@type": "Place",
+            "name": "Local artisan workshops"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "42",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Tibet Rangel" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great experience overall.",
+            "datePublished": "2026-04-04"
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Luis Cordero" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Excelente servicio, confiable, diferentes métodos de pago, servicio de alta calidad. 100% recomendable.",
+            "datePublished": "2026-04-18"
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Pamela Espertin" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "La experiencia fue genial, Octavio fue muy amable y paciente. Lo recomendaría 100%.",
+            "datePublished": "2026-04-11"
+          }
+        ],
+        "duration": "PT7H",
+        "includesActivity": [
+          "Tastings at artisan distilleries",
+          "Lunch at local restaurant",
+          "Hotel pickup and drop-off"
+        ]
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Chapala + Tonalá World Cup Tour - 8 Hours Cultural",
+        "description": "Day trip from Guadalajara during FIFA World Cup 2026. Explore Mexico's largest lake and the traditional artisan town of Tonalá. Includes boat tour, shopping, lunch, and hotel pickup.",
+        "image": ["https://xaliscotrips.lat/img/destinos/chapala1.webp"],
+        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "provider": {
+          "@type": "TourOperator",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat"
+        },
+        "itinerary": [
+          {
+            "@type": "Place",
+            "name": "Lake Chapala (boat tour)"
+          },
+          {
+            "@type": "Place",
+            "name": "Tonalá artisan town"
+          },
+          {
+            "@type": "Place",
+            "name": "Traditional craft shops"
+          }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Tibet Rangel" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great experience overall.",
+            "datePublished": "2026-04-04"
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Luis Cordero" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Excelente servicio, confiable, diferentes métodos de pago, servicio de alta calidad. 100% recomendable.",
+            "datePublished": "2026-04-18"
+          },
+          {
+            "@type": "Review",
+            "author": { "@type": "Person", "name": "Pamela Espertin" },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "La experiencia fue genial, Octavio fue muy amable y paciente. Lo recomendaría 100%.",
+            "datePublished": "2026-04-11"
+          }
+        ],
+        "duration": "PT8H",
+        "includesActivity": [
+          "Boat tour on Lake Chapala",
+          "Artisan shopping in Tonalá",
+          "Lunch at waterfront restaurant",
+          "Hotel pickup and drop-off"
+        ],
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"
+      defer
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({ once: true, duration: 600, offset: 80 });
+      });
+    </script>
+    <script src="js/main.js"></script>
+    <script>
+      // Auto-hide bubble after 6 seconds
+      setTimeout(function () {
+        var bubble = document.getElementById("waBubble");
+        if (bubble) {
+          bubble.style.transition = "opacity 0.5s ease";
+          bubble.style.opacity = "0";
+          setTimeout(function () {
+            bubble.style.display = "none";
+          }, 500);
+        }
+      }, 6000);
+    </script>
+  </body>
+</html>
