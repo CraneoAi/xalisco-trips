@@ -1,0 +1,4253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-WEMYBB1NGK");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Private Tours in Guadalajara & Jalisco | Xalisco Trips</title>
+
+    <!-- Security: CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com https://www.tiktok.com https://www.jscache.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://cdn.jsdelivr.net https://www.googletagmanager.com; frame-src https://www.tiktok.com;"
+    />
+
+    <!-- SEO -->
+    <meta name="description" content="Certified private tours in Guadalajara, Tequila, Chapala, Tlaquepaque and Mazamitla. English-speaking local guide, hotel pickup and WhatsApp booking." />
+    <meta
+      name="keywords"
+      content="private tours, Guadalajara, Jalisco, world cup 2026, guadalajara tours, tequila tour, chapala tour, mazamitla, airport transfer guadalajara, estadio akron"
+    />
+    <meta name="author" content="Xalisco Trips" />
+    <link rel="canonical" href="https://xaliscotrips.lat/index-en" />
+
+    <!-- PWA & Theme -->
+    <meta name="theme-color" content="#ffc107" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Private Tours in Guadalajara & Jalisco | Xalisco Trips"
+    />
+    <meta
+      property="og:description"
+      content="Certified private tours in Guadalajara, Tequila, Chapala, Tlaquepaque and Mazamitla. English-speaking local guide, hotel pickup and WhatsApp booking."
+    />
+    <meta
+      property="og:image"
+      content="https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://xaliscotrips.lat/index-en" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Xalisco Trips" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Private Tours in Guadalajara & Jalisco | Xalisco Trips"
+    />
+    <meta
+      name="twitter:description"
+      content="Certified private tours in Guadalajara, Tequila, Chapala, Tlaquepaque and Mazamitla. English-speaking local guide, hotel pickup and WhatsApp booking."
+    />
+    <meta
+      name="twitter:image"
+      content="https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+    />
+
+    <!-- Google Search Console Verification -->
+    <meta
+      name="google-site-verification"
+      content="-fNenjv4U7RLo0CDptbXKTSA9DPdFeTOweHnXsIBgjk"
+    />
+
+    <!-- SEO: Robots -->
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo-xalisco-trips.ico" type="image/x-icon" />
+
+    <!-- Alternate Language -->
+    <link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/" />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://xaliscotrips.lat/index-en"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://xaliscotrips.lat/index-en"
+    />
+
+    <!-- Performance: Preload LCP Image -->
+    <link
+      rel="preload"
+      as="image"
+      href="img/hero/portada-jalisco.webp"
+      fetchpriority="high"
+    />
+
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.tiktok.com" />
+
+    <!-- Google Fonts -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap&font-display=swap"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500&display=swap&font-display=swap"
+    /></noscript>
+
+    <!-- Bootstrap & Icons -->
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    /></noscript>
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    /></noscript>
+
+    <!-- AOS Animation Library -->
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    /></noscript>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <style>
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #1a1a2e !important;
+      }
+      body {
+        margin: 0;
+        font-family: "Open Sans", sans-serif;
+        background: #1a1a2e;
+        color: #212529;
+      }
+      .hero {
+        position: relative;
+        margin: 0 !important;
+        top: 0 !important;
+        height: 100vh;
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background-image: url("/img/hero/portada-jalisco.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          45deg,
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.3)
+        );
+      }
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        padding: 2rem;
+      }
+      .hero h1 {
+        font-size: clamp(2.5rem, 8vw, 4rem);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        animation: fadeInUp 1s ease-out;
+      }
+      .hero .lead {
+        font-size: clamp(1.1rem, 4vw, 1.5rem);
+        margin-bottom: 2rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        animation: fadeInUp 1s ease-out 0.3s both;
+      }
+      .hero .btn {
+        animation: fadeInUp 1s ease-out 0.6s both;
+        transition: all var(--transition-base);
+      }
+      .hero .btn:hover {
+        transform: scale(1.05) translateY(-2px);
+        box-shadow: var(--shadow-large);
+      }
+      .language-switcher {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 0.3rem 0.75rem;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 0.85rem;
+      }
+      .language-switcher a {
+        color: #ffc107;
+        text-decoration: none;
+      }
+      .wa-widget {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        z-index: 9998;
+      }
+      .wa-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: #25d366;
+        color: #fff;
+        padding: 0.75rem 1.25rem;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+      }
+    </style>
+
+<!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Xalisco Trips",
+        "alternateName": "Xalisco Trips Tours Privados",
+        "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
+        "description": "SECTUR certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and cultural destinations.",
+        "foundingDate": "2019",
+        "slogan": "Tours privados certificados Sectur en Jalisco",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "MX",
+          "addressRegion": "Jalisco",
+          "addressLocality": "Guadalajara"
+        },
+        "telephone": "+5213351083318",
+        "url": "https://xaliscotrips.lat",
+        "sameAs": [
+          "https://www.tripadvisor.com/Attraction_Review-g150792-d17342580",
+          "https://www.viator.com/tours/Guadalajara",
+          "https://www.instagram.com/xaliscotrips",
+          "https://www.facebook.com/profile.php?id=61583422030849",
+          "https://www.tiktok.com/@xalisco.trips"
+        ],
+        "priceRange": "$$$",
+        "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "bestRating": "5",
+          "ratingCount": "9"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Pamela Espertin"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "The experience was great. Octavio was kind and patient and made sure we had an amazing day. 100% recommended."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Tibet Rangel"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great prices. Everyone in our group loved touring with him. Highly recommend."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Angela Ramos"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "The car is new and comfortable, pickup was on time, and the driver provided excellent service. I would hire again."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Cristy Rodriguez"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Excellent service. Very comfortable transfer, air-conditioned vehicle, and great guidance during the tour."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Sergio Salinas"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Xalisco Trips was amazing. You get a tour and a history lesson with hidden treasures of Guadalajara. Highly recommend Octavio and Leonel."
+          },
+          {
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": "Galilea Ramos"
+            },
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": "5",
+              "bestRating": "5"
+            },
+            "reviewBody": "Excellent service. I have hired Xalisco Trips on two occasions for family transportation and event pickups. Highly recommended."
+          }
+        ]
+      }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://xaliscotrips.lat/index-en.html"
+          }
+        ]
+      }
+    </script>
+    <link
+      rel="preload"
+      as="image"
+      href="img/hero/portada-jalisco.webp"
+      fetchpriority="high"
+    />
+  </head>
+  <body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <span>🌐</span>
+      <a href="/index.html">ES</a>
+      <span>|</span>
+      <a href="https://xaliscotrips.lat/index-en.html" class="active">EN</a>
+    </div>
+
+    <!-- Banner World Cup 2026 -->
+    <a
+      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"
+      class="worldcup-banner"
+      aria-label="Tours for World Cup 2026"
+    >
+      <span class="ball-icon">⚽</span>
+      <div class="banner-content">
+        <span class="banner-title">World Cup 2026</span>
+        <span class="banner-subtitle">📍 Guadalajara Hosts 2026</span>
+        <span class="banner-cta">Book your tour! →</span>
+      </div>
+    </a>
+
+    <!-- WhatsApp Widget Flotante -->
+    <div class="wa-widget" id="waWidget">
+      <div class="wa-bubble" id="waBubble">
+        <strong>Hi there! 👋 Xalisco Trips</strong>
+        Where would you like to go? Get your private tour quote now — 15-min
+        response ⚡
+        <div class="wa-time">now</div>
+      </div>
+      <div class="position-relative">
+        <a
+          href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20need%20information%20about%20tours.%20Can%20you%20help%20me?"
+          class="wa-btn"
+          aria-label="Contact via WhatsApp"
+        >
+          <i class="bi bi-whatsapp"></i>
+          Book Now
+        </a>
+        <a
+          href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"
+          class="wa-btn"
+          style="display: block; margin-top: 0.5rem"
+          aria-label="View World Cup 2026 tours"
+        >
+          View World Cup tours →
+        </a>
+        <span class="wa-badge">1</span>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content container">
+          <div class="hero-title-container">
+            <span class="spinning-ball">⚽</span>
+            <h1 class="display-4 fw-bold mb-0">Xalisco Trips</h1>
+            <span class="spinning-ball reverse">⚽</span>
+          </div>
+          <p class="lead mt-3">
+            Jalisco through a local's eyes - private tours with Octavio,
+            certified guide and proud Tapatio
+          </p>
+          <p class="text-white-50 mt-2" style="font-size: 1rem">
+            Private transport · Certified guide · Insurance included · 24/7
+            support
+          </p>
+          <div
+            class="d-flex flex-column flex-sm-row gap-3 mt-3 justify-content-center"
+          >
+            <a
+              href="https://wa.me/5213351083318?text=Hi%20Xalisco%20Trips!%20I%27d%20like%20to%20book%20a%20private%20tour%20from%20Guadalajara."
+              class="btn btn-warning btn-lg px-4 fw-bold"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bi bi-whatsapp me-2"></i>Book Now
+            </a>
+            <a href="#destinos" class="btn btn-outline-light btn-lg px-4">
+              Explore Tours
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Destinos -->
+      <section id="destinations" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">Our Favorite Destinations</h2>
+            <p class="lead text-muted">
+              Unique experiences in Jalisco's most beautiful places
+            </p>
+            <a
+              class="trust-indicator google-review-cta"
+              href="https://g.page/r/CUHWaT2IjNkqEBM/review"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="bi bi-star-fill"></i> 5⭐ on Google Reviews · Leave your
+              review
+            </a>
+            <div class="trust-indicator">
+              <i class="bi bi-people-fill"></i> +500 happy travelers
+            </div>
+            <div class="trust-indicator">
+              <i class="bi bi-shield-check"></i> Certified guides
+            </div>
+          </div>
+
+          <!-- Combos -->
+          <div class="row g-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-4">
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute rotating-badge"
+                    style="background: #ff6b35; color: white"
+                  >
+                    <span class="badge-item">🔥 Most Requested</span>
+                    <span class="badge-item">🎯 2-for-1 Combo</span>
+                  </span>
+                  <div
+                    id="carouselChapalaTonalaCombo"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselChapalaTonalaCombo"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/chapala1.webp"
+                          class="card-img-top"
+                          alt="Panoramic view of Lake Chapala"
+                        /><span class="destination-label chapala">Chapala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/chapala2.webp"
+                          class="card-img-top"
+                          alt="Chapala boardwalk by the lake"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label chapala">Chapala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/chapala3.webp"
+                          class="card-img-top"
+                          alt="Chapala town"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label chapala">Chapala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/chapala4.webp"
+                          class="card-img-top"
+                          alt="Natural views in Chapala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label chapala">Chapala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/chapala5.webp"
+                          class="card-img-top"
+                          alt="Paseo por Chapala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label chapala">Chapala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala.webp"
+                          class="card-img-top"
+                          alt="Tonala handicrafts"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.webp"
+                          class="card-img-top"
+                          alt="Tonala artisan market"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.1.webp"
+                          class="card-img-top"
+                          alt="Tonala craft details"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.1.1.webp"
+                          class="card-img-top"
+                          alt="Unique pieces from the Tonala market"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.2.webp"
+                          class="card-img-top"
+                          alt="Tonala artisan colors"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.3.webp"
+                          class="card-img-top"
+                          alt="Clay and ceramic works in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala2.webp"
+                          class="card-img-top"
+                          alt="Tour through Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala3.webp"
+                          class="card-img-top"
+                          alt="Popular art of Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala4.webp"
+                          class="card-img-top"
+                          alt="Workshops in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala5.webp"
+                          class="card-img-top"
+                          alt="Culture in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala6.webp"
+                          class="card-img-top"
+                          alt="Jalisco handicraft"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala7.webp"
+                          class="card-img-top"
+                          alt="Tradition in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala8.webp"
+                          class="card-img-top"
+                          alt="Local art in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala9.webp"
+                          class="card-img-top"
+                          alt="Colecciones artisan"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala10.webp"
+                          class="card-img-top"
+                          alt="Colors of Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala11.webp"
+                          class="card-img-top"
+                          alt="Contemporary art in Tonala"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala12.webp"
+                          class="card-img-top"
+                          alt="Tonala artisan corner"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselChapalaTonalaCombo"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselChapalaTonalaCombo"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-star-fill text-warning me-2"></i>Chapala +
+                    Tonala Same Day
+                  </h5>
+                  <div class="price-badge mb-2">$45 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    Discover two jewels of Jalisco in one day: the largest lake
+                    in Mexico and the artisan heart of the region.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 8-10 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-gem me-1"></i> 2 destinations</small
+                    >
+                  </div>
+                  <div
+                    class="alert alert-info py-2 mb-3"
+                    style="font-size: 0.85rem"
+                  >
+                    <i class="bi bi-info-circle-fill me-1"></i>
+                    <strong>Includes:</strong> Chapala (boardwalk, gastronomy)
+                    and Tonala (artisan market, mask museum)
+                  </div>
+                  <a
+                    href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20want%20to%20book%20the%20Chapala%20%2B%20Tonala%20tour"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Combo
+                  </a>
+                  <a
+                    href="https://xaliscotrips.lat/chapala-tonala-en.html"
+                    class="btn btn-outline-success w-100 mt-2"
+                    >View details →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #ff6b35; color: white"
+                    >🎯 2-for-1 Combo</span
+                  >
+                  <div
+                    id="carouselTequilaGuachimontones"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequilaGuachimontones"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/tequila.webp"
+                          class="card-img-top"
+                          alt="Campos de agave azul en Tequila"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila1.webp"
+                          class="card-img-top"
+                          alt="Tequila distillery"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila1.1.webp"
+                          class="card-img-top"
+                          alt="Distillery experience"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila2.webp"
+                          class="card-img-top"
+                          alt="Magical Town of Tequila"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila3.webp"
+                          class="card-img-top"
+                          alt="Tequila barrels"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila4.webp"
+                          class="card-img-top"
+                          alt="Tequila distillery"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila5.webp"
+                          class="card-img-top"
+                          alt="Tequila tour"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila6.webp"
+                          class="card-img-top"
+                          alt="Tequila tasting"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila7.webp"
+                          class="card-img-top"
+                          alt="Paisajes agaveros"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila8.webp"
+                          class="card-img-top"
+                          alt="Sunset in agave fields"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila9.webp"
+                          class="card-img-top"
+                          alt="Adventure in Tequila"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tequila">Tequila</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones.webp"
+                          class="card-img-top"
+                          alt="Circular pyramids of Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones2.webp"
+                          class="card-img-top"
+                          alt="Guachimontones archaeological site"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones3.webp"
+                          class="card-img-top"
+                          alt="Panoramic view of Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones5.webp"
+                          class="card-img-top"
+                          alt="Pre-Hispanic circular structures"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones6.webp"
+                          class="card-img-top"
+                          alt="Teuchitlán culture"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones7.webp"
+                          class="card-img-top"
+                          alt="Archaeological tour"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones8.webp"
+                          class="card-img-top"
+                          alt="History at Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label guachimontones"
+                          >Guachimontones</span
+                        >
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselTequilaGuachimontones"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselTequilaGuachimontones"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-star-fill text-warning me-2"></i>Tequila +
+                    Guachimontones Same Day
+                  </h5>
+                  <div class="price-badge mb-2">$55 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    Discover two historical jewels of Jalisco in one day: the
+                    origin of tequila and the archaeological legacy of
+                    Teuchitlan culture.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 8-10 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-gem me-1"></i> 2 destinations</small
+                    >
+                  </div>
+                  <div
+                    class="alert alert-info py-2 mb-3"
+                    style="font-size: 0.85rem"
+                  >
+                    <i class="bi bi-info-circle-fill me-1"></i>
+                    <strong>Includes:</strong> Tequila (distillery and magical
+                    town) and Guachimontones (archaeological zone and museum)
+                  </div>
+                  <a
+                    href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20want%20to%20book%20the%20Tequila%20%2B%20Guachimontones%20tour"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Combo
+                  </a>
+                  <a
+                    href="https://xaliscotrips.lat/tequila-guachimontones-en.html"
+                    class="btn btn-outline-success w-100 mt-2"
+                    >View details →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #9663c4; color: white"
+                    >🎨 Artisan Combo</span
+                  >
+                  <div
+                    id="carouselTonalaTlaquepaque"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTonalaTlaquepaque"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/tonala1.1.1.webp"
+                          class="card-img-top"
+                          alt="Unique pieces from Tonala artisan market"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala.webp"
+                          class="card-img-top"
+                          alt="Tonala handicrafts"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.webp"
+                          class="card-img-top"
+                          alt="Tonala artisan market"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.1.webp"
+                          class="card-img-top"
+                          alt="Tonala artisan details"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tlaquepaque.webp"
+                          class="card-img-top"
+                          alt="Cobblestone streets of Tlaquepaque"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tlaquepaque"
+                          >Tlaquepaque</span
+                        >
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tonala1.2.webp"
+                          class="card-img-top"
+                          alt="Colorful Tonala crafts"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        /><span class="destination-label tonala">Tonala</span>
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselTonalaTlaquepaque"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-palette-fill text-primary me-2"></i>Tonala +
+                    Tlaquepaque Same Day
+                  </h5>
+                  <div class="price-badge mb-2">$35 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    The two most important artisan towns in Jalisco in one day:
+                    export market + art galleries + live mariachi.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 8-10 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-gem me-1"></i> 2 destinations</small
+                    >
+                  </div>
+                  <div
+                    class="alert alert-info py-2 mb-3"
+                    style="font-size: 0.85rem"
+                  >
+                    <i class="bi bi-info-circle-fill me-1"></i>
+                    <strong>Includes:</strong> Tonala (artisan market, ceramics,
+                    blown glass) and Tlaquepaque (galleries, El Parian, live
+                    mariachi)
+                  </div>
+                  <a
+                    href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20want%20to%20book%20the%20Tonala%20%2B%20Tlaquepaque%20tour"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Combo
+                  </a>
+                  <a
+                    href="https://xaliscotrips.lat/tonala-tlaquepaque-en.html"
+                    class="btn btn-outline-success w-100 mt-2"
+                    >View details →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Demás Destinos -->
+          <div class="row g-4">
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: var(--brand-green); color: white"
+                    >Adventure</span
+                  >
+                  <div
+                    id="carouselMazamitla"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMazamitla"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselMazamitla"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/mazamitla.webp"
+                          class="card-img-top"
+                          alt="Pine forests in Mazamitla"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/mazamitla2.webp"
+                          class="card-img-top"
+                          alt="Magical Town of Mazamitla"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselMazamitla"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselMazamitla"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-tree-fill text-success me-2"></i>Mazamitla
+                  </h5>
+                  <div class="price-badge mb-2">From $55 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    Magical town in the mountains, zip lines, waterfalls and the
+                    purest air in Jalisco.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 8-10 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-thermometer-snow me-1"></i> Cool
+                      weather</small
+                    >
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/mazamitla-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20MAZAMITLA%20tour.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Mazamitla
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #f4a261"
+                    >Premium</span
+                  >
+                  <div
+                    id="carouselTequila"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="6"
+                        aria-label="Go to slide 7"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="7"
+                        aria-label="Go to slide 8"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="8"
+                        aria-label="Go to slide 9"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="9"
+                        aria-label="Go to slide 10"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselTequila"
+                        data-bs-slide-to="10"
+                        aria-label="Go to slide 11"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/tequila.webp"
+                          class="card-img-top"
+                          alt="Campos de agave azul en Tequila"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila1.webp"
+                          class="card-img-top"
+                          alt="Traditional tequila distillery"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila1.1.webp"
+                          class="card-img-top"
+                          alt="Distillery experience"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila2.webp"
+                          class="card-img-top"
+                          alt="Magical Town of Tequila"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila3.webp"
+                          class="card-img-top"
+                          alt="Artisan tequila barrels"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila4.webp"
+                          class="card-img-top"
+                          alt="Tequila distillery tour"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila5.webp"
+                          class="card-img-top"
+                          alt="Distillery guided visit"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila6.webp"
+                          class="card-img-top"
+                          alt="Tequila tasting premium"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila7.webp"
+                          class="card-img-top"
+                          alt="Paisajes agaveros de Tequila"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila8.webp"
+                          class="card-img-top"
+                          alt="Atardecer en campos de agave"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/tequila9.webp"
+                          class="card-img-top"
+                          alt="Adventure in Tequila Jalisco"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselTequila"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselTequila"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-cup-straw text-warning me-2"></i>Tequila
+                  </h5>
+                  <div class="price-badge mb-2">From $55 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    World Heritage. Blue agave fields, artisan distilleries and
+                    tasting.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 7-9 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-award me-1"></i> UNESCO</small
+                    >
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/tequila-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20TEQUILA%20tour.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Tequila Tour
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #e07a5f; color: white"
+                    >Culture</span
+                  >
+                  <img
+                    src="img/destinos/tlaquepaque.webp"
+                    class="card-img-top"
+                    alt="Cobblestone streets of Tlaquepaque"
+                    loading="lazy"
+                    width="800"
+                    height="600"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-palette-fill text-danger me-2"></i
+                    >Tlaquepaque
+                  </h5>
+                  <div class="price-badge mb-2">From $35 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    Mexican art, live mariachi and the best handicrafts in
+                    Jalisco.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 4-6 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-music-note me-1"></i> Mariachi</small
+                    >
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/tlaquepaque-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20TLAQUEPAQUE%20tour.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Tlaquepaque
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #d4af37"
+                    >Archaeological</span
+                  >
+                  <div
+                    id="carouselGuachimontones"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselGuachimontones"
+                        data-bs-slide-to="6"
+                        aria-label="Go to slide 7"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/Guachimontones.webp"
+                          class="card-img-top"
+                          alt="Circular pyramids of Guachimontones"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones2.webp"
+                          class="card-img-top"
+                          alt="Guachimontones archaeological site"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones3.webp"
+                          class="card-img-top"
+                          alt="Panoramic view of Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones5.webp"
+                          class="card-img-top"
+                          alt="Pre-Hispanic circular structures"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones6.webp"
+                          class="card-img-top"
+                          alt="Teuchitlan culture at Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones7.webp"
+                          class="card-img-top"
+                          alt="Archaeological tour Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/Guachimontones8.webp"
+                          class="card-img-top"
+                          alt="Ancient history at Guachimontones"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselGuachimontones"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselGuachimontones"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-building text-warning me-2"></i
+                    >Guachimontones
+                  </h5>
+                  <div class="price-badge mb-2">From $42 USD per Person</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Transport + certified
+                    guide included · Entrance fees & meals not included
+                  </p>
+                  <p class="card-text">
+                    Unique archaeological site with circular pyramids.
+                    Teuchitlan culture, interactive museum and panoramic valley
+                    views.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 5-6 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-calendar3 me-1"></i> History</small
+                    >
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/guachimontones-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20GUACHIMONTONES%20tour.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Guachimontones
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: var(--brand-blue); color: white"
+                    >Express</span
+                  >
+                  <div
+                    id="carouselAirport"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselAirport"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselAirport"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/aeropuerto.webp"
+                          class="card-img-top"
+                          alt="Airport transfer service"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/aeropuerto2.webp"
+                          class="card-img-top"
+                          alt="Reliable transfer to GDL airport"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselAirport"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselAirport"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-airplane-fill text-info me-2"></i>Airport
+                    Transfer
+                  </h5>
+                  <div class="price-badge mb-2">From $35 USD</div>
+                  <p class="text-muted mb-2" style="font-size: 0.78rem">
+                    <i class="bi bi-info-circle me-1"></i>Price per vehicle, not
+                    per person &middot; Destinations outside the beltway quoted
+                    separately
+                  </p>
+                  <p class="card-text">
+                    Safe and punctual transfer from your hotel to the airport.
+                    Base price applies within the GDL metro area. Destinations
+                    outside the beltway are quoted separately.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 24/7</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-shield-check me-1"></i> Punctual</small
+                    >
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/airport-transfer-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20AIRPORT%20TRANSFER.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Transfer
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="
+                      background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+                      color: white;
+                    "
+                    >Custom</span
+                  >
+                  <img
+                    src="img/destinos/atumedida.webp"
+                    class="card-img-top"
+                    alt="Custom tour tailored to your needs"
+                    loading="lazy"
+                    width="800"
+                    height="600"
+                  />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-lightning-fill text-primary me-2"></i>Custom
+                    Tour
+                  </h5>
+                  <div class="price-badge mb-2">Custom Quote</div>
+                  <p class="card-text">
+                    Combine destinations or create your perfect itinerary. We
+                    design your ideal experience.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> Flexible</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-heart me-1"></i> One-of-a-Kind</small
+                    >
+                  </div>
+                  <a
+                    href="https://wa.me/5213351083318?text=Hello!%20I'm%20interested%20in%20a%20CUSTOM%20TOUR%20with%20Xalisco%20Trips.%20Could%20you%20help%20me%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Get a Quote
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="900"
+            >
+              <div class="card destination-card">
+                <div class="position-relative">
+                  <span
+                    class="badge position-absolute"
+                    style="background: #ff6b35"
+                    >🍴 Food & Gastronomy</span
+                  >
+                  <div
+                    id="carouselFoodie"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-label="Go to slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="1"
+                        aria-label="Go to slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="2"
+                        aria-label="Go to slide 3"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="3"
+                        aria-label="Go to slide 4"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="4"
+                        aria-label="Go to slide 5"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="5"
+                        aria-label="Go to slide 6"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="6"
+                        aria-label="Go to slide 7"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselFoodie"
+                        data-bs-slide-to="7"
+                        aria-label="Go to slide 8"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="img/destinos/foodie.webp"
+                          class="card-img-top"
+                          alt="Tapatio street food tour"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie1.webp"
+                          class="card-img-top"
+                          alt="Traditional food of Guadalajara"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie2.webp"
+                          class="card-img-top"
+                          alt="Authentic Tapatio street food"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie3.webp"
+                          class="card-img-top"
+                          alt="Tacos and Tapatio snacks"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie4.webp"
+                          class="card-img-top"
+                          alt="Gastronomy local of Jalisco"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie5.webp"
+                          class="card-img-top"
+                          alt="Tapatio culinary experience"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie6.webp"
+                          class="card-img-top"
+                          alt="Best food spots in GDL"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="img/destinos/foodie7.webp"
+                          class="card-img-top"
+                          alt="Tapatio flavors tour"
+                          loading="lazy"
+                          width="800"
+                          height="600"
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselFoodie"
+                      data-bs-slide="prev"
+                      aria-label="Previous image"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselFoodie"
+                      data-bs-slide="next"
+                      aria-label="Next image"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span
+                      ><span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <i class="bi bi-cup-hot-fill text-danger me-2"></i>Foodie
+                    Tour Tapatio
+                  </h5>
+                  <div class="price-badge mb-2">From $45 USD per Person</div>
+                  <p class="card-text">
+                    100% authentic Tapatio cuisine, top-rated street food.
+                    Discover the real flavors of Guadalajara at legendary local
+                    spots.
+                    <strong>Not suitable for vegans or vegetarians.</strong>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <small class="text-muted"
+                      ><i class="bi bi-clock me-1"></i> 4-5 hours</small
+                    >
+                    <small class="text-muted"
+                      ><i class="bi bi-star-fill me-1"></i> Top Rated</small
+                    >
+                  </div>
+                  <div
+                    class="alert alert-warning py-2 mb-3"
+                    style="font-size: 0.85rem"
+                  >
+                    <i class="bi bi-exclamation-triangle-fill me-1"></i>
+                    <strong>Note:</strong> Price varies depending on dishes
+                    chosen · Transportation + guide included
+                  </div>
+                  <a
+                    href="https://xaliscotrips.lat/foodie-tour-en.html"
+                    class="btn btn-outline-success w-100 mb-2"
+                    ><i class="bi bi-info-circle me-2"></i>View Tour Details</a
+                  >
+                  <a
+                    href="https://wa.me/5213351083318?text=Hi%21%20I%27m%20interested%20in%20the%20FOODIE%20TOUR.%20Can%20you%20give%20me%20more%20information%3F"
+                    class="btn btn-success w-100 fw-bold"
+                  >
+                    <i class="bi bi-whatsapp me-2"></i>Book Foodie Tour
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Servicios -->
+      <section id="servicios" class="py-5 services-section">
+        <div class="container text-center">
+          <div class="mb-5" data-aos="fade-up">
+            <h2 class="text-white mb-3">What's Included in Your Experience?</h2>
+            <p class="lead text-light opacity-75">
+              Everything you need for a perfect tour
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item">
+                <i class="bi bi-car-front fs-1 mb-3"></i>
+                <h5 class="text-white mb-2">Private Transport</h5>
+                <p class="text-light opacity-75 small">
+                  Comfortable and safe vehicles
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item">
+                <i class="bi bi-person-badge fs-1 mb-3"></i>
+                <h5 class="text-white mb-2">Certified Guide</h5>
+                <p class="text-light opacity-75 small">
+                  Certified local experts
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item">
+                <i class="bi bi-shield-check fs-1 mb-3"></i>
+                <h5 class="text-white mb-2">Insurance Included</h5>
+                <p class="text-light opacity-75 small">Full coverage</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-3" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item">
+                <i class="bi bi-headset fs-1 mb-3"></i>
+                <h5 class="text-white mb-2">24/7 Support</h5>
+                <p class="text-light opacity-75 small">Personalized support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Videos -->
+      <section id="videos" class="py-5 bg-white">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">Live the Experience</h2>
+            <p class="lead text-muted">
+              Discover our tours through real videos
+            </p>
+            <div class="trust-indicator">
+              <i class="bi bi-tiktok"></i> Follow us on TikTok @xalisco.trips
+            </div>
+          </div>
+          <div class="tiktok-gallery">
+            <p>
+              <strong>Follow us on TikTok</strong>
+              <a
+                href="https://www.tiktok.com/@xalisco.trips"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Watch videos on TikTok"
+                >@xalisco.trips</a
+              >
+            </p>
+            <div class="tiktok-thumbs">
+              <a
+                href="https://www.tiktok.com/@xalisco.trips"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Watch videos on TikTok"
+              >
+                <img
+                  src="https://xaliscotrips.lat/img/destinos/tequila.webp"
+                  alt="Tequila Tour Jalisco - @xalisco.trips on TikTok"
+                  loading="lazy"
+                  width="300"
+                  height="400"
+                />
+              </a>
+              <a
+                href="https://www.tiktok.com/@xalisco.trips"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Watch videos on TikTok"
+              >
+                <img
+                  src="https://xaliscotrips.lat/img/destinos/Guachimontones.webp"
+                  alt="Guachimontones pyramids - @xalisco.trips on TikTok"
+                  loading="lazy"
+                  width="300"
+                  height="400"
+                />
+              </a>
+              <a
+                href="https://www.tiktok.com/@xalisco.trips"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Watch videos on TikTok"
+              >
+                <img
+                  src="https://xaliscotrips.lat/img/destinos/chapala1.webp"
+                  alt="Lake Chapala - @xalisco.trips on TikTok"
+                  loading="lazy"
+                  width="300"
+                  height="400"
+                />
+              </a>
+            </div>
+            <a
+              href="https://www.tiktok.com/@xalisco.trips"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Watch videos on TikTok"
+            >
+              See more videos on TikTok →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonios -->
+      <section id="testimonios" class="py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">What Our Travelers Say</h2>
+            <p class="lead text-muted">
+              Real verified reviews on Viator and Google
+            </p>
+            <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
+              <div class="trust-indicator">
+                <i class="bi bi-star-fill"></i> 5.0/5 on Viator
+              </div>
+              <div class="trust-indicator">
+                <i class="bi bi-google"></i> 5.0/5 on Google (9)
+              </div>
+              <div class="trust-indicator">
+                <i class="bi bi-patch-check-fill text-success"></i> Verified
+                reviews
+              </div>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #4a90e2;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    J
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">jSgalin</h6>
+                    <small class="text-muted">United States</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">
+                  "Excellent tour guide and private driver."
+                </h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "I was looking for a driver for our trip on December 15th,
+                    2025. He provided his car insurance, ID, and license so we
+                    could feel safe hiring him. Octavio was our driver for 4
+                    days while we visited GDL, Arandas, Tequila and nearby
+                    areas. He was punctual, reliable and very safe. He also
+                    took us to places of interest we hadn't planned. Highly
+                    recommended."
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Premium Private Tour ·
+                  December 2025</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #e07a5f;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    K
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">Kris_O</h6>
+                    <small class="text-muted">Canada</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">"A day of culture and fun!"</h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "The tour was exactly as described and more! Octavio was
+                    wonderful — very friendly, knowledgeable, and an excellent
+                    driver. We traveled with 4 adults and a child and we all
+                    had an incredible time — full-service experience for the
+                    whole family! BOOK THIS TOUR! You won't regret it!"
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Premium Private Tour ·
+                  January 2026</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #2e8b57;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    C
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">connyt7</h6>
+                    <small class="text-muted">Spain</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">
+                  "Exceptional experience - Attentive and genuinely hospitable"
+                </h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "After such a wonderful experience on the Chapala Tour, we
+                    contacted Octavio again to explore Tequila and
+                    Guachimontones. Octavio proved to be an excellent expert of
+                    the whole region. My father had leg issues, and Octavio had
+                    no problem driving him up to the pyramid area. I 100%
+                    recommend this tour."
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Private Tequila Tour ·
+                  Guachimontones</small
+                >
+              </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #f4a261;
+                      font-size: 1.3rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    F
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">felixrD5</h6>
+                    <small class="text-muted">Mexico</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="ms-auto">
+                    <span
+                      class="badge"
+                      style="
+                        background: #00af87;
+                        font-size: 0.7rem;
+                        padding: 0.4rem 0.7rem;
+                      "
+                      ><i class="bi bi-patch-check-fill me-1"></i>Viator</span
+                    >
+                  </div>
+                </div>
+                <h6 class="fw-bold mb-2">
+                  "Managing our time based on each place's highlights!"
+                </h6>
+                <blockquote class="mb-3">
+                  <p class="fst-italic text-muted" style="font-size: 0.92rem">
+                    "Octavio is a highly experienced and very kind guide. He
+                    truly made every minute extraordinary. Using private
+                    services is an excellent way to organize places based on our
+                    preferences. Thank you, Octavio. I hope we can take another
+                    tour with you soon!"
+                  </p>
+                </blockquote>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>Premium Private Tour ·
+                  February 2026</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row g-4 mt-1">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #4285f4;
+                      font-size: 1.1rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    P
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">Pamela Espertin</h6>
+                    <small class="text-muted">Google Business Profile</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p
+                  class="fst-italic text-muted mb-3"
+                  style="font-size: 0.92rem"
+                >
+                  "The experience was great. Octavio was kind and patient and
+                  made sure we had an amazing day. 100% recommended."
+                </p>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>5 days ago</small
+                >
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #34a853;
+                      font-size: 1.1rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    T
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">Tibet Rangel</h6>
+                    <small class="text-muted">Google Business Profile</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p
+                  class="fst-italic text-muted mb-3"
+                  style="font-size: 0.92rem"
+                >
+                  "Best tour guide in GDL Mexico. Knowledgeable, safe, secure
+                  and great prices. Everyone in our group loved touring with
+                  him. Highly recommend."
+                </p>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>2 weeks ago</small
+                >
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="testimonial-card h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="me-3 d-flex align-items-center justify-content-center rounded-circle fw-bold text-white"
+                    style="
+                      width: 56px;
+                      height: 56px;
+                      background: #fbbc05;
+                      font-size: 1.1rem;
+                      flex-shrink: 0;
+                    "
+                  >
+                    S
+                  </div>
+                  <div>
+                    <h6 class="mb-1 fw-bold">Sergio Salinas</h6>
+                    <small class="text-muted">Google Business Profile</small>
+                    <div class="text-warning mt-1">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+                <p
+                  class="fst-italic text-muted mb-3"
+                  style="font-size: 0.92rem"
+                >
+                  "Xalisco trips was amazing! Not only are you getting a city
+                  tour, you are getting a history lesson too. I highly recommend
+                  Octavio and Leonel."
+                </p>
+                <small class="text-muted"
+                  ><i class="bi bi-calendar3 me-1"></i>4 weeks ago</small
+                >
+              </div>
+            </div>
+            <div
+              class="col-12 text-center"
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
+              <a
+                class="btn btn-outline-dark"
+                href="https://g.page/r/CUHWaT2IjNkqEBM/review"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Read all Google reviews for Xalisco Trips"
+              >
+                <i class="bi bi-google me-2"></i>Read all Google reviews
+              </a>
+            </div>
+          </div>
+          <div
+            class="row mt-5 text-center"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="col-6 col-md-3">
+              <div class="p-3">
+                <div class="display-6 fw-bold text-primary">500+</div>
+                <small class="text-muted">Happy Clients</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="p-3">
+                <div class="display-6 fw-bold text-success">5.0</div>
+                <small class="text-muted">Google Rating</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="p-3">
+                <div class="display-6 fw-bold text-warning">5</div>
+                <small class="text-muted">Years of Experience</small>
+              </div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="p-3">
+                <div class="display-6 fw-bold text-info">95%</div>
+                <small class="text-muted">Returning Clients</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="py-5 bg-white">
+        <div class="container">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="mb-3">Frequently Asked Questions</h2>
+            <p class="lead text-muted">
+              Everything you need to know before booking
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div
+                class="accordion"
+                id="faqAccordion"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div
+                  class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1"
+                    >
+                      <i class="bi bi-cash-coin me-2 text-warning"></i>What does
+                      the tour price include?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      The price includes private door-to-door transportation
+                      and a certified guide throughout the tour. Entrance fees,
+                      food, drinks, and tips are not included — so you decide
+                      how much to spend at each stop.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2"
+                    >
+                      <i class="bi bi-people me-2 text-warning"></i>How many
+                      people are on the tour?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      All our tours are 100% private. You won't share the
+                      vehicle with strangers — the tour is exclusively for your
+                      group. Ideal for couples, families, or groups of friends
+                      who want to go at their own pace.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3"
+                    >
+                      <i class="bi bi-geo-alt me-2 text-warning"></i>Where is
+                      the departure point?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      We pick you up anywhere in Guadalajara and the
+                      metropolitan area — your hotel, Airbnb, or any address you
+                      prefer. Just share your location when booking via
+                      WhatsApp.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq4"
+                    >
+                      <i class="bi bi-x-circle me-2 text-warning"></i>Can I
+                      cancel or change the date?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Yes. You can cancel or reschedule at no cost with at least
+                      24 hours' notice. For last-minute changes, contact us on
+                      WhatsApp and we'll find the best solution.
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item border-0 mb-3 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq5"
+                    >
+                      <i class="bi bi-credit-card me-2 text-warning"></i>How do
+                      I pay?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      <ul class="mt-2 mb-0">
+                        <li>
+                          <strong>Cash</strong> — Mexican pesos or US dollars,
+                          at the start of the tour
+                        </li>
+                        <li>
+                          <strong>Credit/Debit Card</strong> — Visa, Mastercard,
+                          Apple Pay and Google Pay via our secure
+                          <a
+                            href="https://pago.clip.mx/v3/327e607b-XXXX"
+                            target="_blank"
+                            >Clip payment link</a
+                          </li>
+                        <li>
+                          <strong>USD Transfers</strong> — via Higlobe (no
+                          commission, no fees)
+                        </li>
+                        <li>
+                          <strong>Viator</strong> — for bookings through our
+                          Viator profile
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item border-0 rounded shadow-sm overflow-hidden"
+                >
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq6"
+                    >
+                      <i class="bi bi-translate me-2 text-warning"></i>Do you
+                      speak English?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Yes. Octavio communicates fluently in both Spanish and
+                      English, making him ideal for international tourists.
+                      Many of our clients from the US, Canada, and Europe have
+                      highlighted the ease of communication in their reviews.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center mt-4"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <p class="text-muted">Have another question?</p>
+                <a
+                  href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips%2C%20I%20have%20a%20question"
+                  class="btn btn-success btn-lg fw-bold"
+                  ><i class="bi bi-whatsapp me-2"></i>Ask us on WhatsApp</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Final -->
+      <section class="py-5 cta-section text-center">
+        <div class="container position-relative">
+          <div data-aos="zoom-in">
+            <h2 class="display-5 fw-bold text-dark mb-3">
+              Ready for Your Next Adventure?
+            </h2>
+            <p class="lead text-dark mb-4">
+              Over 500 travelers have trusted us. Join the Xalisco Trips family!
+            </p>
+            <div class="worldcup-cta-container" data-aos="fade-up">
+              <span class="spinning-ball">⚽</span>
+              <div class="worldcup-cta">
+                <h4>COMING TO WORLD CUP 2026?</h4>
+                <p>
+                  Guadalajara awaits you with the best tours between matches.<br /><strong
+                    >Book now and secure your World Cup experience!</strong
+                  >
+                </p>
+              </div>
+              <span class="spinning-ball reverse">⚽</span>
+            </div>
+            <div class="row justify-content-center mb-4">
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-shield-check"></i> Secure Payment
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-clock"></i> Immediate Confirmation
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="trust-indicator mx-2">
+                  <i class="bi bi-headset"></i> 24/7 support
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center"
+            >
+              <a
+                href="https://wa.me/5213351083318?text=Hello%20Xalisco%20Trips!%20I%20want%20to%20book"
+                class="btn btn-success btn-lg px-5 py-3 fw-bold"
+                ><i class="bi bi-whatsapp me-2"></i>Book Now on WhatsApp</a
+              >
+              <a
+                href="tel:+5213351083318"
+                class="btn btn-outline-dark btn-lg px-4 py-3"
+                ><i class="bi bi-telephone me-2"></i>Call Directly</a
+              >
+            </div>
+
+            <!-- Clip Payment Button - Clientes Mexico MXN -->
+            <div class="mt-4" data-aos="fade-up" data-aos-delay="200">
+              <a
+                href="https://pago.clip.mx/v3/42cffb8a-6a88-4f19-9074-ecf2b7f27f52"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="img/clip-logo.svg"
+                  alt="Pagar con Clip"
+                  width="120"
+                  height="40"
+              /></a>
+              <p
+                style="
+                  font-size: 11px;
+                  color: #888;
+                  text-align: center;
+                  margin-top: 4px;
+                "
+              >
+                USD · Secure card payment
+              </p>
+            </div>
+
+            <p class="small text-dark mt-3 mb-0">
+              <i class="bi bi-info-circle me-1"></i>Guaranteed response in under
+              15 minutes
+            </p>
+            <p class="small text-dark mt-3 mb-0">
+              <i class="bi bi-envelope me-1"></i>
+              <a href="mailto:octavio@xaliscotrips.lat"
+                 class="text-dark text-decoration-none fw-semibold">
+                octavio@xaliscotrips.lat
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+    </main>
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h5 class="mb-3">
+              <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips
+            </h5>
+            <p class="mb-3">
+              Your trusted company to explore Jalisco. Authentic and memorable
+              experiences since 2019.
+            </p>
+            <div class="d-flex gap-3 mb-4">
+              <a
+                href="https://wa.me/5213351083318"
+                class="text-success"
+                aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp fs-4"></i
+              ></a>
+              <a href="tel:+5213351083318" class="text-light" aria-label="Phone"
+                ><i class="bi bi-telephone fs-4"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@xalisco.trips?_t=ZS-8zxVFG89jvD&_r=1"
+                class="text-danger"
+                aria-label="TikTok"
+                target="_blank"
+                ><i class="bi bi-tiktok fs-4"></i
+              ></a>
+            </div>
+            <div
+              class="d-flex align-items-center gap-3 mb-4 p-3 rounded"
+              style="background: rgba(255, 255, 255, 0.07)"
+            >
+              <div
+                class="position-relative"
+                style="flex-shrink: 0; cursor: pointer"
+                onclick="openProfileLightbox()"
+                title="View photo"
+              >
+                <img
+                  id="octavioProfilePhoto"
+                  src="img/Octavio Foto Perfil.webp"
+                  alt="Octavio, certified guide at Xalisco Trips"
+                  loading="lazy"
+                  style="
+                    width: 64px;
+                    height: 64px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    border: 3px solid var(--brand-primary);
+                    display: block;
+                  "
+                  width="200"
+                  height="200"
+                />
+                <div
+                  style="
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background: var(--brand-primary);
+                    border-radius: 50%;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <i
+                    class="bi bi-zoom-in"
+                    style="font-size: 0.65rem; color: #000"
+                  ></i>
+                </div>
+              </div>
+              <div>
+                <div class="fw-bold text-white" style="font-size: 0.95rem">
+                  Octavio — Your Guide
+                </div>
+                <small class="text-white"
+                  >Certified Guide · Local · 5 Years</small
+                >
+                <div class="text-warning" style="font-size: 0.8rem">
+                  ⭐⭐⭐⭐⭐ Viator
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://g.page/r/CUHWaT2IjNkqEBM/review"
+              target="_blank"
+              rel="noopener"
+              class="d-flex align-items-center gap-2 text-decoration-none mt-2 google-review-cta"
+              style="
+                background: rgba(255, 255, 255, 0.08);
+                border-radius: 10px;
+                padding: 0.75rem 1rem;
+                transition: background 0.2s;
+              "
+              aria-label="Leave us a review on Google"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="32"
+                height="32"
+                aria-hidden="true"
+              >
+                <path
+                  fill="#EA4335"
+                  d="M24 9.5c3.2 0 5.5 1.4 6.8 2.5l5-4.9C32.5 4.2 28.6 2.5 24 2.5 14.9 2.5 7.4 8.2 4.4 16.1l5.8 4.5C11.7 14 17.4 9.5 24 9.5z"
+                />
+                <path
+                  fill="#4A90E2"
+                  d="M46.1 24.5c0-1.6-.1-2.8-.4-4H24v7.6h12.5c-.6 3-2.3 5.5-4.9 7.2l7.5 5.8C43.8 37 46.1 31.2 46.1 24.5z"
+                />
+                <path
+                  fill="#34A853"
+                  d="M10.2 28.5A14.6 14.6 0 0 1 9.5 24c0-1.6.3-3.1.7-4.5L4.4 15C2.9 17.9 2 21.3 2 24s.9 6.1 2.4 9l5.8-4.5z"
+                />
+                <path
+                  fill="#FBBC05"
+                  d="M24 45.5c4.6 0 8.5-1.5 11.3-4.1l-7.5-5.8c-1.5 1-3.5 1.6-3.8 1.6-6.6 0-12.3-4.5-13.8-10.7l-5.8 4.5C7.4 38.8 14.9 45.5 24 45.5z"
+                />
+              </svg>
+              <div>
+                <div
+                  class="text-white fw-semibold"
+                  style="font-size: 0.85rem; line-height: 1.2"
+                >
+                  Rate us on Google
+                </div>
+                <div class="text-warning" style="font-size: 0.75rem">
+                  ⭐⭐⭐⭐⭐ Your review helps us grow
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-3">Popular Destinations</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/chapala-tonala-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Chapala & Tonala</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/mazamitla-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Mazamitla</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/tequila-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Tequila</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/tlaquepaque-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Tlaquepaque</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/guachimontones-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Guachimontones</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/chapala-tonala-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Tonala</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://xaliscotrips.lat/airport-transfer-en.html"
+                  class="text-light-emphasis text-decoration-none"
+                  >Airport</a
+                >
+              </li>
+              <li>
+                <a href="#faq" class="text-light-emphasis text-decoration-none"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/en/blog/"
+                  class="text-light-emphasis text-decoration-none"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="mb-3">Information</h6>
+            <ul class="list-unstyled">
+              <li>
+                <small class="text-light-emphasis"
+                  >📍 Guadalajara, Jalisco</small
+                >
+              </li>
+              <li>
+                <small class="text-light-emphasis">📞 +52 33 5108 3318</small>
+              </li>
+              <li>
+                <small class="text-light-emphasis"
+                  >🕒 Mon-Sun 7:00 AM–10:00 PM</small
+                >
+              </li>
+              <li>
+                <small class="text-light-emphasis">✅ Sectur License</small>
+              </li>
+              <li>
+                <small class="text-light-emphasis">
+                  ✉️ <a href="mailto:octavio@xaliscotrips.lat"
+                     class="text-light-emphasis text-decoration-none">
+                    octavio@xaliscotrips.lat
+                  </a>
+                </small>
+              </li>
+            </ul>
+            <div class="mt-3">
+              <small class="text-warning fw-bold"
+                >⭐ 5.0/5 on Google Reviews (9 reviews)</small
+              >
+            </div>
+            <div
+              class="mt-4"
+              style="
+                background: white;
+                border: 3px solid var(--brand-whatsapp);
+                border-radius: 12px;
+                padding: 1.5rem;
+                box-shadow: 0 6px 20px rgba(37, 211, 102, 0.25);
+              "
+            >
+              <div class="text-center">
+                <div class="mb-2">
+                  <i
+                    class="bi bi-star-fill text-warning"
+                    style="font-size: 1.2rem"
+                  ></i
+                  ><i
+                    class="bi bi-star-fill text-warning"
+                    style="font-size: 1.2rem"
+                  ></i
+                  ><i
+                    class="bi bi-star-fill text-warning"
+                    style="font-size: 1.2rem"
+                  ></i
+                  ><i
+                    class="bi bi-star-fill text-warning"
+                    style="font-size: 1.2rem"
+                  ></i
+                  ><i
+                    class="bi bi-star-fill text-warning"
+                    style="font-size: 1.2rem"
+                  ></i>
+                </div>
+                <h6
+                  class="fw-bold mb-2"
+                  style="color: var(--brand-dark); font-size: 1.1rem"
+                >
+                  Enjoyed your experience?
+                </h6>
+                <p class="small mb-3" style="color: #495057; line-height: 1.4">
+                  Help other travelers by sharing<br />your review on
+                  <strong style="color: var(--brand-whatsapp)">Viator</strong>
+                </p>
+                <a
+                  href="https://tinyurl.com/perfilcomnt"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-success fw-bold w-100"
+                  style="
+                    background: var(--brand-whatsapp);
+                    border: none;
+                    padding: 0.75rem 1rem;
+                    font-size: 1rem;
+                    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+                    color: white;
+                  "
+                  ><i class="bi bi-pencil-square me-2"></i>Leave my Review (2
+                  min)</a
+                >
+                <small class="d-block mt-3 fst-italic" style="color: #6c757d"
+                  >Your opinion means a lot to us ❤️</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 border-secondary" />
+        <div class="row mb-4">
+          <div class="col-12">
+            <div
+              class="p-3 rounded"
+              style="
+                background-color: rgba(255, 193, 7, 0.1);
+                border-left: 4px solid var(--brand-primary);
+              "
+            >
+              <h6 class="text-warning mb-2">
+                <i class="bi bi-info-circle me-1"></i>Important Terms
+              </h6>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <small class="text-light-emphasis d-block mb-2"
+                    ><i class="bi bi-person-check me-1 text-warning"></i
+                    ><strong>Price per Person:</strong> All published prices are
+                    per person. Total cost depends on number of
+                    passengers.</small
+                  >
+                  <small class="text-light-emphasis d-block mb-1"
+                    ><i class="bi bi-currency-dollar me-1 text-warning"></i
+                    ><strong>Pricing:</strong> Prices shown are for
+                    transportation and guide services only. Entrance fees, food
+                    and beverages are paid by the client.</small
+                  >
+                  <small class="text-light-emphasis d-block"
+                    ><i class="bi bi-exclamation-triangle me-1 text-warning"></i
+                    ><strong>Rates:</strong> Prices subject to change without
+                    notice based on season and availability.</small
+                  >
+                </div>
+                <div class="col-md-6">
+                  <small class="text-light-emphasis d-block"
+                    ><i class="bi bi-shield-check me-1 text-warning"></i
+                    ><strong>Bookings:</strong> All bookings subject to
+                    confirmation and service availability.</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <small class="text-light-emphasis"
+              ><div class="d-flex gap-3 mb-3">
+                <a
+                  href="https://www.instagram.com/xaliscotrips?igsh=cWUzejhoNWhrcGFq"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Instagram"
+                  ><i class="bi bi-instagram fs-5 text-warning"></i></a
+                ><a
+                  href="https://www.facebook.com/profile.php?id=61583422030849"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Facebook"
+                  ><i class="bi bi-facebook fs-5 text-warning"></i></a
+                ><a
+                  href="https://www.tiktok.com/@xalisco.trips"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="TikTok"
+                  ><i class="bi bi-tiktok fs-5 text-warning"></i
+                ></a>
+              </div>
+              © 2026 Xalisco Trips. All Rights Reserved.</small
+            >
+          </div>
+          <div class="col-md-6 text-md-end">
+            <small class="text-light-emphasis">Certified Tour Operator</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div
+      class="modal fade lightbox-modal"
+      id="lightboxModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+            <button
+              type="button"
+              class="lightbox-nav prev"
+              aria-label="Previous"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <img
+              src=""
+              alt="Enlarged view of selected tour"
+              class="lightbox-img"
+              id="lightboxImage"
+              width="800"
+              height="600"
+            />
+            <button type="button" class="lightbox-nav next" aria-label="Next">
+              <i class="bi bi-chevron-right"></i>
+            </button>
+            <div class="lightbox-counter">
+              <span id="lightboxCurrent">1</span> /
+              <span id="lightboxTotal">1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TouristTrip Schema - Tours (Individual Scripts) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Chapala + Tonala from Guadalajara",
+        "description": "Discover two jewels of Jalisco in one day: the largest lake in Mexico and the artisan heart of the region. 8-10 hours with transport and guide included.",
+        "image": "https://xaliscotrips.lat/img/destinos/chapala1.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "800",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Tequila + Guachimontones from Guadalajara",
+        "description": "Discover the origin of tequila and the archaeological legacy of Teuchitlan culture in one day. 8-10 hours with transport and certified guide included.",
+        "image": "https://xaliscotrips.lat/img/destinos/Guachimontones.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "950",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Mazamitla from Guadalajara",
+        "description": "Magical town in the mountains with ziplines, waterfalls and the cleanest air of Jalisco. 8-10 hours with transport and certified guide included.",
+        "image": "https://xaliscotrips.lat/img/destinos/mazamitla.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "950",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Tequila Jalisco from Guadalajara",
+        "description": "World Heritage. Blue agave fields, artisan distilleries and premium tequila tasting. 7-9 hours with transport and certified guide.",
+        "image": "https://xaliscotrips.lat/img/destinos/tequila.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "700",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Tlaquepaque from Guadalajara",
+        "description": "Mexican art, live mariachi and the best handicrafts in Jalisco. 4-6 hours with transport and certified guide included.",
+        "image": "https://xaliscotrips.lat/img/destinos/tlaquepaque.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "600",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Tour Guachimontones from Guadalajara",
+        "description": "Unique archaeological site with circular pyramids. Teuchitlan culture, interactive museum and panoramic valley views. 5-6 hours with certified guide.",
+        "image": "https://xaliscotrips.lat/img/destinos/Guachimontones.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "700",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Foodie Tour Tapatío Guadalajara",
+        "description": "100% Tapatío street food with top ratings. Discover authentic flavors of Guadalajara in legendary local spots. 4-5 hours with transport and guide.",
+        "image": "https://xaliscotrips.lat/img/destinos/foodie.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "800",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Private Airport Transfer Guadalajara",
+        "description": "Safe and punctual transfer from your hotel to the airport GDL. Base price within ZMG. Available 24/7.",
+        "image": "https://xaliscotrips.lat/img/destinos/aeropuerto.webp",
+        "organizer": {
+          "@type": "Organization",
+          "name": "Xalisco Trips",
+          "url": "https://xaliscotrips.lat",
+          "sameAs": [
+            "https://www.instagram.com/xaliscotrips",
+            "https://www.facebook.com/profile.php?id=61583422030849",
+            "https://www.tiktok.com/@xalisco.trips"
+          ]
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "600",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "hasMerchantReturnPolicy": {
+            "@type": "MerchantReturnPolicy",
+            "applicableCountry": "MX",
+            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+          },
+          "shippingDetails": {
+            "@type": "OfferShippingDetails",
+            "shippingRate": {
+              "@type": "MonetaryAmount",
+              "value": "0",
+              "currency": "USD"
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "MX"
+            },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 1,
+                "unitCode": "DAY"
+              },
+              "transitTime": {
+                "@type": "QuantitativeValue",
+                "minValue": 0,
+                "maxValue": 0,
+                "unitCode": "DAY"
+              }
+            }
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "brand": {
+          "@type": "Brand",
+          "name": "Xalisco Trips"
+        }
+      }
+    </script>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"
+      defer
+    ></script>
+    <script src="js/main.js" defer></script>
+    <script>
+      // Auto-ocultar burbuja después de 6 segundos
+      setTimeout(function () {
+        var bubble = document.getElementById("waBubble");
+        if (bubble) {
+          bubble.style.transition = "opacity 0.5s ease";
+          bubble.style.opacity = "0";
+          setTimeout(function () {
+            bubble.style.display = "none";
+          }, 500);
+        }
+      }, 6000);
+    </script>
+  </body>
+</html>
+
