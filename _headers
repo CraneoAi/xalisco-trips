@@ -13,3 +13,46 @@
 /
   Cache-Control: public, max-age=3600, must-revalidate
 
+/tequila
+  Content-Type: text/html; charset=utf-8
+/tequila-en
+  Content-Type: text/html; charset=utf-8
+/guachimontones
+  Content-Type: text/html; charset=utf-8
+/guachimontones-en
+  Content-Type: text/html; charset=utf-8
+/chapala-tonala
+  Content-Type: text/html; charset=utf-8
+/chapala-tonala-en
+  Content-Type: text/html; charset=utf-8
+/mazamitla
+  Content-Type: text/html; charset=utf-8
+/mazamitla-en
+  Content-Type: text/html; charset=utf-8
+/tequila-guachimontones
+  Content-Type: text/html; charset=utf-8
+/tequila-guachimontones-en
+  Content-Type: text/html; charset=utf-8
+/airport-transfer
+  Content-Type: text/html; charset=utf-8
+/airport-transfer-en
+  Content-Type: text/html; charset=utf-8
+/tlaquepaque
+  Content-Type: text/html; charset=utf-8
+/tlaquepaque-en
+  Content-Type: text/html; charset=utf-8
+/tonala-tlaquepaque
+  Content-Type: text/html; charset=utf-8
+/tonala-tlaquepaque-en
+  Content-Type: text/html; charset=utf-8
+/index-en
+  Content-Type: text/html; charset=utf-8
+/foodie-tour
+  Content-Type: text/html; charset=utf-8
+/foodie-tour-en
+  Content-Type: text/html; charset=utf-8
+/world-cup-2026-guadalajara-tours
+  Content-Type: text/html; charset=utf-8
+/world-cup-2026-guadalajara-tours-es
+  Content-Type: text/html; charset=utf-8
+
