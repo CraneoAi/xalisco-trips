@@ -1,0 +1,6 @@
+name = "xalisco-trips"
+compatibility_date = "2024-04-21"
+
+[assets]
+directory = "."
+html_handling = "none"
