@@ -4266,6 +4266,19 @@
         }
       }, 6000);
     </script>
+    <script>
+    (function(){
+      var s50=false;
+      window.addEventListener('scroll',function(){
+        if(s50)return;
+        var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;
+        if(pct>=50){
+          s50=true;
+          gtag('event','scroll',{'percent_scrolled':50,'page_title':document.title});
+        }
+      },{passive:true});
+    })();
+    </script>
   </body>
 </html>
 
