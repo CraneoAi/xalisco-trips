@@ -1,5 +1,6 @@
 .idea/
-*.md
+*.tmp.md
+!utm-links.md
 !README.md
 psi_report.json
 *_report*.json
