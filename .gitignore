@@ -19,3 +19,5 @@ scripts/*.ps1
 check-index-status.ps1
 validate-index.ps1
 validate-json-ld.ps1
+
+LICENSE.md
