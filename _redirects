@@ -17,3 +17,25 @@
 /foodie-tour /foodie-tour.html 200
 /foodie-tour-en /foodie-tour-en.html 200
 /index-en /index-en.html 200
+
+# ── 301 Redirects: .html → clean URL (Fix GSC errors) ──
+/index.html                      https://xaliscotrips.lat/               301
+/guachimontones.html             /guachimontones                         301
+/guachimontones-en.html          /guachimontones-en                      301
+/tequila.html                    /tequila                                301
+/tequila-en.html                 /tequila-en                             301
+/chapala-tonala.html             /chapala-tonala                         301
+/chapala-tonala-en.html          /chapala-tonala-en                      301
+/mazamitla.html                  /mazamitla                              301
+/mazamitla-en.html               /mazamitla-en                           301
+/tequila-guachimontones.html     /tequila-guachimontones                 301
+/tequila-guachimontones-en.html  /tequila-guachimontones-en              301
+/airport-transfer.html           /airport-transfer                       301
+/airport-transfer-en.html        /airport-transfer-en                    301
+/tlaquepaque.html                /tlaquepaque                            301
+/tlaquepaque-en.html             /tlaquepaque-en                         301
+/tonala-tlaquepaque.html         /tonala-tlaquepaque                     301
+/tonala-tlaquepaque-en.html      /tonala-tlaquepaque-en                  301
+/foodie-tour.html                /foodie-tour                            301
+/foodie-tour-en.html             /foodie-tour-en                         301
+/index-en.html                   /index-en                               301
