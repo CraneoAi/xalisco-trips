@@ -1085,6 +1085,11 @@
                   ${Array.from({ length: 8 }, (_, index) => `<option value="${index + 1}">${index + 1}</option>`).join("")}
                 </select>
               </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold" for="hotel">Hotel o lugar de recogida</label>
+                <input class="form-control form-control-lg" id="hotel" name="hotel" type="text"
+                  placeholder="Nombre del hotel o dirección" required />
+              </div>
               ${
                 requestedTour === "aeropuerto"
                   ? `
@@ -1389,6 +1394,7 @@
             const email = form.email.value.trim();
             const whatsapp = form.whatsapp.value.trim();
             const personas = form.personas.value;
+            const hotel = form.hotel.value.trim();
             const comentarios = form.comentarios.value.trim();
             const lines = [
               "Hola Octavio, acabo de confirmar mi pago y quiero registrar mis datos:",
@@ -1398,6 +1404,7 @@
               `Email: ${email}`,
               `Teléfono WhatsApp: ${whatsapp}`,
               `Número de personas: ${personas}`,
+              `Hotel o lugar de recogida: ${hotel}`,
             ];
 
             if (formExtraType === "health") {
@@ -1428,6 +1435,16 @@
               lines.push(`Comentarios adicionales: ${comentarios}`);
 
             const finalMessage = lines.join("\n");
+            fetch("/api/confirmar-reserva", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                email,
+                nombreCompleto,
+                tourNombre: tourData.nombre,
+                detalles: finalMessage,
+              }),
+            }).catch(() => {});
             window.open(waLink(finalMessage), "_blank", "noopener,noreferrer");
           });
         }
