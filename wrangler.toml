@@ -1,5 +1,5 @@
 name = "xalisco-trips"
-pages_build_output_dir = "/"
+pages_build_output_dir = "."
 
 [[d1_databases]]
 binding = "QR_DB"
