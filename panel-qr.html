@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel QR - Xalisco Trips</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  body { font-family: system-ui, sans-serif; background:#111; color:#eee; padding:20px; max-width:900px; margin:auto; }
+  h1 { color:#f5a623; }
+  input, button { padding:8px; font-size:1rem; border-radius:6px; border:1px solid #444; }
+  input { background:#222; color:#eee; width:250px; }
+  button { background:#f5a623; border:none; cursor:pointer; font-weight:bold; }
+  table { width:100%; border-collapse:collapse; margin-top:20px; }
+  th, td { text-align:left; padding:8px; border-bottom:1px solid #333; font-size:0.9rem; }
+  th { color:#f5a623; }
+  .total { font-size:2rem; font-weight:bold; color:#f5a623; margin:10px 0; }
+  .card { background:#1a1a1a; padding:16px; border-radius:10px; margin-bottom:20px; }
+</style>
+</head>
+<body>
+  <h1>📊 Panel de Escaneos QR</h1>
+  <div class="card">
+    <input type="password" id="token" placeholder="Token de acceso">
+    <button onclick="cargar()">Ver estadísticas</button>
+  </div>
+  <div id="contenido"></div>
+
+<script>
+async function cargar() {
+  const token = document.getElementById('token').value;
+  const contenido = document.getElementById('contenido');
+  contenido.innerHTML = "Cargando...";
+  try {
+    const res = await fetch('/api/qr-stats?token=' + encodeURIComponent(token));
+    if (!res.ok) {
+      contenido.innerHTML = "<p style='color:red'>Token incorrecto o error de acceso.</p>";
+      return;
+    }
+    const data = await res.json();
+
+    let html = `<div class="card"><div class="total">${data.total} escaneos totales</div></div>`;
+
+    html += `<div class="card"><h3>Por punto de contacto</h3><table><tr><th>Slug</th><th>Total</th></tr>`;
+    data.por_slug.forEach(r => html += `<tr><td>${r.slug}</td><td>${r.total}</td></tr>`);
+    html += `</table></div>`;
+
+    html += `<div class="card"><h3>Por ciudad</h3><table><tr><th>Ciudad</th><th>Región</th><th>País</th><th>Total</th></tr>`;
+    data.por_ciudad.forEach(r => html += `<tr><td>${r.city||'-'}</td><td>${r.region||'-'}</td><td>${r.country||'-'}</td><td>${r.total}</td></tr>`);
+    html += `</table></div>`;
+
+    html += `<div class="card"><h3>Últimos 50 escaneos</h3><table><tr><th>Fecha</th><th>Slug</th><th>Ciudad</th></tr>`;
+    data.recientes.forEach(r => html += `<tr><td>${new Date(r.scanned_at).toLocaleString('es-MX')}</td><td>${r.slug}</td><td>${r.city||'-'}, ${r.region||'-'}</td></tr>`);
+    html += `</table></div>`;
+
+    contenido.innerHTML = html;
+  } catch(e) {
+    contenido.innerHTML = "<p style='color:red'>Error al cargar datos.</p>";
+  }
+}
+</script>
+</body>
+</html>
