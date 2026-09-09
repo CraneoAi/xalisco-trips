@@ -21,3 +21,7 @@ validate-index.ps1
 validate-json-ld.ps1
 
 LICENSE.md
+
+# QR tracking
+node_modules/
+.cache/
