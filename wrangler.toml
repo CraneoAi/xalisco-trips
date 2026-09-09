@@ -1,0 +1,7 @@
+name = "xalisco-trips"
+pages_build_output_dir = "/"
+
+[[d1_databases]]
+binding = "QR_DB"
+database_name = "qr_scans_db"
+database_id = "b3362f12-926b-461a-a176-f97ca73b8a2a"
