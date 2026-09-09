@@ -1,6 +1,7 @@
 const DESTINOS = {
   "asiento-copiloto": "https://wa.me/message/XKMPMDIT6NRNE1",
   "asiento-conductor": "https://wa.me/message/XKMPMDIT6NRNE1",
+  "tarjeta": "https://wa.me/message/XKMPMDIT6NRNE1",
 };
 
 export async function onRequestGet(context) {
