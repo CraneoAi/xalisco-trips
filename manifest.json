@@ -1,7 +1,7 @@
 {
   "name": "Xalisco Trips",
   "short_name": "Xalisco Trips",
-  "description": "Private tours in Guadalajara & Jalisco - FIFA World Cup 2026 Host City",
+  "description": "Private tours and airport transfers in Guadalajara & Jalisco - certified local guides and WhatsApp booking",
   "start_url": "/xalisco-trips/index.html",
   "scope": "/xalisco-trips/",
   "display": "standalone",

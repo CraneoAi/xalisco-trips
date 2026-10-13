@@ -597,7 +597,7 @@ img {
 /* ==========================================================================
    12. WORLD CUP BANNER
    ========================================================================== */
-.worldcup-banner {
+.featured-banner {
   position: fixed;
   top: 20px;
   left: 20px;
@@ -617,7 +617,7 @@ img {
   max-width: 280px;
 }
 
-.worldcup-banner:hover {
+.featured-banner:hover {
   transform: scale(1.05) translateY(-2px);
   box-shadow:
     0 8px 30px rgba(0, 0, 0, 0.4),
@@ -625,18 +625,18 @@ img {
   border-color: var(--brand-primary);
 }
 
-.worldcup-banner .ball-icon {
+.featured-banner .ball-icon {
   font-size: 1.8rem;
   animation: ballPulse 2s ease-in-out infinite;
 }
 
-.worldcup-banner .banner-content {
+.featured-banner .banner-content {
   display: flex;
   flex-direction: column;
   line-height: 1.2;
 }
 
-.worldcup-banner .banner-title {
+.featured-banner .banner-title {
   color: #ffc107;
   font-weight: 700;
   font-size: 0.85rem;
@@ -644,13 +644,13 @@ img {
   letter-spacing: 1px;
 }
 
-.worldcup-banner .banner-subtitle {
+.featured-banner .banner-subtitle {
   color: #ffffff;
   font-size: 0.75rem;
   font-weight: 500;
 }
 
-.worldcup-banner .banner-cta {
+.featured-banner .banner-cta {
   color: #90ee90;
   font-size: 0.7rem;
   font-weight: 600;
@@ -676,7 +676,7 @@ img {
 /* ==========================================================================
    13. WORLD CUP CTA SECTION
    ========================================================================== */
-.worldcup-cta-container {
+.trust-cta-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -684,12 +684,12 @@ img {
   margin-bottom: 1.5rem;
 }
 
-.worldcup-cta-container .spinning-ball {
+.trust-cta-container .spinning-ball {
   font-size: 2.5rem;
   text-shadow: 0 0 15px rgba(255, 193, 7, 0.8);
 }
 
-.worldcup-cta {
+.trust-cta {
   background: linear-gradient(135deg, #8b0000 0%, #c41e3a 50%, #8b0000 100%);
   border-radius: 15px;
   padding: 1.5rem 2rem;
@@ -716,13 +716,13 @@ img {
   }
 }
 
-.worldcup-cta h4 {
+.trust-cta h4 {
   color: #ffc107;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.worldcup-cta p {
+.trust-cta p {
   color: #ffffff;
   margin-bottom: 0;
   font-size: 0.95rem;
@@ -1055,7 +1055,7 @@ img {
     min-height: 100vh;
   }
 
-  .worldcup-banner {
+  .featured-banner {
     top: auto;
     bottom: 80px;
     left: 15px;
@@ -1063,16 +1063,16 @@ img {
     max-width: 200px;
   }
 
-  .worldcup-banner .ball-icon {
+  .featured-banner .ball-icon {
     font-size: 1.4rem;
   }
 
-  .worldcup-banner .banner-title {
+  .featured-banner .banner-title {
     font-size: 0.7rem;
   }
 
-  .worldcup-banner .banner-subtitle,
-  .worldcup-banner .banner-cta {
+  .featured-banner .banner-subtitle,
+  .featured-banner .banner-cta {
     font-size: 0.65rem;
   }
 
@@ -1156,7 +1156,7 @@ img {
 @media print {
   .wa-widget,
   .whatsapp-float,
-  .worldcup-banner,
+  .featured-banner,
   .language-switcher {
     display: none !important;
   }

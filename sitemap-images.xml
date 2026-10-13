@@ -202,29 +202,4 @@
     </image:image>
   </url>
 
-  <!-- World Cup 2026 ES/EN (página única en inglés) -->
-  <url>
-    <loc>https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html</loc>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/hero/portada-jalisco.webp</image:loc>
-      <image:title>World Cup 2026 Tours Guadalajara - Private Experiences</image:title>
-      <image:caption>Explore Jalisco between FIFA World Cup 2026 matches</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
-      <image:title>Tequila Tour World Cup 2026 - Between Match Activities</image:title>
-      <image:caption>UNESCO World Heritage distillery tour during World Cup break</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
-      <image:title>Chapala Lake Tour World Cup 2026 - Relax Between Matches</image:title>
-      <image:caption>Lake Chapala tour during FIFA World Cup 2026 in Guadalajara</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
-      <image:title>Guachimontones Pyramids - World Cup 2026 Tour</image:title>
-      <image:caption>Archaeological site tour between World Cup matches</image:caption>
-    </image:image>
-  </url>
-
 </urlset>
