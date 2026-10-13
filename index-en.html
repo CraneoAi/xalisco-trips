@@ -451,6 +451,14 @@
       </div>
     </a>
 
+    <aside class="cumbre-banner" id="cumbreBanner" aria-label="Transportation for the Ibero-American Insurance Summit">
+      <div>
+        <strong>Transportation for the Ibero-American Insurance Summit</strong>
+        <span>Official service in Guadalajara · November 3–6</span>
+      </div>
+      <a href="cumbre-seguros" aria-label="Open the Spanish transportation page for the Ibero-American Insurance Summit">Information in Spanish</a>
+    </aside>
+
     <!-- WhatsApp Widget Flotante -->
     <div class="wa-widget" id="waWidget">
       <div class="wa-bubble" id="waBubble">
@@ -521,6 +529,7 @@
             <p class="lead text-muted">
               Unique experiences in Jalisco's most beautiful places
             </p>
+            <p class="mb-3"><a href="cumbre-seguros" class="text-warning">Summit transportation (Spanish page)</a></p>
             <a
               class="trust-indicator google-review-cta"
               href="https://g.page/r/CUHWaT2IjNkqEBM/review"
@@ -4235,6 +4244,18 @@
       defer
     ></script>
     <script src="js/main.js" defer></script>
+    <script>
+      (function () {
+        var banner = document.getElementById("cumbreBanner");
+        var deadline = new Date("2026-11-09T00:00:00-06:00");
+        if (banner && new Date() >= deadline) banner.hidden = true;
+        if (banner) {
+          banner.querySelector("a").addEventListener("click", function () {
+            if (typeof gtag === "function") gtag("event", "cumbre_banner_click");
+          });
+        }
+      })();
+    </script>
     <script>
       // Auto-ocultar burbuja después de 6 segundos
       setTimeout(function () {

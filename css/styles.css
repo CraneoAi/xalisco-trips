@@ -1153,6 +1153,170 @@ img {
 /* ==========================================================================
    21. PRINT STYLES
    ========================================================================== */
+.cumbre-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(100% - 2rem, 920px);
+  margin: 1rem auto;
+  padding: 0.85rem 1rem;
+  border: 1px solid #8a6500;
+  border-radius: 0.5rem;
+  background: #fff8dc;
+  color: #212529;
+  box-shadow: 0 3px 12px rgba(33, 37, 41, 0.12);
+}
+
+.cumbre-banner div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.cumbre-banner span {
+  font-size: 0.875rem;
+}
+
+.cumbre-banner a,
+.cumbre-airport-link a {
+  color: #674d00;
+  font-weight: 700;
+}
+
+.cumbre-banner a:focus-visible,
+.cumbre-airport-link a:focus-visible {
+  outline: 3px solid #212529;
+  outline-offset: 3px;
+}
+
+.cumbre-hero {
+  position: relative;
+  min-height: 560px;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  background: #212529;
+}
+
+.cumbre-hero > img,
+.cumbre-hero-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cumbre-hero > img {
+  object-fit: cover;
+}
+
+.cumbre-hero-overlay {
+  background: rgba(18, 27, 34, 0.58);
+}
+
+.cumbre-hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.cumbre-hero h1 {
+  max-width: 760px;
+  font-weight: 700;
+}
+
+.cumbre-lead {
+  max-width: 650px;
+  font-size: 1.25rem;
+}
+
+.cumbre-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cumbre-date {
+  font-weight: 600;
+}
+
+.cumbre-section-muted {
+  background: #f6f7f8;
+}
+
+.cumbre-section h2,
+.cumbre-contact h2 {
+  font-weight: 700;
+}
+
+.cumbre-section-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.cumbre-list {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.cumbre-list i {
+  margin-right: 0.5rem;
+  color: #16803c;
+}
+
+.cumbre-group-note {
+  font-weight: 700;
+}
+
+.cumbre-copy {
+  max-width: 680px;
+}
+
+.cumbre-tour-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3.5rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d4d8dc;
+  border-radius: 0.5rem;
+  color: #212529;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cumbre-tour-link:hover,
+.cumbre-tour-link:focus-visible {
+  border-color: #8a6500;
+  color: #674d00;
+}
+
+.cumbre-contact {
+  background: #fff8dc;
+}
+
+@media (max-width: 576px) {
+  .cumbre-banner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .cumbre-banner a {
+    align-self: flex-start;
+  }
+
+  .cumbre-hero {
+    min-height: 620px;
+  }
+}
+
 @media print {
   .wa-widget,
   .whatsapp-float,

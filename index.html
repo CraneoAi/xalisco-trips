@@ -458,6 +458,14 @@
       </div>
     </a>
 
+    <aside class="cumbre-banner" id="cumbreBanner" aria-label="Transporte para la Cumbre Iberoamericana de Seguros">
+      <div>
+        <strong>Transporte para la Cumbre Iberoamericana de Seguros</strong>
+        <span>Servicio oficial en Guadalajara · 3–6 de noviembre</span>
+      </div>
+      <a href="cumbre-seguros" aria-label="Ver la página de transporte para la Cumbre Iberoamericana de Seguros">Ver información</a>
+    </aside>
+
     <!-- WhatsApp Widget Flotante -->
     <div class="wa-widget" id="waWidget">
       <div class="wa-bubble" id="waBubble">
@@ -528,6 +536,7 @@
             <p class="lead text-muted">
               Experiencias únicas en los lugares más hermosos de Jalisco
             </p>
+            <p class="mb-3"><a href="cumbre-seguros" class="text-warning">Transporte para la Cumbre Iberoamericana de Seguros</a></p>
             <a
               class="trust-indicator google-review-cta"
               href="https://g.page/r/CUHWaT2IjNkqEBM/review"
@@ -4252,6 +4261,18 @@
       defer
     ></script>
     <script src="js/main.js" defer></script>
+    <script>
+      (function () {
+        var banner = document.getElementById("cumbreBanner");
+        var deadline = new Date("2026-11-09T00:00:00-06:00");
+        if (banner && new Date() >= deadline) banner.hidden = true;
+        if (banner) {
+          banner.querySelector("a").addEventListener("click", function () {
+            if (typeof gtag === "function") gtag("event", "cumbre_banner_click");
+          });
+        }
+      })();
+    </script>
     <script>
       // Auto-ocultar burbuja después de 6 segundos
       setTimeout(function () {
