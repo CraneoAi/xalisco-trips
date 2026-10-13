@@ -1158,33 +1158,29 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: min(100% - 2rem, 920px);
-  margin: 1rem auto;
-  padding: 0.85rem 1rem;
-  border: 1px solid #8a6500;
-  border-radius: 0.5rem;
-  background: #fff8dc;
-  color: #212529;
-  box-shadow: 0 3px 12px rgba(33, 37, 41, 0.12);
+  width: fit-content;
+  max-width: 100%;
+  margin: 1rem auto 0;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--brand-primary);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65);
+  white-space: nowrap;
 }
 
 .cumbre-banner div {
-  display: grid;
-  gap: 0.15rem;
+  display: block;
 }
 
-.cumbre-banner span {
-  font-size: 0.875rem;
-}
-
-.cumbre-banner a,
-.cumbre-airport-link a {
-  color: #674d00;
+.cumbre-banner a {
+  color: var(--brand-primary);
   font-weight: 700;
+  text-decoration: none;
 }
 
-.cumbre-banner a:focus-visible,
-.cumbre-airport-link a:focus-visible {
+.cumbre-banner a:focus-visible {
   outline: 3px solid #212529;
   outline-offset: 3px;
 }
@@ -1306,6 +1302,8 @@ img {
   .cumbre-banner {
     align-items: flex-start;
     flex-direction: column;
+    width: min(100%, 32rem);
+    white-space: normal;
   }
 
   .cumbre-banner a {
