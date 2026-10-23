@@ -1,0 +1,16 @@
+{
+  "_nota": "UNICA fuente de precios del sitio. Edita aqui y corre: python scripts/precios.py  (el pre-push lo valida).",
+  "tasa_proteccion_usd_mxn": 17.00,
+  "_tasa_nota": "Peor tasa a la que cambias tus USD (ventanilla Banco Azteca). NUNCA uses la tasa de Google. USD = MXN / tasa, redondeado hacia arriba.",
+  "tours": {
+    "aeropuerto":         { "mxn": 700,  "unidad": "vehiculo", "max_pax": 4, "nombre": "Traslado Aeropuerto GDL" },
+    "tequila":            { "mxn": 600,  "unidad": "persona", "nombre": "Tequila (promo: transporte + guia, sin entradas)", "mxn_destileria": 800 },
+    "tlaquepaque":        { "mxn": 500,  "unidad": "persona", "nombre": "Tlaquepaque" },
+    "tonala_tlaquepaque": { "mxn": 700,  "unidad": "persona", "nombre": "Tonala + Tlaquepaque" },
+    "guachimontones":     { "mxn": 700,  "unidad": "persona", "nombre": "Guachimontones" },
+    "chapala":            { "mxn": 900,  "unidad": "persona", "nombre": "Chapala + Tonala" },
+    "foodie":             { "mxn": 850,  "unidad": "persona", "nombre": "Foodie Tour Tapatio" },
+    "tequila_guachi":     { "mxn": 1100, "unidad": "persona", "nombre": "Tequila + Guachimontones" },
+    "mazamitla":          { "mxn": 1100, "unidad": "persona", "nombre": "Mazamitla (solo traslado + guia, sin ingresos)", "mxn_grupo_10": 900 }
+  }
+}

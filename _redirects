@@ -9,6 +9,9 @@
 /optimize-images.mjs              /   301
 /.github/*                        /   301
 /img/sub-destinos.zip             /   301
+/precios.json                     /   301
+/scripts/*                        /   301
+/.githooks/*                      /   301
 
 /tequila /tequila.html 200
 /tequila-en /tequila-en.html 200

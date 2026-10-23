@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tour Privado: Lago Chapala, Ajijic, Tonalá & Rancho Los 3 Potrillos | Xalisco Trips</title>
+    <title>Tour Privado Chapala, Ajijic y Tonalá desde Guadalajara</title>
 
     <!-- Security: CSP -->
     <meta
@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Solo tu grupo. Cancelación gratuita."
+      content="Tour 100% privado desde Guadalajara: Lago Chapala, Ajijic, Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Cancelación gratuita."
     />
     <meta
       name="keywords"
@@ -47,7 +47,7 @@
     <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Tour Privado: Lago Chapala, Ajijic, Tonalá & Rancho Los 3 Potrillos | Xalisco Trips"
+      content="Tour Privado Chapala, Ajijic y Tonalá desde Guadalajara"
     />
     <meta
       property="og:description"
@@ -64,7 +64,7 @@
     />
     <meta property="og:locale" content="es_MX" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Tour Privado: Lago Chapala, Ajijic, Tonalá & Rancho Los 3 Potrillos | Xalisco Trips" />
+    <meta name="twitter:title" content="Tour Privado Chapala, Ajijic y Tonalá desde Guadalajara" />
     <meta name="twitter:description" content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Solo tu grupo. Cancelación gratuita." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/chapala1.webp" />
 
@@ -221,8 +221,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "51",
+          "priceCurrency": "MXN",
+          "price": "900",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -240,7 +240,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -409,7 +409,7 @@
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="chapala-tonala-en.html">EN</a>
+              <a class="nav-link" href="chapala-tonala-en">EN</a>
             </li>
           </ul>
         </div>
@@ -779,8 +779,7 @@
                             >Opción 1 — Pago completo vía Clip (MXN):</strong
                           ><br />Paga el 100% vía link seguro de Clip antes de
                           tu tour.<br />Vence: 24 horas antes de la fecha del
-                          tour.<br />Ejemplo (4 personas a $900 MXN/persona):
-                          $3,600 MXN total vía Clip.
+                          tour.<br />Ejemplo (4 personas a $900 MXN/persona): $3,600 MXN total vía Clip.
                         </li>
                         <li>
                           <strong
@@ -790,8 +789,7 @@
                           Cross River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Saldo 70% en efectivo USD el día del
                           tour.<br />Vence: Depósito Higlobe 72 horas antes /
-                          Efectivo al inicio del tour.<br />Ejemplo (4
-                          personas): $60 USD depósito Higlobe + $140 USD
+                          Efectivo al inicio del tour.<br />Ejemplo (4 personas): $64 USD depósito Higlobe + $148 USD
                           efectivo el día.
                         </li>
                         <li>
@@ -1271,8 +1269,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
         <p class="mb-0">
-          <a href="chapala-tonala.html" class="text-warning me-3">Es</a>
-          <a href="chapala-tonala-en.html" class="text-warning">En</a>
+          <a href="chapala-tonala" class="text-warning me-3">Es</a>
+          <a href="chapala-tonala-en" class="text-warning">En</a>
         </p>
       </div>
     </footer>

@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Private Day Trip: Lake Chapala, Ajijic, Tonalá & Vicente Fernández Ranch | Xalisco Trips</title>
+    <title>Lake Chapala &amp; Ajijic Private Tour from Guadalajara</title>
 
     <!-- Security: CSP -->
     <meta
@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation."
+      content="100% private tour from Guadalajara: Lake Chapala, Ajijic, Tonalá market &amp; Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Free cancellation."
     />
     <meta
       name="keywords"
@@ -45,7 +45,7 @@
     <link rel="manifest" href="manifest.json" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Private Day Trip: Lake Chapala, Ajijic, Tonalá & Vicente Fernández Ranch | Xalisco Trips" />
+    <meta property="og:title" content="Lake Chapala &amp; Ajijic Private Tour from Guadalajara" />
     <meta
       property="og:description"
       content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation."
@@ -61,7 +61,7 @@
     />
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Private Day Trip: Lake Chapala, Ajijic, Tonalá & Vicente Fernández Ranch | Xalisco Trips" />
+    <meta name="twitter:title" content="Lake Chapala &amp; Ajijic Private Tour from Guadalajara" />
     <meta name="twitter:description" content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/chapala1.webp" />
 
@@ -219,8 +219,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "51",
+          "priceCurrency": "MXN",
+          "price": "900",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -238,7 +238,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -407,7 +407,7 @@
               <a class="nav-link" href="/en/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="chapala-tonala.html">ES</a>
+              <a class="nav-link" href="chapala-tonala">ES</a>
             </li>
           </ul>
         </div>
@@ -742,7 +742,7 @@
               <div class="border rounded-4 p-4 p-md-5 shadow-sm">
                 <h2 class="h3 fw-bold mb-3">You might also like</h2>
                 <div class="list-group list-group-flush">
-                  <a class="list-group-item list-group-item-action px-0" href="tequila-en.html">Private Tequila & Guachimontones Tour</a>
+                  <a class="list-group-item list-group-item-action px-0" href="tequila-en">Private Tequila & Guachimontones Tour</a>
                   <a class="list-group-item list-group-item-action px-0" href="index.html">All Private Tours from Guadalajara</a>
                 </div>
               </div>
@@ -804,8 +804,7 @@
                           River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Remaining 70% in USD cash on tour day.<br />Due:
                           Higlobe deposit 72 hours before tour / Cash at tour
-                          start.<br />Example (4 people): $60 USD deposit via
-                          Higlobe + $140 USD cash on the day.
+                          start.<br />Example (4 people): $64 USD deposit via Higlobe + $148 USD cash on the day.
                         </li>
                       </ul>
                     </div>
@@ -1269,8 +1268,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
         <p class="mb-0">
-          <a href="chapala-tonala.html" class="text-warning me-3">Es</a>
-          <a href="chapala-tonala-en.html" class="text-warning">En</a>
+          <a href="chapala-tonala" class="text-warning me-3">Es</a>
+          <a href="chapala-tonala-en" class="text-warning">En</a>
         </p>
       </div>
     </footer>

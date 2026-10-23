@@ -1,0 +1,10 @@
+#!/bin/sh
+# Bloquea el push si los precios del sitio no coinciden con precios.json
+# Activar una sola vez:  git config core.hooksPath .githooks
+cd "$(git rev-parse --show-toplevel)" || exit 1
+PY=python; command -v python >/dev/null 2>&1 || PY=python3
+PYTHONIOENCODING=utf-8 $PY scripts/precios.py --check || {
+  echo ""
+  echo "PUSH BLOQUEADO: corre 'python scripts/precios.py', revisa el diff y vuelve a hacer commit."
+  exit 1
+}

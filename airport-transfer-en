@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Guadalajara Airport Taxi 24/7 — Fixed Price, Late-Night Arrivals | Xalisco Trips</title>
+    <title>Guadalajara Airport Transfer 24/7 – Fixed $42 USD</title>
 
     <!-- Security: CSP -->
     <meta
@@ -25,7 +25,7 @@
     />
 
     <!-- SEO -->
-    <meta name="description" content="Private taxi from GDL airport to your hotel — fixed price from $35 USD, no surge pricing, certified bilingual driver waits when you land. Book via WhatsApp in seconds." />
+    <meta name="description" content="Private GDL airport transfer 24/7: fixed $42 USD per vehicle, no surge. Certified bilingual driver meets you at arrivals. Book on WhatsApp." />
     <meta
       name="keywords"
       content="guadalajara airport transfer, gdl airport taxi private, hotel to guadalajara airport, private transfer gdl, guadalajara airport pickup, airport shuttle guadalajara"
@@ -192,9 +192,9 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "35",
-          "priceValidUntil": "2026-12-31",
+          "priceCurrency": "MXN",
+          "price": "700",
+          "priceValidUntil": "2027-07-09",
           "url": "https://xaliscotrips.lat/airport-transfer-en.html",
           "availability": "https://schema.org/InStock"
         }
@@ -309,7 +309,7 @@
                 Late-Night Arrivals
               </h1>
               <p class="lead text-white mb-4">
-                Hotel ↔ GDL Airport · From $35 USD per vehicle · 24/7 · Fixed
+                Hotel ↔ GDL Airport · From $700 MXN (≈ $42 USD) per vehicle · 24/7 · Fixed
                 price · No surge pricing
               </p>
               <h2 class="h5 fw-semibold text-white mb-4" style="opacity: 0.92">
@@ -577,9 +577,8 @@
                           River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Remaining 70% in USD cash on service
                           day.<br />Due: Higlobe deposit 72 hours before service
-                          / Cash at service start.<br />Example (1 vehicle $35
-                          USD): $10.50 USD deposit via Higlobe + $24.50 USD cash
-                          on the day.
+                          / Cash at service start.<br />Example (1 vehicle $42 USD): $13 USD deposit via Higlobe + $29 USD cash on
+                          the day.
                         </li>
                         <li>
                           <strong>Option 2 — Full cash payment (USD):</strong>
@@ -613,7 +612,7 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      From $35 USD per vehicle for transfers within the
+                      From $700 MXN (≈ $42 USD) per vehicle for transfers within the
                       Guadalajara Metropolitan Zone (ZMG). This covers any
                       hotel, Airbnb, or address inside the periférico to GDL
                       International Airport (or vice versa). Destinations
@@ -696,9 +695,9 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      At least 12 hours in advance is recommended. For very
-                      early morning pickups (before 6 AM), 24 hours notice is
-                      preferred.
+                      At least 12 hours in advance is recommended. During peak
+                      season and events in Guadalajara, booking earlier is
+                      preferred to secure availability.
                     </div>
                   </div>
                 </div>
@@ -740,7 +739,7 @@
                       data-bs-target="#faq6"
                     >
                       <i class="bi bi-football me-2 text-warning"></i>Is this
-                      available during World Cup 2026?
+                      available during peak demand periods?
                     </button>
                   </h2>
                   <div
@@ -749,9 +748,9 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      Yes, and we strongly recommend booking early for World Cup
-                      dates — June 11, 18, 23, and 26 will have extremely high
-                      demand for airport transfers in Guadalajara.
+                      Yes, and we strongly recommend booking early during peak
+                      demand periods to secure your airport transfer in
+                      Guadalajara.
                     </div>
                   </div>
                 </div>
@@ -1001,6 +1000,19 @@
       document.addEventListener("DOMContentLoaded", function () {
         AOS.init({ once: true, duration: 600, offset: 80 });
       });
+    </script>
+    <script>
+    (function(){
+      var s50=false;
+      window.addEventListener('scroll',function(){
+        if(s50)return;
+        var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;
+        if(pct>=50){
+          s50=true;
+          gtag('event','scroll',{'percent_scrolled':50,'page_title':document.title});
+        }
+      },{passive:true});
+    })();
     </script>
   </body>
 </html>

@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tour Tlaquepaque desde Guadalajara | Arte y Mariachis | Xalisco Trips</title>
+    <title>Tour Tlaquepaque desde Guadalajara | Arte y Mariachis</title>
 
     <!-- Security: CSP -->
     <meta
@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $35 USD. 5★ Viator"
+      content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $500 MXN. 5★ Viator"
     />
     <meta
       name="keywords"
@@ -47,11 +47,11 @@
     <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Tour Tlaquepaque desde Guadalajara | Arte y Mariachis | Xalisco Trips"
+      content="Tour Tlaquepaque desde Guadalajara | Arte y Mariachis"
     />
     <meta
       property="og:description"
-      content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $35 USD. 5★ Viator"
+      content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $500 MXN. 5★ Viator"
     />
     <meta
       property="og:image"
@@ -64,8 +64,8 @@
     />
     <meta property="og:locale" content="es_MX" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Tour Tlaquepaque desde Guadalajara | Arte y Mariachis | Xalisco Trips" />
-    <meta name="twitter:description" content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $35 USD. 5★ Viator" />
+    <meta name="twitter:title" content="Tour Tlaquepaque desde Guadalajara | Arte y Mariachis" />
+    <meta name="twitter:description" content="Tour Tlaquepaque desde Guadalajara · Galerías de arte mexicano, mariachis en vivo, artesanías. 4-6 horas tour privado. Desde $500 MXN. 5★ Viator" />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/tlaquepaque.webp" />
 
     <!-- Favicon -->
@@ -221,8 +221,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "35",
+          "priceCurrency": "MXN",
+          "price": "500",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -240,7 +240,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -351,7 +351,7 @@
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tlaquepaque-en.html">EN</a>
+              <a class="nav-link" href="tlaquepaque-en">EN</a>
             </li>
           </ul>
         </div>
@@ -641,8 +641,7 @@
                             >Opción 1 — Pago completo vía Clip (MXN):</strong
                           ><br />Paga el 100% vía link seguro de Clip antes de
                           tu tour.<br />Vence: 24 horas antes de la fecha del
-                          tour.<br />Ejemplo (4 personas a $157.50 MXN/persona):
-                          $630 MXN total vía Clip.
+                          tour.<br />Ejemplo (4 personas a $500 MXN/persona): $2,000 MXN total vía Clip.
                         </li>
                         <li>
                           <strong
@@ -652,8 +651,7 @@
                           Cross River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Saldo 70% en efectivo USD el día del
                           tour.<br />Vence: Depósito Higlobe 72 horas antes /
-                          Efectivo al inicio del tour.<br />Ejemplo (4
-                          personas): $756 MXN depósito Higlobe + $1,764 MXN
+                          Efectivo al inicio del tour.<br />Ejemplo (4 personas): $36 USD depósito Higlobe + $84 USD
                           efectivo el día.
                         </li>
                         <li>
@@ -1072,8 +1070,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
         <p class="mb-0">
-          <a href="tlaquepaque.html" class="text-danger me-3">ES</a>
-          <a href="tlaquepaque-en.html" class="text-danger">EN</a>
+          <a href="tlaquepaque" class="text-danger me-3">ES</a>
+          <a href="tlaquepaque-en" class="text-danger">EN</a>
         </p>
       </div>
     </footer>

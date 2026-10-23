@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tequila Tour from Guadalajara — Private Distillery Visit, Magic Town | Xalisco Trips</title>
+    <title>Tequila Jalisco Tour from Guadalajara — From $36 USD</title>
 
     <!-- Security: CSP -->
     <meta
@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Private tour from Guadalajara to Tequila's UNESCO Magic Town — tour a working distillery, taste agave spirits in blue agave fields, explore the historic center. Hotel pickup, bilingual guide, groups of 1–8. Book on WhatsApp."
+      content="Private Tequila, Jalisco tour from Guadalajara: real working distillery (not a tourist trap), UNESCO town & blue agave fields. From $36 USD. 5★ rated."
     />
     <meta
       name="keywords"
@@ -223,8 +223,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "42",
+          "priceCurrency": "MXN",
+          "price": "600",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -242,7 +242,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -279,7 +279,7 @@
             "name": "What is included in the Tequila tour from Guadalajara?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The tour includes private transportation with door-to-door hotel pickup, a certified bilingual guide, entry to Destilería Tres Mujeres for an artisan tasting, and a visit to the UNESCO Pueblo Mágico town center. Guachimontones ruins entry (~$30 MXN) is paid separately on-site."
+              "text": "The tour includes private transportation with door-to-door hotel pickup, a certified bilingual guide, a visit to Destilería Tres Mujeres (basic entry + artisan tasting included in the $800 MXN option; about $100 MXN per adult paid on site with the $600 MXN promo, kids free), and a visit to the UNESCO Pueblo Mágico town center."
             }
           },
           {
@@ -287,7 +287,7 @@
             "name": "Is the Tequila tour suitable for non-drinkers?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Absolutely. The tour covers the full agave-to-bottle process, the architecture of Tequila's UNESCO historic center, and the Guachimontones archaeological site. Non-alcoholic options are always available at the distillery."
+              "text": "Absolutely. The tour covers the full agave-to-bottle process, the architecture of Tequila's UNESCO historic center, and the UNESCO blue agave landscape. Want to add the Guachimontones pyramids? Book the Tequila + Guachimontones tour. Non-alcoholic options are always available at the distillery."
             }
           },
           {
@@ -403,7 +403,7 @@
               <a class="nav-link" href="/en/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tequila.html">ES</a>
+              <a class="nav-link" href="tequila">ES</a>
             </li>
           </ul>
         </div>
@@ -559,12 +559,10 @@
                   </div>
                   <div class="timeline-content">
                     <h5 class="fw-bold mb-2">
-                      9:30 AM — Guachimontones Pyramids · UNESCO pre-Columbian
-                      site (early arrival before crowds)
+                      10:30 AM - Blue agave fields · UNESCO agave landscape
                     </h5>
                     <p class="text-muted mb-0">
-                      The only circular pyramid complex in the Americas. We
-                      arrive early to beat the heat and tour groups.
+                      Walk among endless blue agave plants and learn how the jimador harvests the piña by hand.
                     </p>
                   </div>
                 </div>
@@ -715,15 +713,16 @@
 
       <section class="container my-5">
         <h2 class="mb-4">What's Included in the Tequila Tour</h2>
+            <p class="small text-muted" data-precio="tequila">From $600 MXN (≈ $36 USD) per person: private transport + certified bilingual guide, admissions not included. With basic Destilería Tres Mujeres entry + tasting: $800 MXN (≈ $48 USD) per person.</p>
         <ul class="list-unstyled">
           <li>✔ Private round-trip transportation from your Guadalajara hotel</li>
-          <li>✔ Guided tour of Destilería Tres Mujeres — see agave harvesting and distillation</li>
-          <li>✔ Tequila tasting session with premium blanco, reposado, and añejo</li>
+          <li>✔ Guided tour of Destilería Tres Mujeres — see agave harvesting and distillation (basic entry included in the $800 MXN option)</li>
+          <li>✔ Tequila tasting session with premium blanco, reposado, and añejo ($800 MXN option)</li>
           <li>✔ Walking tour of Tequila's historic town center and main plaza</li>
           <li>✔ Stop at Cantaritos El Güero for the iconic local drink</li>
           <li>✔ Bilingual guide (English/Spanish) throughout the full day</li>
-          <li>✔ Guachimontones pyramids visit en route (pre-Columbian archaeological site)</li>
         </ul>
+        <p class="small mt-2">Want the Guachimontones pyramids too? See our <a href="tequila-guachimontones-en" class="text-warning">Tequila + Guachimontones tour</a>.</p>
       </section>
 
       <!-- FAQ -->
@@ -765,7 +764,7 @@
                             >Option 1 — Full payment via Clip (MXN):</strong
                           ><br />Pay 100% via secure Clip link before your
                           tour.<br />Due: 24 hours before tour date.<br />Price
-                          example (4 people at $42 USD/person): $3,024 MXN total
+                          example (4 people at $600 MXN/person): $2,400 MXN total
                           via Clip.
                         </li>
                         <li>
@@ -776,8 +775,7 @@
                           River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Remaining 70% in USD cash on tour day.<br />Due:
                           Higlobe deposit 72 hours before tour / Cash at tour
-                          start.<br />Example (4 people): $60 USD deposit via
-                          Higlobe + $140 USD cash on the day.
+                          start.<br />Example (4 people): $44 USD deposit via Higlobe + $100 USD cash on the day.
                         </li>
                         <li>
                           <strong>Option 3 — Full cash payment (USD):</strong
@@ -812,8 +810,7 @@
                   >
                     <div class="accordion-body text-muted">
                       Private door-to-door transport and a certified bilingual
-                      guide throughout the day. Distillery entrance fees, meals,
-                      tastings beyond the included ones, and personal purchases
+                      guide throughout the day. The $800 MXN option also includes basic Tres Mujeres entry + tasting. Meals, other distillery fees, extra tastings, and personal purchases
                       are not included.
                     </div>
                   </div>
@@ -839,8 +836,7 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      Distillery entrance at Tres Mujeres is approximately
-                      $15-20 USD per person. Lunch runs $10-20 USD. Budget an
+                      With the $600 MXN promo, basic entry to Tres Mujeres is about $100 MXN (~$6 USD) per adult, kids free (already included in the $800 MXN option). Lunch runs $10-20 USD. Budget an
                       extra $30-50 USD if you plan to buy bottles of tequila
                       (excellent prices at the source).
                     </div>
@@ -1182,8 +1178,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
         <p class="mb-0">
-          <a href="tequila.html" class="text-warning me-3">ES</a>
-          <a href="tequila-en.html" class="text-warning">EN</a>
+          <a href="tequila" class="text-warning me-3">ES</a>
+          <a href="tequila-en" class="text-warning">EN</a>
         </p>
       </div>
     </footer>

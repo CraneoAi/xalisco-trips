@@ -16,14 +16,14 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Taxi Privado Aeropuerto Guadalajara 24/7 — Precio Fijo, Llegadas Nocturnas | Xalisco Trips</title>
+    <title>Taxi Aeropuerto Guadalajara 24/7 | Precio Fijo $700 MXN</title>
     <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com https://cdn.jsdelivr.net https://www.googletagmanager.com;"
     />
 
     <!-- SEO -->
-    <meta name="description" content="Traslado privado del aeropuerto GDL a tu hotel — desde $630 MXN por vehículo, sin surge pricing, conductor certificado bilingüe te espera al aterrizar. Reserva por WhatsApp." />
+    <meta name="description" content="Traslado privado aeropuerto GDL a tu hotel: $700 MXN por vehículo, 24/7, sin tarifa dinámica. Conductor bilingüe certificado. Reserva por WhatsApp." />
     <meta
       name="keywords"
       content="transferencia aeropuerto guadalajara, taxi privado gdl, hotel a aeropuerto, transporte privado gdl 24/7, servicio aeropuerto guadalajara, shuttle privado"
@@ -129,7 +129,7 @@
       href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
     />
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css?v=20261013b" />
 
     <style>
       :root {
@@ -187,9 +187,9 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "35",
-          "priceValidUntil": "2026-12-31",
+          "priceCurrency": "MXN",
+          "price": "700",
+          "priceValidUntil": "2027-07-09",
           "url": "https://xaliscotrips.lat/airport-transfer.html",
           "availability": "https://schema.org/InStock"
         }
@@ -304,7 +304,7 @@
                 Traslado Privado al Aeropuerto de Guadalajara 24/7 — Taxi Privado, Precio Fijo, Llegadas Nocturnas
               </h1>
               <p class="lead text-white mb-3">
-                Hotel ↔ Aeropuerto GDL · Desde $630 MXN por vehículo · 24/7 ·
+                Hotel ↔ Aeropuerto GDL · Desde $700 MXN por vehículo · 24/7 ·
                 Precio fijo · Sin surge pricing
               </p>
               <h2 class="h5 fw-semibold text-white mb-4" style="opacity: 0.92">
@@ -382,6 +382,8 @@
       </section>
 
       <!-- Detalles del Servicio -->
+      <p class="cumbre-airport-link text-center mb-0"><a href="cumbre-seguros">¿Asistes a la Cumbre Iberoamericana de Seguros? Conoce el servicio para asistentes</a></p>
+
       <section class="py-5 bg-white">
         <div class="container">
           <div class="text-center mb-5" data-aos="fade-up">
@@ -571,8 +573,8 @@
                             >Opción 1 — Pago completo vía Clip (MXN):</strong
                           ><br />Paga el 100% vía link seguro de Clip antes de
                           tu transferencia.<br />Vence: 24 horas antes de la
-                          fecha.<br />Ejemplo (4 personas a $157.50
-                          MXN/persona): $630 MXN total vía Clip.
+                          fecha.<br />Ejemplo (1 vehículo): $700 MXN total vía
+                          Clip.
                         </li>
                         <li>
                           <strong
@@ -582,8 +584,8 @@
                           Cross River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Saldo 70% en efectivo USD el día del
                           servicio.<br />Vence: Depósito Higlobe 72 horas antes
-                          / Efectivo al inicio del servicio.<br />Ejemplo (4
-                          personas): $1,080 MXN depósito Higlobe + $2,520 MXN
+                          / Efectivo al inicio del servicio.<br />Ejemplo (1
+                          vehículo): $13 USD depósito Higlobe + $29 USD
                           efectivo el día.
                         </li>
                         <li>
@@ -620,7 +622,7 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      Desde $630 MXN por vehículo para transferencias dentro de
+                      Desde $700 MXN por vehículo para transferencias dentro de
                       la Zona Metropolitana de Guadalajara (ZMG). Cubre
                       cualquier hotel, Airbnb, o dirección dentro del periférico
                       a Aeropuerto Internacional GDL (o vice versa). Destinos
@@ -748,7 +750,7 @@
                       data-bs-target="#faq6"
                     >
                       <i class="bi bi-football me-2 text-warning"></i>¿Está
-                      disponible durante Copa Mundial 2026?
+                      disponible en fechas de alta demanda?
                     </button>
                   </h2>
                   <div
@@ -757,10 +759,9 @@
                     data-bs-parent="#faqAccordion"
                   >
                     <div class="accordion-body text-muted">
-                      Sí, y te recomendamos encarecidamente reservar con
-                      anticipación para fechas de Copa Mundial — 11, 18, 23 y 26
-                      de junio tendrán demanda extremadamente alta para
-                      transferencias aeropuerto en Guadalajara.
+                      Sí, y te recomendamos reservar con anticipación durante la
+                      temporada alta y cuando haya eventos en Guadalajara para
+                      asegurar disponibilidad en transferencias aeropuerto.
                     </div>
                   </div>
                 </div>
@@ -1019,6 +1020,19 @@
       document.addEventListener("DOMContentLoaded", function () {
         AOS.init({ once: true, duration: 600, offset: 80 });
       });
+    </script>
+    <script>
+    (function(){
+      var s50=false;
+      window.addEventListener('scroll',function(){
+        if(s50)return;
+        var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;
+        if(pct>=50){
+          s50=true;
+          gtag('event','scroll',{'percent_scrolled':50,'page_title':document.title});
+        }
+      },{passive:true});
+    })();
     </script>
   </body>
 </html>

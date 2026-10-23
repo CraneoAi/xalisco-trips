@@ -221,8 +221,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "42",
+          "priceCurrency": "MXN",
+          "price": "700",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -240,7 +240,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -351,7 +351,7 @@
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="guachimontones-en.html">EN</a>
+              <a class="nav-link" href="guachimontones-en">EN</a>
             </li>
           </ul>
         </div>
@@ -617,8 +617,7 @@
                             >Opción 1 — Pago completo vía Clip (MXN):</strong
                           ><br />Paga el 100% vía link seguro de Clip antes de
                           tu tour.<br />Vence: 24 horas antes de la fecha del
-                          tour.<br />Ejemplo (4 personas a $189 MXN/persona):
-                          $756 MXN total vía Clip.
+                          tour.<br />Ejemplo (4 personas a $700 MXN/persona): $2,800 MXN total vía Clip.
                         </li>
                         <li>
                           <strong
@@ -629,8 +628,7 @@
                           Cross River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Saldo 70% en efectivo USD el día del
                           tour.<br />Vence: Depósito Higlobe 72 horas antes /
-                          Efectivo al inicio del tour.<br />Ejemplo (4
-                          personas): $1,080 MXN depósito Higlobe + $2,520 MXN
+                          Efectivo al inicio del tour.<br />Ejemplo (4 personas): $51 USD depósito Higlobe + $117 USD
                           efectivo el día.
                         </li>
                         <li>
@@ -1043,8 +1041,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
         <p class="mb-0">
-          <a href="guachimontones.html" class="text-warning me-3">ES</a>
-          <a href="guachimontones-en.html" class="text-warning">EN</a>
+          <a href="guachimontones" class="text-warning me-3">ES</a>
+          <a href="guachimontones-en" class="text-warning">EN</a>
         </p>
       </div>
     </footer>

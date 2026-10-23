@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $50 USD por persona."
+      content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $850 MXN por persona."
     />
     <meta
       name="keywords"
@@ -51,7 +51,7 @@
     />
     <meta
       property="og:description"
-      content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $50 USD por persona."
+      content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $850 MXN por persona."
     />
     <meta
       property="og:image"
@@ -65,7 +65,7 @@
     <meta property="og:locale" content="es_MX" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Tour Gastronómico Tapatío | Comida Callejera | Xalisco Trips" />
-    <meta name="twitter:description" content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $50 USD por persona." />
+    <meta name="twitter:description" content="Tour gastronómico privado en Guadalajara con birria, torta ahogada y tejuino. Recorrido por mercados locales, guía incluido y desde $850 MXN por persona." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/foodie.webp" />
 
     <!-- Favicon -->
@@ -221,8 +221,8 @@
         },
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "50",
+          "priceCurrency": "MXN",
+          "price": "850",
           "priceValidUntil": "2027-07-09",
           "validFrom": "2025-01-01",
           "availability": "https://schema.org/InStock",
@@ -240,7 +240,7 @@
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": "0",
-              "currency": "USD"
+              "currency": "MXN"
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -619,8 +619,7 @@
                             >Opción 1 — Pago completo vía Clip (MXN):</strong
                           ><br />Paga el 100% vía link seguro de Clip antes de
                           tu tour.<br />Vence: 24 horas antes de la fecha del
-                          tour.<br />Ejemplo (4 personas a $225 MXN/persona):
-                          $900 MXN total vía Clip.
+                          tour.<br />Ejemplo (4 personas a $850 MXN/persona): $3,400 MXN total vía Clip.
                         </li>
                         <li>
                           <strong
@@ -630,8 +629,7 @@
                           Cross River Bank, 885 Teaneck Road, Teaneck NJ 07666
                           (USD).<br />Saldo 70% en efectivo USD el día del
                           tour.<br />Vence: Depósito Higlobe 72 horas antes /
-                          Efectivo al inicio del tour.<br />Ejemplo (4
-                          personas): $60 USD depósito Higlobe + $140 USD
+                          Efectivo al inicio del tour.<br />Ejemplo (4 personas): $60 USD depósito Higlobe + $140 USD
                           efectivo el día.
                         </li>
                         <li>
