@@ -1,4 +1,4 @@
-﻿// GET /api/reviews -> { rating, count, url, source }
+// GET /api/reviews -> { rating, count, url, source }
 // Datos en vivo desde Google Places API (New) cuando existe el secreto GOOGLE_PLACES_KEY
 // (opcional GOOGLE_PLACE_ID; si no existe, se busca "Xalisco Trips" por texto).
 // Sin key o si Google falla -> respaldo estatico.
@@ -28,7 +28,7 @@ export async function onRequestGet({ env, request, waitUntil }) {
       if (!placeId) {
         // Perfil verificado: CID del enlace g.page/r/CUHWaT2IjNkqEBM
         const CID = env.GOOGLE_CID || "3087653536312972865";
-        const queries = ["Xalisco Trips", "Xalisco Trips TonalÃ¡ Jalisco", "Xalisco Trips Guadalajara Jalisco", "xaliscotrips.lat"];
+        const queries = ["Xalisco Trips", "Xalisco Trips Tonalá Jalisco", "Xalisco Trips Guadalajara Jalisco", "xaliscotrips.lat"];
         let seen = 0;
         for (const q of queries) {
           const r = await fetch("https://places.googleapis.com/v1/places:searchText", {
