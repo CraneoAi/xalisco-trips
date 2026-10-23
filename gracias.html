@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEMYBB1NGK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-WEMYBB1NGK");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
@@ -1371,6 +1379,32 @@
                   : genericView();
 
         app.innerHTML = view;
+
+        // GA4: conversion tracking (Fase 3 auditoria 2026-10-23)
+        (function trackPaymentResult() {
+          if (typeof gtag !== "function") return;
+          // Valor = anticipo/reserva minima estandar (link Clip 327e607b). Clip no envia el monto en la URL de retorno.
+          const ANTICIPO_MXN = 500;
+          const tourKey = TOUR_DATA[requestedTour] ? requestedTour : "servicio";
+          if (mode === "confirm" || mode === "register") {
+            const dedupeKey = "xt_purchase_" + tourKey;
+            let alreadySent = false;
+            try { alreadySent = sessionStorage.getItem(dedupeKey) === "1"; } catch (e) {}
+            if (alreadySent) return; // evita duplicar si recarga o pasa de confirm a registro
+            const txId =
+              params.get("payment_id") || params.get("transaction_id") || params.get("id") ||
+              "xt-" + tourKey + "-" + Date.now();
+            gtag("event", "purchase", {
+              transaction_id: txId,
+              currency: "MXN",
+              value: ANTICIPO_MXN,
+              items: [{ item_id: tourKey, item_name: tourData.nombre, price: ANTICIPO_MXN, quantity: 1 }],
+            });
+            try { sessionStorage.setItem(dedupeKey, "1"); } catch (e) {}
+          } else if (mode === "declined") {
+            gtag("event", "payment_declined", { tour: tourKey });
+          }
+        })();
 
         const image = document.querySelector("[data-hero-image]");
         const fallback = document.querySelector("[data-hero-fallback]");
