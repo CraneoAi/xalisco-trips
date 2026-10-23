@@ -14,7 +14,7 @@ const TTL_STATIC = 5 * 60;
 
 export async function onRequestGet({ env, request, waitUntil }) {
   const cache = caches.default;
-  const cacheKey = new Request(new URL("/api/reviews?cache=v3", request.url).toString());
+  const cacheKey = new Request(new URL("/api/reviews?cache=v4", request.url).toString());
   const hit = await cache.match(cacheKey);
   if (hit) return hit;
 
@@ -23,7 +23,8 @@ export async function onRequestGet({ env, request, waitUntil }) {
   const key = env.GOOGLE_PLACES_KEY;
   if (key) {
     try {
-      let placeId = env.GOOGLE_PLACE_ID;
+      // Place ID del perfil verificado (derivado de g.page/r/CUHWaT2IjNkqEBM -> FTID 0xe59482616ad7c3:0x2ad98c883d69d641)
+      let placeId = env.GOOGLE_PLACE_ID || "ChIJw9dqYYKU5QARQdZpPYiM2So";
       if (!placeId) {
         // Perfil verificado: CID del enlace g.page/r/CUHWaT2IjNkqEBM
         const CID = env.GOOGLE_CID || "3087653536312972865";
