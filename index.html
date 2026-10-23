@@ -214,12 +214,6 @@
         ],
         "priceRange": "$$$",
         "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "bestRating": "5",
-          "ratingCount": "9"
-        },
         "review": [
           {
             "@type": "Review",
@@ -2520,7 +2514,7 @@
                 <i class="bi bi-star-fill"></i> 5.0/5 en Viator
               </div>
               <div class="trust-indicator">
-                <i class="bi bi-google"></i> 5.0/5 en Google (9)
+                <i class="bi bi-google"></i> <span data-g-rating>5.0</span>/5 en Google (<span data-g-count>18</span>)
               </div>
               <div class="trust-indicator">
                 <i class="bi bi-patch-check-fill text-success"></i> Reseñas
@@ -3416,7 +3410,7 @@
             </ul>
             <div class="mt-3">
               <small class="text-warning fw-bold"
-                >⭐ 5.0/5 en Google Reviews (9 opiniones)</small
+                >⭐ <span data-g-rating>5.0</span>/5 en Google Reviews (<span data-g-count>18</span> opiniones)</small
               >
             </div>
             <div
@@ -3669,13 +3663,6 @@
             }
           }
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
@@ -3737,13 +3724,6 @@
               }
             }
           }
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
         },
         "brand": {
           "@type": "Brand",
@@ -3807,13 +3787,6 @@
             }
           }
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
@@ -3875,13 +3848,6 @@
               }
             }
           }
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
         },
         "brand": {
           "@type": "Brand",
@@ -3945,13 +3911,6 @@
             }
           }
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
@@ -4013,13 +3972,6 @@
               }
             }
           }
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
         },
         "brand": {
           "@type": "Brand",
@@ -4083,13 +4035,6 @@
             }
           }
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
@@ -4152,13 +4097,6 @@
             }
           }
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
@@ -4213,6 +4151,14 @@
         }
       },{passive:true});
     })();
+    </script>
+  <script>
+      // Calificacion de Google en vivo (via /api/reviews, fuente: Google Places API)
+      fetch("/api/reviews").then(function (r) { return r.json(); }).then(function (d) {
+        if (!d || !d.rating) return;
+        document.querySelectorAll("[data-g-rating]").forEach(function (e) { e.textContent = Number(d.rating).toFixed(1); });
+        document.querySelectorAll("[data-g-count]").forEach(function (e) { e.textContent = d.count; });
+      }).catch(function () {});
     </script>
   </body>
 </html>
