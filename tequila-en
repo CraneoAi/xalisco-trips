@@ -704,6 +704,17 @@
         <p class="small mt-2">Want the Guachimontones pyramids too? See our <a href="tequila-guachimontones-en" class="text-warning">Tequila + Guachimontones tour</a>.</p>
       </section>
 
+      <!-- Tres Mujeres -->
+      <section class="container my-5" id="tres-mujeres">
+        <h2 class="mb-3">Tres Mujeres Distillery Tour from Guadalajara</h2>
+        <p>Our Tequila day trip stops at <strong>Destilería Tres Mujeres</strong>, an artisan producer where you walk the blue agave field and see how the piña becomes tequila, from the ovens to the stills.</p>
+        <ul>
+          <li><strong>Basic entry:</strong> about $100 MXN per adult, kids free. Higher-tier packages only add more tequila to the tasting; the tour and full access to the field and distillery are the same.</li>
+          <li><strong>Easiest option:</strong> book our <span data-precio-mxn="tequila:destileria">$800 MXN</span> per person option and the basic entry + tasting is already included.</li>
+          <li><strong>Promo option:</strong> <span data-precio-mxn="tequila">$600 MXN</span> per person (transport + guide only) and you pay the entry on site.</li>
+        </ul>
+      </section>
+
       <!-- FAQ -->
       <section id="faq" class="py-5 bg-light">
         <div class="container">

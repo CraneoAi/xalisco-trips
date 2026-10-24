@@ -45,7 +45,15 @@ def deposit(total_usd):
 
 def common(s):
     # shippingRate en la misma moneda que la oferta
-    return re.sub(r'("value":\s*"0",\s*"currency":\s*)"USD"', r'\1"MXN"', s)
+    s = re.sub(r'("value":\s*"0",\s*"currency":\s*)"USD"', r'\1"MXN"', s)
+    # <span data-precio-mxn="mazamitla">$1,100 MXN</span> / data-precio-usd / clave "tequila:destileria"
+    def span(mo):
+        kind, k = mo.group(1), mo.group(2)
+        base = T[k.split(":")[0]]
+        mx = base["mxn_destileria"] if k.endswith(":destileria") else base["mxn"]
+        val = f"${m(mx)} MXN" if kind == "mxn" else f"${usd(mx)} USD"
+        return f'<span data-precio-{kind}="{k}">{val}</span>'
+    return re.sub(r'<span data-precio-(mxn|usd)="([\w:]+)">[^<]*</span>', span, s)
 
 def tour_page(s, k, en):
     mx, us = P(k), U(k)
@@ -73,6 +81,9 @@ def tour_page(s, k, en):
             return re.sub(r"\b([Ff])rom \$[\d,]+ (?:USD|MXN)", lambda x: f"{x.group(1)}rom ${us} USD", tag)
         return re.sub(r"\b([Dd])esde \$[\d,]+ (?:USD|MXN)", lambda x: f"{x.group(1)}esde ${m(mx)} MXN", tag)
     s = re.sub(r"<meta[^>]+content=\"[^\"]*\"[^>]*>", meta_fix, s)
+    # textos de FAQ (JSON-LD) con precio: "$1,100 MXN (about $65 USD)" / "desde $1,100 MXN por persona"
+    s = re.sub(r"\$[\d,]+ MXN \(about \$\d+ USD\)", f"${m(mx)} MXN (about ${us} USD)", s)
+    s = re.sub(r"desde \$[\d,]+ MXN por persona", f"desde ${m(mx)} MXN por persona", s)
     tm, tu = 4 * mx, 4 * us
     d, b = deposit(tu)
     if en:
