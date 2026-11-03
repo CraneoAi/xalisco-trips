@@ -146,7 +146,7 @@ function htmlAcuse(v) {
       <p>We received your transportation quote request for <strong>${esc(v.evento)}</strong>.</p>
       <p>Our team will get back to you within 24 hours.</p>
       <p>Questions? Message us on <a href="${WHATSAPP_URL}">WhatsApp</a>.</p>
-      <p style="color:#888;font-size:12px;">Xalisco Trips · Sectur-certified transportation and tours</p>
+      <p style="color:#888;font-size:12px;">Xalisco Trips · Transportation and tours in Jalisco</p>
     </div>`;
   }
   return `
@@ -155,7 +155,7 @@ function htmlAcuse(v) {
       <p>Recibimos tu solicitud de cotización de transporte para <strong>${esc(v.evento)}</strong>.</p>
       <p>Nuestro equipo te responderá en menos de 24 h.</p>
       <p>¿Dudas? Escríbenos por <a href="${WHATSAPP_URL}">WhatsApp</a>.</p>
-      <p style="color:#888;font-size:12px;">Xalisco Trips · Transporte y tours certificados Sectur</p>
+      <p style="color:#888;font-size:12px;">Xalisco Trips · Transporte y tours en Jalisco</p>
     </div>`;
 }
 
