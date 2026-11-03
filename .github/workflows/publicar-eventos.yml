@@ -1,0 +1,37 @@
+name: Publicar landing eventos corporativos
+on:
+  schedule:
+    - cron: '0 12 9 11 *'   # 9 nov 12:00 UTC = 06:00 Guadalajara
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Simular merge sin push'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+  actions: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Configurar git
+        run: |
+          git config user.name "xalisco-bot"
+          git config user.email "octavio@xaliscotrips.lat"
+      - name: Merge de la rama
+        run: |
+          git fetch origin eventos-corporativos
+          git merge --no-ff origin/eventos-corporativos -m "Publicar landing eventos corporativos (programado)"
+      - name: Push a main
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        run: git push origin main
+      - name: Desactivar este workflow
+        if: ${{ github.event_name == 'schedule' || inputs.dry_run == false }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow disable publicar-eventos.yml --repo ${{ github.repository }}
