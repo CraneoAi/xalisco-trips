@@ -351,5 +351,25 @@
     <loc>https://xaliscotrips.lat/cumbre-seguros</loc>
     <lastmod>2026-10-19</lastmod>
   </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/eventos-corporativos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/corporate-event-transportation</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
 

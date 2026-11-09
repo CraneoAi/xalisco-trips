@@ -1329,3 +1329,97 @@ img {
     page-break-after: always;
   }
 }
+
+/* ==========================================================================
+   22. EVENTOS CORPORATIVOS (landing B2B)
+   ========================================================================== */
+.eventos-proof {
+  color: #212529;
+  font-weight: 600;
+}
+
+.eventos-proof .container {
+  position: relative;
+  z-index: 1;
+}
+
+.eventos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.eventos-card {
+  padding: 1.5rem;
+  border: 1px solid #d4d8dc;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.eventos-card > i {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  color: #8a6500;
+}
+
+.eventos-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.eventos-card p {
+  margin-bottom: 0;
+  color: #495057;
+}
+
+.eventos-card a {
+  color: #674d00;
+  font-weight: 600;
+}
+
+.eventos-form,
+.eventos-success {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+
+.eventos-form fieldset {
+  border: 0;
+}
+
+.eventos-hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.eventos-form-error {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: #f8d7da;
+  color: #842029;
+}
+
+.eventos-form-error a {
+  color: #842029;
+  font-weight: 700;
+}
+
+.eventos-success {
+  text-align: center;
+}
+
+.eventos-success > i {
+  font-size: 3rem;
+  color: #16803c;
+}
+
+.eventos-success h3 {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
