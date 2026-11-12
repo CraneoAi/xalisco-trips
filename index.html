@@ -191,6 +191,7 @@
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://xaliscotrips.lat/#business",
         "name": "Xalisco Trips",
         "alternateName": "Xalisco Trips Tours Privados",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
@@ -495,11 +496,11 @@
             Transporte privado · Guía certificado · Seguro incluido · Atención
             24/7
           </p>
-          <aside class="cumbre-banner" id="cumbreBanner" aria-label="Transporte para la Cumbre Iberoamericana de Seguros">
+          <aside class="cumbre-banner" id="cumbreBanner" aria-label="Transporte para congresos y eventos corporativos">
             <div>
-              <strong>Proveedor oficial · Cumbre Iberoamericana de Seguros · 3–6 nov</strong>
+              <strong>Proveedor oficial · Cumbre Iberoamericana de Seguros</strong> · Transporte para congresos y eventos corporativos
             </div>
-            <a href="cumbre-seguros" aria-label="Ver la página de transporte para la Cumbre Iberoamericana de Seguros">→</a>
+            <a href="eventos-corporativos" aria-label="Ver la página de transporte para congresos y eventos corporativos">→</a>
           </aside>
           <div
             class="d-flex flex-column flex-sm-row gap-3 mt-3 justify-content-center"
@@ -527,7 +528,7 @@
             <p class="lead text-muted">
               Experiencias únicas en los lugares más hermosos de Jalisco
             </p>
-            <p class="mb-3"><a href="cumbre-seguros" class="text-warning">Transporte para la Cumbre Iberoamericana de Seguros</a></p>
+            <p class="mb-3"><a href="cumbre-seguros" class="text-warning">Transporte para la Cumbre Iberoamericana de Seguros</a> · <a href="eventos-corporativos" class="text-warning">Eventos corporativos</a></p>
             <a
               class="trust-indicator google-review-cta"
               href="https://g.page/r/CUHWaT2IjNkqEBM/review"
@@ -4117,11 +4118,9 @@
     <script>
       (function () {
         var banner = document.getElementById("cumbreBanner");
-        var deadline = new Date("2026-11-09T00:00:00-06:00");
-        if (banner && new Date() >= deadline) banner.hidden = true;
         if (banner) {
           banner.querySelector("a").addEventListener("click", function () {
-            if (typeof gtag === "function") gtag("event", "cumbre_banner_click");
+            if (typeof gtag === "function") gtag("event", "eventos_banner_click");
           });
         }
       })();
