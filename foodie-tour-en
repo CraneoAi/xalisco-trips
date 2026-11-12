@@ -320,7 +320,7 @@
       class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
     >
       <div class="container">
-        <a class="navbar-brand fw-bold" href="index-en.html"
+        <a class="navbar-brand fw-bold" href="https://xaliscotrips.lat/index-en"
           ><i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips</a
         >
         <button
@@ -334,16 +334,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index-en.html#destinations">Tours</a>
+              <a class="nav-link" href="https://xaliscotrips.lat/index-en#destinations">Tours</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index-en.html#faq">FAQ</a>
+              <a class="nav-link" href="https://xaliscotrips.lat/index-en#faq">FAQ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/en/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="foodie-tour.html">ES</a>
+              <a class="nav-link" href="foodie-tour">ES</a>
             </li>
           </ul>
         </div>
@@ -1038,8 +1038,8 @@
         </div>
         <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
         <p class="mb-0">
-          <a href="foodie-tour.html" class="text-warning me-3">ES</a>
-          <a href="foodie-tour-en.html" class="text-warning">EN</a>
+          <a href="foodie-tour" class="text-warning me-3">ES</a>
+          <a href="foodie-tour-en" class="text-warning">EN</a>
         </p>
       </div>
     </footer>

@@ -14,7 +14,7 @@
 
   <!-- Homepage EN -->
   <url>
-    <loc>https://xaliscotrips.lat/index-en.html</loc>
+    <loc>https://xaliscotrips.lat/index-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/hero/portada-jalisco.webp</image:loc>
       <image:title>Private Tours Guadalajara - Xalisco Trips</image:title>
@@ -24,7 +24,7 @@
 
   <!-- Chapala + Tonalá ES -->
   <url>
-    <loc>https://xaliscotrips.lat/chapala-tonala.html</loc>
+    <loc>https://xaliscotrips.lat/chapala-tonala</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
       <image:title>Tour Chapala Guadalajara - Riviera del Lago</image:title>
@@ -39,7 +39,7 @@
 
   <!-- Chapala + Tonalá EN -->
   <url>
-    <loc>https://xaliscotrips.lat/chapala-tonala-en.html</loc>
+    <loc>https://xaliscotrips.lat/chapala-tonala-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/chapala1.webp</image:loc>
       <image:title>Chapala Lake Tour Guadalajara - Private Day Tour</image:title>
@@ -54,7 +54,7 @@
 
   <!-- Tequila + Guachimontones ES -->
   <url>
-    <loc>https://xaliscotrips.lat/tequila-guachimontones.html</loc>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
       <image:title>Tour Tequila Pueblo Mágico - UNESCO Patrimonio</image:title>
@@ -69,7 +69,7 @@
 
   <!-- Tequila + Guachimontones EN -->
   <url>
-    <loc>https://xaliscotrips.lat/tequila-guachimontones-en.html</loc>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
       <image:title>Tequila Pueblo Mágico Tour - UNESCO World Heritage</image:title>
@@ -84,7 +84,7 @@
 
   <!-- Tequila ES -->
   <url>
-    <loc>https://xaliscotrips.lat/tequila.html</loc>
+    <loc>https://xaliscotrips.lat/tequila</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
       <image:title>Tour Tequila desde Guadalajara - Sitio Patrimonio UNESCO</image:title>
@@ -94,7 +94,7 @@
 
   <!-- Tequila EN -->
   <url>
-    <loc>https://xaliscotrips.lat/tequila-en.html</loc>
+    <loc>https://xaliscotrips.lat/tequila-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tequila.webp</image:loc>
       <image:title>Tequila Tour from Guadalajara - UNESCO World Heritage Site</image:title>
@@ -104,7 +104,7 @@
 
   <!-- Tlaquepaque ES -->
   <url>
-    <loc>https://xaliscotrips.lat/tlaquepaque.html</loc>
+    <loc>https://xaliscotrips.lat/tlaquepaque</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tlaquepaque.webp</image:loc>
       <image:title>Tour Tlaquepaque Guadalajara - Centro de Artes Popular</image:title>
@@ -114,7 +114,7 @@
 
   <!-- Tlaquepaque EN -->
   <url>
-    <loc>https://xaliscotrips.lat/tlaquepaque-en.html</loc>
+    <loc>https://xaliscotrips.lat/tlaquepaque-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/tlaquepaque.webp</image:loc>
       <image:title>Tlaquepaque Tour from Guadalajara - Arts and Crafts Center</image:title>
@@ -124,7 +124,7 @@
 
   <!-- Mazamitla ES -->
   <url>
-    <loc>https://xaliscotrips.lat/mazamitla.html</loc>
+    <loc>https://xaliscotrips.lat/mazamitla</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/mazamitla.webp</image:loc>
       <image:title>Tour Mazamitla desde Guadalajara - Pueblo Mágico Montaña</image:title>
@@ -134,7 +134,7 @@
 
   <!-- Mazamitla EN -->
   <url>
-    <loc>https://xaliscotrips.lat/mazamitla-en.html</loc>
+    <loc>https://xaliscotrips.lat/mazamitla-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/mazamitla.webp</image:loc>
       <image:title>Mazamitla Mountain Tour from Guadalajara - Magical Town</image:title>
@@ -144,7 +144,7 @@
 
   <!-- Guachimontones ES -->
   <url>
-    <loc>https://xaliscotrips.lat/guachimontones.html</loc>
+    <loc>https://xaliscotrips.lat/guachimontones</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
       <image:title>Tour Guachimontones desde Guadalajara - Zona Arqueológica</image:title>
@@ -154,7 +154,7 @@
 
   <!-- Guachimontones EN -->
   <url>
-    <loc>https://xaliscotrips.lat/guachimontones-en.html</loc>
+    <loc>https://xaliscotrips.lat/guachimontones-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/Guachimontones.webp</image:loc>
       <image:title>Guachimontones Tour from Guadalajara - Archaeological Site</image:title>
@@ -164,7 +164,7 @@
 
   <!-- Foodie Tour ES -->
   <url>
-    <loc>https://xaliscotrips.lat/foodie-tour.html</loc>
+    <loc>https://xaliscotrips.lat/foodie-tour</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/foodie.webp</image:loc>
       <image:title>Tour Comida Callejera Guadalajara - Birria y Tortas Ahogadas</image:title>
@@ -174,7 +174,7 @@
 
   <!-- Foodie Tour EN -->
   <url>
-    <loc>https://xaliscotrips.lat/foodie-tour-en.html</loc>
+    <loc>https://xaliscotrips.lat/foodie-tour-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/foodie.webp</image:loc>
       <image:title>Guadalajara Street Food Tour - Birria and Authentic Cuisine</image:title>
@@ -184,7 +184,7 @@
 
   <!-- Airport Transfer ES -->
   <url>
-    <loc>https://xaliscotrips.lat/airport-transfer.html</loc>
+    <loc>https://xaliscotrips.lat/airport-transfer</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
       <image:title>Traslado Aeropuerto Guadalajara - Servicio Privado</image:title>
@@ -194,7 +194,7 @@
 
   <!-- Airport Transfer EN -->
   <url>
-    <loc>https://xaliscotrips.lat/airport-transfer-en.html</loc>
+    <loc>https://xaliscotrips.lat/airport-transfer-en</loc>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
       <image:title>Guadalajara Airport Transfer - Private Transport Service</image:title>

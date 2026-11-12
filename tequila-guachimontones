@@ -331,7 +331,7 @@
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index-en.html">EN</a>
+              <a class="nav-link" href="https://xaliscotrips.lat/index-en">EN</a>
             </li>
           </ul>
         </div>
@@ -1157,7 +1157,7 @@
         <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
         <p class="mb-0">
           <a href="/" class="text-warning me-3">Es</a>
-          <a href="tequila-guachimontones-en.html" class="text-warning">En</a>
+          <a href="tequila-guachimontones-en" class="text-warning">En</a>
         </p>
       </div>
     </footer>
