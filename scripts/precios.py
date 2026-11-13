@@ -38,10 +38,14 @@ def altos_val(k):
     # zonas: cercana / tepatitlan / arandas / lejana; extras: recargo_nocturno / anticipo
     return ALT["zonas"][k]["mxn"] if k in ALT["zonas"] else ALT[k + "_mxn"]
 
-def altos_page(s):
-    # 1) precios visibles: <span data-precio-altos="arandas">$3,500 MXN</span>
-    s, n = re.subn(r'<span data-precio-altos="(\w+)">[^<]*</span>',
+def altos_spans(s):
+    # precios visibles: <span data-precio-altos="arandas">$3,500 MXN</span>  (paginas de Los Altos y tarjeta de las home)
+    return re.subn(r'<span data-precio-altos="(\w+)">[^<]*</span>',
                    lambda mo: f'<span data-precio-altos="{mo.group(1)}">${m(altos_val(mo.group(1)))} MXN</span>', s)
+
+def altos_page(s):
+    # 1) precios visibles
+    s, n = altos_spans(s)
     assert n > 0, "altos: la pagina no tiene spans data-precio-altos"
     # 2) JSON-LD Offer: "sku": "altos-<zona>", "priceCurrency": "MXN", "price": "3500"
     s = re.sub(r'("sku": "altos-(\w+)",\s*"priceCurrency": "MXN",\s*"price": )"\d+"',
@@ -174,7 +178,10 @@ def home(s, en):
 WARN = []
 def main(check):
     changed = []
-    jobs = [("index.html", lambda s: home(s, False)), ("index-en.html", lambda s: home(s, True))]
+    # la tarjeta "Aeropuerto -> Los Altos" de las home usa <div class="price-badge mb-2" data-precio-zona="altos">,
+    # que home() no cuenta entre sus 9 tarjetas; su <span data-precio-altos> lo sincroniza altos_spans()
+    jobs = [("index.html", lambda s: altos_spans(home(s, False))[0]),
+            ("index-en.html", lambda s: altos_spans(home(s, True))[0])]
     for slug, k in PAGES.items():
         jobs.append((slug + ".html", lambda s, k=k: tour_page(s, k, False)))
         jobs.append((slug + "-en.html", lambda s, k=k: tour_page(s, k, True)))
