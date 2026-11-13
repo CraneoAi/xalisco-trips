@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Tour 100% privado desde Guadalajara: Lago Chapala, Ajijic, Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Cancelación gratuita."
+      content="Tour 100% privado desde Guadalajara: Lago Chapala, Ajijic, Tonalá y Rancho Los 3 Potrillos. Guía local bilingüe. Cancelación gratuita."
     />
     <meta
       name="keywords"
@@ -51,7 +51,7 @@
     />
     <meta
       property="og:description"
-      content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Solo tu grupo. Cancelación gratuita."
+      content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía local bilingüe. Solo tu grupo. Cancelación gratuita."
     />
     <meta
       property="og:image"
@@ -65,7 +65,7 @@
     <meta property="og:locale" content="es_MX" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Tour Privado Chapala, Ajijic y Tonalá desde Guadalajara" />
-    <meta name="twitter:description" content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Solo tu grupo. Cancelación gratuita." />
+    <meta name="twitter:description" content="Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía local bilingüe. Solo tu grupo. Cancelación gratuita." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/chapala1.webp" />
 
     <!-- Favicon -->
@@ -154,7 +154,7 @@
           "name": "Xalisco Trips"
         },
         "name": "Tour Privado: Lago Chapala, Ajijic, Tonalá & Rancho Los 3 Potrillos",
-        "description": "Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía bilingüe certificado Sectur. Solo tu grupo. Cancelación gratuita.",
+        "description": "Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía local bilingüe. Solo tu grupo. Cancelación gratuita.",
         "url": "https://xaliscotrips.lat/chapala-tonala.html",
         "touristType": "Amantes del arte, viajeros culturales, compradores, familias",
         "availableLanguage": ["English", "Spanish"],
@@ -320,7 +320,7 @@
             "name": "¿El guía habla inglés?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sí. Tu guía Octavio está certificado por Sectur y es completamente bilingüe en inglés y español, con años de experiencia guiando viajeros internacionales por Jalisco."
+              "text": "Sí. Tu guía Octavio es completamente bilingüe en inglés y español, con años de experiencia guiando viajeros internacionales por Jalisco."
             }
           },
           {
@@ -411,7 +411,7 @@
                 Tour Privado Jalisco — Lago Chapala, Ajijic y Mercado Artesanal de Tonalá
               </h1>
               <h2 class="h4 text-white-50 fw-semibold mb-3">
-                Solo tu grupo. Guía bilingüe certificado Sectur. Itinerario flexible.
+                Solo tu grupo. Guía local bilingüe. Itinerario flexible.
               </h2>
               <p class="lead text-white mb-4">
                 Olvídate del camión turístico. Este es TU día, TU ritmo, TU Jalisco — en una minivan privada con clima con el guía certificado Octavio, exclusivamente para tu grupo. Sin desconocidos. Sin paradas fijas. Conocimiento local real.
@@ -538,7 +538,7 @@
                   <h2 class="h3 fw-bold mb-4">Por qué los viajeros reservan este tour privado</h2>
                   <ul class="list-unstyled mb-0">
                     <li class="mb-3">100% privado — solo tu grupo en el vehículo</li>
-                    <li class="mb-3">Guía bilingüe certificado Sectur (inglés/español)</li>
+                    <li class="mb-3">Guía local bilingüe (inglés/español)</li>
                     <li class="mb-3">Lago Chapala — el lago más grande de México + Pueblo Mágico de Ajijic</li>
                     <li class="mb-3">Rancho Los 3 Potrillos — la legendaria hacienda de Vicente Fernández</li>
                     <li class="mb-3">Mercado artesanal de Tonalá — artesanías prehispánicas, Museo MUTA</li>

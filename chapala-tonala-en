@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="100% private tour from Guadalajara: Lake Chapala, Ajijic, Tonalá market &amp; Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Free cancellation."
+      content="100% private tour from Guadalajara: Lake Chapala, Ajijic, Tonalá market &amp; Rancho Los 3 Potrillos. Bilingual local guide. Free cancellation."
     />
     <meta
       name="keywords"
@@ -48,7 +48,7 @@
     <meta property="og:title" content="Lake Chapala &amp; Ajijic Private Tour from Guadalajara" />
     <meta
       property="og:description"
-      content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation."
+      content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Bilingual local guide. Your group only — no strangers. Free cancellation."
     />
     <meta
       property="og:image"
@@ -62,7 +62,7 @@
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Lake Chapala &amp; Ajijic Private Tour from Guadalajara" />
-    <meta name="twitter:description" content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation." />
+    <meta name="twitter:description" content="100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Bilingual local guide. Your group only — no strangers. Free cancellation." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/chapala1.webp" />
 
     <!-- Favicon -->
@@ -186,14 +186,14 @@
           "name": "Xalisco Trips"
         },
         "name": "Private Day Trip: Lake Chapala, Ajijic, Tonalá & Vicente Fernández Ranch",
-        "description": "100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Sectur-certified bilingual guide. Your group only — no strangers. Free cancellation.",
+        "description": "100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Bilingual local guide. Your group only — no strangers. Free cancellation.",
         "url": "https://xaliscotrips.lat/chapala-tonala-en.html",
         "touristType": "Art lovers, cultural travelers, shoppers, families",
         "availableLanguage": ["English", "Spanish"],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
-          "description": "Sectur-certified private tour operator with bilingual guides.",
+          "description": "Private tour operator with bilingual guides.",
           "url": "https://xaliscotrips.lat",
           "telephone": "+52-33-5108-3318",
           "address": {
@@ -268,7 +268,7 @@
             "name": "Is the guide bilingual?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Your guide Octavio is Sectur-certified and fully bilingual in English and Spanish, with years of experience guiding international travelers through Jalisco."
+              "text": "Yes. Your guide Octavio is fully bilingual in English and Spanish, with years of experience guiding international travelers through Jalisco."
             }
           },
           {
@@ -409,7 +409,7 @@
                 Private Jalisco Day Trip — Lake Chapala, Ajijic & Tonalá
               </h1>
               <h2 class="h4 text-white-50 fw-semibold mb-3">
-                Just your group. Sectur-certified bilingual guide. Flexible itinerary.
+                Just your group. Bilingual local guide. Flexible itinerary.
               </h2>
               <p class="lead text-white mb-4">
                 Skip the group bus. This is YOUR day, YOUR pace, YOUR Jalisco — in a private A/C minivan with certified bilingual guide Octavio, exclusively for your group. No strangers. No fixed stops. Real local knowledge.
@@ -536,7 +536,7 @@
                   <h2 class="h3 fw-bold mb-4">Why travelers book this private day trip</h2>
                   <ul class="list-unstyled mb-0">
                     <li class="mb-3">100% private — only your group in the vehicle</li>
-                    <li class="mb-3">Sectur-certified bilingual guide (English/Spanish)</li>
+                    <li class="mb-3">Bilingual local guide (English/Spanish)</li>
                     <li class="mb-3">Lake Chapala — Mexico's largest lake + Magic Town of Ajijic waterfront</li>
                     <li class="mb-3">Rancho Los 3 Potrillos — Vicente Fernández's legendary estate</li>
                     <li class="mb-3">Tonalá artisan market — pre-Hispanic crafts, MUTA Mask Museum</li>

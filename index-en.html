@@ -175,7 +175,7 @@
         href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
     /></noscript>
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/styles.css?v=20261013b" />
+    <link rel="stylesheet" href="css/styles.css?v=20261112a" />
 
     <!-- Google tag (gtag.js) -->
     <style>
@@ -296,9 +296,9 @@
         "name": "Xalisco Trips",
         "alternateName": "Xalisco Trips Tours Privados",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "SECTUR certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and cultural destinations.",
+        "description": "Private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and cultural destinations.",
         "foundingDate": "2019",
-        "slogan": "Tours privados certificados Sectur en Jalisco",
+        "slogan": "Private tours with a bilingual local guide in Jalisco",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -440,7 +440,7 @@
     >
       <div class="banner-content">
         <span class="banner-title">⭐ 5.0/5 on Google &amp; Viator</span>
-        <span class="banner-subtitle">Sectur-Certified Guide</span>
+        <span class="banner-subtitle">Bilingual local guide</span>
         <span class="banner-cta">Book now →</span>
       </div>
     </a>
@@ -483,18 +483,18 @@
           </div>
           <p class="lead mt-3">
             Jalisco through a local's eyes - private tours with Octavio,
-            certified guide and proud Tapatio
+            bilingual local guide and proud Tapatio
           </p>
           <p class="text-white-50 mt-2" style="font-size: 1rem">
-            Private transport · Certified guide · Insurance included · 24/7
+            Private transport · Bilingual guide · Insurance included · 24/7
             support
           </p>
-          <aside class="cumbre-banner" id="cumbreBanner" aria-label="Corporate event transportation">
-            <div>
+          <a class="cumbre-banner" id="cumbreBanner" href="/corporate-event-transportation">
+            <span class="cumbre-banner-text">
               <strong>Official provider · Ibero-American Insurance Summit</strong> — Corporate event transportation
-            </div>
-            <a href="corporate-event-transportation" aria-label="Open the corporate event transportation page">→</a>
-          </aside>
+            </span>
+            <span class="cumbre-banner-arrow" aria-hidden="true">→</span>
+          </a>
           <div
             class="d-flex flex-column flex-sm-row gap-3 mt-3 justify-content-center"
           >
@@ -3092,7 +3092,7 @@
                 <h4>READY TO SEE JALISCO LIKE A LOCAL?</h4>
                 <p>
                   Over 500 travelers have trusted us.<br /><strong
-                    >Certified Sectur guide · 100% private tours · 15-min response time</strong
+                    >Bilingual local guide · 100% private tours · 15-min response time</strong
                   >
                 </p>
               </div>
@@ -3388,7 +3388,7 @@
                 >
               </li>
               <li>
-                <small class="text-light-emphasis">✅ Sectur License</small>
+                <small class="text-light-emphasis">✅ Bilingual local guide</small>
               </li>
               <li>
                 <small class="text-light-emphasis">
@@ -4101,11 +4101,10 @@
     <script>
       (function () {
         var banner = document.getElementById("cumbreBanner");
-        if (banner) {
-          banner.querySelector("a").addEventListener("click", function () {
-            if (typeof gtag === "function") gtag("event", "eventos_banner_click");
-          });
-        }
+        if (!banner) return;
+        banner.addEventListener("click", function () {
+          if (typeof gtag === "function") gtag("event", "eventos_banner_click");
+        });
       })();
     </script>
     <script>

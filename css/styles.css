@@ -1154,35 +1154,52 @@ img {
    21. PRINT STYLES
    ========================================================================== */
 .cumbre-banner {
+  position: relative;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.75rem;
   width: fit-content;
   max-width: 100%;
   margin: 1rem auto 0;
-  padding: 0.55rem 0.8rem;
+  padding: 0.75rem 1.1rem;
   border: 1px solid var(--brand-primary);
-  border-radius: 999px;
+  border-radius: 1.25rem;
   background: rgba(0, 0, 0, 0.55);
   color: #fff;
+  text-align: left;
+  text-decoration: none;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65);
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: background-color 0.15s ease;
 }
 
-.cumbre-banner div {
-  display: block;
+.cumbre-banner:hover,
+.cumbre-banner:focus-visible {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.72);
 }
 
-.cumbre-banner a {
+.cumbre-banner:focus-visible {
+  outline: 3px solid var(--brand-primary);
+  outline-offset: 3px;
+}
+
+.cumbre-banner-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cumbre-banner-arrow {
+  flex: 0 0 auto;
   color: var(--brand-primary);
   font-weight: 700;
-  text-decoration: none;
-}
-
-.cumbre-banner a:focus-visible {
-  outline: 3px solid #212529;
-  outline-offset: 3px;
+  font-size: 1.25rem;
+  line-height: 1;
 }
 
 .cumbre-hero {
@@ -1300,14 +1317,8 @@ img {
 
 @media (max-width: 576px) {
   .cumbre-banner {
-    align-items: flex-start;
-    flex-direction: column;
-    width: min(100%, 32rem);
-    white-space: normal;
-  }
-
-  .cumbre-banner a {
-    align-self: flex-start;
+    width: 100%;
+    font-size: 0.9rem;
   }
 
   .cumbre-hero {

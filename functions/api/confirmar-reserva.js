@@ -27,7 +27,7 @@ export async function onRequestPost({ request, env }) {
       </div>
       <p>Te contactaremos por WhatsApp en menos de 15 minutos para coordinar la fecha final.</p>
       <p>¿Dudas? Escríbenos: <a href="https://wa.me/message/XKMPMDIT6NRNE1">WhatsApp</a></p>
-      <p style="color:#888;font-size:12px;">Xalisco Trips · Tours privados certificados Sectur</p>
+      <p style="color:#888;font-size:12px;">Xalisco Trips · Tours privados en Jalisco</p>
     </div>`;
 
     const resp = await fetch("https://api.resend.com/emails", {
