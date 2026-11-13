@@ -25,7 +25,7 @@
     />
 
     <!-- SEO -->
-    <meta name="description" content="Private GDL airport transfer 24/7: fixed $42 USD per vehicle, no surge. Certified bilingual driver meets you at arrivals. Book on WhatsApp." />
+    <meta name="description" content="Private GDL airport transfer 24/7: fixed $42 USD per vehicle, no surge. Bilingual driver meets you at arrivals. Book on WhatsApp." />
     <meta
       name="keywords"
       content="guadalajara airport transfer, gdl airport taxi private, hotel to guadalajara airport, private transfer gdl, guadalajara airport pickup, airport shuttle guadalajara"
@@ -150,7 +150,7 @@
         "@context": "https://schema.org",
         "@type": "TaxiService",
         "name": "Private Airport Transfer — Guadalajara GDL",
-        "description": "Private airport transfer service in Guadalajara. Door-to-door between any hotel and GDL International Airport. Price per vehicle, available 24/7, certified driver.",
+        "description": "Private airport transfer service in Guadalajara. Door-to-door between any hotel and GDL International Airport. Price per vehicle, available 24/7, private driver.",
         "url": "https://xaliscotrips.lat/airport-transfer-en.html",
         "@id": "https://xaliscotrips.lat/airport-transfer-en.html#taxiservice",
         "openingHoursSpecification": {
@@ -202,7 +202,7 @@
         "@type": "LocalBusiness",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+        "description": "Private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -302,7 +302,7 @@
               </p>
               <h2 class="h5 fw-semibold text-white mb-4" style="opacity: 0.92">
                 Are there taxis available 24/7 at Guadalajara airport, including
-                late-night arrivals? Yes — our certified private driver waits
+                late-night arrivals? Yes — our private driver waits
                 when you land, any hour, with no extra charge.
               </h2>
               <div
@@ -311,7 +311,7 @@
               >
                 <i class="bi bi-info-circle text-warning me-2"></i>
                 <strong>Why choose us over ride-share:</strong> Unlike
-                ride-share apps, you're booking a certified driver who knows
+                ride-share apps, you're booking a private driver who knows
                 your schedule, monitors your flight, and waits for you — no
                 surge pricing, no cancellations at 4 AM, no language barrier.
                 Price is per vehicle, not per person — the more people in your
@@ -517,7 +517,7 @@
           <div class="alert alert-info mt-5" data-aos="fade-up">
             <i class="bi bi-lightbulb me-2"></i>
             <strong>Peace of mind advantage:</strong> No surge pricing, no
-            cancellations, no communication barriers. Just a certified driver
+            cancellations, no communication barriers. Just a private driver
             ready when you are.
           </div>
         </div>
@@ -967,7 +967,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Certified private transfers.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Private transfers.</p>
         <p class="mb-0">
           <a href="airport-transfer" class="text-warning me-3">ES</a>
           <a href="airport-transfer-en" class="text-warning">EN</a>

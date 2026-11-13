@@ -149,7 +149,7 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Tour Privado Tonalá + Tlaquepaque desde Guadalajara",
-        "description": "Tour privado Tonalá + Tlaquepaque desde Guadalajara. Mercado artesanal, talleres de cerámica y mariachis en vivo. Transporte + guía certificado incluidos. 8-10 horas.",
+        "description": "Tour privado Tonalá + Tlaquepaque desde Guadalajara. Mercado artesanal, talleres de cerámica y mariachis en vivo. Transporte + guía bilingüe incluidos. 8-10 horas.",
         "image": ["https://xaliscotrips.lat/img/destinos/tonala.webp"],
         "url": "https://xaliscotrips.lat/tonala-tlaquepaque.html",
         "brand": {
@@ -211,7 +211,7 @@
         "@id": "https://xaliscotrips.lat/",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Tours privados certificados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
+        "description": "Tours privados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -758,7 +758,7 @@
                       <ul class="mt-2 mb-2">
                         <li>✅ Transporte privado puerta a puerta</li>
                         <li>
-                          ✅ Guía certificado bilingüe durante todo el tour
+                          ✅ Guía bilingüe durante todo el tour
                         </li>
                       </ul>
                       <strong>NO INCLUIDO:</strong>
@@ -1030,7 +1030,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Tours privados.</p>
         <p class="mb-0">
           <a href="tonala-tlaquepaque" class="text-warning me-3">Es</a>
           <a href="tonala-tlaquepaque-en" class="text-warning">En</a>

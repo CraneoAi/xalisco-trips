@@ -50,7 +50,7 @@
     />
     <meta
       property="og:description"
-      content="Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, guía local certificado. Reserva por WhatsApp."
+      content="Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, guía local bilingüe. Reserva por WhatsApp."
     />
     <meta
       property="og:image"
@@ -62,7 +62,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Tour Privado a Mazamitla desde Guadalajara | Xalisco Trips" />
-    <meta name="twitter:description" content="Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, guía local certificado. Reserva por WhatsApp." />
+    <meta name="twitter:description" content="Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, guía local bilingüe. Reserva por WhatsApp." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/mazamitla.webp" />
 
     <!-- Favicon -->
@@ -186,7 +186,7 @@
           "name": "Xalisco Trips"
         },
         "name": "Tour Mazamitla — Pueblo Mágico de Montaña desde Guadalajara",
-        "description": "Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, todo incluido excepto lunch. Guía local certificado.",
+        "description": "Tour privado a Mazamitla, pueblo mágico montañoso a 2,200 metros. Cascadas, tirolesas, cabalgatas, bosques de pinos y aire fresco montañoso. 8-10 horas, todo incluido excepto lunch. Guía local bilingüe.",
         "url": "https://xaliscotrips.lat/mazamitla.html",
         "touristType": "Familias, amantes de naturaleza, aventureros, senderistas",
         "availableLanguage": ["English", "Spanish"],
@@ -256,7 +256,7 @@
         "@type": "LocalBusiness",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Tours privados certificados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
+        "description": "Tours privados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -331,7 +331,7 @@
       "name": "¿Cuánto cuesta el traslado privado de Guadalajara a Mazamitla?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nuestro tour privado a Mazamitla cuesta desde $1,100 MXN por persona e incluye transporte redondo, recogida en hotel y guía bilingüe certificado. Entradas, tirolesas, cabalgatas y comidas no están incluidas."
+        "text": "Nuestro tour privado a Mazamitla cuesta desde $1,100 MXN por persona e incluye transporte redondo, recogida en hotel y guía bilingüe. Entradas, tirolesas, cabalgatas y comidas no están incluidas."
       }
     }
   ]
@@ -448,7 +448,7 @@
             <div class="col-lg-10">
               <p class="mb-0 text-center" data-precio="mazamitla-box">
                 <i class="bi bi-car-front-fill text-warning me-2"></i><strong>Traslado privado Guadalajara–Mazamitla:</strong>
-                desde <span data-precio-mxn="mazamitla">$1,100 MXN</span> por persona · viaje redondo, recogida en hotel y guía bilingüe certificado ·
+                desde <span data-precio-mxn="mazamitla">$1,100 MXN</span> por persona · viaje redondo, recogida en hotel y guía bilingüe ·
                 ~135 km / 2 h, sin casetas en la ruta principal · altitud 2,200 m · entradas y actividades no incluidas.
                 <a href="https://wa.me/5213351083318?text=Hola!%20Quiero%20cotizar%20un%20traslado%20privado%20de%20Guadalajara%20a%20Mazamitla." class="text-success fw-bold ms-1">Cotizar por WhatsApp</a>
               </p>
@@ -1141,7 +1141,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Tours privados certificados.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Tours privados.</p>
         <p class="mb-0">
           <a href="mazamitla" class="text-success me-3">ES</a>
           <a href="mazamitla-en" class="text-success">EN</a>

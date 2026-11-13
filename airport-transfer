@@ -23,7 +23,7 @@
     />
 
     <!-- SEO -->
-    <meta name="description" content="Traslado privado aeropuerto GDL a tu hotel: $700 MXN por vehículo, 24/7, sin tarifa dinámica. Conductor bilingüe certificado. Reserva por WhatsApp." />
+    <meta name="description" content="Traslado privado aeropuerto GDL a tu hotel: $700 MXN por vehículo, 24/7, sin tarifa dinámica. Conductor bilingüe. Reserva por WhatsApp." />
     <meta
       name="keywords"
       content="transferencia aeropuerto guadalajara, taxi privado gdl, hotel a aeropuerto, transporte privado gdl 24/7, servicio aeropuerto guadalajara, shuttle privado"
@@ -146,7 +146,7 @@
         "@type": "TaxiService",
         "@id": "https://xaliscotrips.lat/airport-transfer.html#taxiservice",
         "name": "Transferencia Privada Aeropuerto — Guadalajara GDL 24/7",
-        "description": "Servicio privado de transferencia aeropuerto en Guadalajara. Puerta a puerta entre cualquier hotel y Aeropuerto Internacional GDL. Precio por vehículo, disponible 24/7, conductor certificado, sin surge pricing.",
+        "description": "Servicio privado de transferencia aeropuerto en Guadalajara. Puerta a puerta entre cualquier hotel y Aeropuerto Internacional GDL. Precio por vehículo, disponible 24/7, conductor privado, sin surge pricing.",
         "url": "https://xaliscotrips.lat/airport-transfer.html",
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -197,7 +197,7 @@
         "@type": "LocalBusiness",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Tours privados certificados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
+        "description": "Tours privados en Guadalajara y Jalisco. Tequila, Chapala, Guachimontones, Mazamitla y más destinos culturales.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -295,7 +295,7 @@
                 Precio fijo · Sin surge pricing
               </p>
               <h2 class="h5 fw-semibold text-white mb-4" style="opacity: 0.92">
-                ¿Hay taxis disponibles 24/7 en el aeropuerto de Guadalajara, incluso en llegadas nocturnas? Sí — nuestro conductor privado certificado te espera al aterrizar, a cualquier hora, sin costo adicional.
+                ¿Hay taxis disponibles 24/7 en el aeropuerto de Guadalajara, incluso en llegadas nocturnas? Sí — nuestro conductor privado te espera al aterrizar, a cualquier hora, sin costo adicional.
               </h2>
               <div
                 class="alert alert-light mb-4"
@@ -307,7 +307,7 @@
                   compartido?:</strong
                 >
                 A diferencia de las aplicaciones de transporte compartido, estás
-                booking un conductor certificado que conoce tu horario,
+                booking un conductor privado que conoce tu horario,
                 monitorea tu vuelo y te espera — sin surge pricing, sin
                 cancelaciones a las 4 AM, sin barrera del idioma. El precio es
                 por vehículo, no por persona.
@@ -516,7 +516,7 @@
             <i class="bi bi-lightbulb me-2"></i>
             <strong>Ventaja tranquilidad:</strong> Sin surge pricing, sin
             cancelaciones, sin barreras del idioma. Solo un conductor
-            certificado listo cuando tú lo estés.
+            privado listo cuando tú lo estés.
           </div>
         </div>
       </section>
@@ -985,7 +985,7 @@
           </a>
         </div>
         <p class="mb-2">
-          © 2026 Xalisco Trips. Transferencias privadas certificadas.
+          © 2026 Xalisco Trips. Transferencias privadas.
         </p>
         <p class="mb-0">
           <a href="airport-transfer" class="text-warning me-3">ES</a>

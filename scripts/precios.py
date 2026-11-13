@@ -101,13 +101,13 @@ def tour_page(s, k, en):
         if en:
             s = re.sub(r"(Tequila Jalisco Tour from Guadalajara — From )\$\d+ USD", rf"\g<1>${us} USD", s)
             note = (f'<p class="small text-muted" data-precio="tequila">From ${m(mx)} MXN (≈ ${us} USD) per person: private transport + '
-                    f'certified bilingual guide, admissions not included. With basic Destilería Tres Mujeres entry + tasting: '
+                    f'bilingual guide, admissions not included. With basic Destilería Tres Mujeres entry + tasting: '
                     f'${m(md)} MXN (≈ ${usd(md)} USD) per person.</p>')
             head = r"<h2 class=\"mb-4\">What's Included in the Tequila Tour</h2>"
         else:
             s = re.sub(r"(Tour Tequila Jalisco desde Guadalajara — Desde )\$[\d,]+ (?:USD|MXN)", rf"\g<1>${m(mx)} MXN", s)
             note = (f'<p class="small text-muted" data-precio="tequila">Desde ${m(mx)} MXN por persona: transporte privado + '
-                    f'guía bilingüe certificado, sin entradas. Con entrada básica a Destilería Tres Mujeres + degustación: '
+                    f'guía bilingüe, sin entradas. Con entrada básica a Destilería Tres Mujeres + degustación: '
                     f'${m(md)} MXN por persona.</p>')
             head = r"<h2 class=\"mb-\d\">(?:Qu[ée] [Ii]ncluye[^<]*|M[ée]todos de Pago)</h2>"
         if 'data-precio="tequila"' in s:

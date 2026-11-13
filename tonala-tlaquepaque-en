@@ -149,7 +149,7 @@
         "@context": "https://schema.org",
         "@type": "Product",
         "name": "Tonalá + Tlaquepaque Combo Tour from Guadalajara",
-        "description": "Private Tonalá + Tlaquepaque combo tour from Guadalajara. Artisan market, ceramic workshops & live mariachi. Transport + certified guide included. 8-10 hour flexible itinerary.",
+        "description": "Private Tonalá + Tlaquepaque combo tour from Guadalajara. Artisan market, ceramic workshops & live mariachi. Transport + bilingual guide included. 8-10 hour flexible itinerary.",
         "image": ["https://xaliscotrips.lat/img/destinos/tonala.webp"],
         "url": "https://xaliscotrips.lat/tonala-tlaquepaque-en.html",
         "brand": {
@@ -211,7 +211,7 @@
         "@id": "https://xaliscotrips.lat/",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+        "description": "Private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -750,7 +750,7 @@
                       <ul class="mt-2 mb-2">
                         <li>✅ Private door-to-door transport</li>
                         <li>
-                          ✅ Certified bilingual guide throughout the tour
+                          ✅ Bilingual guide throughout the tour
                         </li>
                       </ul>
                       <strong>NOT INCLUDED:</strong>
@@ -1022,7 +1022,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Private tours.</p>
         <p class="mb-0">
           <a href="tonala-tlaquepaque" class="text-warning me-3">Es</a>
           <a href="tonala-tlaquepaque-en" class="text-warning">En</a>

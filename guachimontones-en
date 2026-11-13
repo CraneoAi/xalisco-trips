@@ -27,7 +27,7 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Certified bilingual guide and door-to-door pickup."
+      content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Bilingual guide and door-to-door pickup."
 
     />
     <meta
@@ -52,7 +52,7 @@
     />
     <meta
       property="og:description"
-      content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Certified bilingual guide and door-to-door pickup."
+      content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Bilingual guide and door-to-door pickup."
     />
     <meta
       property="og:image"
@@ -66,7 +66,7 @@
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Private Guachimontones Tour from Guadalajara | Xalisco Trips" />
-    <meta name="twitter:description" content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Certified bilingual guide and door-to-door pickup." />
+    <meta name="twitter:description" content="Private tour to Guachimontones from Guadalajara. Circular pyramids, museum and valley views. Bilingual guide and door-to-door pickup." />
     <meta name="twitter:image" content="https://xaliscotrips.lat/img/destinos/Guachimontones.webp" />
 
     <!-- Favicon -->
@@ -190,7 +190,7 @@
           "name": "Xalisco Trips"
         },
         "name": "Private Guachimontones Tour from Guadalajara",
-        "description": "Private day tour to the Guachimontones archaeological site from Guadalajara. Explore unique circular pyramids of the Teuchitlán culture with a certified bilingual guide.",
+        "description": "Private day tour to the Guachimontones archaeological site from Guadalajara. Explore unique circular pyramids of the Teuchitlán culture with a bilingual guide.",
         "url": "https://xaliscotrips.lat/guachimontones-en.html",
         "touristType": "History enthusiasts, archaeology fans, cultural travelers",
         "availableLanguage": ["English", "Spanish"],
@@ -260,7 +260,7 @@
         "@type": "LocalBusiness",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+        "description": "Private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -366,7 +366,7 @@
                 10:00 AM — the best time to explore the site before the heat and
                 crowds. The circular pyramids of Guachimontones are unique in
                 the world: no other pre-Hispanic culture built this way. Your
-                certified guide explains the Teuchitlán culture and the
+                bilingual guide explains the Teuchitlán culture and the
                 astronomical significance of the structures.
               </div>
               <a
@@ -1007,7 +1007,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Private tours.</p>
         <p class="mb-0">
           <a href="guachimontones" class="text-warning me-3">ES</a>
           <a href="guachimontones-en" class="text-warning">EN</a>

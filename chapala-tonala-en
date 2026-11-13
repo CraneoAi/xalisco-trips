@@ -315,7 +315,7 @@
         "@id": "https://xaliscotrips.lat/",
         "name": "Xalisco Trips",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
-        "description": "Certified private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
+        "description": "Private tours in Guadalajara and Jalisco. Tequila, Chapala, Guachimontones, Mazamitla and more cultural destinations.",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "MX",
@@ -412,7 +412,7 @@
                 Just your group. Bilingual local guide. Flexible itinerary.
               </h2>
               <p class="lead text-white mb-4">
-                Skip the group bus. This is YOUR day, YOUR pace, YOUR Jalisco — in a private A/C minivan with certified bilingual guide Octavio, exclusively for your group. No strangers. No fixed stops. Real local knowledge.
+                Skip the group bus. This is YOUR day, YOUR pace, YOUR Jalisco — in a private A/C minivan with bilingual local guide Octavio, exclusively for your group. No strangers. No fixed stops. Real local knowledge.
               </p>
               <div
                 class="alert alert-light mb-4"
@@ -975,7 +975,7 @@
                       <strong>INCLUDED:</strong>
                       <ul class="mt-2 mb-2">
                         <li>✅ Private door-to-door transport</li>
-                        <li>✅ Certified guide throughout the tour</li>
+                        <li>✅ Bilingual guide throughout the tour</li>
                       </ul>
                       <strong>NOT INCLUDED:</strong>
                       <ul class="mb-0">
@@ -1245,7 +1245,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Private tours.</p>
         <p class="mb-0">
           <a href="chapala-tonala" class="text-warning me-3">Es</a>
           <a href="chapala-tonala-en" class="text-warning">En</a>

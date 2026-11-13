@@ -190,7 +190,7 @@
           "name": "Xalisco Trips"
         },
         "name": "Tapatio Foodie Tour — Guadalajara Street Food",
-        "description": "Private street food tour in Guadalajara with a certified local guide. Birria, tortas ahogadas, tejuino and authentic Jalisco cuisine at legendary local spots. Not suitable for vegans or vegetarians.",
+        "description": "Private street food tour in Guadalajara with a bilingual local guide. Birria, tortas ahogadas, tejuino and authentic Jalisco cuisine at legendary local spots. Not suitable for vegans or vegetarians.",
         "url": "https://xaliscotrips.lat/foodie-tour-en.html",
         "touristType": "Food enthusiasts, culinary travelers, meat eaters",
         "availableLanguage": ["English", "Spanish"],
@@ -291,7 +291,7 @@
             "name": "What does the Guadalajara foodie tour include?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The tour visits local covered markets, street food stalls, neighborhood taquerías, and artisan food producers. Includes tortas ahogadas, birria, tejuino, and seasonal regional specialties. Bilingual certified guide throughout."
+              "text": "The tour visits local covered markets, street food stalls, neighborhood taquerías, and artisan food producers. Includes tortas ahogadas, birria, tejuino, and seasonal regional specialties. Bilingual guide throughout."
             }
           },
           {
@@ -1036,7 +1036,7 @@
             <i class="bi bi-tiktok fs-5 text-warning"></i>
           </a>
         </div>
-        <p class="mb-2">© 2026 Xalisco Trips. Certified private tours.</p>
+        <p class="mb-2">© 2026 Xalisco Trips. Private tours.</p>
         <p class="mb-0">
           <a href="foodie-tour" class="text-warning me-3">ES</a>
           <a href="foodie-tour-en" class="text-warning">EN</a>
