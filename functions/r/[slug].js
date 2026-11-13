@@ -5,6 +5,7 @@ const DESTINOS = {
   cumbre:
     "https://wa.me/5213351083318?text=Hola%2C%20asistir%C3%A9%20a%20la%20Cumbre%20Iberoamericana%20de%20Seguros%20y%20quiero%20solicitar%20la%20tarifa%20de%20traslado%20para%20asistentes.",
   eventos: "https://xaliscotrips.lat/eventos-corporativos",
+  tiktok: "https://wa.me/message/XKMPMDIT6NRNE1",
 };
 
 export async function onRequestGet(context) {
