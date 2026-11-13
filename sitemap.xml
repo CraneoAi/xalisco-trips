@@ -328,6 +328,62 @@
   </url>
 
   <url>
+    <loc>https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Traslado del aeropuerto de Guadalajara a Los Altos de Jalisco</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Guadalajara Airport transfer to Los Altos de Jalisco</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Traslado del aeropuerto de Guadalajara a Arandas</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://xaliscotrips.lat/guadalajara-airport-transfer-arandas</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
+      <image:title>Guadalajara Airport transfer to Arandas</image:title>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://xaliscotrips.lat/tonala-tlaquepaque</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>

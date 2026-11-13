@@ -12,5 +12,18 @@
     "foodie":             { "mxn": 850,  "unidad": "persona", "nombre": "Foodie Tour Tapatio" },
     "tequila_guachi":     { "mxn": 1100, "unidad": "persona", "nombre": "Tequila + Guachimontones" },
     "mazamitla":          { "mxn": 1100, "unidad": "persona", "nombre": "Mazamitla (solo traslado + guia, sin ingresos)", "mxn_grupo_10": 900 }
+  },
+  "traslados_altos": {
+    "_nota": "Aeropuerto GDL -> Los Altos de Jalisco. Precio 'desde' por vehiculo, MXN, casetas incluidas, factura + IVA. Lo usan las 4 paginas de Los Altos (ver ALTOS_PAGES en scripts/precios.py).",
+    "max_pax": 4,
+    "zonas": {
+      "cercana":    { "mxn": 2000, "nombre": "Cercana: Zapotlanejo, Tototlan, Tierras Coloradas, Acatic" },
+      "tepatitlan": { "mxn": 2800, "nombre": "Tepatitlan: Tepatitlan, Capilla de Guadalupe, Pegueros, Valle de Guadalupe, San Ignacio Cerro Gordo" },
+      "arandas":    { "mxn": 3500, "nombre": "Arandas y sur: Arandas, Jesus Maria, Atotonilco, Ayotlan" },
+      "lejana":     { "mxn": 4200, "nombre": "Lejana: Jalostotitlan, San Miguel el Alto, Degollado" }
+    },
+    "recargo_nocturno_mxn": 500,
+    "_recargo_nota": "De 10:00 pm a 6:00 am.",
+    "anticipo_mxn": 500
   }
 }

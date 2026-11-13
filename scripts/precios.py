@@ -7,7 +7,7 @@ Uso:
 
 Regla: MXN es el precio oficial (ES y EN). USD = MXN / tasa_proteccion, redondeado hacia arriba.
 """
-import json, math, os, re, sys, shutil
+import html, json, math, os, re, sys, shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -26,6 +26,39 @@ PAGES = {
     "tequila-guachimontones": "tequila_guachi", "tlaquepaque": "tlaquepaque",
     "tonala-tlaquepaque": "tonala_tlaquepaque",
 }
+
+# --- Traslados aeropuerto GDL -> Los Altos de Jalisco (precio por vehiculo, solo MXN) ---
+ALT = CFG.get("traslados_altos", {})
+ALTOS_PAGES = [
+    "traslado-aeropuerto-los-altos-jalisco.html", "guadalajara-airport-transfer-los-altos-jalisco.html",
+    "traslado-aeropuerto-guadalajara-arandas.html", "guadalajara-airport-transfer-arandas.html",
+]
+
+def altos_val(k):
+    # zonas: cercana / tepatitlan / arandas / lejana; extras: recargo_nocturno / anticipo
+    return ALT["zonas"][k]["mxn"] if k in ALT["zonas"] else ALT[k + "_mxn"]
+
+def altos_page(s):
+    # 1) precios visibles: <span data-precio-altos="arandas">$3,500 MXN</span>
+    s, n = re.subn(r'<span data-precio-altos="(\w+)">[^<]*</span>',
+                   lambda mo: f'<span data-precio-altos="{mo.group(1)}">${m(altos_val(mo.group(1)))} MXN</span>', s)
+    assert n > 0, "altos: la pagina no tiene spans data-precio-altos"
+    # 2) JSON-LD Offer: "sku": "altos-<zona>", "priceCurrency": "MXN", "price": "3500"
+    s = re.sub(r'("sku": "altos-(\w+)",\s*"priceCurrency": "MXN",\s*"price": )"\d+"',
+               lambda mo: f'{mo.group(1)}"{altos_val(mo.group(2))}"', s)
+    # 3) FAQPage JSON-LD = FAQ visible (mismas preguntas y respuestas, con los precios ya sincronizados)
+    qs = re.findall(r"data-faq-q>(.*?)</button>", s, re.S)
+    ans = re.findall(r"data-faq-a>(.*?)</div>", s, re.S)
+    assert qs and len(qs) == len(ans), ("altos FAQ", len(qs), len(ans))
+    txt = lambda h: html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", h))).strip()
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": txt(q), "acceptedAnswer": {"@type": "Answer", "text": txt(a)}} for q, a in zip(qs, ans)]}
+    nl = "\r\n" if "\r\n" in s else "\n"
+    body = nl.join("      " + ln for ln in json.dumps(faq, ensure_ascii=False, indent=2).split("\n"))
+    s, n = re.subn(r'(<script type="application/ld\+json" id="faq-jsonld">\r?\n).*?(\r?\n    </script>)',
+                   lambda mo: mo.group(1) + body + mo.group(2), s, flags=re.S)
+    assert n == 1, ("altos faq-jsonld", n)
+    return s
 
 def key_from_name(name):
     n = name.lower()
@@ -145,6 +178,8 @@ def main(check):
     for slug, k in PAGES.items():
         jobs.append((slug + ".html", lambda s, k=k: tour_page(s, k, False)))
         jobs.append((slug + "-en.html", lambda s, k=k: tour_page(s, k, True)))
+    for f in ALTOS_PAGES:
+        jobs.append((f, altos_page))
     for f, fn in jobs:
         raw = open(f, "rb").read(); s = raw.decode("utf-8")
         new = common(fn(s))
@@ -162,6 +197,11 @@ def main(check):
     print(f"Tasa de proteccion: {TASA:.2f} MXN/USD")
     for k, v in T.items():
         print(f"  {k:<20} ${m(v['mxn']):>6} MXN  ->  ${usd(v['mxn'])} USD ({usd(v['mxn'])*TASA:,.0f} MXN a {TASA:.2f})")
+    if ALT:
+        print("Los Altos (por vehiculo, MXN):")
+        for k, v in ALT["zonas"].items():
+            print(f"  altos:{k:<14} ${m(v['mxn']):>6} MXN")
+        print(f"  recargo nocturno     ${m(ALT['recargo_nocturno_mxn']):>6} MXN   anticipo ${m(ALT['anticipo_mxn'])} MXN")
     for w in WARN: print("AVISO:", w)
     if check:
         if changed:
