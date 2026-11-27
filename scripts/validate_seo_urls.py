@@ -96,6 +96,63 @@ def robots(parser):
     )
 
 
+def jsonld_nodes(value):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from jsonld_nodes(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from jsonld_nodes(child)
+
+
+def validate_jsonld(page_path, blocks, failures):
+    jsonld_objects = []
+    for block in blocks:
+        if ".html" in block.lower():
+            failures.append(f"{page_path}: .html in JSON-LD")
+        try:
+            jsonld_objects.append(json.loads(block))
+        except json.JSONDecodeError as error:
+            failures.append(f"{page_path}: invalid JSON-LD: {error}")
+
+    nodes = [node for value in jsonld_objects for node in jsonld_nodes(value)]
+    products = [
+        node
+        for node in nodes
+        if node.get("@type") == "Product"
+        or isinstance(node.get("@type"), list) and "Product" in node["@type"]
+    ]
+    product_keys = set()
+    for product in products:
+        name, product_url = product.get("name"), product.get("url")
+        if name and product_url:
+            key = (name, product_url)
+            if key in product_keys:
+                failures.append(
+                    f"{page_path}: duplicate Product name/url: {name} ({product_url})"
+                )
+            product_keys.add(key)
+        if product.get("review") and not product.get("aggregateRating"):
+            failures.append(f"{page_path}: Product Review without aggregateRating")
+
+    prohibited_rating_types = {"LocalBusiness", "Organization", "TouristInformationCenter"}
+    for node in nodes:
+        node_types = node.get("@type")
+        if isinstance(node_types, str):
+            node_types = {node_types}
+        else:
+            node_types = set(node_types or [])
+        if node_types & prohibited_rating_types and (
+            node.get("review") or node.get("aggregateRating")
+        ):
+            failures.append(
+                f"{page_path}: review/rating on "
+                f"{', '.join(sorted(node_types & prohibited_rating_types))}"
+            )
+    return nodes
+
+
 def local_file_for(path):
     path = unquote(path)
     if path == "/":
@@ -144,11 +201,7 @@ def validate():
             if ".html" in match.group(0).lower():
                 failures.append(f"{path.relative_to(ROOT)}: internal absolute URL contains .html")
                 break
-        for block in parser.jsonld:
-            try:
-                json.loads(block)
-            except json.JSONDecodeError as error:
-                failures.append(f"{path.relative_to(ROOT)}: invalid JSON-LD: {error}")
+        validate_jsonld(path.relative_to(ROOT), parser.jsonld, failures)
         source_url = url or BASE + "/"
         for attr, target in parser.attrs:
             if target.startswith("#"):
