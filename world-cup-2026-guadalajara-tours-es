@@ -190,7 +190,10 @@
         "endDate": "2026-07-19",
         "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
         "touristType": "Sports fans, international travelers, FIFA World Cup 2026 visitors",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
@@ -201,12 +204,6 @@
             "addressLocality": "Guadalajara",
             "addressRegion": "Jalisco",
             "addressCountry": "MX"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "24",
-            "bestRating": "5"
           }
         },
         "organizer": {
@@ -243,8 +240,14 @@
               "validFrom": "2026-01-01"
             },
             "performer": [
-              { "@type": "SportsTeam", "name": "South Korea" },
-              { "@type": "SportsTeam", "name": "Czechia" }
+              {
+                "@type": "SportsTeam",
+                "name": "South Korea"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "Czechia"
+              }
             ],
             "organizer": {
               "@type": "Organization",
@@ -311,8 +314,14 @@
               "validFrom": "2026-01-01"
             },
             "performer": [
-              { "@type": "SportsTeam", "name": "Colombia" },
-              { "@type": "SportsTeam", "name": "DR Congo" }
+              {
+                "@type": "SportsTeam",
+                "name": "Colombia"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "DR Congo"
+              }
             ],
             "organizer": {
               "@type": "Organization",
@@ -378,13 +387,11 @@
         "telephone": "+5213351083318",
         "url": "https://xaliscotrips.lat",
         "priceRange": "$$$",
-        "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "ratingCount": "45"
-        }
+        "areaServed": [
+          "Guadalajara",
+          "Jalisco",
+          "Mexico"
+        ]
       }
     </script>
 
@@ -1364,59 +1371,7 @@
           "price": "42",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://xaliscotrips.lat/chapala-tonala",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "review": {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Kris_O"
-          },
-          "reviewBody": "The tour was exactly as described and more! Octavio was wonderful, knowledgeable and a great driver. BOOK THIS TOUR! You won't regret it!"
+          "url": "https://xaliscotrips.lat/chapala-tonala"
         },
         "duration": "PT7H",
         "includesActivity": [
@@ -1459,59 +1414,7 @@
           "price": "50",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://xaliscotrips.lat/chapala-tonala",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "review": {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Kris_O"
-          },
-          "reviewBody": "The tour was exactly as described and more! Octavio was wonderful, knowledgeable and a great driver. BOOK THIS TOUR! You won't regret it!"
+          "url": "https://xaliscotrips.lat/chapala-tonala"
         },
         "duration": "PT8H",
         "includesActivity": [
