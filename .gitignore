@@ -24,4 +24,16 @@ LICENSE.md
 
 # QR tracking
 node_modules/
+.wrangler/
 .cache/
+
+# Material interno para guias (no publicar en el sitio)
+Contenido guías/
+
+# Local and generated development files
+Claude outputs/
+CV_*.pdf
+__pycache__/
+*.pyc
+prompt-*.md
+.vscode/settings.json

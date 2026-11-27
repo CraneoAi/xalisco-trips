@@ -1,0 +1,8 @@
+#!/bin/sh
+
+python scripts/validate_seo_urls.py
+status=$?
+if [ "$status" -ne 0 ]; then
+  echo "Pre-commit validation failed; commit blocked." >&2
+  exit "$status"
+fi
