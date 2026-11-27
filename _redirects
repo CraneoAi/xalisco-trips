@@ -34,6 +34,7 @@
 /index-en /index-en.html 200
 
 # ── 301 Redirects: .html → clean URL (Fix GSC errors) ──
+/404.html                        /404                                    301
 /index.html                      /                                       301
 /guachimontones.html             /guachimontones                         301
 /guachimontones-en.html          /guachimontones-en                      301

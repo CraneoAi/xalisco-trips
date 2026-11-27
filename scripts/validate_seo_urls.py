@@ -229,7 +229,7 @@ def validate():
         if len(parts) == 3 and parts[2] in {"301", "302", "303", "307", "308"}:
             redirects[parts[0]] = (parts[1], parts[2])
     for html_path, _, _ in pages:
-        if html_path.suffix.lower() != ".html" or html_path.name == "404.html":
+        if html_path.suffix.lower() != ".html":
             continue
         route = "/" + html_path.relative_to(ROOT).as_posix()
         target = route[:-5]

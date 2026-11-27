@@ -6,7 +6,7 @@ Las rutas de páginas usan URL sin extensión ni barra final. La raíz es `/`. L
 
 | Archivo | URL canónica limpia / destino final | Idioma | Par hreflang (ES · EN) |
 |---|---|---|---|
-| `404.html` | Documento de error; sin URL canónica indexable | ES | — |
+| `404.html` | `/404` (documento de error, noindex) | ES | — |
 | `airport-transfer.html` | `/airport-transfer` | ES | `/airport-transfer` · `/airport-transfer-en` |
 | `airport-transfer-en.html` | `/airport-transfer-en` | EN | `/airport-transfer` · `/airport-transfer-en` |
 | `blog/excursiones-desde-guadalajara/index.html` | `/blog/excursiones-desde-guadalajara/` | ES | `/blog/excursiones-desde-guadalajara/` · `/en/blog/best-day-trips-from-guadalajara/` |
@@ -50,4 +50,4 @@ Las rutas `/world-cup-2026-guadalajara-tours` y `/world-cup-2026-guadalajara-tou
 
 ## Regla de redirección
 
-Las rutas `.html` indexables y no indexables apuntan directamente a su destino limpio con 301. `index.html` apunta a `/`, `index-en.html` a `/index-en`, y los `index.html` de blog a su directorio con barra final. `404.html` se conserva como documento de error de Cloudflare Pages y no es una página normal redirigible ni indexable.
+Las rutas `.html` indexables y no indexables apuntan directamente a su destino limpio con 301. `index.html` apunta a `/`, `index-en.html` a `/index-en`, y los `index.html` de blog a su directorio con barra final. La petición explícita a `404.html` redirige a `/404`; Cloudflare Pages conserva el archivo `404.html` como fallback interno para respuestas de error.
