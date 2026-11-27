@@ -153,6 +153,11 @@ def validate_jsonld(page_path, blocks, failures):
     return nodes
 
 
+def validate_indexable_html(page_path, text, failures):
+    if ".html" in text.lower():
+        failures.append(f"{page_path}: .html in indexable HTML")
+
+
 def local_file_for(path):
     path = unquote(path)
     if path == "/":
@@ -182,6 +187,7 @@ def validate():
     failures = []
     pages = list(source_pages())
     canonical_pages = {}
+    canonical_sources = {}
     for path, text, parser in pages:
         url = canonical(parser)
         is_noindex = "noindex" in robots(parser)
@@ -194,6 +200,7 @@ def validate():
                 pass
             else:
                 canonical_pages[url] = parser
+                canonical_sources[url] = (path, text)
         for language_link in parser.links:
             if language_link.get("hreflang") and ".html" in language_link.get("href", "").lower():
                 failures.append(f"{path.relative_to(ROOT)}: .html in hreflang")
@@ -263,6 +270,9 @@ def validate():
     for entry in sitemap.findall(f"{{{SITEMAP_NS}}}url"):
         loc = entry.findtext(f"{{{SITEMAP_NS}}}loc", "")
         sitemap_urls.append(loc)
+        if loc in canonical_sources:
+            path, text = canonical_sources[loc]
+            validate_indexable_html(path.relative_to(ROOT), text, failures)
         if ".html" in loc.lower():
             failures.append(f"sitemap.xml: .html URL {loc}")
         if loc not in canonical_pages:
