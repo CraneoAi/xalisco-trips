@@ -85,7 +85,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/chapala-tonala-en"
+      href="https://xaliscotrips.lat/chapala-tonala"
     />
 
     <!-- Performance -->
@@ -155,7 +155,7 @@
         },
         "name": "Tour Privado: Lago Chapala, Ajijic, Tonalá & Rancho Los 3 Potrillos",
         "description": "Tour 100% privado desde Guadalajara: Lago Chapala, Pueblo Mágico de Ajijic, mercado artesanal de Tonalá y Rancho Los 3 Potrillos. Guía local bilingüe. Solo tu grupo. Cancelación gratuita.",
-        "url": "https://xaliscotrips.lat/chapala-tonala.html",
+        "url": "https://xaliscotrips.lat/chapala-tonala",
         "touristType": "Amantes del arte, viajeros culturales, compradores, familias",
         "availableLanguage": ["English", "Spanish"],
         "review": [
@@ -296,7 +296,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Tour Chapala y Tonalá",
-            "item": "https://xaliscotrips.lat/chapala-tonala.html"
+            "item": "https://xaliscotrips.lat/chapala-tonala"
           }
         ]
       }

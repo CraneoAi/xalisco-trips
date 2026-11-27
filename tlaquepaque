@@ -190,7 +190,7 @@
         },
         "name": "Tour Tlaquepaque — Arte Mexicano y Mariachis desde Guadalajara",
         "description": "Tour privado medio día a Tlaquepaque: galerías de arte mexicano, mariachis en vivo, artesanías, vidrio soplado, cerámica Talavera, piezas de cuero. 4-6 horas, guía local bilingüe. Perfecto para compras de recuerdos únicos.",
-        "url": "https://xaliscotrips.lat/tlaquepaque.html",
+        "url": "https://xaliscotrips.lat/tlaquepaque",
         "touristType": "Amantes del arte, compradores, familias, viajeros con tiempo limitado",
         "availableLanguage": ["English", "Spanish"],
         "provider": {
@@ -295,7 +295,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Tour Tlaquepaque",
-            "item": "https://xaliscotrips.lat/tlaquepaque.html"
+            "item": "https://xaliscotrips.lat/tlaquepaque"
           }
         ]
       }

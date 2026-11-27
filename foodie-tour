@@ -190,7 +190,7 @@
         },
         "name": "Tour Gastronómico Tapatío — Comida Callejera Guadalajara",
         "description": "Tour privado de comida callejera en Guadalajara con guía local bilingüe. Birria, tortas ahogadas, tejuino y auténtica gastronomía jaliscience en lugares legendarios. NO apto para vegetarianos.",
-        "url": "https://xaliscotrips.lat/foodie-tour.html",
+        "url": "https://xaliscotrips.lat/foodie-tour",
         "touristType": "Entusiastas gastronómicos, viajeros culinarios, comedores de carne",
         "availableLanguage": ["English", "Spanish"],
         "provider": {
@@ -295,7 +295,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Foodie Tour",
-            "item": "https://xaliscotrips.lat/foodie-tour.html"
+            "item": "https://xaliscotrips.lat/foodie-tour"
           }
         ]
       }

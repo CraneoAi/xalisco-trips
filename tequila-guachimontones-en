@@ -85,7 +85,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/tequila-guachimontones-en"
+      href="https://xaliscotrips.lat/tequila-guachimontones"
     />
 
     <!-- Performance -->
@@ -190,7 +190,7 @@
         },
         "name": "Tequila + Guachimontones Combo Tour from Guadalajara",
         "description": "Private Tequila + Guachimontones tour from Guadalajara. Archaeological site, Tres Mujeres Distillery & Magical Town. Transport + guide included. 10-12 hour flexible itinerary.",
-        "url": "https://xaliscotrips.lat/tequila-guachimontones-en.html",
+        "url": "https://xaliscotrips.lat/tequila-guachimontones-en",
         "touristType": "Cultural travelers, archaeology enthusiasts, food & drink lovers",
         "availableLanguage": ["English", "Spanish"],
         "provider": {
@@ -284,19 +284,19 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://xaliscotrips.lat/index-en.html"
+            "item": "https://xaliscotrips.lat/index-en"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Tours",
-            "item": "https://xaliscotrips.lat/index-en.html#tours"
+            "item": "https://xaliscotrips.lat/index-en#tours"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Tequila + Guachimontones Tour",
-            "item": "https://xaliscotrips.lat/tequila-guachimontones-en.html"
+            "item": "https://xaliscotrips.lat/tequila-guachimontones-en"
           }
         ]
       }

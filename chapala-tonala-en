@@ -82,7 +82,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/chapala-tonala-en"
+      href="https://xaliscotrips.lat/chapala-tonala"
     />
 
     <!-- Performance -->
@@ -187,7 +187,7 @@
         },
         "name": "Private Day Trip: Lake Chapala, Ajijic, Tonalá & Vicente Fernández Ranch",
         "description": "100% private tour from Guadalajara: Lake Chapala, Magic Town of Ajijic, Tonalá artisan market & Rancho Los 3 Potrillos. Bilingual local guide. Your group only — no strangers. Free cancellation.",
-        "url": "https://xaliscotrips.lat/chapala-tonala-en.html",
+        "url": "https://xaliscotrips.lat/chapala-tonala-en",
         "touristType": "Art lovers, cultural travelers, shoppers, families",
         "availableLanguage": ["English", "Spanish"],
         "provider": {
@@ -339,19 +339,19 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://xaliscotrips.lat/index-en.html"
+            "item": "https://xaliscotrips.lat/index-en"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Tours",
-            "item": "https://xaliscotrips.lat/index-en.html#tours"
+            "item": "https://xaliscotrips.lat/index-en#tours"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Chapala and Tonalá Tour",
-            "item": "https://xaliscotrips.lat/chapala-tonala-en.html"
+            "item": "https://xaliscotrips.lat/chapala-tonala-en"
           }
         ]
       }
