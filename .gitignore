@@ -24,6 +24,7 @@ LICENSE.md
 
 # QR tracking
 node_modules/
+.wrangler/
 .cache/
 
 # Material interno para guias (no publicar en el sitio)
