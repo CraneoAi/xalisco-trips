@@ -16,7 +16,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tequila Jalisco Tour from Guadalajara — From $36 USD</title>
+    <title>Tequila Tour from Guadalajara, Jalisco | from $36 USD</title>
 
     <!-- Security: CSP -->
     <meta
@@ -85,7 +85,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/tequila-en"
+      href="https://xaliscotrips.lat/tequila"
     />
 
     <!-- Performance -->
@@ -148,52 +148,22 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
-        "image": ["https://xaliscotrips.lat/img/destinos/tequila.webp"],
-        "@id": "https://xaliscotrips.lat/tequila-en.html#product",
+        "image": [
+          "https://xaliscotrips.lat/img/destinos/tequila.webp"
+        ],
+        "@id": "https://xaliscotrips.lat/tequila-en#product",
         "brand": {
           "@type": "Brand",
           "name": "Xalisco Trips"
         },
         "name": "Private Day Trip to Tequila Jalisco — UNESCO World Heritage from Guadalajara",
         "description": "Private day tour to Tequila, Jalisco from Guadalajara. Drive through blue agave fields, visit Destilería Tres Mujeres for an artisan tasting, and explore the UNESCO World Heritage Pueblo Mágico. Bilingual guide, door-to-door hotel pickup included.",
-        "url": "https://xaliscotrips.lat/tequila-en.html",
+        "url": "https://xaliscotrips.lat/tequila-en",
         "touristType": "Cultural travelers, food & drink enthusiasts, UNESCO site visitors",
         "duration": "PT9H",
-        "availableLanguage": ["English", "Spanish"],
-        "review": [
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Sergio Salinas" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Xalisco Trips was amazing! Not only are you getting a tour of the city, you're getting a history lesson along with it.",
-            "datePublished": "2026-03-21"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Smagalla" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "We hired Octavio for 4 days visiting GDL, Arandas and Tequila. Transparent on fees, zero hidden costs, flexible itinerary.",
-            "datePublished": "2026-03-21"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Pamela Espertin" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "La experiencia fue genial, Octavio fue muy amable y paciente. Lo recomendaría 100%.",
-            "datePublished": "2026-04-11"
-          }
+        "availableLanguage": [
+          "English",
+          "Spanish"
         ],
         "provider": {
           "@type": "TouristInformationCenter",
@@ -217,38 +187,6 @@
           "seller": {
             "@type": "Organization",
             "name": "Xalisco Trips"
-          },
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
           }
         }
       }
@@ -321,7 +259,11 @@
         "telephone": "+5213351083318",
         "url": "https://xaliscotrips.lat",
         "priceRange": "$$$",
-        "areaServed": ["Guadalajara", "Jalisco", "Mexico"]
+        "areaServed": [
+          "Guadalajara",
+          "Jalisco",
+          "Mexico"
+        ]
       }
     </script>
 
@@ -335,19 +277,19 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://xaliscotrips.lat/index-en.html"
+            "item": "https://xaliscotrips.lat/index-en"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Tours",
-            "item": "https://xaliscotrips.lat/index-en.html#tours"
+            "item": "https://xaliscotrips.lat/index-en#tours"
           },
           {
             "@type": "ListItem",
             "position": 3,
             "name": "Tequila Tour",
-            "item": "https://xaliscotrips.lat/tequila-en.html"
+            "item": "https://xaliscotrips.lat/tequila-en"
           }
         ]
       }

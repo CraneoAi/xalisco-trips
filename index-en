@@ -95,7 +95,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/index-en"
+      href="https://xaliscotrips.lat/"
     />
 
     <!-- Performance: Preload LCP Image -->
@@ -315,86 +315,10 @@
           "https://www.tiktok.com/@xalisco.trips"
         ],
         "priceRange": "$$$",
-        "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
-        "review": [
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Pamela Espertin"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "The experience was great. Octavio was kind and patient and made sure we had an amazing day. 100% recommended."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Tibet Rangel"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great prices. Everyone in our group loved touring with him. Highly recommend."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Angela Ramos"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "The car is new and comfortable, pickup was on time, and the driver provided excellent service. I would hire again."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Cristy Rodriguez"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Excellent service. Very comfortable transfer, air-conditioned vehicle, and great guidance during the tour."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Sergio Salinas"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Xalisco Trips was amazing. You get a tour and a history lesson with hidden treasures of Guadalajara. Highly recommend Octavio and Leonel."
-          },
-          {
-            "@type": "Review",
-            "author": {
-              "@type": "Person",
-              "name": "Galilea Ramos"
-            },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Excellent service. I have hired Xalisco Trips on two occasions for family transportation and event pickups. Highly recommended."
-          }
+        "areaServed": [
+          "Guadalajara",
+          "Jalisco",
+          "Mexico"
         ]
       }
     </script>
@@ -409,7 +333,7 @@
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://xaliscotrips.lat/index-en.html"
+            "item": "https://xaliscotrips.lat/index-en"
           }
         ]
       }
@@ -463,7 +387,7 @@
           Book Now
         </a>
         <a
-          href="#destinos"
+          href="#destinations"
           class="wa-btn"
           style="display: block; margin-top: 0.5rem"
           aria-label="View destinations"
@@ -506,7 +430,7 @@
             >
               <i class="bi bi-whatsapp me-2"></i>Book Now
             </a>
-            <a href="#destinos" class="btn btn-outline-light btn-lg px-4">
+            <a href="#destinations" class="btn btn-outline-light btn-lg px-4">
               Explore Tours
             </a>
           </div>
@@ -3668,39 +3592,7 @@
           "@type": "Offer",
           "price": "900",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -3730,39 +3622,7 @@
           "@type": "Offer",
           "price": "1100",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -3792,39 +3652,7 @@
           "@type": "Offer",
           "price": "1100",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -3854,39 +3682,7 @@
           "@type": "Offer",
           "price": "600",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -3916,39 +3712,7 @@
           "@type": "Offer",
           "price": "500",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -3978,39 +3742,7 @@
           "@type": "Offer",
           "price": "700",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -4040,39 +3772,7 @@
           "@type": "Offer",
           "price": "850",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",
@@ -4102,39 +3802,7 @@
           "@type": "Offer",
           "price": "700",
           "priceCurrency": "MXN",
-          "availability": "https://schema.org/InStock",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "MXN"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 1,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "availability": "https://schema.org/InStock"
         },
         "brand": {
           "@type": "Brand",

@@ -99,7 +99,7 @@
     <link
       rel="alternate"
       hreflang="x-default"
-      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours"
+      href="https://xaliscotrips.lat/world-cup-2026-guadalajara-tours-es"
     />
 
     <!-- Performance: Preload LCP Image -->
@@ -195,11 +195,16 @@
         "startDate": "2026-06-11",
         "name": "Private Tours Guadalajara — FIFA World Cup 2026",
         "description": "Private day tours in Guadalajara during FIFA World Cup 2026. Explore Tequila, Chapala, Tonalá and Guachimontones between matches at Estadio Akron. Certified bilingual guide, door-to-door pickup.",
-        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "url": "https://xaliscotrips.lat/chapala-tonala-en",
         "endDate": "2026-07-19",
-        "image": ["https://xaliscotrips.lat/img/hero/portada-jalisco.webp"],
+        "image": [
+          "https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+        ],
         "touristType": "Sports fans, international travelers, FIFA World Cup 2026 visitors",
-        "availableLanguage": ["English", "Spanish"],
+        "availableLanguage": [
+          "English",
+          "Spanish"
+        ],
         "provider": {
           "@type": "TouristInformationCenter",
           "name": "Xalisco Trips",
@@ -210,12 +215,6 @@
             "addressLocality": "Guadalajara",
             "addressRegion": "Jalisco",
             "addressCountry": "MX"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5.0",
-            "reviewCount": "24",
-            "bestRating": "5"
           }
         },
         "organizer": {
@@ -248,12 +247,18 @@
               "priceCurrency": "USD",
               "price": "35",
               "availability": "https://schema.org/InStock",
-              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "url": "https://xaliscotrips.lat/chapala-tonala-en",
               "validFrom": "2026-01-01"
             },
             "performer": [
-              { "@type": "SportsTeam", "name": "South Korea" },
-              { "@type": "SportsTeam", "name": "Czechia" }
+              {
+                "@type": "SportsTeam",
+                "name": "South Korea"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "Czechia"
+              }
             ],
             "organizer": {
               "@type": "Organization",
@@ -279,7 +284,7 @@
               "priceCurrency": "USD",
               "price": "35",
               "availability": "https://schema.org/InStock",
-              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "url": "https://xaliscotrips.lat/chapala-tonala-en",
               "validFrom": "2026-01-01"
             },
             "performer": [
@@ -316,12 +321,18 @@
               "priceCurrency": "USD",
               "price": "35",
               "availability": "https://schema.org/InStock",
-              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "url": "https://xaliscotrips.lat/chapala-tonala-en",
               "validFrom": "2026-01-01"
             },
             "performer": [
-              { "@type": "SportsTeam", "name": "Colombia" },
-              { "@type": "SportsTeam", "name": "DR Congo" }
+              {
+                "@type": "SportsTeam",
+                "name": "Colombia"
+              },
+              {
+                "@type": "SportsTeam",
+                "name": "DR Congo"
+              }
             ],
             "organizer": {
               "@type": "Organization",
@@ -332,7 +343,7 @@
           {
             "@type": "SportsEvent",
             "name": "Uruguay vs Spain — FIFA World Cup 2026",
-            "description": "FIFA World Cup 2026 showdown between Uruguay and Spain at Estadio Akron in Guadalajara. Experience this World Cup match with private transportation, certified bilingual guide, and authentic local hospitality.",
+            "description": "FIFA World Cup 2026 showdown between Uruguay and Spain at Estadio Akron in Guadalajara. Experience this World Cup match with private transportation, a bilingual guide, and authentic local hospitality.",
             "image": "https://xaliscotrips.lat/img/hero/portada-jalisco.webp",
             "startDate": "2026-06-26T18:00:00-06:00",
             "endDate": "2026-06-26T21:00:00-06:00",
@@ -347,7 +358,7 @@
               "priceCurrency": "USD",
               "price": "35",
               "availability": "https://schema.org/InStock",
-              "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+              "url": "https://xaliscotrips.lat/chapala-tonala-en",
               "validFrom": "2026-01-01"
             },
             "performer": [
@@ -376,7 +387,9 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Xalisco Trips",
-        "image": ["https://xaliscotrips.lat/img/hero/portada-jalisco.webp"],
+        "image": [
+          "https://xaliscotrips.lat/img/hero/portada-jalisco.webp"
+        ],
         "description": "Private World Cup 2026 tours in Guadalajara. Explore Jalisco between matches.",
         "address": {
           "@type": "PostalAddress",
@@ -387,13 +400,11 @@
         "telephone": "+5213351083318",
         "url": "https://xaliscotrips.lat",
         "priceRange": "$$$",
-        "areaServed": ["Guadalajara", "Jalisco", "Mexico"],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "bestRating": "5",
-          "ratingCount": "45"
-        }
+        "areaServed": [
+          "Guadalajara",
+          "Jalisco",
+          "Mexico"
+        ]
       }
     </script>
 
@@ -413,7 +424,7 @@
             "@type": "ListItem",
             "position": 2,
             "name": "World Cup 2026",
-            "item": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html"
+            "item": "https://xaliscotrips.lat/chapala-tonala-en"
           }
         ]
       }
@@ -431,7 +442,7 @@
     <!-- Language Switcher -->
     <div class="language-switcher">
       <span>🌐</span>
-      <a href="world-cup-2026-guadalajara-tours.html" class="active">EN</a>
+      <a href="/chapala-tonala-en" class="active">EN</a>
       <span>|</span>
       <a href="/">ES</a>
     </div>
@@ -512,7 +523,7 @@
                 where the country's most celebrated artisan traditions still
                 thrive. These are the best private day trips from Guadalajara to
                 make the most of your time between World Cup games — with a
-                certified, bilingual local guide who knows every stop.
+                bilingual local guide who knows every stop.
               </p>
               <div class="row g-4 mt-4">
                 <div class="col-md-4">
@@ -523,9 +534,9 @@
                     <i
                       class="bi bi-shield-check text-warning display-5 mb-2"
                     ></i>
-                    <h6>Certified Guide</h6>
+                    <h6>Bilingual Guide</h6>
                     <small class="text-muted"
-                      >Sectur-licensed & bilingual</small
+                      >Bilingual guide</small
                     >
                   </div>
                 </div>
@@ -681,7 +692,7 @@
               GDL International Airport is ~16 km south of the city center. We
               offer private transfers 24/7 — fixed price, no surge pricing.
               <a
-                href="https://xaliscotrips.lat/airport-transfer-en.html"
+                href="https://xaliscotrips.lat/airport-transfer-en"
                 style="color: #2d7a4f"
                 >Book your airport transfer →</a
               >
@@ -776,7 +787,7 @@
                     </li>
                   </ul>
                   <a
-                    href="https://xaliscotrips.lat/tequila-en.html"
+                    href="https://xaliscotrips.lat/tequila-en"
                     class="btn btn-success w-100 fw-bold"
                     ><i class="bi bi-whatsapp me-2"></i>Book Tequila Tour</a
                   >
@@ -828,7 +839,7 @@
                     </li>
                   </ul>
                   <a
-                    href="https://xaliscotrips.lat/chapala-tonala-en.html"
+                    href="https://xaliscotrips.lat/chapala-tonala-en"
                     class="btn btn-success w-100 fw-bold"
                     ><i class="bi bi-whatsapp me-2"></i>Book Chapala Combo</a
                   >
@@ -880,7 +891,7 @@
                     </li>
                   </ul>
                   <a
-                    href="https://xaliscotrips.lat/tequila-en.html"
+                    href="https://xaliscotrips.lat/tequila-en"
                     class="btn btn-success w-100 fw-bold"
                     ><i class="bi bi-whatsapp me-2"></i>Book Archaeological
                     Combo</a
@@ -932,7 +943,7 @@
                     </li>
                   </ul>
                   <a
-                    href="https://xaliscotrips.lat/tlaquepaque-en.html"
+                    href="https://xaliscotrips.lat/tlaquepaque-en"
                     class="btn btn-success w-100 fw-bold"
                     ><i class="bi bi-whatsapp me-2"></i>Book Tlaquepaque</a
                   >
@@ -1268,7 +1279,7 @@
             per vehicle, no surge pricing even during World Cup week. Book at
             least 12 hours in advance.
             <a
-              href="https://xaliscotrips.lat/airport-transfer-en.html"
+              href="https://xaliscotrips.lat/airport-transfer-en"
               style="color: #2d7a4f"
               >See airport transfer details →</a
             </a>
@@ -1317,7 +1328,7 @@
               <div class="worldcup-cta">
                 <h4>WORLD CUP 2026 IN GUADALAJARA</h4>
                 <p>
-                  Between matches, discover the soul of Jalisco with a certified
+                  Between matches, discover the soul of Jalisco with a
                   local guide.<br /><strong
                     >Book your tour now — spots fill up fast during
                     tournaments!</strong
@@ -1412,8 +1423,8 @@
               <i class="bi bi-geo-alt-fill text-warning me-2"></i>Xalisco Trips
             </h5>
             <p class="mb-3">
-              Your World Cup connection to Jalisco. Private tours, certified
-              guide, authentic experiences since 2019.
+              Your World Cup connection to Jalisco. Private tours, bilingual
+              guides, authentic experiences since 2019.
             </p>
             <div class="d-flex gap-3 mb-4">
               <a
@@ -1489,7 +1500,7 @@
                 <small class="text-light-emphasis">🕒 Mon-Sun 7:00-22:00</small>
               </li>
               <li>
-                <small class="text-light-emphasis">✅ Sectur License</small>
+                <small class="text-light-emphasis">✅ Bilingual guide</small>
               </li>
               <li>
                 <small class="text-light-emphasis">
@@ -1529,8 +1540,10 @@
           "@type": "Brand",
           "name": "Xalisco Trips"
         },
-        "image": ["https://xaliscotrips.lat/img/destinos/tequila.webp"],
-        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "image": [
+          "https://xaliscotrips.lat/img/destinos/tequila.webp"
+        ],
+        "url": "https://xaliscotrips.lat/chapala-tonala-en",
         "provider": {
           "@type": "TourOperator",
           "name": "Xalisco Trips",
@@ -1555,82 +1568,8 @@
           "price": "42",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "url": "https://xaliscotrips.lat/chapala-tonala-en"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Tibet Rangel" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great experience overall.",
-            "datePublished": "2026-04-04"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Luis Cordero" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Excelente servicio, confiable, diferentes métodos de pago, servicio de alta calidad. 100% recomendable.",
-            "datePublished": "2026-04-18"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Pamela Espertin" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "La experiencia fue genial, Octavio fue muy amable y paciente. Lo recomendaría 100%.",
-            "datePublished": "2026-04-11"
-          }
-        ],
         "duration": "PT7H",
         "includesActivity": [
           "Tastings at artisan distilleries",
@@ -1646,8 +1585,10 @@
         "@type": "Product",
         "name": "Chapala + Tonalá World Cup Tour - 8 Hours Cultural",
         "description": "Day trip from Guadalajara during FIFA World Cup 2026. Explore Mexico's largest lake and the traditional artisan town of Tonalá. Includes boat tour, shopping, lunch, and hotel pickup.",
-        "image": ["https://xaliscotrips.lat/img/destinos/chapala1.webp"],
-        "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
+        "image": [
+          "https://xaliscotrips.lat/img/destinos/chapala1.webp"
+        ],
+        "url": "https://xaliscotrips.lat/chapala-tonala-en",
         "provider": {
           "@type": "TourOperator",
           "name": "Xalisco Trips",
@@ -1672,82 +1613,8 @@
           "price": "50",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html",
-          "hasMerchantReturnPolicy": {
-            "@type": "MerchantReturnPolicy",
-            "applicableCountry": "MX",
-            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-          },
-          "shippingDetails": {
-            "@type": "OfferShippingDetails",
-            "shippingRate": {
-              "@type": "MonetaryAmount",
-              "value": "0",
-              "currency": "USD"
-            },
-            "shippingDestination": {
-              "@type": "DefinedRegion",
-              "addressCountry": "MX"
-            },
-            "deliveryTime": {
-              "@type": "ShippingDeliveryTime",
-              "handlingTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              },
-              "transitTime": {
-                "@type": "QuantitativeValue",
-                "minValue": 0,
-                "maxValue": 0,
-                "unitCode": "DAY"
-              }
-            }
-          }
+          "url": "https://xaliscotrips.lat/chapala-tonala-en"
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "reviewCount": "50",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "review": [
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Tibet Rangel" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Best tour guide in GDL Mexico. Knowledgeable, safe, secure and great experience overall.",
-            "datePublished": "2026-04-04"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Luis Cordero" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "Excelente servicio, confiable, diferentes métodos de pago, servicio de alta calidad. 100% recomendable.",
-            "datePublished": "2026-04-18"
-          },
-          {
-            "@type": "Review",
-            "author": { "@type": "Person", "name": "Pamela Espertin" },
-            "reviewRating": {
-              "@type": "Rating",
-              "ratingValue": "5",
-              "bestRating": "5"
-            },
-            "reviewBody": "La experiencia fue genial, Octavio fue muy amable y paciente. Lo recomendaría 100%.",
-            "datePublished": "2026-04-11"
-          }
-        ],
         "duration": "PT8H",
         "includesActivity": [
           "Boat tour on Lake Chapala",

@@ -34,7 +34,8 @@
 /index-en /index-en.html 200
 
 # ── 301 Redirects: .html → clean URL (Fix GSC errors) ──
-/index.html                      https://xaliscotrips.lat/               301
+/404.html                        /404                                    301
+/index.html                      /                                       301
 /guachimontones.html             /guachimontones                         301
 /guachimontones-en.html          /guachimontones-en                      301
 /tequila.html                    /tequila                                301
@@ -54,6 +55,20 @@
 /foodie-tour.html                /foodie-tour                            301
 /foodie-tour-en.html             /foodie-tour-en                         301
 /index-en.html                   /index-en                               301
+/blog/index.html                 /blog/                                  301
+/blog/excursiones-desde-guadalajara/index.html /blog/excursiones-desde-guadalajara/ 301
+/en/blog/index.html              /en/blog/                               301
+/en/blog/best-day-trips-from-guadalajara/index.html /en/blog/best-day-trips-from-guadalajara/ 301
+/corporate-event-transportation.html /corporate-event-transportation      301
+/eventos-corporativos.html       /eventos-corporativos                   301
+/cumbre-seguros.html             /eventos-corporativos                   301
+/gracias.html                    /gracias                                301
+/links.html                      /links                                  301
+/panel-qr.html                   /panel-qr                               301
+/guadalajara-airport-transfer-arandas.html /guadalajara-airport-transfer-arandas 301
+/guadalajara-airport-transfer-los-altos-jalisco.html /guadalajara-airport-transfer-los-altos-jalisco 301
+/traslado-aeropuerto-guadalajara-arandas.html /traslado-aeropuerto-guadalajara-arandas 301
+/traslado-aeropuerto-los-altos-jalisco.html /traslado-aeropuerto-los-altos-jalisco 301
 /world-cup-2026-guadalajara-tours-es.html    /chapala-tonala    301
 /world-cup-2026-guadalajara-tours-es          /chapala-tonala    301
 /world-cup-2026-guadalajara-tours.html        /chapala-tonala-en 301

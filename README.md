@@ -83,12 +83,12 @@ xalisco-trips/
 | Página | Archivo | Idioma | URL Primaria | Status |
 |--------|---------|--------|--------------|--------|
 | **Landing (Privados)** | `index.html` | Español | `https://xaliscotrips.lat/` | ✅ Activa |
-| **Landing (Private)** | `index-en.html` | Inglés | `https://xaliscotrips.lat/index-en.html` | ✅ Activa |
-| **World Cup 2026** | `world-cup-2026-guadalajara-tours.html` | Inglés | `https://xaliscotrips.lat/world-cup-2026-guadalajara-tours.html` | ✅ Activa |
+| **Landing (Private)** | `index-en.html` | Inglés | `https://xaliscotrips.lat/index-en` | ✅ Activa |
+| **World Cup 2026** | `world-cup-2026-guadalajara-tours.html` | Inglés | `https://xaliscotrips.lat/chapala-tonala-en` | ✅ Activa |
 
 ### Canonical URLs (SEO):
 - ES Homepage: `https://xaliscotrips.lat/`
-- EN Homepage: `https://xaliscotrips.lat/index-en.html`
+- EN Homepage: `https://xaliscotrips.lat/index-en`
 
 ### hreflang (alternancia de idioma):
 - ES apunta a EN / EN apunta a ES / Defecto: `x-default` → ES

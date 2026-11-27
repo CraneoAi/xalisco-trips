@@ -1,183 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xaliscotrips.lat/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/index-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/index-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/" />
     <changefreq>weekly</changefreq>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>1.0</priority>
   </url>
-
   <url>
-    <loc>https://xaliscotrips.lat/index-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/index-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/"/>
-    <changefreq>weekly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>1.0</priority>
+    <loc>https://xaliscotrips.lat/airport-transfer</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/airport-transfer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
+      <image:title>Traslado privado aeropuerto Guadalajara GDL</image:title>
+    </image:image>
   </url>
-
+  <url>
+    <loc>https://xaliscotrips.lat/airport-transfer-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/airport-transfer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
+      <image:title>Private transfer Guadalajara airport GDL 24/7</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://xaliscotrips.lat/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/" />
     <changefreq>weekly</changefreq>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <priority>0.7</priority>
   </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/en/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/"/>
-    <changefreq>weekly</changefreq>
-    <lastmod>2026-08-04</lastmod>
-    <priority>0.7</priority>
-  </url>
-
   <url>
     <loc>https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/" />
     <changefreq>monthly</changefreq>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <priority>0.6</priority>
   </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-05-26</lastmod>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tequila-guachimontones</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila-guachimontones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
-      <image:title>Pirámides Guachimontones Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
-      <image:title>Zona arqueológica Guachimontones Teuchitlán</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
-      <image:title>Destilería Tres Mujeres tour Tequila</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tequila-guachimontones-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila-guachimontones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
-      <image:title>Guachimontones pyramids Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
-      <image:title>Guachimontones archaeological site Teuchitlan</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
-      <image:title>Tres Mujeres distillery private tour Tequila</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tequila</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
-      <image:title>Destilería Tres Mujeres Tequila Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
-      <image:title>Agave azul campos Tequila Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
-      <image:title>Tour privado Tequila desde Guadalajara</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tequila-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
-      <image:title>Tres Mujeres distillery Tequila Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
-      <image:title>Blue agave fields Tequila Jalisco</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
-      <image:title>Private Tequila tour from Guadalajara</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/guachimontones</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/guachimontones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guachimontones-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/guachimontones"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/guachimontones-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/guachimontones"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guachimontones-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/guachimontones"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.8</priority>
-  </url>
-
   <url>
     <loc>https://xaliscotrips.lat/chapala-tonala</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/chapala-tonala"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/chapala-tonala" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala" />
     <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA.webp</image:loc>
@@ -204,14 +86,13 @@
       <image:title>Tour Tonalá Chapala artesanías</image:title>
     </image:image>
   </url>
-
   <url>
     <loc>https://xaliscotrips.lat/chapala-tonala-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/chapala-tonala"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/chapala-tonala" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/chapala-tonala-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/chapala-tonala" />
     <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-26</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/sub-destinos/TONALA-CHAPALA.webp</image:loc>
@@ -238,114 +119,96 @@
       <image:title>Tonala Chapala artisan tour</image:title>
     </image:image>
   </url>
-
   <url>
-    <loc>https://xaliscotrips.lat/tlaquepaque</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tlaquepaque"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tlaquepaque-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tlaquepaque"/>
+    <loc>https://xaliscotrips.lat/corporate-event-transportation</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos" />
     <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/" />
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-12</lastmod>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://xaliscotrips.lat/tlaquepaque-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tlaquepaque"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tlaquepaque-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tlaquepaque"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/mazamitla</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/mazamitla"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/mazamitla-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/mazamitla"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/foodie-tour</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/foodie-tour"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/foodie-tour-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/foodie-tour"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/foodie-tour-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/foodie-tour"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/foodie-tour-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/foodie-tour"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/airport-transfer</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/airport-transfer"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
-      <image:title>Traslado privado aeropuerto Guadalajara GDL</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/airport-transfer-en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/airport-transfer"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/airport-transfer-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/airport-transfer"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-10-23</lastmod>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://xaliscotrips.lat/img/sub-destinos/AEROPUERTO3.webp</image:loc>
-      <image:title>Private transfer Guadalajara airport GDL 24/7</image:title>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <loc>https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/en/blog/best-day-trips-from-guadalajara/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/blog/excursiones-desde-guadalajara/" />
     <changefreq>monthly</changefreq>
     <lastmod>2026-11-12</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/eventos-corporativos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/foodie-tour</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/foodie-tour" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/foodie-tour-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/foodie-tour" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/foodie-tour-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/foodie-tour" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/foodie-tour-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/foodie-tour" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/guachimontones</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/guachimontones" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guachimontones-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/guachimontones" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/guachimontones-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/guachimontones" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guachimontones-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/guachimontones" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/guadalajara-airport-transfer-arandas</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-13</lastmod>
+    <priority>0.6</priority>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
-      <image:title>Traslado del aeropuerto de Guadalajara a Los Altos de Jalisco</image:title>
+      <image:title>Guadalajara Airport transfer to Arandas</image:title>
     </image:image>
   </url>
-
   <url>
     <loc>https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco" />
     <changefreq>monthly</changefreq>
     <lastmod>2026-11-12</lastmod>
     <priority>0.6</priority>
@@ -354,78 +217,177 @@
       <image:title>Guadalajara Airport transfer to Los Altos de Jalisco</image:title>
     </image:image>
   </url>
-
+  <url>
+    <loc>https://xaliscotrips.lat/index-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/index-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/" />
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/mazamitla</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/mazamitla" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/mazamitla-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/mazamitla" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/mazamitla-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/mazamitla" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tequila</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Destilería Tres Mujeres Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
+      <image:title>Agave azul campos Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
+      <image:title>Tour privado Tequila desde Guadalajara</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Tres Mujeres distillery Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES1.webp</image:loc>
+      <image:title>Blue agave fields Tequila Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES2.webp</image:loc>
+      <image:title>Private Tequila tour from Guadalajara</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila-guachimontones" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
+      <image:title>Pirámides Guachimontones Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
+      <image:title>Zona arqueológica Guachimontones Teuchitlán</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Destilería Tres Mujeres tour Tequila</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tequila-guachimontones-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tequila-guachimontones" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tequila-guachimontones-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tequila-guachimontones" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA.webp</image:loc>
+      <image:title>Guachimontones pyramids Jalisco</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/GUACHIMONTONES-TEQUILA1.webp</image:loc>
+      <image:title>Guachimontones archaeological site Teuchitlan</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://xaliscotrips.lat/img/sub-destinos/TEQUILAMUJERES.webp</image:loc>
+      <image:title>Tres Mujeres distillery private tour Tequila</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tlaquepaque</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tlaquepaque" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tlaquepaque-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tlaquepaque" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tlaquepaque-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tlaquepaque" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tlaquepaque-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tlaquepaque" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tonala-tlaquepaque</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://xaliscotrips.lat/tonala-tlaquepaque-en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque" />
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-11-26</lastmod>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas" />
     <changefreq>monthly</changefreq>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <priority>0.6</priority>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
       <image:title>Traslado del aeropuerto de Guadalajara a Arandas</image:title>
     </image:image>
   </url>
-
   <url>
-    <loc>https://xaliscotrips.lat/guadalajara-airport-transfer-arandas</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-arandas"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-guadalajara-arandas"/>
+    <loc>https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/guadalajara-airport-transfer-los-altos-jalisco" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/traslado-aeropuerto-los-altos-jalisco" />
     <changefreq>monthly</changefreq>
     <lastmod>2026-11-12</lastmod>
     <priority>0.6</priority>
     <image:image>
       <image:loc>https://xaliscotrips.lat/img/destinos/aeropuerto.webp</image:loc>
-      <image:title>Guadalajara Airport transfer to Arandas</image:title>
+      <image:title>Traslado del aeropuerto de Guadalajara a Los Altos de Jalisco</image:title>
     </image:image>
   </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tonala-tlaquepaque</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque"/>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/tonala-tlaquepaque-en</loc>
-    <lastmod>2026-10-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/tonala-tlaquepaque"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/tonala-tlaquepaque-en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/tonala-tlaquepaque"/>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/cumbre-seguros</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/eventos-corporativos</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-11-09</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://xaliscotrips.lat/corporate-event-transportation</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://xaliscotrips.lat/eventos-corporativos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://xaliscotrips.lat/corporate-event-transportation"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://xaliscotrips.lat/eventos-corporativos"/>
-    <changefreq>monthly</changefreq>
-    <lastmod>2026-11-09</lastmod>
-    <priority>0.8</priority>
-  </url>
 </urlset>
-
